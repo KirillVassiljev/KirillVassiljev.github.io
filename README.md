@@ -1,27 +1,21 @@
 # KirillVassiljev.github.io
 
-Personal site built with [MkDocs](https://www.mkdocs.org/) and the
-[Material](https://squidfunk.github.io/mkdocs-material/) theme, deployed to
-GitHub Pages by GitHub Actions.
+A minimal static site: plain HTML, CSS, and JavaScript. No build step.
+
+- `index.html` — page markup
+- `styles.css` — styling
+- `script.js` — button behaviour
 
 ## Local development
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-mkdocs serve
+python3 -m http.server
 ```
 
-Then open <http://127.0.0.1:8000>.
-
-## Build
-
-```bash
-mkdocs build --strict
-```
+Then open <http://localhost:8000>. Opening `index.html` directly in a browser
+works too.
 
 ## Deployment
 
-Pushing to `main` triggers `.github/workflows/deploy.yml`.
-Set **Settings → Pages → Source** to **GitHub Actions** once.
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which publishes the
+repository root to GitHub Pages.
