@@ -16,8 +16,9 @@ export default defineConfig({
 			}),
 
 			// The repo is named <user>.github.io, so the site is served from the root.
+			// BASE_PATH stays as an escape hatch if it is ever moved to a project repo.
 			paths: {
-				base: process.env.BASE_PATH ?? ''
+				base: process.env.BASE_PATH ? `/${process.env.BASE_PATH.replace(/^\/+/, '')}` : ''
 			}
 		})
 	]
