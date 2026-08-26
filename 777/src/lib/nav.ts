@@ -10,24 +10,9 @@ export type NavSection = {
 
 export const sections: NavSection[] = [
 	{
-		title: 'Getting Started',
+		title: 'Guides',
 		items: [
-			{ title: 'Overview', slug: 'overview' },
-			{ title: 'First Steps', slug: 'first-steps' }
-		]
-	},
-	{
-		title: 'Heroes',
-		items: [
-			{ title: 'Tier List', slug: 'tier-list' },
-			{ title: 'Gear', slug: 'gear' }
-		]
-	},
-	{
-		title: 'Base',
-		items: [
-			{ title: 'Buildings', slug: 'buildings' },
-			{ title: 'Research', slug: 'research' }
+			{ title: 'Bear hunt', slug: 'bear' },
 		]
 	}
 ];
