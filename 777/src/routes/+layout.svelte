@@ -44,7 +44,11 @@
 		<Sidebar />
 	</aside>
 
-	<button class="backdrop" aria-label="Close navigation" tabindex={open ? 0 : -1} onclick={() => (open = false)}
+	<button
+		class="backdrop"
+		aria-label="Close navigation"
+		tabindex={open ? 0 : -1}
+		onclick={() => (open = false)}
 	></button>
 
 	<main>
@@ -189,4 +193,3 @@
 		}
 	}
 </style>
-

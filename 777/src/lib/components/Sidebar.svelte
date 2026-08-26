@@ -4,7 +4,7 @@
 	import { sections } from '$lib/nav';
 </script>
 
-<nav aria-label="Guides">
+<nav aria-label="Site sections">
 	{#each sections as section (section.title)}
 		<div class="group">
 			<h2>{section.title}</h2>

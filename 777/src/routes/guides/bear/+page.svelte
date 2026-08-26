@@ -207,11 +207,6 @@
 		font-size: 0.9rem;
 	}
 
-	.note {
-		color: var(--muted);
-		font-size: 0.95rem;
-	}
-
 	.source {
 		color: var(--muted);
 		font-size: 0.9rem;
