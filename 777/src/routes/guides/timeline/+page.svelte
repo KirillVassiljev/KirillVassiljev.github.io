@@ -2,7 +2,16 @@
 	import { onMount } from 'svelte';
 	import { categoryLabels, kingdom, milestones, type Milestone } from '$lib/timeline';
 
-	const MIN_GAP = 88;
+	const iconUrls = import.meta.glob('$lib/assets/timeline/*.{webp,png}', {
+		eager: true,
+		query: '?url',
+		import: 'default'
+	}) as Record<string, string>;
+
+	const iconFor = (name: string) =>
+		Object.entries(iconUrls).find(([path]) => path.match(/([^/]+)\.(webp|png)$/)?.[1] === name)?.[1];
+
+	const MIN_GAP = 130;
 	const MAX_GAP = 240;
 	const PX_PER_DAY = 1.4;
 	const DAY_MS = 86_400_000;
@@ -108,6 +117,16 @@
 						</span>
 						<span class="title">{m.title}</span>
 						<span class="tag">{categoryLabels[m.category]}</span>
+						{#if m.icons?.length}
+							<span class="icons">
+								{#each m.icons as icon (icon)}
+									{@const src = iconFor(icon)}
+									{#if src}
+										<img {src} alt="" width="40" height="40" loading="lazy" />
+									{/if}
+								{/each}
+							</span>
+						{/if}
 					{/snippet}
 
 					{#if m.notes}
@@ -243,6 +262,26 @@
 		margin-left: 0.5rem;
 		color: var(--muted);
 		font-size: 0.8rem;
+	}
+
+	.icons {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.35rem;
+		margin-top: 0.5rem;
+	}
+
+	.icons img {
+		width: 40px;
+		height: 40px;
+		background: var(--bg);
+		border: 1px solid var(--border);
+		border-radius: 6px;
+		object-fit: contain;
+	}
+
+	li.predicted .icons img {
+		opacity: 0.55;
 	}
 
 	details p {
