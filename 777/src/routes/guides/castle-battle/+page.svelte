@@ -7,7 +7,7 @@
 	<title>Castle battle — Kingshot 777</title>
 	<meta
 		name="description"
-		content="TL;DR guide to Kingshot Castle Battle: how the three point types score, rally leader and joiner heroes by generation, troop formations, healing prep and counter-rally tactics."
+		content="TL;DR guide to Kingshot Castle Battle: how the three point types score, preparation and buffs, rally leader and joiner heroes by generation, troop formations, turret control and double-rally tactics."
 	/>
 </svelte:head>
 
@@ -21,13 +21,16 @@
 			or a turret, and your own troops lost. Losses pay too — this is not an event you can play safe.
 		</li>
 		<li>
-			<strong>Check your first-slot hero before every join.</strong> Attack rallies want Chenko, Yeonwoo,
-			Amane or Amadeus; garrisons want Howard, Gordon, Saul or Hilde. The wrong hero quietly guts the
-			rally.
+			<strong>Formations:</strong> 50/20/30 attacking by default, 50/0/50 into an infantry-heavy garrison,
+			60/20/20 for the rally that captures, 60/40/0 once you're holding.
 		</li>
 		<li>
-			<strong>Formations:</strong> 50/20/30 attacking by default, 50/0/50 into an infantry-heavy garrison,
-			60/40/0 when you're the one holding.
+			<strong>Rally leaders run the buffs; everyone else shields up.</strong> City buffs, pet and executive
+			skills are the leader's job. Anyone sitting the fight out wants an 8-hour peace shield.
+		</li>
+		<li>
+			<strong>Take the turrets.</strong> Enemy-held turrets shoot your garrison the entire time you hold
+			the castle, and it gets worse the longer you leave them.
 		</li>
 		<li>
 			<strong>Prep the Infirmary before the event.</strong> Upgrade it, hoard healing speed-ups, and heal
@@ -70,6 +73,29 @@
 	/>
 	<figcaption>Your score is the sum of the three categories.</figcaption>
 </figure>
+
+<h2>Preparation</h2>
+
+<ul>
+	<li>
+		<strong>Buffs are a rally leader job.</strong> Before you launch or defend, run your 20% attack and
+		20% defence city buffs, pet skills such as Moose or Grizzly Bear, and your executive skills. Joiners
+		should not burn theirs — only the leader's buffs apply to the rally.
+	</li>
+	<li>
+		<strong>Teleport next to the castle.</strong> Rally captains want the shortest possible march time,
+		which matters enormously when rallies have to be timed against each other.
+	</li>
+	<li>
+		<strong>Shield anyone who isn't fighting.</strong> Members who will be offline, or who are too
+		under-levelled to hold a march, should sit behind an 8-hour peace shield. An unshielded Town Center
+		is free kills for the enemy.
+	</li>
+	<li>
+		<strong>Sort the Infirmary out first.</strong> See <a href="#infirmary">Infirmary and healing</a> —
+		this is the thing most alliances under-prepare.
+	</li>
+</ul>
 
 <h2>Rally leader heroes</h2>
 
@@ -251,8 +277,13 @@
 		into archers instead.
 	</li>
 	<li>
-		<strong>Garrison — 60% infantry, 40% cavalry, 0% archers.</strong> Holding is about durability, so go
-		infantry-heavy.
+		<strong>Capturing rally — 60% infantry, 20% cavalry, 20% archers.</strong> For the rally that takes an
+		already-weakened castle and has to survive the counter-attack. Tankier than a pure attack march but
+		still carries enough damage to finish the job.
+	</li>
+	<li>
+		<strong>Settled garrison — 60% infantry, 40% cavalry, 0% archers.</strong> What you refill into once the
+		castle is yours and holding is all that matters. Archers die too fast to be worth the slots.
 	</li>
 </ul>
 
@@ -302,6 +333,21 @@
 					<p class="note">Hilde is there to fill stat gaps.</p>
 				</td>
 			</tr>
+			<tr>
+				<th scope="row">Balanced spread</th>
+				<td>
+					<div class="lineup">
+						<div class="slot"><Hero slug="chenko" /></div>
+						<div class="slot"><Hero slug="amane" /></div>
+						<div class="slot"><Hero slug="saul" /></div>
+						<div class="slot"><Hero slug="fahd" /></div>
+					</div>
+					<p class="note">
+						One of each across four joiners spreads the skill buffs over all three troop types instead
+						of piling everything onto one.
+					</p>
+				</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
@@ -339,6 +385,19 @@
 					</div>
 				</td>
 			</tr>
+			<tr>
+				<th scope="row">Simplest</th>
+				<td>
+					<div class="lineup">
+						<div class="slot"><Hero slug="saul" /></div>
+						<div class="slot"><Hero slug="fahd" /></div>
+					</div>
+					<p class="note">
+						Four Sauls, or three Sauls and a Fahd, for flat damage reduction. Nothing to coordinate and
+						hard to get wrong — the right call when your alliance can't reliably organise a spread.
+					</p>
+				</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
@@ -358,7 +417,27 @@
 	</li>
 </ul>
 
-<h2>Infirmary and healing</h2>
+<h2>Holding the castle</h2>
+
+<ul>
+	<li>
+		<strong>Refill infantry constantly.</strong> Infantry soaks the bulk of incoming damage, so it is
+		always the first thing to run out. Keep voice chat live and call out the moment infantry numbers
+		drop so members can send fresh infantry-heavy marches straight away.
+	</li>
+	<li>
+		<strong>Don't ignore the turrets.</strong> Turrets the enemy holds fire on the castle continuously,
+		and the damage escalates the longer they keep them. You can win the castle fight and still bleed
+		your garrison out through turrets you never contested.
+	</li>
+	<li>
+		<strong>Split the alliance into two jobs.</strong> Put your whales and top rally leaders on taking
+		and holding the castle, and send mid-tier rallies at the surrounding turrets to shut off the
+		incoming damage.
+	</li>
+</ul>
+
+<h2 id="infirmary">Infirmary and healing</h2>
 
 <ul>
 	<li>
@@ -369,10 +448,6 @@
 	<li>
 		<strong>Heal in small batches</strong> and ask for alliance help each time — it wastes far fewer speed-ups
 		than one big heal.
-	</li>
-	<li>
-		<strong>Rally leaders watch the garrison count</strong> and nag members to refill before the numbers
-		get thin.
 	</li>
 </ul>
 
@@ -389,6 +464,14 @@
 		same second. Staggered arrivals just let the defender refill between hits.
 	</li>
 	<li>
+		<strong>Variant: softener then capturer.</strong> Against a castle stacked high enough that a combined
+		hit would still cost you the field, split the two rallies by roles instead of landing them together.
+		Rally 1 goes in with attack heroes at 50/20/30 purely to break the front-line infantry and push their
+		troops into the Infirmary. Rally 2 lands 2 to 5 seconds later with garrison heroes at 60/20/20, takes
+		the weakened castle and simply stays as the garrison. The gap has to be small — leave it too long and
+		the defender refills, which is the exact failure the synchronised approach avoids.
+	</li>
+	<li>
 		<strong>Counter-rally to cut enemy occupation time.</strong> You can't rally your own castle, so hold
 		it with alliance A and keep alliance B ready. When the enemy rallies A, B rallies the castle
 		<em>after</em> them — delayed enough that B never lands first, or you'll fight your own kingdom and hand
@@ -399,8 +482,8 @@
 </ul>
 
 <p class="source">
-	Sources: <a href="https://kingshotwiki.com/events/castle-battle/" rel="noreferrer">kingshotwiki.com — Castle Battle</a>.
-	Hero portraits from <a href="https://www.kingshotguide.com/heroes" rel="noreferrer">kingshotguide.com</a>.
+	Event mechanics from <a href="https://kingshotwiki.com/events/castle-battle/" rel="noreferrer">kingshotwiki.com — Castle Battle</a>,
+	with additions from alliance experience.
 </p>
 
 <style>
@@ -486,6 +569,7 @@
 	}
 
 	.note {
+		max-width: 24rem;
 		margin: 0.6rem 0 0;
 		font-size: 0.85rem;
 		color: var(--muted);
