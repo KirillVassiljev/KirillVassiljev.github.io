@@ -66,6 +66,8 @@
 		--text: #e6e8ec;
 		--muted: #9aa3b2;
 		--accent: #d9a441;
+		/* Height of the mobile topbar, so sticky page content can clear it. */
+		--topbar-height: 3.25rem;
 	}
 
 	:global(body) {
@@ -88,7 +90,9 @@
 		display: flex;
 		align-items: center;
 		gap: 0.75rem;
-		padding: 0.5rem 0.75rem;
+		box-sizing: border-box;
+		height: var(--topbar-height);
+		padding: 0 max(0.75rem, env(safe-area-inset-right)) 0 max(0.75rem, env(safe-area-inset-left));
 		background: var(--surface);
 		border-bottom: 1px solid var(--border);
 	}
@@ -156,7 +160,8 @@
 	}
 
 	main {
-		padding: 1.5rem 1.25rem 4rem;
+		padding: 1.5rem max(1.25rem, env(safe-area-inset-right)) 4rem
+			max(1.25rem, env(safe-area-inset-left));
 	}
 
 	article {

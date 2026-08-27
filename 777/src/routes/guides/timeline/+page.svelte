@@ -11,8 +11,8 @@
 	const iconFor = (name: string) =>
 		Object.entries(iconUrls).find(([path]) => path.match(/([^/]+)\.(webp|png)$/)?.[1] === name)?.[1];
 
-	const MIN_GAP = 130;
-	const MAX_GAP = 240;
+	const MIN_GAP = 14;
+	const MAX_GAP = 120;
 	const PX_PER_DAY = 1.4;
 	const DAY_MS = 86_400_000;
 
@@ -26,45 +26,50 @@
 	const asTime = (value: string) => Date.parse(`${value}T00:00:00Z`);
 	const clamp = (value: number, min: number, max: number) => Math.min(Math.max(value, min), max);
 
-	type Placed = Milestone & { time: number; offset: number };
+	type Dated = Milestone & { time: number };
+	type Row = { key: string; gap: number; milestone?: Dated };
 
-	const placed: Placed[] = [...milestones]
+	const dated: Dated[] = [...milestones]
 		.filter((m) => !Number.isNaN(asTime(m.date)))
-		.sort((a, b) => asTime(a.date) - asTime(b.date))
-		.reduce<Placed[]>((acc, m) => {
-			const time = asTime(m.date);
-			const previous = acc.at(-1);
-			const gap = previous
-				? clamp(((time - previous.time) / DAY_MS) * PX_PER_DAY, MIN_GAP, MAX_GAP)
-				: 0;
-			acc.push({ ...m, time, offset: (previous?.offset ?? 0) + gap });
-			return acc;
-		}, []);
+		.map((m) => ({ ...m, time: asTime(m.date) }))
+		.sort((a, b) => a.time - b.time);
 
-	const totalHeight = (placed.at(-1)?.offset ?? 0) + MIN_GAP;
+	// Cards sit in normal flow, so the date distance becomes the gap *between* them.
+	// That keeps the spacing proportional without ever letting two cards overlap.
+	const gapBetween = (from: number, to: number) =>
+		clamp(((to - from) / DAY_MS) * PX_PER_DAY, MIN_GAP, MAX_GAP);
 
 	// Prerendered at build time, so today's position is resolved in the browser.
-	let todayOffset = $state<number | null>(null);
+	let today = $state<number | null>(null);
 	let todayMarker = $state<HTMLDivElement | null>(null);
 
-	function offsetForTime(time: number) {
-		if (placed.length === 0) return null;
-		const first = placed[0];
-		const last = placed.at(-1)!;
-		if (time <= first.time) return 0;
-		if (time >= last.time) return last.offset;
+	const rows: Row[] = $derived.by(() => {
+		const out: Row[] = [];
+		let previous: Dated | null = null;
+		let placedToday = today === null;
 
-		const next = placed.findIndex((m) => m.time > time);
-		const before = placed[next - 1];
-		const after = placed[next];
-		const span = after.time - before.time;
-		const ratio = span === 0 ? 0 : (time - before.time) / span;
-		return before.offset + (after.offset - before.offset) * ratio;
-	}
+		for (const m of dated) {
+			let gap = previous ? gapBetween(previous.time, m.time) : 0;
+
+			if (!placedToday && today! <= m.time) {
+				const span = previous ? m.time - previous.time : 0;
+				const ratio = span > 0 ? clamp((today! - previous!.time) / span, 0, 1) : 0;
+				out.push({ key: '__today', gap: gap * ratio });
+				gap -= gap * ratio;
+				placedToday = true;
+			}
+
+			out.push({ key: m.date + m.title, gap, milestone: m });
+			previous = m;
+		}
+
+		if (!placedToday) out.push({ key: '__today', gap: MIN_GAP });
+		return out;
+	});
 
 	onMount(() => {
 		const now = new Date();
-		todayOffset = offsetForTime(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()));
+		today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
 	});
 
 	function jumpToToday() {
@@ -87,57 +92,58 @@
 	expand when you open them.
 </p>
 
-{#if placed.length === 0}
+{#if dated.length === 0}
 	<p class="empty">No milestones recorded yet.</p>
 {:else}
 	<div class="controls">
-		<button type="button" onclick={jumpToToday} disabled={todayOffset === null}>
-			Jump to today
-		</button>
+		<button type="button" onclick={jumpToToday} disabled={today === null}>Jump to today</button>
 	</div>
 
-	<div class="timeline" style="height: {totalHeight}px">
+	<div class="timeline">
 		<div class="spine" aria-hidden="true"></div>
 
-		{#if todayOffset !== null}
-			<div bind:this={todayMarker} class="today" style="top: {todayOffset}px" aria-hidden="true">
-				<span>Today</span>
-			</div>
-		{/if}
-
 		<ol>
-			{#each placed as m (m.date + m.title)}
-				<li style="top: {m.offset}px" class:predicted={m.predicted}>
-					<span class="dot" aria-hidden="true"></span>
+			{#each rows as row (row.key)}
+				{#if row.milestone}
+					{@const m = row.milestone}
+					<li style="margin-top: {row.gap}px" class:predicted={m.predicted}>
+						<span class="dot" aria-hidden="true"></span>
 
-					{#snippet head()}
-						<span class="date">
-							{dateFormat.format(m.time)}
-							{#if m.predicted}<em>predicted</em>{/if}
-						</span>
-						<span class="title">{m.title}</span>
-						<span class="tag">{categoryLabels[m.category]}</span>
-						{#if m.icons?.length}
-							<span class="icons">
-								{#each m.icons as icon (icon)}
-									{@const src = iconFor(icon)}
-									{#if src}
-										<img {src} alt="" width="40" height="40" loading="lazy" />
-									{/if}
-								{/each}
+						{#snippet head()}
+							<span class="date">
+								{dateFormat.format(m.time)}
+								{#if m.predicted}<em>predicted</em>{/if}
 							</span>
-						{/if}
-					{/snippet}
+							<span class="title">{m.title}</span>
+							<span class="tag">{categoryLabels[m.category]}</span>
+							{#if m.icons?.length}
+								<span class="icons">
+									{#each m.icons as icon (icon)}
+										{@const src = iconFor(icon)}
+										{#if src}
+											<img {src} alt="" width="40" height="40" loading="lazy" />
+										{/if}
+									{/each}
+								</span>
+							{/if}
+						{/snippet}
 
-					{#if m.notes}
-						<details class="card">
-							<summary>{@render head()}</summary>
-							<p>{m.notes}</p>
-						</details>
-					{:else}
-						<div class="card">{@render head()}</div>
-					{/if}
-				</li>
+						{#if m.notes}
+							<details class="card">
+								<summary>{@render head()}</summary>
+								<p>{m.notes}</p>
+							</details>
+						{:else}
+							<div class="card">{@render head()}</div>
+						{/if}
+					</li>
+				{:else}
+					<li class="today-row" style="margin-top: {row.gap}px">
+						<div bind:this={todayMarker} class="today" aria-hidden="true">
+							<span>Today</span>
+						</div>
+					</li>
+				{/if}
 			{/each}
 		</ol>
 	</div>
@@ -153,7 +159,7 @@
 <style>
 	.controls {
 		position: sticky;
-		top: 0.5rem;
+		top: calc(var(--topbar-height) + 0.5rem);
 		z-index: 2;
 		display: flex;
 		justify-content: flex-end;
@@ -183,7 +189,7 @@
 
 	.timeline {
 		position: relative;
-		margin: 0 0 2rem;
+		margin: 0 0 2rem -0.5rem;
 		padding-left: 1.25rem;
 	}
 
@@ -203,9 +209,7 @@
 	}
 
 	li {
-		position: absolute;
-		left: 1.25rem;
-		right: 0;
+		position: relative;
 	}
 
 	.dot {
@@ -262,6 +266,7 @@
 		margin-left: 0.5rem;
 		color: var(--muted);
 		font-size: 0.8rem;
+		white-space: nowrap;
 	}
 
 	.icons {
@@ -291,11 +296,9 @@
 	}
 
 	.today {
-		position: absolute;
-		left: 0;
-		right: 0;
 		display: flex;
 		align-items: center;
+		margin-left: -1.25rem;
 		border-top: 1px dashed var(--accent);
 	}
 
@@ -313,5 +316,15 @@
 	.source {
 		color: var(--muted);
 		font-size: 0.9rem;
+	}
+
+	@media (min-width: 768px) {
+		.controls {
+			top: 0.5rem;
+		}
+
+		.timeline {
+			margin-left: 0;
+		}
 	}
 </style>
