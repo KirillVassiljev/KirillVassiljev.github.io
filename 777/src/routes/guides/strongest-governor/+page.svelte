@@ -26,10 +26,6 @@
 			on your speed-ups and resources and dump them on the matching day.
 		</li>
 		<li>
-			<strong>Three leaderboards:</strong> daily stage ranking in your kingdom, total ranking in your
-			kingdom, and cross-kingdom total ranking.
-		</li>
-		<li>
 			<strong>250,000 points</strong> is the bar to qualify for the kingdom-wide rewards. Aim for it even
 			if you can't rank.
 		</li>

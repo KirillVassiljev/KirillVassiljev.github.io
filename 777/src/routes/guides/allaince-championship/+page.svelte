@@ -15,8 +15,13 @@
 		<li><strong>Registration is a snapshot.</strong> Your march and every buff active at that moment are frozen in — pet buffs stay even after they expire.</li>
 		<li><strong>Don't touch your team after registering.</strong> Updating it re-snapshots and you lose the buffs you locked in.</li>
 		<li><strong>Then you're done.</strong> Battles run automatically Thursday to Saturday — you do not need to be online.</li>
-		<li><strong>Only the top 20 power in a lane fight</strong>, and a march fights at most twice per round.</li>
-		<li><strong>Rewards</strong> come from marches you defeat, plus an alliance-wide tier reward at the end.</li>
+		<li>		<strong>Formation:</strong> 50/20/30 infantry/cavalry/archers is the safe pick; 60/40/0 with no
+		cavalry lowers your visible power for softer matchups and beats the standard build.
+		</li>
+		<li>
+		<strong>Heroes: pure damage only.</strong> Fights are short — take flat attack buffs and burst
+		(Amadeus), skip tanks like Helga, and avoid anything with a sub-50% skill trigger.
+		</li>
 	</ul>
 </section>
 
