@@ -16,11 +16,6 @@
 			training buffs mean the same speed-ups buy far more power there than in a normal Strongest
 			Governor week.
 		</li>
-		<li><strong>A 7-day points race</strong>, usually monthly. One day, one theme.</li>
-		<li>
-			<strong>Points come from spending:</strong> building upgrades, hero levels, skill upgrades, troop
-			training, speed-ups and rare materials like Truegold and Mithril.
-		</li>
 		<li>
 			<strong>Bank everything beforehand.</strong> Nothing you do outside the event window scores. Sit
 			on your speed-ups and resources and dump them on the matching day.

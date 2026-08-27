@@ -15,7 +15,8 @@ export const sections: NavSection[] = [
 		[
 			{ title: 'Bear hunt', slug: 'bear' },
 			{ title: 'Allaince championship', slug: 'allaince-championship' },
-			{ title: 'Strongest governor', slug: 'strongest-governor' }
+			{ title: 'Strongest governor', slug: 'strongest-governor' },
+			{ title: 'Viking vengeance', slug: 'vikings' },
 		]
 	},
 	{
