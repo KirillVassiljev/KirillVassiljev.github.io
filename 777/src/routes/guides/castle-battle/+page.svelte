@@ -1,7 +1,6 @@
 <script lang="ts">
 	import points from '$lib/assets/castle-battle/points.webp';
-	import joinersAttack from '$lib/assets/castle-battle/joiners-attack.webp';
-	import joinersGarrison from '$lib/assets/castle-battle/joiners-garrison.webp';
+	import Hero from '$lib/components/Hero.svelte';
 </script>
 
 <svelte:head>
@@ -76,44 +75,153 @@
 
 <p>
 	Attack rallies exist to break the garrison, so they stack damage. Once the castle is yours the job
-	flips to surviving repeated hits, so garrison rallies stack defence and sustain. Slashes mean either
-	works — pick based on your ratios.
+	flips to surviving repeated hits, so garrison rallies stack defence and sustain. Each row is three
+	slots; where two portraits are joined by "or", either works — pick based on your ratios.
 </p>
+
+<h3>Attack rallies</h3>
 
 <div class="table-wrap">
 	<table>
 		<thead>
 			<tr>
 				<th scope="col">Gen</th>
-				<th scope="col">Attack rally</th>
-				<th scope="col">Garrison rally</th>
+				<th scope="col">Heroes</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 				<th scope="row">3</th>
-				<td>Amadeus · Petra · Marlin</td>
-				<td>Eric · Jaeger · Hilde</td>
+				<td>
+					<div class="lineup">
+						<div class="slot"><Hero slug="amadeus" /></div>
+						<div class="slot"><Hero slug="petra" /></div>
+						<div class="slot"><Hero slug="marlin" /></div>
+					</div>
+				</td>
 			</tr>
 			<tr>
 				<th scope="row">4</th>
-				<td>Amadeus · Petra · Rosa</td>
-				<td>Alcar · Jaeger · Margot</td>
+				<td>
+					<div class="lineup">
+						<div class="slot"><Hero slug="amadeus" /></div>
+						<div class="slot"><Hero slug="petra" /></div>
+						<div class="slot"><Hero slug="rosa" /></div>
+					</div>
+				</td>
 			</tr>
 			<tr>
 				<th scope="row">5</th>
-				<td>Amadeus · Petra/Thrudd · Rosa</td>
-				<td>Long Fei · Jaeger · Margot</td>
+				<td>
+					<div class="lineup">
+						<div class="slot"><Hero slug="amadeus" /></div>
+						<div class="slot">
+							<Hero slug="petra" />
+							<span class="or">or</span>
+							<Hero slug="thrud" />
+						</div>
+						<div class="slot"><Hero slug="rosa" /></div>
+					</div>
+				</td>
 			</tr>
 			<tr>
 				<th scope="row">6</th>
-				<td>Amadeus/Triton · Petra/Thrudd · Yang</td>
-				<td>Triton · Jaeger · Sophia</td>
+				<td>
+					<div class="lineup">
+						<div class="slot">
+							<Hero slug="amadeus" />
+							<span class="or">or</span>
+							<Hero slug="triton" />
+						</div>
+						<div class="slot">
+							<Hero slug="petra" />
+							<span class="or">or</span>
+							<Hero slug="thrud" />
+						</div>
+						<div class="slot"><Hero slug="yang" /></div>
+					</div>
+				</td>
 			</tr>
 			<tr>
 				<th scope="row">7</th>
-				<td>Amadeus/Triton/Charles · Ava · Wee &amp; Woo</td>
-				<td>Charles · Jaeger · Sophia</td>
+				<td>
+					<div class="lineup">
+						<div class="slot">
+							<Hero slug="amadeus" />
+							<span class="or">or</span>
+							<Hero slug="triton" />
+							<span class="or">or</span>
+							<Hero slug="charles" />
+						</div>
+						<div class="slot"><Hero slug="ava" /></div>
+						<div class="slot"><Hero slug="wee-woo" /></div>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h3>Garrison rallies</h3>
+
+<div class="table-wrap">
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Gen</th>
+				<th scope="col">Heroes</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">3</th>
+				<td>
+					<div class="lineup">
+						<div class="slot"><Hero slug="eric" /></div>
+						<div class="slot"><Hero slug="jaeger" /></div>
+						<div class="slot"><Hero slug="hilde" /></div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">4</th>
+				<td>
+					<div class="lineup">
+						<div class="slot"><Hero slug="alcar" /></div>
+						<div class="slot"><Hero slug="jaeger" /></div>
+						<div class="slot"><Hero slug="margot" /></div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">5</th>
+				<td>
+					<div class="lineup">
+						<div class="slot"><Hero slug="long-fei" /></div>
+						<div class="slot"><Hero slug="jaeger" /></div>
+						<div class="slot"><Hero slug="margot" /></div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">6</th>
+				<td>
+					<div class="lineup">
+						<div class="slot"><Hero slug="triton" /></div>
+						<div class="slot"><Hero slug="jaeger" /></div>
+						<div class="slot"><Hero slug="sophia" /></div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">7</th>
+				<td>
+					<div class="lineup">
+						<div class="slot"><Hero slug="charles" /></div>
+						<div class="slot"><Hero slug="jaeger" /></div>
+						<div class="slot"><Hero slug="sophia" /></div>
+					</div>
+				</td>
 			</tr>
 		</tbody>
 	</table>
@@ -160,53 +268,80 @@
 	damage; garrison joiners bring defensive buffs.
 </p>
 
+<h3>Attack joiners</h3>
+
 <div class="table-wrap">
 	<table>
 		<thead>
 			<tr>
-				<th scope="col">Rally type</th>
-				<th scope="col">First-slot hero</th>
-				<th scope="col">Also usable up to gen 7</th>
+				<th scope="col">Priority</th>
+				<th scope="col">Heroes</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">Attack</th>
-				<td>Chenko · Yeonwoo · Amane · Amadeus</td>
-				<td>Vivian · Margot · Wee &amp; Woo · Hilde (to fill stat gaps)</td>
+				<th scope="row">Best</th>
+				<td>
+					<div class="lineup">
+						<div class="slot"><Hero slug="chenko" /></div>
+						<div class="slot"><Hero slug="yeonwoo" /></div>
+						<div class="slot"><Hero slug="amane" /></div>
+						<div class="slot"><Hero slug="amadeus" /></div>
+					</div>
+				</td>
 			</tr>
 			<tr>
-				<th scope="row">Garrison</th>
-				<td>Howard · Gordon · Saul · Hilde</td>
-				<td>Quinn · Faahd · Triton · Eric</td>
+				<th scope="row">Up to gen 7</th>
+				<td>
+					<div class="lineup">
+						<div class="slot"><Hero slug="vivian" /></div>
+						<div class="slot"><Hero slug="margot" /></div>
+						<div class="slot"><Hero slug="wee-woo" /></div>
+						<div class="slot"><Hero slug="hilde" /></div>
+					</div>
+					<p class="note">Hilde is there to fill stat gaps.</p>
+				</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
 
-<figure>
-	<img
-		src={joinersAttack}
-		width="824"
-		height="179"
-		alt="Portraits of the four recommended attack rally joiner heroes: Chenko, Yeonwoo, Amane and Amadeus."
-		loading="lazy"
-		decoding="async"
-	/>
-	<figcaption>Attack joiners — one of these goes in your first slot.</figcaption>
-</figure>
+<h3>Garrison joiners</h3>
 
-<figure>
-	<img
-		src={joinersGarrison}
-		width="822"
-		height="168"
-		alt="Portraits of the four recommended garrison joiner heroes: Howard, Gordon, Saul and Hilde."
-		loading="lazy"
-		decoding="async"
-	/>
-	<figcaption>Garrison joiners — defensive buffs to survive repeated hits.</figcaption>
-</figure>
+<div class="table-wrap">
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Priority</th>
+				<th scope="col">Heroes</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">Best</th>
+				<td>
+					<div class="lineup">
+						<div class="slot"><Hero slug="howard" /></div>
+						<div class="slot"><Hero slug="gordon" /></div>
+						<div class="slot"><Hero slug="saul" /></div>
+						<div class="slot"><Hero slug="hilde" /></div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">Up to gen 7</th>
+				<td>
+					<div class="lineup">
+						<div class="slot"><Hero slug="quinn" /></div>
+						<div class="slot"><Hero slug="fahd" /></div>
+						<div class="slot"><Hero slug="triton" /></div>
+						<div class="slot"><Hero slug="eric" /></div>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 
 <ul>
 	<li>
@@ -264,7 +399,8 @@
 </ul>
 
 <p class="source">
-	Source: <a href="https://kingshotwiki.com/events/castle-battle/" rel="noreferrer">kingshotwiki.com — Castle Battle</a>
+	Sources: <a href="https://kingshotwiki.com/events/castle-battle/" rel="noreferrer">kingshotwiki.com — Castle Battle</a>.
+	Hero portraits from <a href="https://www.kingshotguide.com/heroes" rel="noreferrer">kingshotguide.com</a>.
 </p>
 
 <style>
@@ -301,7 +437,8 @@
 	}
 
 	table {
-		width: 100%;
+		width: max-content;
+		min-width: 100%;
 		border-collapse: collapse;
 		font-size: 0.95rem;
 	}
@@ -322,6 +459,36 @@
 	tbody th {
 		background: var(--surface);
 		white-space: nowrap;
+	}
+
+	h3 {
+		margin: 2rem 0 0.5rem;
+		font-size: 1.05rem;
+	}
+
+	.lineup {
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: flex-start;
+		gap: 1rem;
+	}
+
+	.slot {
+		display: flex;
+		align-items: flex-start;
+		gap: 0.35rem;
+	}
+
+	.or {
+		align-self: center;
+		font-size: 0.75rem;
+		color: var(--muted);
+	}
+
+	.note {
+		margin: 0.6rem 0 0;
+		font-size: 0.85rem;
+		color: var(--muted);
 	}
 
 	figure {
