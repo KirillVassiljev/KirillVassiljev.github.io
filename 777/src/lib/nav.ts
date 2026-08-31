@@ -19,6 +19,7 @@ export const sections: NavSection[] = [
 			{ title: 'Viking vengeance', slug: 'vikings' },
 			{ title: 'Castle battle', slug: 'castle-battle' },
 			{ title: 'Tri-alliance clash', slug: 'tri-alliance-clash' },
+			{ title: 'Swordland showdown', slug: 'swordland-showdown' },
 		]
 	},
 	{
