@@ -48,8 +48,6 @@
 
 <h2>If this is your first clash</h2>
 
-<p>What a normal member — not an R4, not a commander — actually has to do:</p>
-
 <ol>
 	<li>
 		<strong>Get registered.</strong> Tell your R4/R5 you want in during the sign-up window. You cannot
@@ -59,7 +57,6 @@
 		<strong>Set up your three squad presets before you enter.</strong> You can't calmly rebuild marches
 		once the clock is running.
 	</li>
-	<li><strong>Join Discord or in-game voice.</strong> The important calls happen in seconds.</li>
 	<li>
 		<strong>Learn your lane and role in the 3-minute prep phase.</strong> Ask which building is yours and
 		who your supporters are.
@@ -74,134 +71,6 @@
 		actually decided.
 	</li>
 </ol>
-
-<h2>The monthly cycle</h2>
-
-<p>
-	Tri-Alliance Clash runs once every four weeks. The week around it is fixed, so you know in advance
-	when to be available.
-</p>
-
-<figure class="diagram">
-	<div class="diagram-scroll">
-		<svg
-			viewBox="0 0 800 170"
-			width="100%"
-			height="auto"
-			role="img"
-			aria-label="Weekly cycle: Monday to Tuesday voting, Wednesday to Thursday sign-up, Friday matchmaking, Saturday battle, repeating every four weeks."
-		>
-			<title>The four-week Tri-Alliance Clash cycle</title>
-
-			<rect x="20" y="34" width="160" height="66" rx="8" fill="var(--surface)" stroke="var(--border)" />
-			<text x="100" y="60" text-anchor="middle" font-size="12" fill="var(--muted)">Mon–Tue</text>
-			<text x="100" y="80" text-anchor="middle" font-size="13" fill="var(--text)">Voting</text>
-
-			<rect x="220" y="34" width="160" height="66" rx="8" fill="var(--surface)" stroke="var(--border)" />
-			<text x="300" y="60" text-anchor="middle" font-size="12" fill="var(--muted)">Wed–Thu</text>
-			<text x="300" y="80" text-anchor="middle" font-size="13" fill="var(--text)">Sign-up</text>
-
-			<rect x="420" y="34" width="160" height="66" rx="8" fill="var(--surface)" stroke="var(--border)" />
-			<text x="500" y="60" text-anchor="middle" font-size="12" fill="var(--muted)">Fri</text>
-			<text x="500" y="80" text-anchor="middle" font-size="13" fill="var(--text)">Matchmaking</text>
-
-			<rect
-				x="620"
-				y="34"
-				width="160"
-				height="66"
-				rx="8"
-				fill="var(--accent)"
-				fill-opacity="0.18"
-				stroke="var(--accent)"
-			/>
-			<text x="700" y="60" text-anchor="middle" font-size="12" fill="var(--muted)">Sat</text>
-			<text x="700" y="80" text-anchor="middle" font-size="13" fill="var(--accent)">Battle — 60 min</text>
-
-			<g stroke="var(--muted)" stroke-width="1.5" fill="var(--muted)">
-				<line x1="184" y1="67" x2="208" y2="67" />
-				<path d="M216 67 L206 62 L206 72 Z" stroke="none" />
-				<line x1="384" y1="67" x2="408" y2="67" />
-				<path d="M416 67 L406 62 L406 72 Z" stroke="none" />
-				<line x1="584" y1="67" x2="608" y2="67" />
-				<path d="M616 67 L606 62 L606 72 Z" stroke="none" />
-			</g>
-
-			<path
-				d="M700 100 L700 130 L100 130 L100 108"
-				fill="none"
-				stroke="var(--border)"
-				stroke-width="1.5"
-				stroke-dasharray="4 4"
-			/>
-			<path d="M100 100 L95 110 L105 110 Z" fill="var(--border)" />
-			<text x="400" y="152" text-anchor="middle" font-size="12" fill="var(--muted)"
-				>repeats every 4 weeks</text
-			>
-		</svg>
-	</div>
-	<figcaption>The clash week. Only Saturday is the match; the rest is admin you can miss.</figcaption>
-</figure>
-
-<div class="table-wrap">
-	<table>
-		<thead>
-			<tr>
-				<th>Day</th>
-				<th>Phase</th>
-				<th>What happens</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<th>Mon–Tue</th>
-				<td>Voting</td>
-				<td>Members vote on the preferred time slot. R4/R5 make the final call.</td>
-			</tr>
-			<tr>
-				<th>Wed–Thu</th>
-				<td>Sign-up</td>
-				<td>R4+ register the participants and substitutes.</td>
-			</tr>
-			<tr>
-				<th>Fri</th>
-				<td>Matchmaking</td>
-				<td>Alliances are paired into three-way battlefields.</td>
-			</tr>
-			<tr>
-				<th>Sat</th>
-				<td>Battle</td>
-				<td>The 60-minute match runs in your alliance's registered time slot.</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-
-<p>
-	An alliance can field <strong>two legions</strong>, in separate battlefields with different time
-	slots. Their rewards are calculated separately, so being in the second legion is not a demotion.
-</p>
-
-<h2>Can you take part?</h2>
-
-<ul>
-	<li>
-		<strong>Your alliance must rank top 20 in the kingdom</strong> by alliance power. If it doesn't, nobody
-		in it plays.
-	</li>
-	<li>
-		<strong>You must be in the alliance</strong>, typically with City Center Lv.16+, and 5+ days of
-		inactivity can block you from being registered.
-	</li>
-	<li>
-		<strong>30 combatants plus 10 substitutes</strong> per alliance, each fielding 3 squads.
-	</li>
-	<li><strong>R4/R5 sign you up.</strong> There is no self-registration.</li>
-	<li>
-		<strong>Exact thresholds vary by server version.</strong> Check the in-game event rules before you
-		promise anyone anything.
-	</li>
-</ul>
 
 <h2>What actually scores</h2>
 
@@ -318,63 +187,6 @@
 
 <h2>Phases</h2>
 
-<figure class="diagram">
-	<div class="diagram-scroll">
-		<svg
-			viewBox="0 0 800 156"
-			width="100%"
-			height="auto"
-			role="img"
-			aria-label="Timeline of the 60-minute match: preparation 0 to 3 minutes, seize and conquer 3 to 20, garrison occupation 20 to 40, temple onslaught 40 to 60. Garrisons unlock at minute 20 and the temple opens at minute 40."
-		>
-			<title>The 60-minute phase timeline</title>
-
-			<rect x="20" y="64" width="38" height="44" fill="var(--surface)" stroke="var(--border)" />
-			<rect x="58" y="64" width="215" height="44" fill="var(--surface)" stroke="var(--border)" />
-			<rect x="273" y="64" width="254" height="44" fill="var(--surface)" stroke="var(--border)" />
-			<rect
-				x="527"
-				y="64"
-				width="253"
-				height="44"
-				fill="var(--accent)"
-				fill-opacity="0.2"
-				stroke="var(--accent)"
-			/>
-
-			<g fill="var(--text)" font-size="11" text-anchor="middle">
-				<text x="39" y="126">Prep</text>
-				<text x="165" y="126">Seize &amp; Conquer</text>
-				<text x="400" y="126">Garrison Occupation</text>
-				<text x="653" y="126" fill="var(--accent)">Temple Onslaught</text>
-			</g>
-			<g fill="var(--muted)" font-size="11" text-anchor="middle">
-				<text x="39" y="141">0–3</text>
-				<text x="165" y="141">3–20</text>
-				<text x="400" y="141">20–40</text>
-				<text x="653" y="141">40–60</text>
-			</g>
-
-			<g stroke="var(--accent)" stroke-width="2">
-				<line x1="273" y1="48" x2="273" y2="116" />
-				<line x1="527" y1="48" x2="527" y2="116" />
-			</g>
-			<circle cx="273" cy="44" r="4" fill="var(--accent)" />
-			<circle cx="527" cy="44" r="4" fill="var(--accent)" />
-
-			<g text-anchor="middle" font-size="11">
-				<text x="273" y="20" fill="var(--accent)">min 20</text>
-				<text x="273" y="34" fill="var(--muted)">garrisons — 1,800/min</text>
-				<text x="527" y="20" fill="var(--accent)">min 40</text>
-				<text x="527" y="34" fill="var(--muted)">temple — 50,000 first cap</text>
-			</g>
-		</svg>
-	</div>
-	<figcaption>
-		Phase lengths to scale. The two marked minutes are where the match is actually decided.
-	</figcaption>
-</figure>
-
 <div class="table-wrap">
 	<table>
 		<thead>
@@ -388,32 +200,32 @@
 			<tr>
 				<th>1 — Preparation</th>
 				<td>0–3 min</td>
-				<td>R4/R5 place marks on the map. Everyone confirms their lane and role.</td>
+				<td>R4/R5 place marks on the map. <br> Everyone confirms their lane and role.</td>
 			</tr>
 			<tr>
 				<th>2 — Seize &amp; Conquer</th>
 				<td>3–20 min</td>
 				<td>
-					Garrisons are shielded and cannot be touched. Main players take their lane keypoint fast,
-					supporters settle into the building behind it, reaction teams sweep the neutral buildings in
-					the centre. Secure the Transit Hubs and route buildings you'll need later.
+					Garrisons are shielded and cannot be touched. <br> Main players take their lane keypoint fast, <br>
+					supporters settle into the building behind it, <br> reaction teams sweep the neutral buildings in
+					the centre. <br> Secure the Transit Hubs and route buildings you'll need later.
 				</td>
 			</tr>
 			<tr>
 				<th>3 — Garrison Occupation</th>
-				<td>20–40 min</td>
+				<td>20-40 min</td>
 				<td>
-					A24, B24 and C24 unlock and pay 1,800 per minute. Priority 1 is holding your <em>own</em>
-					garrison; priority 2 is taking an enemy one. Start the regroup toward the Temple before minute
-					40, not at it. The special force is at its most active here.
+					A24, B24 and C24 unlock and pay 1,800 per minute.<br> Priority 1 is holding your <em>own</em>
+					garrison; priority 2 is taking an enemy one.<br> Start the regroup toward the Temple before minute
+					40, not at it.<br> The special force is at its most active here.
 				</td>
 			</tr>
 			<tr>
 				<th>4 — Temple Onslaught</th>
-				<td>40–60 min</td>
+				<td>40-60 min</td>
 				<td>
-					Attack the Temple of Tides in one coordinated burst, not one march at a time. Defend the
-					access routes around A29, B29 and C29. This phase decides the match.
+					Attack the Temple of Tides in one coordinated burst, not one march at a time.<br> Defend the
+					access routes around A29, B29 and C29.<br> This phase decides the match.
 				</td>
 			</tr>
 		</tbody>
@@ -421,101 +233,6 @@
 </div>
 
 <h2>Roles</h2>
-
-<figure class="diagram">
-	<div class="diagram-scroll">
-		<svg
-			viewBox="0 0 800 182"
-			width="100%"
-			height="auto"
-			role="img"
-			aria-label="The 30 combatants split into 6 main players, 12 supporters, 6 special commander force and 6 reaction team players, plus 2 commanders counted separately."
-		>
-			<title>How the 30 combatants are divided</title>
-
-			<g font-size="11" text-anchor="middle">
-				<text x="111" y="20" fill="var(--text)">Main 6</text>
-				<text x="327" y="20" fill="var(--text)">Supporters 12</text>
-				<text x="543" y="20" fill="var(--text)">Special force 6</text>
-				<text x="687" y="20" fill="var(--text)">Reaction 6</text>
-			</g>
-
-			<g stroke="var(--border)" fill="none">
-				<path d="M40 36 V28 H182 V36" />
-				<path d="M184 36 V28 H470 V36" />
-				<path d="M472 36 V28 H614 V36" />
-				<path d="M616 36 V28 H758 V36" />
-			</g>
-
-			<g stroke="var(--border)" fill="var(--accent)">
-				<g fill-opacity="1">
-					<rect x="40" y="40" width="22" height="24" />
-					<rect x="64" y="40" width="22" height="24" />
-					<rect x="88" y="40" width="22" height="24" />
-					<rect x="112" y="40" width="22" height="24" />
-					<rect x="136" y="40" width="22" height="24" />
-					<rect x="160" y="40" width="22" height="24" />
-				</g>
-				<g fill-opacity="0.28">
-					<rect x="184" y="40" width="22" height="24" />
-					<rect x="208" y="40" width="22" height="24" />
-					<rect x="232" y="40" width="22" height="24" />
-					<rect x="256" y="40" width="22" height="24" />
-					<rect x="280" y="40" width="22" height="24" />
-					<rect x="304" y="40" width="22" height="24" />
-					<rect x="328" y="40" width="22" height="24" />
-					<rect x="352" y="40" width="22" height="24" />
-					<rect x="376" y="40" width="22" height="24" />
-					<rect x="400" y="40" width="22" height="24" />
-					<rect x="424" y="40" width="22" height="24" />
-					<rect x="448" y="40" width="22" height="24" />
-				</g>
-				<g fill-opacity="0.68">
-					<rect x="472" y="40" width="22" height="24" />
-					<rect x="496" y="40" width="22" height="24" />
-					<rect x="520" y="40" width="22" height="24" />
-					<rect x="544" y="40" width="22" height="24" />
-					<rect x="568" y="40" width="22" height="24" />
-					<rect x="592" y="40" width="22" height="24" />
-				</g>
-				<g fill-opacity="0.45">
-					<rect x="616" y="40" width="22" height="24" />
-					<rect x="640" y="40" width="22" height="24" />
-					<rect x="664" y="40" width="22" height="24" />
-					<rect x="688" y="40" width="22" height="24" />
-					<rect x="712" y="40" width="22" height="24" />
-					<rect x="736" y="40" width="22" height="24" />
-				</g>
-			</g>
-
-			<text x="40" y="90" font-size="12" fill="var(--text)">6 + 12 + 6 + 6 = 30 combatants</text>
-
-			<g fill="none" stroke="var(--muted)" stroke-dasharray="3 3">
-				<rect x="40" y="104" width="22" height="24" />
-				<rect x="64" y="104" width="22" height="24" />
-			</g>
-			<text x="98" y="121" font-size="12" fill="var(--muted)"
-				>+ 2 commanders — buffs only, outside the 30</text
-			>
-
-			<g stroke="var(--border)" fill="var(--accent)">
-				<rect x="40" y="150" width="12" height="12" fill-opacity="1" />
-				<rect x="230" y="150" width="12" height="12" fill-opacity="0.28" />
-				<rect x="420" y="150" width="12" height="12" fill-opacity="0.68" />
-				<rect x="610" y="150" width="12" height="12" fill-opacity="0.45" />
-			</g>
-			<g font-size="11" fill="var(--muted)">
-				<text x="58" y="160">Main players — 6</text>
-				<text x="248" y="160">Supporters — 12</text>
-				<text x="438" y="160">Special force — 6</text>
-				<text x="628" y="160">Reaction — 6</text>
-			</g>
-		</svg>
-	</div>
-	<figcaption>
-		One square per registered combatant. The two commanders sit outside the 30 and never fight a lane.
-	</figcaption>
-</figure>
 
 <div class="table-wrap">
 	<table>
@@ -849,37 +566,6 @@
 		fast to coordinate over text.
 	</dd>
 </dl>
-
-<p class="source">Sources:</p>
-
-<ul class="source">
-	<li>
-		<a href="https://kingshotwiki.com/events/tri-alliance-clash/" rel="noreferrer"
-			>kingshotwiki.com — Tri-Alliance Clash</a
-		> — roles, lanes, healing rotation, skip rule
-	</li>
-	<li>
-		<a href="https://kingshotmastery.com/guides/tri-alliance-clash" rel="noreferrer"
-			>kingshotmastery.com — Tri-Alliance Clash</a
-		> — phases, scoring, energy
-	</li>
-	<li>
-		<a href="https://kingshotdata.kr/en/guides/Tri-Alliance-Clash.html" rel="noreferrer"
-			>kingshotdata.kr — Tri-Alliance Clash</a
-		> — entry requirements, map coordinates, energy
-	</li>
-	<li>
-		<a
-			href="https://centurygames.helpshift.com/hc/en/140-kingshot/faq/8521-what-is-tri-alliance-clash/"
-			rel="noreferrer">Century Games support — What is Tri-Alliance Clash?</a
-		> — official schedule and legions
-	</li>
-	<li>
-		<a href="https://kingshot.net/game-announcements/15-tri-alliance-clash-is-imminent" rel="noreferrer"
-			>kingshot.net — Tri-Alliance Clash is imminent</a
-		> — official announcement
-	</li>
-</ul>
 
 <style>
 	.tldr {
