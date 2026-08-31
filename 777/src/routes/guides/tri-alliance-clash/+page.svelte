@@ -648,17 +648,4 @@
 		background: var(--surface);
 		white-space: nowrap;
 	}
-
-	.source {
-		color: var(--muted);
-		font-size: 0.9rem;
-	}
-
-	p.source {
-		margin-bottom: 0.3rem;
-	}
-
-	ul.source {
-		margin-top: 0;
-	}
 </style>
