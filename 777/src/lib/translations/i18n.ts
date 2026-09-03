@@ -28,6 +28,12 @@ const config: Config = {
 			key: 'guides.strongest-governor',
 			routes: ['/guides/strongest-governor'],
 			loader: async () => (await import('./en/guides/strongest-governor.json')).default
+		},
+		{
+			locale: 'en',
+			key: 'guides.vikings',
+			routes: ['/guides/vikings'],
+			loader: async () => (await import('./en/guides/vikings.json')).default
 		}
 	]
 };
