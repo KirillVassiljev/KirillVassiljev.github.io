@@ -40,6 +40,12 @@ const config: Config = {
 			key: 'guides.castle-battle',
 			routes: ['/guides/castle-battle'],
 			loader: async () => (await import('./en/guides/castle-battle.json')).default
+		},
+		{
+			locale: 'en',
+			key: 'guides.swordland-showdown',
+			routes: ['/guides/swordland-showdown'],
+			loader: async () => (await import('./en/guides/swordland-showdown.json')).default
 		}
 	]
 };
