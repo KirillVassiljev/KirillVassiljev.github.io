@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "title": "Tri-alliance clash — Kingshot 777",
+    "description": "Beginner-friendly guide to Kingshot Tri-Alliance Clash: the monthly cycle, entry requirements, energy, squad setup, scoring, phases, the 30-player role split and the temple endgame."
+  },
+  "h1": "Tri-alliance clash",
+  "tldr": {
+    "heading": "TL;DR",
+    "items": [
+      "<strong>Three alliances, 60 minutes, every four weeks.</strong> Points come from holding buildings, and the winner is usually whoever holds the temple at the end.",
+      "<strong>The Temple of Tides opens at minute 40.</strong> First capture pays a one-off 50,000 points, then 1,800 points per minute while you hold it. Everything before phase 4 is setup for that fight.",
+      "<strong>Energy is your real limit.</strong> Moving, capturing, charging, retreating, reviving and conscripting all cost it. Arrive at minute 20 and minute 40 with a reserve.",
+      "<strong>Stay in your lane.</strong> Six lanes, one main player each. A collapsed lane is a hole in your map for the rest of the event.",
+      "<strong>Two supporters keep each main player alive.</strong> They rotate forward while the main player heals, so nobody eats the 2-minute respawn walk from HQ.",
+      "<strong>Five squads to skip a building.</strong> That's why the special force of six players (18 squads) can drive straight through enemy territory.",
+      "<strong>The special force never splits.</strong> It exists to break through and cause chaos, not to win duels.",
+      "<strong>Don't overextend.</strong> Push only as fast as your supporters can follow, and stay near your anchor building."
+    ]
+  },
+  "sections": {
+    "firstClash": {
+      "heading": "If this is your first clash",
+      "items": [
+        "<strong>Get registered.</strong> Tell your R4/R5 you want in during the sign-up window. You cannot register yourself.",
+        "<strong>Set up your three squad presets before you enter.</strong> You can't calmly rebuild marches once the clock is running.",
+        "<strong>Learn your lane and role in the 3-minute prep phase.</strong> Ask which building is yours and who your supporters are.",
+        "<strong>Take your assigned building</strong> as soon as the phase opens. Don't improvise.",
+        "<strong>Stay in your lane.</strong> A lane that empties is a hole for the rest of the hour.",
+        "<strong>Don't chase kills.</strong> Kills score nothing directly. Buildings and time do.",
+        "<strong>Save energy for minute 20 and minute 40.</strong> Those are the two moments the match is actually decided."
+      ]
+    },
+    "scoring": {
+      "heading": "What actually scores",
+      "table": {
+        "headers": [
+          "Source",
+          "Opens",
+          "Points"
+        ],
+        "rows": [
+          {
+            "source": "Garrisons",
+            "opens": "Minute 20",
+            "points": "1,800 per minute held"
+          },
+          {
+            "source": "Temple of Tides",
+            "opens": "Minute 40",
+            "points": "50,000 one-off for the first capture, then 1,800 per minute held"
+          },
+          {
+            "source": "Buildings and ruins",
+            "opens": "From phase 2",
+            "points": "Smaller per-minute income"
+          },
+          {
+            "source": "Kills",
+            "opens": "—",
+            "points": "No direct points"
+          }
+        ]
+      },
+      "items": [
+        "<strong>The 50,000 is for capturing the Temple first, not for holding it at the whistle.</strong> If another alliance caps it before you, the match is not over — retaking and holding still pays 1,800 per minute, and twenty minutes of that outweighs the bonus.",
+        "<strong>Kills only matter as a means.</strong> You kill to open a building or to keep one. Killing for its own sake spends energy and buys nothing."
+      ]
+    },
+    "energy": {
+      "heading": "Energy",
+      "body": "This is the mechanic beginners lose to most often. Energy is spent on moving, capturing, charging, retreating, reviving and conscripting. Run out and you cannot answer the Garrison or Temple call, no matter how strong your account is.",
+      "items": [
+        "<strong>Don't burn energy chasing kills in the first 20 minutes.</strong> Aim to still have a healthy reserve at minute 20, and again at minute 40.",
+        "<strong>Assign a Captain after capturing a point.</strong> It improves energy recovery, which is one reason having R4+ players on the field helps.",
+        "<strong>Retreat one building back to heal and conscript</strong> out of combat. That's cheaper than instant revive, and far cheaper than dying and eating the ~2-minute walk from HQ.",
+        "<strong>Leaving the battlefield has a re-entry cooldown</strong> — commonly cited as around 12 minutes. Most account buffs still apply on the field, except some march speed and capacity effects."
+      ]
+    },
+    "squadSetup": {
+      "heading": "Squad setup",
+      "intro": "You field three marches, so nine heroes are in rotation. Build the three as presets <strong>before</strong> you enter:",
+      "presets": [
+        "<strong>Squad 1 — strongest combat squad.</strong> For high-pressure buildings and contested caps.",
+        "<strong>Squad 2 — stable squad.</strong> Lane support and reinforcement; it has to survive, not spike.",
+        "<strong>Squad 3 — flexible squad.</strong> Routes, recovery cover, retakes."
+      ],
+      "items": [
+        "<strong>Don't even the three out just to make the power numbers look balanced.</strong> Each squad needs a job; three identical mediocre marches do none of them well.",
+        "<strong>There is no universal formation ratio.</strong> It depends on your troops, your heroes, the opponent, and whether you're attacking or holding.",
+        "<strong>Consider holding one strong march back</strong> for the minute-20 Garrison and minute-40 Temple timings."
+      ]
+    },
+    "eventFormat": {
+      "heading": "Event format",
+      "items": [
+        "<strong>Soldier power is not used for matchmaking.</strong> You can be paired against far stronger alliances, so structure and discipline are what you control.",
+        "<strong>You cannot leave the alliance</strong> once you've entered the battlefield."
+      ]
+    },
+    "phases": {
+      "heading": "Phases",
+      "table": {
+        "headers": [
+          "Phase",
+          "Clock",
+          "What matters"
+        ],
+        "rows": [
+          {
+            "phase": "1 — Preparation",
+            "clock": "0–3 min",
+            "matters": "R4/R5 place marks on the map. <br> Everyone confirms their lane and role."
+          },
+          {
+            "phase": "2 — Seize &amp; Conquer",
+            "clock": "3–20 min",
+            "matters": "Garrisons are shielded and cannot be touched. <br> Main players take their lane keypoint fast, <br> supporters settle into the building behind it, <br> reaction teams sweep the neutral buildings in the centre. <br> Secure the Transit Hubs and route buildings you'll need later."
+          },
+          {
+            "phase": "3 — Garrison Occupation",
+            "clock": "20-40 min",
+            "matters": "A24, B24 and C24 unlock and pay 1,800 per minute.<br> Priority 1 is holding your <em>own</em> garrison; priority 2 is taking an enemy one.<br> Start the regroup toward the Temple before minute 40, not at it.<br> The special force is at its most active here."
+          },
+          {
+            "phase": "4 — Temple Onslaught",
+            "clock": "40-60 min",
+            "matters": "Attack the Temple of Tides in one coordinated burst, not one march at a time.<br> Defend the access routes around A29, B29 and C29.<br> This phase decides the match."
+          }
+        ]
+      }
+    },
+    "roles": {
+      "heading": "Roles",
+      "table": {
+        "headers": [
+          "Role",
+          "Players",
+          "Job"
+        ],
+        "rows": [
+          {
+            "role": "Main players",
+            "players": "6",
+            "job": "One per lane. Capture the lane keypoint immediately, then hold the frontline and keep the enemy out of your interior."
+          },
+          {
+            "role": "Supporters",
+            "players": "12",
+            "job": "Two per main player. Sit in the building behind the keypoint, step forward only when your main player needs to heal, and never leave the keypoint unmanned."
+          },
+          {
+            "role": "Special commander force",
+            "players": "6",
+            "job": "A single breakthrough group. Skips low-value buildings, takes undefended structures deep in enemy territory, and forces enemy rotations."
+          },
+          {
+            "role": "Reaction teams",
+            "players": "6 (2 × 3)",
+            "job": "Grab the central neutral buildings at the start, then float: retake lost buildings and prop up whichever lane is under pressure."
+          },
+          {
+            "role": "Commanders",
+            "players": "2",
+            "job": "Buff management only. No lane fighting."
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "Why does the special force work?",
+          "a": "Bypassing a building without capturing it needs five squads. Six players fielding three squads each is 18 squads, enough to skip repeatedly and cover ground fast. Split the group and it stops working — nobody has five squads on their own."
+        },
+        {
+          "q": "Who should be a commander?",
+          "a": "Smaller, highly active players who can stay focused for the full 60 minutes. Buff timing swings lane fights and the temple battle, so this is a real job, not a place to park someone weak and inattentive."
+        }
+      ]
+    },
+    "map": {
+      "heading": "The map",
+      "body": "Six lanes feed one centre. Lanes 1, 4 and 5 sit in the upper half, lanes 2, 3 and 6 in the lower half; the garrisons and the temple approaches are the only objectives that decide the score."
+    },
+    "healingRotation": {
+      "heading": "Healing rotation",
+      "body": "This is the mechanic that separates an organised alliance from a mob. When a main player gets low:",
+      "steps": [
+        "One supporter advances and takes over the frontline.",
+        "The main player pulls back briefly to heal.",
+        "The main player returns as soon as they're healed.",
+        "The supporter falls back to the anchor building behind the keypoint."
+      ],
+      "outro": "The lane never goes quiet, the keypoint is never empty, and nobody has to walk two minutes back from HQ after dying."
+    },
+    "commonMistakes": {
+      "heading": "Common mistakes",
+      "items": [
+        "<strong>Overextending.</strong> Deep solo pushes leave you cut off from your supporters and hand the enemy free kills.",
+        "<strong>Splitting the special force.</strong> Below five squads it can't skip buildings, and its whole value disappears.",
+        "<strong>Supporters pushing ahead.</strong> Their strength is stability. An aggressive supporter is a keypoint about to be lost.",
+        "<strong>Reaction teams rotating for no reason.</strong> They should move when a lane is genuinely in trouble, not chase every skirmish.",
+        "<strong>Rotating to the temple too late.</strong> Lanes need to converge together; arriving piecemeal means being beaten piecemeal."
+      ]
+    },
+    "faq": {
+      "heading": "Beginner FAQ",
+      "qa": [
+        {
+          "q": "I'm new — what's the one thing I should get right?",
+          "a": "Stay in your lane and save energy. Everything else your R4s can work around; those two they can't."
+        },
+        {
+          "q": "Do kills matter?",
+          "a": "Only as a means to hold a building or to open one. There are no points for kills themselves, and duels you didn't need cost energy you'll want at minute 40."
+        },
+        {
+          "q": "What if the enemy caps the Temple first?",
+          "a": "Retake it. They get the one-off 50,000, but the 1,800 per minute is still live for whoever holds it — and there are up to twenty minutes of that on the table."
+        },
+        {
+          "q": "Should I use instant revive?",
+          "a": "Usually no. Retreat one building back, heal and conscript out of combat. Instant revive burns energy you'll need for the next call."
+        },
+        {
+          "q": "Do I need voice chat?",
+          "a": "Strongly recommended. The minute-20 garrison call and the minute-40 temple push happen far too fast to coordinate over text."
+        }
+      ]
+    }
+  },
+  "images": {
+    "map": {
+      "alt": "Schematic of the battlefield: six lanes, each with a keypoint and an anchor building behind it, converging on the central Temple of Tides. Lanes 1, 4 and 5 are the upper half, lanes 2, 3 and 6 the lower half. Garrisons A24, B24 and C24 sit off to the side, approach routes A29, B29 and C29 ring the temple, and two neutral buildings sit near the centre.",
+      "title": "Lane and objective schematic",
+      "caption": "Schematic only, not the in-game map. Each lane is a keypoint with an anchor building behind it; every lane feeds the temple."
+    },
+    "healingRotation": {
+      "alt": "Four-step healing loop: a supporter advances to the frontline, the main player pulls back to heal, the main player returns, the supporter falls back to the anchor building. The keypoint is never left empty.",
+      "title": "The four-step healing rotation",
+      "caption": "The rotation runs clockwise and repeats; the frontline is always occupied."
+    }
+  },
+  "mapDiagram": {
+    "upperHalf": "Upper half — lanes 1, 4, 5",
+    "lowerHalf": "Lower half — lanes 2, 3, 6",
+    "anchors": {
+      "one": "Anchor 1",
+      "two": "Anchor 2",
+      "three": "Anchor 3",
+      "four": "Anchor 4",
+      "five": "Anchor 5",
+      "six": "Anchor 6"
+    },
+    "keypoints": {
+      "one": "K1",
+      "two": "K2",
+      "three": "K3",
+      "four": "K4",
+      "five": "K5",
+      "six": "K6"
+    },
+    "neutral": "Neutral",
+    "reactionTeams": "reaction teams",
+    "routes": {
+      "a29": "A29",
+      "b29": "B29",
+      "c29": "C29"
+    },
+    "temple": {
+      "line1": "Temple",
+      "line2": "of Tides"
+    },
+    "garrisons": "Garrisons",
+    "garrisonIds": {
+      "a24": "A24",
+      "b24": "B24",
+      "c24": "C24"
+    },
+    "unlock": "unlock min 20"
+  },
+  "healingDiagram": {
+    "steps": {
+      "one": {
+        "number": "1",
+        "title": "Supporter steps up",
+        "subtitle": "takes the frontline"
+      },
+      "two": {
+        "number": "2",
+        "title": "Main player pulls back",
+        "subtitle": "heals out of combat"
+      },
+      "three": {
+        "number": "3",
+        "title": "Main player returns",
+        "subtitle": "retakes the frontline"
+      },
+      "four": {
+        "number": "4",
+        "title": "Supporter falls back",
+        "subtitle": "returns to the anchor"
+      }
+    },
+    "keypoint": {
+      "line1": "Keypoint",
+      "line2": "never empty"
+    },
+    "loop": "loop as often as needed — nobody walks back from HQ"
+  }
+}

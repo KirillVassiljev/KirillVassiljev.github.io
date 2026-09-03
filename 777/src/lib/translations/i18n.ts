@@ -46,7 +46,13 @@ const config: Config = {
 			key: 'guides.swordland-showdown',
 			routes: ['/guides/swordland-showdown'],
 			loader: async () => (await import('./en/guides/swordland-showdown.json')).default
-		}
+		},
+		{
+			locale: 'en',
+			key: 'guides.tri-alliance-clash',
+			routes: ['/guides/tri-alliance-clash'],
+			loader: async () => (await import('./en/guides/tri-alliance-clash.json')).default
+		},
 	]
 };
 
