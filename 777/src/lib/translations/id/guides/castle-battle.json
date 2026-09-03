@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Pertempuran Kastel — Kingshot 777",
+    "description": "Panduan singkat Pertempuran Kastel Kingshot: cara tiga jenis poin dihitung, persiapan dan buff, hero pemimpin reli dan joiner menurut generasi, formasi pasukan, kontrol turret, dan taktik reli ganda."
+  },
+  "h1": "Pertempuran Kastel",
+  "common": {
+    "or": "atau"
+  },
+  "tldr": {
+    "heading": "Intinya",
+    "items": [
+      "<strong>Tiga hal memberi skor:</strong> pasukan musuh yang kamu bunuh, power yang kamu tempatkan di kastel atau turret, dan pasukanmu sendiri yang hilang. Kehilangan juga dibayar — ini bukan event yang bisa dimainkan terlalu aman.",
+      "<strong>Formasi:</strong> 50/20/30 untuk menyerang secara default, 50/0/50 melawan garnisun berat infanteri, 60/20/20 untuk reli yang merebut, 60/40/0 setelah kamu bertahan.",
+      "<strong>Pemimpin reli menjalankan buff; semua lainnya pasang shield.</strong> Buff kota, hewan peliharaan, dan skill eksekutif adalah tugas pemimpin. Siapa pun yang tidak ikut bertarung perlu shield damai 8 jam.",
+      "<strong>Ambil turret.</strong> Turret yang dikuasai musuh menembaki garnisunmu sepanjang kamu memegang kastel, dan makin parah semakin lama dibiarkan.",
+      "<strong>Siapkan Infirmary sebelum event.</strong> Tingkatkan, timbun percepatan healing, dan heal dalam batch kecil agar bantuan aliansi menutup lebih banyak.",
+      "<strong>Selalu tumpang tindih dengan All-Out atau KvK.</strong> Kill dan kehilangan memberi skor di keduanya, jadi run solo tetap bernilai bahkan dalam pertarungan yang tidak bisa kamu menangkan."
+    ]
+  },
+  "sections": {
+    "scoring": {
+      "heading": "Cara kerja skor",
+      "qa": [
+        {
+          "q": "Poin Carnage (poin KO)",
+          "a": "Diperoleh dengan membunuh pasukan musuh saat memperebutkan King's Castle dan turret-nya."
+        },
+        {
+          "q": "Poin okupasi",
+          "a": "Berdasarkan power pasukan yang kamu tempatkan di kastel atau turret, terkumpul selama kamu memegangnya. Bertahan dengan garnisun kuat yang terus diisi ulang membuat ini naik."
+        },
+        {
+          "q": "Poin korban",
+          "a": "Diperoleh dari pasukanmu sendiri yang terluka parah atau hilang. Kehilangan tidak terhindarkan, tetapi rotasi dan pengisian ulang tepat waktu mencegahnya menjadi pemborosan murni."
+        }
+      ]
+    },
+    "preparation": {
+      "heading": "Persiapan",
+      "items": [
+        "<strong>Buff adalah tugas pemimpin reli.</strong> Sebelum meluncurkan atau bertahan, jalankan buff kota 20% serangan dan 20% pertahanan, skill hewan peliharaan seperti Moose atau Grizzly Bear, dan skill eksekutifmu. Joiner tidak perlu membakarnya — hanya buff pemimpin yang berlaku pada reli.",
+        "<strong>Teleport ke sebelah kastel.</strong> Kapten reli butuh waktu perjalanan sesingkat mungkin, yang sangat penting saat reli harus disinkronkan satu sama lain.",
+        "<strong>Shield siapa pun yang tidak bertarung.</strong> Anggota yang offline, atau terlalu rendah level untuk menahan pasukan, sebaiknya berlindung di balik shield damai 8 jam. Pusat Kota tanpa shield adalah kill gratis bagi musuh.",
+        "<strong>Benahi Infirmary dulu.</strong> Lihat <a href=\"#infirmary\">Infirmary dan healing</a> — inilah hal yang paling sering kurang dipersiapkan aliansi."
+      ]
+    },
+    "rallyLeaderHeroes": {
+      "heading": "Hero pemimpin reli",
+      "intro": "Reli serangan ada untuk memecah garnisun, jadi fokusnya damage. Setelah kastel milikmu, tugasnya berubah menjadi bertahan dari pukulan berulang, jadi reli garnisun menumpuk pertahanan dan sustain. Setiap baris adalah tiga slot; jika dua potret dihubungkan dengan \"atau\", keduanya bisa dipakai — pilih berdasarkan rasiomu.",
+      "attack": {
+        "heading": "Reli serangan",
+        "table": {
+          "headers": {
+            "gen": "Gen",
+            "heroes": "Hero"
+          },
+          "rows": {
+            "gen3": "3",
+            "gen4": "4",
+            "gen5": "5",
+            "gen6": "6",
+            "gen7": "7"
+          }
+        }
+      },
+      "garrison": {
+        "heading": "Reli garnisun",
+        "table": {
+          "headers": {
+            "gen": "Gen",
+            "heroes": "Hero"
+          },
+          "rows": {
+            "gen3": "3",
+            "gen4": "4",
+            "gen5": "5",
+            "gen6": "6",
+            "gen7": "7"
+          }
+        }
+      },
+      "notes": [
+        "<strong>Gen 5:</strong> Thrudd kehilangan sebagian besar nilai skill-nya jika kamu memakai 5:0:5 tanpa kavaleri — ambil Petra dalam kasus itu.",
+        "<strong>Gen 6:</strong> Triton memberi infanteri banyak persentase serangan dan pertahanan dan jauh lebih mudah didapat daripada Amadeus, jadi dia pengganti yang bagus."
+      ]
+    },
+    "formations": {
+      "heading": "Formasi pasukan",
+      "items": [
+        "<strong>Serangan standar — 50% infanteri, 20% kavaleri, 30% pemanah.</strong> Default aman saat kamu tidak tahu apa yang duduk di kastel.",
+        "<strong>Melawan kastel berat infanteri — 50% infanteri, 0% kavaleri, 50% pemanah.</strong> Kavaleri melawan pemanah tetapi tumbang oleh infanteri, jadi turunkan mereka saat garnisun punya sedikit atau tanpa pemanah dan alihkan bobot itu ke pemanah.",
+        "<strong>Reli perebutan — 60% infanteri, 20% kavaleri, 20% pemanah.</strong> Untuk reli yang mengambil kastel yang sudah dilemahkan dan harus bertahan dari serangan balik. Lebih tanky daripada pasukan serangan murni tetapi masih membawa cukup damage untuk menyelesaikan pekerjaan.",
+        "<strong>Garnisun stabil — 60% infanteri, 40% kavaleri, 0% pemanah.</strong> Inilah yang kamu isi ulang setelah kastel menjadi milikmu dan bertahan adalah satu-satunya hal penting. Pemanah mati terlalu cepat untuk sepadan dengan slot."
+      ],
+      "outro": "Sesuaikan dengan level pasukan aliansimu dan apa yang dikerahkan musuh, tetapi ini bertahan sebagai aturan umum."
+    },
+    "rallyJoiners": {
+      "heading": "Joiner reli",
+      "intro": "Joiner hanya menyumbang hero slot pertama mereka, persis seperti reli Bear Trap. Joiner serangan membawa damage; joiner garnisun membawa buff defensif.",
+      "attack": {
+        "heading": "Joiner serangan",
+        "table": {
+          "headers": {
+            "priority": "Prioritas",
+            "heroes": "Hero"
+          },
+          "rows": {
+            "best": "Terbaik",
+            "upToGen7": "Hingga gen 7",
+            "balancedSpread": "Sebaran seimbang"
+          },
+          "notes": {
+            "upToGen7": "Hilde ada untuk mengisi celah stat.",
+            "balancedSpread": "Satu dari masing-masing di antara empat joiner menyebarkan buff skill ke semua tiga jenis pasukan, bukan menumpuk semuanya pada satu jenis."
+          }
+        }
+      },
+      "garrison": {
+        "heading": "Joiner garnisun",
+        "table": {
+          "headers": {
+            "priority": "Prioritas",
+            "heroes": "Hero"
+          },
+          "rows": {
+            "best": "Terbaik",
+            "upToGen7": "Hingga gen 7",
+            "simplest": "Paling sederhana"
+          },
+          "notes": {
+            "simplest": "Empat Saul, atau tiga Saul dan satu Fahd, untuk pengurangan damage datar. Tidak perlu koordinasi dan sulit salah — pilihan tepat saat aliansimu tidak bisa mengatur sebaran dengan andal."
+          }
+        }
+      },
+      "tips": [
+        "<strong>Pemimpin reli: ingatkan orang setiap kali.</strong> Hero slot pertama yang salah menghabiskan sebagian besar damage reli dan tidak ada yang sadar sampai laporan masuk.",
+        "<strong>Variasikan joiner defensif.</strong> Setiap skill ekspedisi defensif punya kekuatan berbeda, jadi rotasi hero dan baca musuh daripada mengirim empat yang sama setiap kali.",
+        "<strong>Konsistensi mengalahkan kesempurnaan.</strong> Jika mengoordinasikan sebaran hero terlalu sulit, garnisun yang diisi benar dengan satu jenis hero yang tepat masih mengalahkan campuran yang setengahnya salah."
+      ]
+    },
+    "holding": {
+      "heading": "Memegang kastel",
+      "items": [
+        "<strong>Isi ulang infanteri terus-menerus.</strong> Infanteri menyerap sebagian besar damage masuk, jadi selalu menjadi yang pertama habis. Jaga voice chat tetap aktif dan beri tahu begitu jumlah infanteri turun agar anggota bisa segera mengirim pasukan berat infanteri baru.",
+        "<strong>Jangan abaikan turret.</strong> Turret yang dikuasai musuh terus menembaki kastel, dan damage meningkat semakin lama mereka memegangnya. Kamu bisa memenangkan pertarungan kastel tetapi tetap membuat garnisunmu berdarah habis melalui turret yang tidak pernah kamu perebutkan.",
+        "<strong>Bagi aliansi menjadi dua tugas.</strong> Tempatkan whale dan pemimpin reli teratas untuk mengambil dan memegang kastel, lalu kirim reli tier menengah ke turret sekitar untuk mematikan damage masuk."
+      ]
+    },
+    "infirmary": {
+      "heading": "Infirmary dan healing",
+      "items": [
+        "<strong>Tingkatkan Infirmary sebelumnya</strong> jika aliansimu berniat bersaing. Pertarungan panjang dan pengisian ulang berulang memberi beban konstan.",
+        "<strong>Mulai simpan percepatan healing beberapa hari sebelum event.</strong>",
+        "<strong>Heal dalam batch kecil</strong> dan minta bantuan aliansi setiap kali — ini membuang jauh lebih sedikit percepatan daripada satu heal besar."
+      ]
+    },
+    "advancedTactics": {
+      "heading": "Taktik lanjutan",
+      "items": [
+        "<strong>Buka dengan serangan solo.</strong> Begitu kastel terbuka, jika kamu cukup kuat, masuk solo dengan percepatan march dan kumpulkan waktu okupasi gratis.",
+        "<strong>Sinkronkan reli ganda.</strong> Saat satu reli tidak bisa menggeser defender, minta dua atau lebih pemimpin melakukan reli pada target yang sama, bandingkan waktu march, dan hitung mundur di voice agar setiap pasukan tiba pada detik yang sama. Kedatangan bertahap hanya memberi defender waktu mengisi ulang di antara pukulan.",
+        "<strong>Varian: pelemah lalu perebut.</strong> Melawan kastel yang ditumpuk cukup tinggi sehingga pukulan gabungan tetap akan membuatmu kalah medan, bagi dua reli berdasarkan peran, bukan mendaratkannya bersama. Reli 1 masuk dengan hero serangan pada 50/20/30 hanya untuk memecah infanteri garis depan dan mendorong pasukan mereka ke Infirmary. Reli 2 tiba 2 sampai 5 detik kemudian dengan hero garnisun pada 60/20/20, mengambil kastel yang sudah lemah dan cukup tinggal sebagai garnisun. Jaraknya harus kecil — terlalu lama dan defender mengisi ulang, kegagalan persis yang ingin dihindari pendekatan tersinkron.",
+        "<strong>Counter-rally untuk memangkas waktu okupasi musuh.</strong> Kamu tidak bisa reli kastel sendiri, jadi pegang dengan aliansi A dan siapkan aliansi B. Saat musuh melakukan reli ke A, B melakukan reli ke kastel <em>setelah</em> mereka — cukup terlambat agar B tidak pernah tiba lebih dulu, atau kamu akan melawan kerajaan sendiri dan memberi musuh kemenangan gratis. Jika musuh gagal, batalkan B. Jika mereka mengambil kastel, B langsung mengambilnya kembali, memegang sebentar, lalu mengeluarkan pasukannya saat pasukan solo A tiba sehingga A kembali mengumpulkan waktu okupasi. Ini butuh komunikasi terus-menerus, dan pemain musuh bisa merebut kastel di celah serah terima."
+      ]
+    }
+  },
+  "images": {
+    "points": {
+      "alt": "Panel My Points dalam game yang menampilkan total poin terbagi menjadi poin KO, poin Okupasi, dan poin Korban.",
+      "caption": "Skormu adalah jumlah dari tiga kategori."
+    }
+  },
+  "source": "Mekanika event dari <a href=\"https://kingshotwiki.com/events/castle-battle/\" rel=\"noreferrer\">kingshotwiki.com — Pertempuran Kastel</a>, dengan tambahan dari pengalaman aliansi."
+}

@@ -2,17 +2,40 @@
 	import type { Snippet } from 'svelte';
 	import { afterNavigate } from '$app/navigation';
 	import { base } from '$app/paths';
+	import { browser } from '$app/environment';
+	import { page } from '$app/state';
 	import favicon from '$lib/assets/favicon.svg';
 	import Sidebar from '$lib/components/Sidebar.svelte';
-	import { t } from '$lib/translations/i18n';
+	import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
+	import { t, locale, loadTranslations } from '$lib/translations/i18n';
+	import { dirFor, readSavedLocale } from '$lib/locales';
 
 	let { children }: { children: Snippet } = $props();
 
 	let open = $state(false);
 
-	// Without this the drawer stays over the page it just opened.
-	afterNavigate(() => {
+	// Keep the document's language and text direction in sync with the active
+	// locale so Arabic renders right-to-left and screen readers announce the
+	// correct language.
+	$effect(() => {
+		const code = $locale;
+		if (!code) return;
+		document.documentElement.lang = code;
+		document.documentElement.dir = dirFor(code);
+	});
+
+	// Runs after every navigation, including the initial one right after
+	// hydration. Applying the saved locale here (rather than in +layout.ts's
+	// load) guarantees a real post-mount locale transition, which is what makes
+	// server-rendered {@html} content re-render in the chosen language.
+	afterNavigate(async () => {
 		open = false;
+		if (!browser) return;
+		const target = readSavedLocale();
+		if (target === $locale) return;
+		const route = page.url.pathname.slice(base.length) || '/';
+		await loadTranslations(target, route);
+		locale.set(target);
 	});
 </script>
 
@@ -42,6 +65,7 @@
 
 	<aside id="sidebar" class="sidebar">
 		<a class="brand" href="{base}/">{$t('common.layout.brandTitle')}</a>
+		<LanguageSwitcher />
 		<Sidebar />
 	</aside>
 
@@ -129,6 +153,14 @@
 		border-right: 1px solid var(--border);
 		transform: translateX(-100%);
 		transition: transform 200ms ease;
+	}
+
+	:global([dir='rtl']) .sidebar {
+		left: auto;
+		right: 0;
+		border-right: 0;
+		border-left: 1px solid var(--border);
+		transform: translateX(100%);
 	}
 
 	.shell.open .sidebar {

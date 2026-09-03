@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "剑境对决 — Kingshot 777",
+    "description": "Kingshot 剑境对决成员指南：真正得分的内容、地图、15 分钟解锁节点、你的战场职责、小队配置、治疗以及生存方法。"
+  },
+  "h1": "剑境对决",
+  "tldr": {
+    "heading": "速览",
+    "items": [
+      "<strong>每两周一次，战斗固定在周日，持续整整 1 小时。</strong>两个联盟各派一个军团，最多 30 名战斗成员加 10 名替补。",
+      "<strong>部队只会受伤，不会死亡。</strong>离开战场时全部免费治疗。大胆进攻。",
+      "<strong>两条独立奖励线。</strong>联盟奖励取决于军团 1 的胜负；个人奖励取决于你的个人遗迹积分排名。败方高分玩家的收益会超过胜方划水者。",
+      "<strong>开始前清空医务所。</strong>有受伤部队等待治疗时无法进入。",
+      "<strong>出生区没人能得分。</strong>积分来自行动。"
+    ]
+  },
+  "sections": {
+    "before": {
+      "heading": "进入前",
+      "items": [
+        "<strong>清空医务所。</strong>这是硬性要求——有待治疗伤兵会完全阻止入场。",
+        "<strong>报名了就要到场。</strong>缺席仍会计入己方战力评估，却没有任何贡献。",
+        "<strong>替补只会在前 3 分钟（180 秒）自动补位</strong>，先到先得。如果你是替补，开场哨响就守在入口。",
+        "<strong>提前治疗并召回队伍。</strong>满状态入场。"
+      ]
+    },
+    "whatActuallyScores": {
+      "heading": "真正得分的内容",
+      "firstControlBonus": {
+        "heading": "首次控制奖励",
+        "body": "占领计时结束后，最先完全占领建筑的联盟会获得一大笔一次性的联盟<em>和</em>个人奖励。仅首次占领剑之圣坛就有 9,000 联盟 / 4,500 个人遗迹积分，而第一阶段所有建筑的首次控制合计为 26,400 遗迹积分。这就是开局分散比集中一个目标更好的原因。"
+      },
+      "occupation": {
+        "heading": "持续占领",
+        "table": {
+          "headers": {
+            "building": "建筑",
+            "alliancePointsPerMinute": "联盟积分 / 分钟",
+            "personalPointsPerMinute": "个人积分 / 分钟"
+          },
+          "rows": [
+            {
+              "building": "剑之圣坛",
+              "alliancePointsPerMinute": "1,800",
+              "personalPointsPerMinute": "900"
+            },
+            {
+              "building": "圣所",
+              "alliancePointsPerMinute": "1,200",
+              "personalPointsPerMinute": "600"
+            },
+            {
+              "building": "修道院",
+              "alliancePointsPerMinute": "600",
+              "personalPointsPerMinute": "300"
+            },
+            {
+              "building": "增益建筑",
+              "alliancePointsPerMinute": "240",
+              "personalPointsPerMinute": "120"
+            }
+          ]
+        },
+        "holdBonus": "<strong>30 分钟持有奖励：</strong>当你的联盟连续持有某建筑 30 分钟后，它会开始以更高倍率产出个人遗迹积分——补丁说明没有写具体数值。接近这个门槛的建筑价值高于基础产出，无论防守还是抢夺都更值得。"
+      },
+      "bankedPoints": {
+        "heading": "存量积分与辎重车",
+        "body": "建筑累计联盟积分的 50% 会可见地显示在建筑上方。失去该建筑时，这些积分会以<strong>辎重车</strong>形式掉在地上，双方都能派队拾取，并同时计入联盟和个人积分。拾取不是自动的——无论是你的建筑还是对方建筑翻转，立刻派队去拿。"
+      },
+      "defeatingTroops": {
+        "heading": "击败部队",
+        "table": {
+          "headers": {
+            "situation": "情境",
+            "personalPointsPerPower": "每击败 10,000 敌方士兵战力获得的个人积分"
+          },
+          "rows": [
+            {
+              "situation": "进攻",
+              "personalPointsPerPower": "80"
+            },
+            {
+              "situation": "防守",
+              "personalPointsPerPower": "40"
+            }
+          ]
+        },
+        "body": "击杀<strong>只给个人积分</strong>——完全不给联盟积分。进攻收益大约是防守的两倍，在高战王国里，纯靠战斗几分钟就可能打满个人上限。"
+      },
+      "undercellars": {
+        "heading": "地下酒窖",
+        "body": "刷新在剑之圣坛周围、没有标记的采集点。用小地图上的放大镜找到它们，然后像采资源点一样派队过去。它们比建筑慢，但通常没人争，是低战玩家可靠且安全的收入来源。战斗后期总计可值 20–40k 积分——别忽视。"
+      }
+    },
+    "map": {
+      "heading": "地图",
+      "table": {
+        "headers": {
+          "building": "建筑",
+          "whatItDoes": "作用",
+          "whyYouCare": "为什么重要"
+        },
+        "rows": [
+          {
+            "building": "剑之圣坛",
+            "whatItDoes": "地图中心，15 分钟时开放。",
+            "whyYouCare": "全场最高积分流。主要目标——但不是获胜的必要条件。"
+          },
+          {
+            "building": "圣所 ×2",
+            "whatItDoes": "位于圣坛两侧，开局开放。",
+            "whyYouCare": "真正的积分引擎。整场至少要守住一个。"
+          },
+          {
+            "building": "修道院 ×4",
+            "whatItDoes": "开局开放。",
+            "whyYouCare": "稳定收入和容易拿的首次控制奖励。"
+          },
+          {
+            "building": "皇家马厩",
+            "whatItDoes": "增益：全联盟免费高级迁城冷却减半。",
+            "whyYouCare": "第一阶段首选。机动性决定地图胜负。"
+          },
+          {
+            "building": "钟楼",
+            "whatItDoes": "增益：建筑占领时间减半。",
+            "whyYouCare": "第一阶段最高优先级增益，因为每个首次控制奖励都很高。"
+          },
+          {
+            "building": "改革大厅",
+            "whatItDoes": "增益：你的联盟 +15% 攻击和 15% 减伤。15 分钟时开放。",
+            "whyYouCare": "开放瞬间就拿下——它会作用于之后所有战斗。"
+          },
+          {
+            "building": "佣兵营",
+            "whatItDoes": "15 分钟时开放。向敌方控制的建筑派出佣兵。",
+            "whyYouCare": "佣兵击杀不给个人战斗积分。只在你的集结前用来削弱目标，不要单独使用。"
+          },
+          {
+            "building": "地下酒窖",
+            "whatItDoes": "在圣坛附近分波刷新的无标记节点。",
+            "whyYouCare": "给打不赢战斗的人提供无人争抢的积分。"
+          }
+        ]
+      }
+    },
+    "timeline": {
+      "heading": "时间线",
+      "table": {
+        "headers": {
+          "phase": "阶段",
+          "clock": "时间",
+          "whatMatters": "关键事项"
+        },
+        "rows": [
+          {
+            "phase": "1 — 开局",
+            "clock": "0–15 分钟",
+            "whatMatters": "2 个圣所、4 个修道院、钟楼和皇家马厩开放。<br /> 优先级：皇家马厩 → 钟楼 → 一个圣所 → 修道院。<br /> 分散行动，尽量拿更多首次控制奖励。<br /> 最强玩家可以同时压制敌方城市，把防守者从建筑里拉出来。"
+          },
+          {
+            "phase": "2 — 中盘",
+            "clock": "从 15:00 整开始（第 900 秒）",
+            "whatMatters": "剑之圣坛、改革大厅和佣兵营解锁。<br /> 立即拿下改革大厅；该增益会作用于之后所有战斗。<br /> 放弃圣所和修道院、把所有力量都塞进剑之圣坛是败招。<br /> 如果圣坛争夺过于激烈，就转为守住两个圣所，以及钟楼、改革大厅和修道院。"
+          },
+          {
+            "phase": "3 — 后期",
+            "clock": "15 分钟和 20 分钟后",
+            "whatMatters": "地下酒窖波次在 15 分钟和 20 分钟刷新。<br /> 最后 5–10 分钟是翻盘窗口。<br /> 存量积分很高的敌方建筑是最高价值目标，因为翻转它们会掉落大量辎重车。"
+          }
+        ]
+      }
+    },
+    "roles": {
+      "heading": "你的职责",
+      "items": [
+        {
+          "heading": "进攻者",
+          "body": "迁到正在争夺或防守薄弱的建筑旁，发起集结，烧敌方城市迫使玩家从驻防中迁走，然后继续转移。黄金规则：<strong>进攻者负责占领并转移，不要坐在驻防里。</strong>"
+        },
+        {
+          "heading": "防守者 / 加入者",
+          "body": "驻防分配给你的建筑，保留足够强的前 3 名英雄在家以保证生存，填满驻防位让敌人无法单人拿楼，并支援邻近队友。如果更强玩家给你增援，而你随后迁走，他的驻防部队会跟着你。"
+        },
+        {
+          "heading": "采集者 / 支援",
+          "body": "建筑翻转瞬间就追辎重车，采集地下酒窖，并用副队加入集结。你可以从安全区内派出队伍而不暴露城市——这是免费玩家的得分路线，而且确实有效。"
+        }
+      ]
+    },
+    "squadSetup": {
+      "heading": "小队配置",
+      "items": [
+        "<strong>兵种比例：</strong>大多数时候用 50/20/30 步兵/骑兵/弓兵。使用 Alcar、Margot 或 Saul 时用 60/40/0，因为他们的技能偏骑兵和步兵。",
+        "<strong>进攻和防守本质相同。</strong>击杀会在每个小回合结束时同时结算，所以双方都不需要“更肉”。真正的区别只是英雄的小组件在哪种场景触发，因此最好的进攻和防守英雄，简单来说就是最新世代且小组件类型匹配的英雄。防守不需要更多步兵，也不需要专门的“防御型”加入者。",
+        "<strong>单人进攻</strong>时，使用你已投入培养且世代最高的英雄。"
+      ],
+      "pvpJoinerHeroes": {
+        "heading": "PvP 加入者英雄",
+        "intro": "进攻和防守都选同样的英雄：",
+        "or": "或"
+      }
+    },
+    "healingAndMobility": {
+      "heading": "治疗与机动性",
+      "items": [
+        "<strong>活动期间不能批量治疗</strong>——只能用治疗加速，而且活动会缓慢发放免费的 1 小时治疗加速。",
+        "<strong>退出治疗。</strong>点击顶部计分板并选择<em>离开战场</em>，即可瞬间免费治疗全部部队。之后需要等待 12 分钟才能重新进入。当伤兵达到几十万时，这一趟往返比半残继续打更划算。",
+        "<strong>临近结束不要浪费治疗加速。</strong>部队不会死亡，活动期间医务所不会爆满，活动结束后全部自动治疗。",
+        "<strong>免费行军加速：</strong>活动专用的永久 +25% 行军速度次数每分钟累积 1 个，上限 10（有些来源说开局有 5 个、最多可存 30 个）。无论哪种说法，囤着不用都是错误——该用就用。",
+        "<strong>免费高级迁城</strong>大约每 10–12 分钟一次；如果你的联盟持有皇家马厩，冷却减半。在免费次数恢复前再次迁城会消耗高级迁城道具，且价格递增（每次 +1），所以两次免费之间付费跳一次可以，连续多次不行。"
+      ]
+    },
+    "stayingAlive": {
+      "heading": "生存技巧",
+      "items": [
+        "<strong>如果强很多的玩家攻击你，优先避免受伤。</strong>把部队派到城市旁的空地、直接迁走，或在足以守住的情况下召回前 3 名英雄。",
+        "<strong>这里的警卫站会承受大幅提高的伤害。</strong>如果不花宝石灭火，10–20 秒就足以把你的城市强制传回家。",
+        "<strong>向更强的玩家请求增援。</strong>即使你迁城，他们的驻防部队也会跟着你。",
+        "<strong>购买 2 小时反侦察</strong>（约 400 宝石），避免被侦察，并使用你所有攻击和防御增益——10% 或 20% 宝石增益是乘算而不是加算。",
+        "<strong>进攻前多侦察</strong>，并大胆使用 1 分钟集结。",
+        "<strong>你不必贴着建筑待着。</strong>停在目标旁的空地会让你成为容易攻击的靶子。待在安全区或建筑之间的空白区域，依靠免费行军加速行动。",
+        "<strong>如果你打伤了超过约 ~80,000 部队，即使进攻失败也算赚。</strong>后续每次攻击都会更容易。防守时同理：己方受伤低于 80k 就是划算交换。",
+        "<strong>不要把所有队伍都砸向一个目标</strong>，除非对方已经低于约 ~100,000 部队。只有主队能造成真正伤害，其余只是送死。",
+        "<strong>不要把主队派得太远</strong>，除非有强力副队或朋友在保护你的城市。"
+      ]
+    },
+    "commonMistakes": {
+      "heading": "常见错误",
+      "items": [
+        "<strong>坐在出生区什么都不做。</strong>你会得 0 分。",
+        "<strong>把迁城和行军加速囤到活动结束。</strong>",
+        "<strong>只追剑之圣坛</strong>，却丢掉真正产分的圣所和修道院。",
+        "<strong>忽视地下酒窖和辎重车。</strong>没人争的免费积分。",
+        "<strong>进攻者停在驻防里</strong>，而不是转向下一个目标。",
+        "<strong>医务所满着就入场</strong>，或报名后忘记到场。",
+        "<strong>最后几分钟浪费治疗加速</strong>，明明结束后全部会免费治疗。"
+      ]
+    }
+  },
+  "source": "来源：<a href=\"https://kingshotwiki.com/events/swordland-showdown/\" rel=\"noreferrer\">kingshotwiki.com — 剑境对决</a>、<a href=\"https://kingshotmastery.com/guides/swordland-showdown\" rel=\"noreferrer\">kingshotmastery.com — 剑境对决指南</a>、<a href=\"https://kingshotpro.com/swordland-showdown-guide.html\" rel=\"noreferrer\">kingshotpro.com — 剑境对决指南</a>。具体积分数值和建筑布局可能随补丁变化——请以你自己的战场界面为准。"
+}

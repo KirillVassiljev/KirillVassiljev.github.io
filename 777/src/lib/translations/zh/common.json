@@ -1,0 +1,31 @@
+{
+	"layout": {
+		"brandTitle": "Kingshot 777",
+		"toggleNav": "切换导航",
+		"closeNav": "关闭导航",
+		"language": "语言"
+	},
+	"sidebar": {
+		"ariaLabel": "网站分区"
+	},
+	"nav": {
+		"section": {
+			"guides": "指南",
+			"tools": "工具"
+		},
+		"item": {
+			"bear": "猎熊",
+			"allaince-championship": "联盟锦标赛",
+			"strongest-governor": "最强执政官",
+			"vikings": "维京复仇",
+			"castle-battle": "城堡争夺战",
+			"tri-alliance-clash": "三盟争霸",
+			"swordland-showdown": "剑境对决",
+			"timeline": "时间线"
+		}
+	},
+	"home": {
+		"title": "Kingshot 777",
+		"description": "指南、梯队榜和发展顺序。从侧边栏选择一个主题。"
+	}
+}

@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "title": "Bentrokan Tiga Aliansi — Kingshot 777",
+    "description": "Panduan ramah pemula untuk Bentrokan Tiga Aliansi Kingshot: siklus bulanan, syarat masuk, energi, setup squad, skor, fase, pembagian peran 30 pemain, dan endgame temple."
+  },
+  "h1": "Bentrokan Tiga Aliansi",
+  "tldr": {
+    "heading": "Intinya",
+    "items": [
+      "<strong>Tiga aliansi, 60 menit, setiap empat minggu.</strong> Poin datang dari memegang bangunan, dan pemenangnya biasanya siapa pun yang memegang temple di akhir.",
+      "<strong>Temple of Tides terbuka pada menit 40.</strong> Perebutan pertama membayar 50,000 poin satu kali, lalu 1,800 poin per menit selama kamu memegangnya. Semua sebelum phase 4 adalah setup untuk pertarungan itu.",
+      "<strong>Energi adalah batas nyatamu.</strong> Bergerak, merebut, charging, retreat, revive, dan conscript semuanya memakainya. Tiba pada menit 20 dan menit 40 dengan cadangan.",
+      "<strong>Tetap di lane-mu.</strong> Enam lane, masing-masing satu pemain utama. Lane yang runtuh menjadi lubang di petamu selama sisa event.",
+      "<strong>Dua supporter menjaga setiap pemain utama tetap hidup.</strong> Mereka bergiliran maju saat pemain utama heal, jadi tidak ada yang harus berjalan respawn 2 menit dari HQ.",
+      "<strong>Lima squad untuk melewati bangunan.</strong> Itulah kenapa pasukan khusus enam pemain (18 squad) bisa menerobos langsung wilayah musuh.",
+      "<strong>Pasukan khusus tidak pernah berpencar.</strong> Tugasnya menerobos dan membuat kekacauan, bukan memenangkan duel.",
+      "<strong>Jangan terlalu maju.</strong> Dorong hanya secepat supporter-mu bisa mengikuti, dan tetap dekat bangunan jangkar."
+    ]
+  },
+  "sections": {
+    "firstClash": {
+      "heading": "Jika ini bentrokan pertamamu",
+      "items": [
+        "<strong>Pastikan terdaftar.</strong> Beri tahu R4/R5 kamu ingin ikut selama jendela pendaftaran. Kamu tidak bisa mendaftar sendiri.",
+        "<strong>Siapkan tiga preset squad sebelum masuk.</strong> Kamu tidak bisa menyusun ulang pasukan dengan tenang setelah waktu berjalan.",
+        "<strong>Pelajari lane dan peranmu di fase persiapan 3 menit.</strong> Tanyakan bangunan mana milikmu dan siapa supporter-mu.",
+        "<strong>Ambil bangunan yang ditugaskan</strong> begitu fase terbuka. Jangan improvisasi.",
+        "<strong>Tetap di lane-mu.</strong> Lane yang kosong menjadi lubang selama sisa jam.",
+        "<strong>Jangan mengejar kill.</strong> Kill tidak memberi skor langsung. Bangunan dan waktu yang melakukannya.",
+        "<strong>Simpan energi untuk menit 20 dan menit 40.</strong> Itu dua momen saat match benar-benar ditentukan."
+      ]
+    },
+    "scoring": {
+      "heading": "Apa yang benar-benar memberi skor",
+      "table": {
+        "headers": [
+          "Sumber",
+          "Terbuka",
+          "Poin"
+        ],
+        "rows": [
+          {
+            "source": "Garnisun",
+            "opens": "Menit 20",
+            "points": "1,800 per menit ditahan"
+          },
+          {
+            "source": "Temple of Tides",
+            "opens": "Menit 40",
+            "points": "50,000 satu kali untuk perebutan pertama, lalu 1,800 per menit ditahan"
+          },
+          {
+            "source": "Bangunan dan reruntuhan",
+            "opens": "Dari phase 2",
+            "points": "Pemasukan per menit lebih kecil"
+          },
+          {
+            "source": "Kill",
+            "opens": "—",
+            "points": "Tidak ada poin langsung"
+          }
+        ]
+      },
+      "items": [
+        "<strong>50,000 itu untuk merebut Temple pertama, bukan untuk memegangnya saat peluit.</strong> Jika aliansi lain merebutnya lebih dulu, match belum selesai — merebut kembali dan memegangnya tetap membayar 1,800 per menit, dan dua puluh menit dari itu mengalahkan bonusnya.",
+        "<strong>Kill hanya penting sebagai sarana.</strong> Kamu membunuh untuk membuka bangunan atau mempertahankannya. Membunuh demi kill itu sendiri menghabiskan energi dan tidak membeli apa pun."
+      ]
+    },
+    "energy": {
+      "heading": "Energi",
+      "body": "Inilah mekanik yang paling sering membuat pemula kalah. Energi dipakai untuk bergerak, merebut, charging, retreat, revive, dan conscript. Habis, dan kamu tidak bisa menjawab panggilan Garrison atau Temple, sekuat apa pun akunmu.",
+      "items": [
+        "<strong>Jangan bakar energi mengejar kill di 20 menit pertama.</strong> Targetkan masih punya cadangan sehat pada menit 20, dan lagi pada menit 40.",
+        "<strong>Tunjuk Captain setelah merebut titik.</strong> Itu meningkatkan pemulihan energi, salah satu alasan pemain R4+ di medan membantu.",
+        "<strong>Mundur satu bangunan untuk heal dan conscript</strong> di luar pertarungan. Itu lebih murah daripada instant revive, dan jauh lebih murah daripada mati lalu berjalan ~2 menit dari HQ.",
+        "<strong>Meninggalkan medan perang punya cooldown masuk ulang</strong> — umum disebut sekitar 12 menit. Sebagian besar buff akun tetap berlaku di medan, kecuali beberapa efek kecepatan dan kapasitas march."
+      ]
+    },
+    "squadSetup": {
+      "heading": "Setup squad",
+      "intro": "Kamu menurunkan tiga pasukan, jadi sembilan hero berotasi. Buat ketiganya sebagai preset <strong>sebelum</strong> masuk:",
+      "presets": [
+        "<strong>Squad 1 — squad tempur terkuat.</strong> Untuk bangunan tekanan tinggi dan cap yang diperebutkan.",
+        "<strong>Squad 2 — squad stabil.</strong> Support lane dan reinforcement; harus bertahan, bukan meledakkan damage.",
+        "<strong>Squad 3 — squad fleksibel.</strong> Rute, cover pemulihan, perebutan ulang."
+      ],
+      "items": [
+        "<strong>Jangan meratakan ketiganya hanya agar angka power terlihat seimbang.</strong> Setiap squad butuh tugas; tiga pasukan medioker identik tidak melakukan satu pun dengan baik.",
+        "<strong>Tidak ada rasio formasi universal.</strong> Itu bergantung pada pasukanmu, hero-mu, lawan, dan apakah kamu menyerang atau memegang.",
+        "<strong>Pertimbangkan menahan satu pasukan kuat</strong> untuk timing Garrison menit 20 dan Temple menit 40."
+      ]
+    },
+    "eventFormat": {
+      "heading": "Format event",
+      "items": [
+        "<strong>Power prajurit tidak digunakan untuk matchmaking.</strong> Kamu bisa dipasangkan melawan aliansi yang jauh lebih kuat, jadi struktur dan disiplin adalah hal yang bisa kamu kendalikan.",
+        "<strong>Kamu tidak bisa keluar dari aliansi</strong> setelah masuk medan perang."
+      ]
+    },
+    "phases": {
+      "heading": "Fase",
+      "table": {
+        "headers": [
+          "Fase",
+          "Waktu",
+          "Yang penting"
+        ],
+        "rows": [
+          {
+            "phase": "1 — Persiapan",
+            "clock": "0–3 min",
+            "matters": "R4/R5 menaruh mark di peta. <br> Semua orang memastikan lane dan perannya."
+          },
+          {
+            "phase": "2 — Rebut &amp; Taklukkan",
+            "clock": "3–20 min",
+            "matters": "Garrison ber-shield dan tidak bisa disentuh. <br> Pemain utama cepat mengambil keypoint lane mereka, <br> supporter menetap di bangunan di belakangnya, <br> tim reaksi menyapu bangunan netral di pusat. <br> Amankan Transit Hubs dan bangunan rute yang kamu perlukan nanti."
+          },
+          {
+            "phase": "3 — Okupasi Garrison",
+            "clock": "20-40 min",
+            "matters": "A24, B24, dan C24 terbuka dan membayar 1,800 per menit.<br> Prioritas 1 adalah memegang garrison <em>sendiri</em>; prioritas 2 adalah mengambil milik musuh.<br> Mulai regroup menuju Temple sebelum menit 40, bukan saat menit 40.<br> Pasukan khusus paling aktif di sini."
+          },
+          {
+            "phase": "4 — Serbuan Temple",
+            "clock": "40-60 min",
+            "matters": "Serang Temple of Tides dalam satu ledakan terkoordinasi, bukan satu pasukan satu per satu.<br> Pertahankan rute akses di sekitar A29, B29, dan C29.<br> Fase ini menentukan match."
+          }
+        ]
+      }
+    },
+    "roles": {
+      "heading": "Peran",
+      "table": {
+        "headers": [
+          "Peran",
+          "Pemain",
+          "Tugas"
+        ],
+        "rows": [
+          {
+            "role": "Pemain utama",
+            "players": "6",
+            "job": "Satu per lane. Segera rebut keypoint lane, lalu pegang garis depan dan jauhkan musuh dari interior."
+          },
+          {
+            "role": "Supporter",
+            "players": "12",
+            "job": "Dua per pemain utama. Duduk di bangunan di belakang keypoint, maju hanya saat pemain utama perlu heal, dan jangan pernah membiarkan keypoint kosong."
+          },
+          {
+            "role": "Pasukan komandan khusus",
+            "players": "6",
+            "job": "Satu grup penerobos. Melewati bangunan bernilai rendah, mengambil struktur tanpa penjaga jauh di wilayah musuh, dan memaksa rotasi musuh."
+          },
+          {
+            "role": "Tim reaksi",
+            "players": "6 (2 × 3)",
+            "job": "Ambil bangunan netral pusat di awal, lalu bergerak fleksibel: rebut ulang bangunan yang hilang dan bantu lane mana pun yang tertekan."
+          },
+          {
+            "role": "Komandan",
+            "players": "2",
+            "job": "Hanya manajemen buff. Tidak bertarung di lane."
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "Kenapa pasukan khusus berhasil?",
+          "a": "Melewati bangunan tanpa merebutnya membutuhkan lima squad. Enam pemain yang masing-masing membawa tiga squad berarti 18 squad, cukup untuk melewati berulang kali dan menjangkau medan cepat. Pecah grupnya dan itu berhenti bekerja — tidak ada yang punya lima squad sendirian."
+        },
+        {
+          "q": "Siapa yang sebaiknya menjadi komandan?",
+          "a": "Pemain lebih kecil yang sangat aktif dan bisa tetap fokus selama 60 menit penuh. Timing buff mengubah pertarungan lane dan battle temple, jadi ini pekerjaan nyata, bukan tempat menaruh orang lemah dan tidak perhatian."
+        }
+      ]
+    },
+    "map": {
+      "heading": "Peta",
+      "body": "Enam lane mengarah ke satu pusat. Lane 1, 4, dan 5 berada di separuh atas, lane 2, 3, dan 6 di separuh bawah; garrison dan pendekatan temple adalah satu-satunya objektif yang menentukan skor."
+    },
+    "healingRotation": {
+      "heading": "Rotasi healing",
+      "body": "Inilah mekanik yang membedakan aliansi terorganisir dari kerumunan. Saat pemain utama mulai rendah:",
+      "steps": [
+        "Satu supporter maju dan mengambil alih garis depan.",
+        "Pemain utama mundur sebentar untuk heal.",
+        "Pemain utama kembali begitu sudah sembuh.",
+        "Supporter mundur kembali ke bangunan jangkar di belakang keypoint."
+      ],
+      "outro": "Lane tidak pernah sepi, keypoint tidak pernah kosong, dan tidak ada yang harus berjalan dua menit kembali dari HQ setelah mati."
+    },
+    "commonMistakes": {
+      "heading": "Kesalahan umum",
+      "items": [
+        "<strong>Terlalu maju.</strong> Dorongan solo terlalu dalam memutusmu dari supporter dan memberi musuh kill gratis.",
+        "<strong>Memecah pasukan khusus.</strong> Di bawah lima squad, mereka tidak bisa melewati bangunan, dan seluruh nilainya hilang.",
+        "<strong>Supporter maju terlalu jauh.</strong> Kekuatan mereka adalah stabilitas. Supporter agresif adalah keypoint yang sebentar lagi hilang.",
+        "<strong>Tim reaksi berotasi tanpa alasan.</strong> Mereka harus bergerak saat lane benar-benar bermasalah, bukan mengejar setiap skirmish.",
+        "<strong>Rotasi ke temple terlalu terlambat.</strong> Lane harus berkumpul bersama; tiba sepotong-sepotong berarti dikalahkan sepotong-sepotong."
+      ]
+    },
+    "faq": {
+      "heading": "FAQ pemula",
+      "qa": [
+        {
+          "q": "Aku baru — satu hal apa yang harus kubenahi?",
+          "a": "Tetap di lane-mu dan simpan energi. Semua lainnya masih bisa diakali R4-mu; dua hal itu tidak."
+        },
+        {
+          "q": "Apakah kill penting?",
+          "a": "Hanya sebagai sarana untuk memegang bangunan atau membuka bangunan. Tidak ada poin untuk kill itu sendiri, dan duel yang tidak perlu menghabiskan energi yang kamu butuhkan pada menit 40."
+        },
+        {
+          "q": "Bagaimana jika musuh merebut Temple lebih dulu?",
+          "a": "Rebut kembali. Mereka mendapat 50,000 satu kali, tetapi 1,800 per menit tetap aktif bagi siapa pun yang memegangnya — dan ada hingga dua puluh menit itu di meja."
+        },
+        {
+          "q": "Haruskah memakai instant revive?",
+          "a": "Biasanya tidak. Mundur satu bangunan, heal dan conscript di luar pertarungan. Instant revive membakar energi yang kamu butuhkan untuk panggilan berikutnya."
+        },
+        {
+          "q": "Perlukah voice chat?",
+          "a": "Sangat disarankan. Panggilan garrison menit 20 dan dorongan temple menit 40 terjadi terlalu cepat untuk dikoordinasikan lewat teks."
+        }
+      ]
+    }
+  },
+  "images": {
+    "map": {
+      "alt": "Skema medan perang: enam lane, masing-masing dengan keypoint dan bangunan jangkar di belakangnya, bertemu di Temple of Tides pusat. Lane 1, 4, dan 5 adalah separuh atas, lane 2, 3, dan 6 separuh bawah. Garrison A24, B24, dan C24 berada di samping, rute pendekatan A29, B29, dan C29 mengelilingi temple, dan dua bangunan netral berada dekat pusat.",
+      "title": "Skema lane dan objektif",
+      "caption": "Hanya skema, bukan peta dalam game. Setiap lane adalah keypoint dengan bangunan jangkar di belakangnya; setiap lane menuju temple."
+    },
+    "healingRotation": {
+      "alt": "Loop healing empat langkah: supporter maju ke garis depan, pemain utama mundur untuk heal, pemain utama kembali, supporter mundur ke bangunan jangkar. Keypoint tidak pernah dibiarkan kosong.",
+      "title": "Rotasi healing empat langkah",
+      "caption": "Rotasi berjalan searah jarum jam dan berulang; garis depan selalu terisi."
+    }
+  },
+  "mapDiagram": {
+    "upperHalf": "Separuh atas — lane 1, 4, 5",
+    "lowerHalf": "Separuh bawah — lane 2, 3, 6",
+    "anchors": {
+      "one": "Jangkar 1",
+      "two": "Jangkar 2",
+      "three": "Jangkar 3",
+      "four": "Jangkar 4",
+      "five": "Jangkar 5",
+      "six": "Jangkar 6"
+    },
+    "keypoints": {
+      "one": "K1",
+      "two": "K2",
+      "three": "K3",
+      "four": "K4",
+      "five": "K5",
+      "six": "K6"
+    },
+    "neutral": "Netral",
+    "reactionTeams": "tim reaksi",
+    "routes": {
+      "a29": "A29",
+      "b29": "B29",
+      "c29": "C29"
+    },
+    "temple": {
+      "line1": "Temple",
+      "line2": "of Tides"
+    },
+    "garrisons": "Garrison",
+    "garrisonIds": {
+      "a24": "A24",
+      "b24": "B24",
+      "c24": "C24"
+    },
+    "unlock": "terbuka min 20"
+  },
+  "healingDiagram": {
+    "steps": {
+      "one": {
+        "number": "1",
+        "title": "Supporter maju",
+        "subtitle": "mengambil garis depan"
+      },
+      "two": {
+        "number": "2",
+        "title": "Pemain utama mundur",
+        "subtitle": "heal di luar pertarungan"
+      },
+      "three": {
+        "number": "3",
+        "title": "Pemain utama kembali",
+        "subtitle": "mengambil ulang garis depan"
+      },
+      "four": {
+        "number": "4",
+        "title": "Supporter mundur",
+        "subtitle": "kembali ke jangkar"
+      }
+    },
+    "keypoint": {
+      "line1": "Keypoint",
+      "line2": "tidak pernah kosong"
+    },
+    "loop": "ulang sesering perlu — tidak ada yang berjalan balik dari HQ"
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"layout": {
+		"brandTitle": "Kingshot 777",
+		"toggleNav": "Buka/tutup navigasi",
+		"closeNav": "Tutup navigasi",
+		"language": "Bahasa"
+	},
+	"sidebar": {
+		"ariaLabel": "Bagian situs"
+	},
+	"nav": {
+		"section": {
+			"guides": "Panduan",
+			"tools": "Alat"
+		},
+		"item": {
+			"bear": "Perburuan Beruang",
+			"allaince-championship": "Kejuaraan Aliansi",
+			"strongest-governor": "Gubernur Terkuat",
+			"vikings": "Pembalasan Viking",
+			"castle-battle": "Pertempuran Kastel",
+			"tri-alliance-clash": "Bentrokan Tiga Aliansi",
+			"swordland-showdown": "Pertarungan Swordland",
+			"timeline": "Linimasa"
+		}
+	},
+	"home": {
+		"title": "Kingshot 777",
+		"description": "Panduan, daftar tier, dan urutan pembangunan. Pilih topik dari bilah samping."
+	}
+}

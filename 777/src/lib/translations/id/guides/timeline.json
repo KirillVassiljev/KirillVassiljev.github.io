@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": "Linimasa kerajaan {{kingdom}} — Kingshot 777",
+    "description": "Linimasa milestone untuk kerajaan Kingshot {{kingdom}}: generasi hero, kabut terbuka, KvK pertama, tier Truegold, dan generasi hewan peliharaan."
+  },
+  "h1": "Linimasa kerajaan {{kingdom}}",
+  "intro": "Milestone yang dicatat untuk kerajaan kami, diberi jarak sesuai selisih waktu sebenarnya. Kartu dengan catatan akan melebar saat kamu membukanya.",
+  "empty": "Belum ada milestone yang dicatat.",
+  "jumpToToday": "Lompat ke hari ini",
+  "predicted": "prediksi",
+  "today": "Hari ini",
+  "source": "Tanggal dicatat oleh kami untuk kerajaan {{kingdom}}. Untuk kerajaan lain dan milestone prediksi, lihat <a href=\"https://kingshotoptimizer.com/kingdom-timeline/\" target=\"_blank\" rel=\"noreferrer\">Kingshot Optimizer</a>.",
+  "categories": {
+    "heroes": "Hero",
+    "pvp": "PvP",
+    "feature": "Fitur baru",
+    "truegold": "Truegold",
+    "pets": "Hewan peliharaan",
+    "masters": "Master"
+  },
+  "milestones": {
+    "generation-1-heroes": {
+      "title": "Hero Generasi 1"
+    },
+    "first-hall-of-governors-hog": {
+      "title": "Hall of Governors (HoG) Pertama"
+    },
+    "first-sanctuary-competition": {
+      "title": "Kompetisi Sanctuary Pertama"
+    },
+    "plains-fog-cleared": {
+      "title": "Kabut Plains Terbuka"
+    },
+    "mystic-trial-unlocked": {
+      "title": "Mystic Trial Terbuka"
+    },
+    "first-fortress-competition": {
+      "title": "Kompetisi Fortress Pertama"
+    },
+    "hero-gear-reforge-unlocked": {
+      "title": "Reforge Gear Hero Terbuka"
+    },
+    "fertile-land-fog-cleared": {
+      "title": "Kabut Fertile Land Terbuka"
+    },
+    "alliance-resource-exchange-unlocks": {
+      "title": "Pertukaran Sumber Daya Aliansi Terbuka"
+    },
+    "generation-2-heroes": {
+      "title": "Hero Generasi 2",
+      "notes": "Zoe (Infanteri, hero Roulette Wheel), Hilde (Kavaleri), dan Marlin (Pemanah) ditambahkan ke game."
+    },
+    "first-castle-competition": {
+      "title": "Kompetisi Kastel Pertama"
+    },
+    "generation-1-pets": {
+      "title": "Hewan Peliharaan Generasi 1",
+      "notes": "Grey Wolf, Lynx, dan Bison ditambahkan ke daftar hewan peliharaan."
+    },
+    "age-of-truegold": {
+      "title": "Era Truegold",
+      "notes": "Membuka level TG 1-3"
+    },
+    "generation-2-pets": {
+      "title": "Hewan Peliharaan Generasi 2",
+      "notes": "Cheetah dan Moose ditambahkan ke daftar hewan peliharaan."
+    },
+    "first-kvk-prep-starts": {
+      "title": "Persiapan KvK Pertama Dimulai"
+    },
+    "first-kvk-castle-competition": {
+      "title": "Kompetisi Kastel KvK Pertama"
+    },
+    "first-alliance-brawl": {
+      "title": "Alliance Brawl Pertama"
+    },
+    "generation-3-heroes": {
+      "title": "Hero Generasi 3",
+      "notes": "Eric (Infanteri), Petra (Kavaleri, hero Roulette Wheel), dan Jaeger (Pemanah) ditambahkan ke game."
+    },
+    "generation-3-pets": {
+      "title": "Hewan Peliharaan Generasi 3",
+      "notes": "Lion dan Grizzly Bear ditambahkan ke daftar hewan peliharaan."
+    },
+    "gov-gear-material-exchange-unlocks": {
+      "title": "Pertukaran Material Gear Gubernur Terbuka",
+      "notes": "Memungkinkan pertukaran material Gear Gubernur (Satin, Gilded Threads, dan Artisan's Vision) di kanan atas panel peningkatan gear."
+    },
+    "masters-unlocked": {
+      "title": "Master Terbuka",
+      "notes": "Mengharuskan pemain memiliki Pusat Kota lvl 25. Valora, Pan, dan Roman dirilis sebagai 3 master pertama. Kami saat ini menduga ini hanya 3 master pertama dan generasi lain terbuka nanti/mungkin ada. Perlu diverifikasi saat pemain maju melalui konten ini."
+    },
+    "truegold-5": {
+      "title": "Truegold 5",
+      "notes": "Juga membuka Truegold Crucible (mengubah sumber daya dasar menjadi Truegold). Material charm gubernur ditambahkan ke toko Mystic Trial. Terror Level 8 (Titan Roc) ditambahkan ke game. Mulai titik ini, kerajaanmu akan memenuhi syarat untuk Jendela Transfer Kerajaan berikutnya. Untuk melihat prediksi detail, cek modul Transfer Kerajaan kami."
+    },
+    "gov-charm-material-exchange-unlocked": {
+      "title": "Pertukaran Material Charm Gubernur Terbuka",
+      "notes": "Memungkinkan pertukaran material Charm Gubernur (Charm Guide dan Charm Design) di kanan atas panel peningkatan gear."
+    },
+    "4th-master-unlocked": {
+      "title": "Master ke-4 Terbuka",
+      "notes": "Master ke-4 (Cassia) ditambahkan ke game."
+    },
+    "governor-charm-cap-raised": {
+      "title": "Batas Charm Gubernur Dinaikkan",
+      "notes": "Charm level 12+ tersedia. Meski belum langsung dapat dicapai oleh sebagian besar pemain, milestone kecil ini membagi Grup Transfer dan harus disebutkan."
+    },
+    "generation-4-heroes": {
+      "title": "Hero Generasi 4",
+      "notes": "Alcar (Infanteri), Margot (Kavaleri), dan Rosa (Pemanah, hero Roulette Wheel) ditambahkan ke game. Event Desert Trial berubah menjadi Champions Way. Hero Gen 2 masuk ke pool loot kunci emas."
+    },
+    "generation-4-pets": {
+      "title": "Hewan Peliharaan Generasi 4",
+      "notes": "Giant Rhino dan Mighty Bison ditambahkan ke daftar hewan peliharaan."
+    },
+    "5th-and-6th-masters-unlocked": {
+      "title": "Master ke-5 dan ke-6 Terbuka",
+      "notes": "Master ke-5 dan ke-6 (Guinevere dan Wilson) ditambahkan ke game."
+    },
+    "war-academy-unlocked": {
+      "title": "War Academy Terbuka",
+      "notes": "Truegold Dust dan pasukan T11 ditambahkan ke game."
+    },
+    "generation-5-heroes": {
+      "title": "Hero Generasi 5",
+      "notes": "Long Fei (Infanteri, hero Roulette Wheel), Thrud (Kavaleri), dan Vivian (Pemanah) ditambahkan ke game. Hero Gen 3 masuk ke pool loot kunci emas."
+    },
+    "generation-5-pets": {
+      "title": "Hewan Peliharaan Generasi 5",
+      "notes": "Great Moose dan Alpha Black Panther ditambahkan ke daftar hewan peliharaan."
+    },
+    "truegold-8": {
+      "title": "Truegold 8",
+      "notes": "Tempered Truegold ditambahkan ke game. Meningkatkan Truegold Crucible agar memungkinkan konversi Tempered Truegold. Peti gear gubernur ditambahkan ke toko Mystic Trial."
+    },
+    "generation-6-heroes": {
+      "title": "Hero Generasi 6",
+      "notes": "Triton (Infanteri), Sophia (Kavaleri, hero Roulette Wheel), dan Yang (Pemanah) ditambahkan ke game. Hero Gen 4 masuk ke pool loot kunci emas."
+    },
+    "generation-6-pets": {
+      "title": "Hewan Peliharaan Generasi 6",
+      "notes": "Regal White Lion dan Ironclad War Elephant ditambahkan ke daftar hewan peliharaan."
+    },
+    "first-flamedragon-tyrant-competition": {
+      "title": "Kompetisi Flamedragon Tyrant Pertama"
+    },
+    "generation-7-heroes": {
+      "title": "Hero Generasi 7",
+      "notes": "Charles (Infanteri), Ava (Kavaleri), dan Wee & Woo (Pemanah, hero Roulette Wheel) ditambahkan ke game. Hero Gen 5 masuk ke pool loot kunci emas."
+    },
+    "generation-7-pets": {
+      "title": "Hewan Peliharaan Generasi 7",
+      "notes": "Ironclad War Bear ditambahkan ke daftar hewan peliharaan."
+    },
+    "advanced-truegold-research": {
+      "title": "Riset Truegold Lanjutan",
+      "notes": "Riset Truegold Lanjutan tersedia di War Academy."
+    },
+    "generation-8-heroes": {
+      "title": "Hero Generasi 8",
+      "notes": "Hero Gen 6 masuk ke pool loot kunci emas."
+    },
+    "generation-8-pets": {
+      "title": "Hewan Peliharaan Generasi 8"
+    },
+    "generation-9-heroes": {
+      "title": "Hero Generasi 9",
+      "notes": "Hero Gen 7 masuk ke pool loot kunci emas."
+    },
+    "truegold-10": {
+      "title": "Truegold 10",
+      "notes": "Level Truegold 9 dan 10 ditambahkan ke game. Fitur baru yang terkait dengan level ini belum dikonfirmasi."
+    }
+  }
+}

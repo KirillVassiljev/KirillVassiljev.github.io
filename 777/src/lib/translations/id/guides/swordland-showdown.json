@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "Pertarungan Swordland — Kingshot 777",
+    "description": "Panduan anggota untuk Pertarungan Swordland Kingshot: apa yang benar-benar memberi skor, peta, pembukaan menit ke-15, peranmu di medan, setup squad, healing, dan cara bertahan hidup."
+  },
+  "h1": "Pertarungan Swordland",
+  "tldr": {
+    "heading": "Intinya",
+    "items": [
+      "<strong>Dua mingguan, pertempuran selalu hari Minggu dan berlangsung tepat satu jam.</strong> Dua aliansi menurunkan Legion hingga 30 petarung plus 10 cadangan.",
+      "<strong>Pasukan hanya terluka, tidak pernah hilang.</strong> Semuanya sembuh gratis saat kamu meninggalkan medan perang. Bermainlah agresif.",
+      "<strong>Dua jalur hadiah terpisah.</strong> Hadiah aliansi mengikuti menang atau kalahnya Legion 1; hadiah pribadimu mengikuti peringkat Personal Relic Point milikmu. Pencetak skor tertinggi di pihak kalah mendapat lebih banyak daripada penumpang di pihak menang.",
+      "<strong>Kosongkan infirmary sebelum mulai.</strong> Kamu tidak bisa masuk jika masih ada pasukan terluka yang menunggu.",
+      "<strong>Tidak ada yang mencetak skor di zona spawn.</strong> Poin datang dari bergerak."
+    ]
+  },
+  "sections": {
+    "before": {
+      "heading": "Sebelum masuk",
+      "items": [
+        "<strong>Kosongkan infirmary.</strong> Ini syarat mutlak — pasukan terluka yang menunggu heal sepenuhnya memblokir masuk.",
+        "<strong>Jika kamu terdaftar, hadirlah.</strong> Tidak hadir tetap dihitung ke rating power pihakmu tetapi tidak menyumbang apa pun.",
+        "<strong>Cadangan hanya auto-fill dalam 3 menit pertama (180 detik)</strong>, siapa cepat dia dapat. Jika kamu cadangan, berada di gerbang sejak peluit.",
+        "<strong>Heal penuh dan recall pasukanmu sebelumnya.</strong> Masuk dengan kekuatan penuh."
+      ]
+    },
+    "whatActuallyScores": {
+      "heading": "Apa yang benar-benar memberi skor",
+      "firstControlBonus": {
+        "heading": "Bonus kontrol pertama",
+        "body": "Aliansi pertama yang sepenuhnya menduduki bangunan setelah timer perebutannya selesai mendapat bonus besar satu kali untuk Aliansi <em>dan</em> Personal. Perebutan pertama Swordshrine saja bernilai 9,000 Alliance / 4,500 Personal Relic Points, dan mengambil kontrol pertama semua bangunan Phase 1 totalnya 26,400 Relic Points. Inilah mengapa menyebar di awal lebih baik daripada menumpuk satu target."
+      },
+      "occupation": {
+        "heading": "Okupasi berkelanjutan",
+        "table": {
+          "headers": {
+            "building": "Bangunan",
+            "alliancePointsPerMinute": "Poin aliansi / menit",
+            "personalPointsPerMinute": "Poin pribadi / menit"
+          },
+          "rows": [
+            {
+              "building": "Swordshrine",
+              "alliancePointsPerMinute": "1,800",
+              "personalPointsPerMinute": "900"
+            },
+            {
+              "building": "Sanctum",
+              "alliancePointsPerMinute": "1,200",
+              "personalPointsPerMinute": "600"
+            },
+            {
+              "building": "Abbey",
+              "alliancePointsPerMinute": "600",
+              "personalPointsPerMinute": "300"
+            },
+            {
+              "building": "Bangunan buff",
+              "alliancePointsPerMinute": "240",
+              "personalPointsPerMinute": "120"
+            }
+          ]
+        },
+        "holdBonus": "<strong>Bonus tahan 30 menit:</strong> begitu aliansimu menahan bangunan selama 30 menit berturut-turut, bangunan itu mulai membayar Personal Relic Points dengan laju lebih tinggi — patch notes tidak menyebutkan berapa. Bangunan yang mendekati ambang itu bernilai lebih dari laju dasarnya, baik untuk dipertahankan maupun dicuri."
+      },
+      "bankedPoints": {
+        "heading": "Poin tersimpan dan Baggage Trains",
+        "body": "50% poin aliansi yang terkumpul pada sebuah bangunan terlihat di atasnya. Jika bangunan hilang, poin itu jatuh ke tanah sebagai <strong>Baggage Trains</strong> yang bisa dipungut kedua pihak dengan pasukan, dan dihitung untuk poin Aliansi maupun Personal. Menjarah tidak pasif — kirim pasukan begitu bangunan berbalik, milikmu atau milik mereka."
+      },
+      "defeatingTroops": {
+        "heading": "Mengalahkan pasukan",
+        "table": {
+          "headers": {
+            "situation": "Situasi",
+            "personalPointsPerPower": "Poin pribadi per 10,000 power prajurit musuh yang dikalahkan"
+          },
+          "rows": [
+            {
+              "situation": "Menyerang",
+              "personalPointsPerPower": "80"
+            },
+            {
+              "situation": "Bertahan",
+              "personalPointsPerPower": "40"
+            }
+          ]
+        },
+        "body": "Kill hanya memberi <strong>poin Personal</strong> — tidak ada poin Aliansi sama sekali. Serangan membayar kira-kira dua kali pertahanan, dan di kerajaan ber-power tinggi kamu bisa mencapai batas pribadi dalam hitungan menit hanya dari pertarungan."
+      },
+      "undercellars": {
+        "heading": "Undercellars",
+        "body": "Node pengumpulan tanpa penanda yang muncul di sekitar Swordshrine. Temukan dengan kaca pembesar di minimap dan kirim pasukan seperti ke node sumber daya. Lebih lambat daripada bangunan tetapi biasanya tidak diperebutkan, jadi menjadi pemasukan aman dan andal untuk pemain ber-power lebih rendah. Di akhir pertempuran, totalnya bisa bernilai 20–40k poin — jangan diremehkan."
+      }
+    },
+    "map": {
+      "heading": "Peta",
+      "table": {
+        "headers": {
+          "building": "Bangunan",
+          "whatItDoes": "Fungsinya",
+          "whyYouCare": "Kenapa penting"
+        },
+        "rows": [
+          {
+            "building": "Swordshrine",
+            "whatItDoes": "Pusat peta, terbuka pada 15 menit.",
+            "whyYouCare": "Aliran poin tertinggi di medan. Hadiah utama — tetapi tidak wajib untuk menang."
+          },
+          {
+            "building": "Sanctums ×2",
+            "whatItDoes": "Mengapit shrine, terbuka sejak awal.",
+            "whyYouCare": "Mesin poin sebenarnya. Pegang setidaknya satu sepanjang pertandingan."
+          },
+          {
+            "building": "Abbeys ×4",
+            "whatItDoes": "Terbuka sejak awal.",
+            "whyYouCare": "Pemasukan stabil dan bonus kontrol pertama yang murah."
+          },
+          {
+            "building": "Royal Stables",
+            "whatItDoes": "Buff: memangkas setengah cooldown Advanced Teleporter gratis untuk seluruh aliansi.",
+            "whyYouCare": "Pilihan pertama di Phase 1. Mobilitas memenangkan peta."
+          },
+          {
+            "building": "Bell Tower",
+            "whatItDoes": "Buff: memangkas setengah waktu perebutan bangunan.",
+            "whyYouCare": "Buff prioritas tertinggi di Phase 1, karena setiap bonus kontrol pertama besar."
+          },
+          {
+            "building": "Hall of Reformation",
+            "whatItDoes": "Buff: +15% serangan dan 15% pengurangan damage untuk aliansimu. Terbuka pada 15 menit.",
+            "whyYouCare": "Ambil begitu terbuka — berlaku untuk setiap pertarungan setelahnya."
+          },
+          {
+            "building": "Mercenary Camp",
+            "whatItDoes": "Terbuka pada 15 menit. Mengirim mercenary ke bangunan yang dikuasai musuh.",
+            "whyYouCare": "Tidak ada poin tempur pribadi dari kill-nya. Gunakan untuk melemahkan target tepat sebelum reli, jangan sendirian."
+          },
+          {
+            "building": "Undercellars",
+            "whatItDoes": "Node tanpa penanda yang muncul bergelombang dekat shrine.",
+            "whyYouCare": "Poin tanpa perebutan untuk siapa pun yang tidak bisa menang pertarungan."
+          }
+        ]
+      }
+    },
+    "timeline": {
+      "heading": "Linimasa",
+      "table": {
+        "headers": {
+          "phase": "Phase",
+          "clock": "Waktu",
+          "whatMatters": "Yang penting"
+        },
+        "rows": [
+          {
+            "phase": "1 — Pembukaan",
+            "clock": "0–15 min",
+            "whatMatters": "2 Sanctums, 4 Abbeys, Bell Tower, dan Royal Stables aktif.<br /> Prioritas: Royal Stables → Bell Tower → satu Sanctum → Abbeys.<br /> Menyebar untuk mengambil sebanyak mungkin bonus kontrol pertama.<br /> Pemain terkuat bisa menekan kota musuh pada saat yang sama untuk menarik defender keluar dari bangunan."
+          },
+          {
+            "phase": "2 — Midgame",
+            "clock": "mulai tepat 15:00 (tanda 900 detik)",
+            "whatMatters": "Swordshrine, Hall of Reformation, dan Mercenary Camp terbuka.<br /> Ambil Reformation segera; buff berlaku untuk setiap pertarungan setelahnya.<br /> Memusatkan semuanya ke Swordshrine sambil menyerahkan Sanctums dan Abbeys adalah langkah kalah.<br /> Jika shrine terlalu diperebutkan, beralihlah ke memegang kedua Sanctums plus Bell Tower, Reformation, dan Abbeys."
+          },
+          {
+            "phase": "3 — Late game",
+            "clock": "15 min dan 20 min ke atas",
+            "whatMatters": "Gelombang Undercellar muncul pada 15 min dan 20 min.<br /> 5–10 menit terakhir adalah jendela comeback.<br /> Bangunan musuh dengan cadangan tersimpan besar adalah target bernilai tertinggi, karena membaliknya menjatuhkan cluster Baggage Train besar."
+          }
+        ]
+      }
+    },
+    "roles": {
+      "heading": "Peranmu",
+      "items": [
+        {
+          "heading": "Penyerang",
+          "body": "Teleport ke bangunan yang diperebutkan atau dijaga lemah, buka reli, bakar kota musuh untuk memaksa pemain teleport keluar dari garnisun mereka, lalu lanjut. Aturan emas: <strong>penyerang merebut lalu bergerak, mereka tidak duduk di garnisun.</strong>"
+        },
+        {
+          "heading": "Defender / joiner",
+          "body": "Garnisun bangunan yang ditugaskan kepadamu, simpan 3 hero teratasmu di rumah secukupnya agar bertahan, isi slot garnisun supaya musuh tidak bisa solo bangunan, dan perkuat tetangga. Jika pemain lebih kuat memperkuatmu lalu kamu teleport pergi, pasukan garnisunnya tetap bersamamu."
+        },
+        {
+          "heading": "Pengumpul / support",
+          "body": "Kejar Baggage Trains begitu bangunan berbalik, kumpulkan Undercellars, dan ikut reli sebagai pasukan kedua. Kamu bisa meluncurkan pasukan dari dalam zona aman tanpa mengekspos kotamu — ini jalur skor free-to-play, dan berhasil."
+        }
+      ]
+    },
+    "squadSetup": {
+      "heading": "Setup squad",
+      "items": [
+        "<strong>Rasio pasukan:</strong> 50/20/30 infanteri/kavaleri/pemanah hampir sepanjang waktu. Gunakan 60/40/0 dengan Alcar, Margot, atau Saul, yang skill-nya condong ke kavaleri dan infanteri.",
+        "<strong>Serangan dan pertahanan sama.</strong> Kill dihitung bersamaan di akhir setiap mini-round, jadi tidak ada pihak yang perlu \"lebih tanky\". Satu-satunya perbedaan nyata adalah skenario mana yang memicu widget hero, itulah kenapa hero ofensif dan defensif terbaik hanyalah generasi terbaru dengan tipe widget yang cocok. Pertahanan tidak perlu lebih banyak infanteri dan tidak perlu joiner \"defensif\" khusus.",
+        "<strong>Untuk serangan solo</strong>, gunakan hero generasi tertinggi yang kamu punya dan sudah cukup diinvestasikan."
+      ],
+      "pvpJoinerHeroes": {
+        "heading": "Hero joiner PvP",
+        "intro": "Pilihan yang sama untuk serangan maupun pertahanan:",
+        "or": "atau"
+      }
+    },
+    "healingAndMobility": {
+      "heading": "Healing dan mobilitas",
+      "items": [
+        "<strong>Tidak ada batch healing selama event</strong> — hanya percepatan healing, dan event memberi percepatan healing 1h gratis secara perlahan.",
+        "<strong>Keluar untuk heal.</strong> Ketuk scoreboard di atas dan pilih <em>Leave battlefield</em> untuk langsung dan gratis menyembuhkan semuanya. Kamu lalu menunggu 12 menit sebelum bisa masuk lagi. Dengan ratusan ribu terluka, perjalanan bolak-balik itu lebih baik daripada bertarung dengan setengah kekuatan.",
+        "<strong>Jangan buang percepatan healing mendekati akhir.</strong> Pasukan tidak bisa mati, infirmary tidak bisa penuh selama event, dan semuanya sembuh saat event berakhir.",
+        "<strong>Percepatan march gratis:</strong> charge permanen khusus event +25% kecepatan march bertambah satu per menit, dibatasi 10 (beberapa sumber bilang kamu mulai dengan 5 dan bisa menyimpan hingga 30). Bagaimanapun, menimbunnya adalah kesalahan — gunakan.",
+        "<strong>Advanced Teleporter gratis</strong> kira-kira setiap 10–12 menit, dipangkas setengah jika aliansimu memegang Royal Stables. Teleport lagi sebelum yang gratis terisi ulang menghabiskan Advanced Teleporter dengan harga meningkat (+1 setiap kali), jadi satu lompatan berbayar di antara yang gratis masih oke; merantai beberapa tidak."
+      ]
+    },
+    "stayingAlive": {
+      "heading": "Tetap hidup",
+      "items": [
+        "<strong>Jika pemain yang jauh lebih kuat menyerangmu, hindari luka.</strong> Kerahkan pasukan ke tanah kosong di sebelah kotamu, teleport pergi, atau recall 3 hero teratasmu jika itu cukup untuk bertahan.",
+        "<strong>Guard station menerima damage yang jauh lebih besar di sini.</strong> Jika kamu tidak memakai gems untuk memadamkan api, 10–20 detik cukup untuk memaksa kotamu teleport pulang.",
+        "<strong>Minta reinforcement dari pemain yang lebih kuat.</strong> Pasukan garnisun mereka tetap bersamamu meski kamu teleport.",
+        "<strong>Beli counter-recon 2h</strong> (sekitar 400 gems) agar kamu tidak bisa di-scout, dan gunakan semua buff serangan serta pertahanan yang kamu punya — buff gems 10% atau 20% mengalikan, bukan menambahkan.",
+        "<strong>Scout banyak sebelum menyerang</strong>, dan gunakan reli 1 menit dengan bebas.",
+        "<strong>Kamu tidak harus duduk di sebelah bangunan.</strong> Parkir di tempat terbuka di sebelah objektif membuatmu target mudah. Duduk di zona aman atau ruang mati di antara bangunan dan andalkan percepatan march gratis.",
+        "<strong>Serangan kalah tetap menang jika kamu melukai lebih dari ~80,000 pasukan.</strong> Setiap serangan lanjutan makin mudah. Sama saat bertahan: di bawah 80k terluka adalah trade yang bagus.",
+        "<strong>Jangan spam semua pasukan ke satu target</strong> kecuali mereka sudah di bawah ~100,000 pasukan. Hanya pasukan utamamu yang memberi damage nyata; sisanya hanya bunuh diri.",
+        "<strong>Jangan kirim pasukan utamamu jauh-jauh</strong> kecuali pasukan kedua yang kuat atau teman menjaga kotamu."
+      ]
+    },
+    "commonMistakes": {
+      "heading": "Kesalahan umum",
+      "items": [
+        "<strong>Duduk di zona spawn tanpa melakukan apa pun.</strong> Kamu mendapat skor nol.",
+        "<strong>Menimbun teleporter dan percepatan march</strong> sampai event berakhir.",
+        "<strong>Hanya mengejar Swordshrine</strong> dan kehilangan Sanctums serta Abbeys yang sebenarnya membayar.",
+        "<strong>Mengabaikan Undercellars dan Baggage Trains.</strong> Poin gratis yang tidak diperebutkan siapa pun.",
+        "<strong>Penyerang parkir di garnisun</strong> alih-alih bergerak ke target berikutnya.",
+        "<strong>Masuk dengan infirmary penuh</strong>, atau lupa hadir setelah mendaftar.",
+        "<strong>Membakar percepatan healing di menit terakhir</strong>, padahal semuanya tetap sembuh gratis di akhir."
+      ]
+    }
+  },
+  "source": "Sumber: <a href=\"https://kingshotwiki.com/events/swordland-showdown/\" rel=\"noreferrer\">kingshotwiki.com — Pertarungan Swordland</a>, <a href=\"https://kingshotmastery.com/guides/swordland-showdown\" rel=\"noreferrer\">kingshotmastery.com — panduan Pertarungan Swordland</a>, <a href=\"https://kingshotpro.com/swordland-showdown-guide.html\" rel=\"noreferrer\">kingshotpro.com — panduan Pertarungan Swordland</a>. Nilai poin dan tata letak bangunan yang tepat dapat berubah karena patch — verifikasi dengan layar medan perangmu sendiri."
+}

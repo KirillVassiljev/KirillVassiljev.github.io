@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Kejuaraan Aliansi — Kingshot 777",
+		"description": "Panduan singkat Kejuaraan Aliansi Kingshot untuk anggota biasa: kapan mendaftar, cara kerja snapshot pasukan, dan hadiah yang kamu dapatkan."
+	},
+	"h1": "Kejuaraan Aliansi",
+	"tldr": {
+		"heading": "Intinya",
+		"items": [
+			"<strong>Daftar Senin 00:00 → Rabu 23:00 UTC.</strong> Pusat Kota 10+. Lewat dari jendela itu, kamu absen minggu ini.",
+			"<strong>Pendaftaran adalah snapshot.</strong> Pasukanmu dan setiap buff yang aktif saat itu dibekukan — buff hewan peliharaan tetap berlaku bahkan setelah kedaluwarsa.",
+			"<strong>Jangan sentuh timmu setelah mendaftar.</strong> Memperbaruinya membuat snapshot baru dan kamu kehilangan buff yang sudah dikunci.",
+			"<strong>Setelah itu selesai.</strong> Pertempuran berjalan otomatis Kamis sampai Sabtu — kamu tidak perlu online.",
+			"<strong>Formasi:</strong> 50/20/30 infanteri/kavaleri/pemanah adalah pilihan aman; 60/40/0 tanpa kavaleri menurunkan power terlihat untuk matchup yang lebih ringan dan mengalahkan build standar.",
+			"<strong>Hero: damage murni saja.</strong> Pertarungan singkat — ambil buff serangan datar dan burst (Amadeus), lewati tank seperti Helga, dan hindari apa pun dengan peluang skill di bawah 50%."
+		]
+	},
+	"sections": {
+		"details": {
+			"heading": "Detail"
+		},
+		"rewards": {
+			"heading": "Hadiah",
+			"items": [
+				"<strong>1 pasukan musuh dikalahkan:</strong> 10× percepatan riset 5 menit, 20× 10k roti, 20× 10k kayu, 40× 1k batu, 10× 1k besi.",
+				"<strong>2 pasukan musuh dikalahkan:</strong> 15× percepatan riset 5 menit, 30× 10k roti, 30× 10k kayu, 55× 1k batu, 15× 1k besi.",
+				"<strong>Akhir event:</strong> hadiah untuk seluruh aliansi berdasarkan peringkat bracket akhir dan tier kamu — Stone, Iron, Bronze, Silver, Gold, atau Diamond."
+			]
+		},
+		"tips": {
+			"heading": "Tips",
+			"items": [
+				"<strong>Daftar saat buff-mu aktif.</strong> Aktifkan buff hewan peliharaan dan buff sementara lain <em>sebelum</em> mendaftar — snapshot menyimpannya untuk sepanjang minggu.",
+				"<strong>Daftar lebih awal.</strong> Aliansi membutuhkan setidaknya 10 peserta, kalau tidak matchmaking gagal dan tidak ada yang mendapat apa pun.",
+				"<strong>Daftar ulang hanya jika setup-mu benar-benar membaik.</strong> Pasukan yang lebih baik atau buff aktif yang lebih kuat layak; selain itu kamu menukar snapshot bagus dengan yang lebih buruk.",
+				"<strong>Tidak ada yang terkunci darimu selama pertarungan</strong> — pasukanmu sibuk di lane, tetapi event ini tidak perlu klik. Bermainlah seperti biasa."
+			]
+		}
+	},
+	"qa": [
+		{
+			"q": "Apa ini?",
+			"a": "Turnamen mingguan aliansi lawan aliansi. Aliansimu dipasangkan melawan lima aliansi lain dan bertarung dalam lima ronde otomatis di tiga lane."
+		},
+		{
+			"q": "Kapan berlangsung?",
+			"a": "Setiap minggu, Senin 00:00 UTC sampai Senin berikutnya 00:00 UTC. Pendaftaran ditutup Rabu 23:00 UTC, lima ronde pertempuran berdurasi satu jam berjalan sampai Sabtu 12:00 UTC, lalu hadiah dikirim setelahnya."
+		},
+		{
+			"q": "Apa yang sebenarnya harus kulakukan?",
+			"a": "Daftarkan satu pasukan untuk satu lane selama jendela pendaftaran. Itu saja — tidak ada yang perlu dilakukan saat pertarungan. Penempatan lane diurus oleh pimpinan."
+		},
+		{
+			"q": "Apa skor di sebelah namaku?",
+			"a": "Itu skor tempurmu. Skor itu menentukan urutan bertarung di dalam lane — skor terbesar bertarung terakhir."
+		},
+		{
+			"q": "Kenapa pasukanku tidak bertarung?",
+			"a": "Hanya 20 pemain terkuat yang ditugaskan ke lane yang maju. Dan setelah pasukanmu mengalahkan dua musuh — atau dikalahkan — pasukan itu selesai untuk jam tersebut."
+		}
+	],
+	"source": "Sumber: <a href=\"https://kingshotwiki.com/events/alliance-championship/\" rel=\"noreferrer\">kingshotwiki.com — Kejuaraan Aliansi</a>"
+}

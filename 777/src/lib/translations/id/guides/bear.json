@@ -1,0 +1,90 @@
+{
+	"meta": {
+		"title": "Perburuan Beruang — Kingshot 777",
+		"description": "Panduan singkat event Perburuan Beruang Kingshot: formasi reli, rasio pasukan, buff, dan timing gelombang."
+	},
+	"h1": "Perangkap Beruang",
+	"tldr": {
+		"heading": "Intinya",
+		"items": [
+			"<strong>Pemanah yang menang.</strong> Damage Beruang meningkat mengikuti jumlah pemanah — rasio bergeser dari seimbang di Gen 1 ke 10/10/80 pada Gen 4, dan hingga ~98% pemanah di late game.",
+			"<strong>Pemimpin reli:</strong> skill ketiga hero aktif semua, jadi pilih trio ofensif terbaik untuk generasimu.",
+			"<strong>Bergabung ke reli:</strong> hanya skill ekspedisi teratas dari 4 joiner teratas dengan level skill maksimal yang dihitung. Hero yang salah merusak reli — lebih baik kirim pasukan tanpa hero.",
+			"<strong>Selalu aktif:</strong> buff hewan peliharaan + buff menteri Field Commander. Gunakan gems untuk ATK kota / Lethality / Deployment jika mampu.",
+			"<strong>Harus cepat:</strong> simpan preset formasi sebelumnya dan beri bintang pada reli whale agar muncul di bagian atas daftar.",
+			"<strong>Endgame:</strong> beri jeda gelombang 1 menit dan luncurkan ulang begitu pasukan kembali — jangan pernah biarkan pasukan menganggur."
+		]
+	},
+	"sections": {
+		"formations": {
+			"heading": "Formasi pemimpin reli"
+		},
+		"joiners": {
+			"heading": "Bergabung ke reli (Gen 1–6)"
+		},
+		"details": {
+			"heading": "Detail"
+		},
+		"tips": {
+			"heading": "Tips",
+			"groups": [
+				{
+					"heading": "Sebelum event",
+					"items": [
+						"<strong>Tingkatkan Pitfall ke Level 5</strong> dengan Explosive Arrowheads. Itu memberi <strong>+25% peningkatan serangan untuk seluruh aliansi</strong> — pengungkit terbesar yang tersedia, dan harus dilakukan selama tahap persiapan.",
+						"<strong>Pindahkan kotamu ke sebelah perangkap.</strong> Anggota aliansi sebaiknya merapatkan perbatasan tanpa celah agar pasukan lebih cepat dikerahkan dan mendapat lebih banyak pukulan. Ini terutama urusan late-game — di awal, anggota yang berpindah-pindah aliansi membuatnya berantakan.",
+						"<strong>Simpan preset formasi.</strong> Reli terisi dan diluncurkan dalam hitungan detik; kalau kamu menyusun pasukan dari nol, kamu sudah terlambat.",
+						"<strong>Siapkan buff-mu:</strong> buff hewan peliharaan aktif, slot menteri Field Commander terdaftar. Gems juga bisa membeli bonus ATK kota / Lethality / Deployment Capacity, meski itu sebenarnya biaya untuk whale."
+					]
+				},
+				{
+					"heading": "Selama event",
+					"items": [
+						"<strong>Pemanah adalah sumber damage.</strong> Rasio bergeser dari seimbang di awal ke 10/10/80 pada Gen 4; di late game targetkan ~98% kapasitas pemanah di setiap pasukan tempur. Saat bergabung, bukan memimpin, 20/30/50 sudah cukup.",
+						"<strong>Beri bintang pada reli whale.</strong> Fitur bintang menyematkan reli pemain ke bagian atas daftar, bukan terbaru di paling bawah — sangat membantu kalau reaksimu lambat.",
+						"<strong>Memimpin:</strong> skill ketiga hero-mu aktif semua, siapa pun kaptennya, jadi posisi tidak penting. Pilih trio ofensif terbaik untuk generasimu.",
+						"<strong>Bergabung:</strong> hanya skill ekspedisi teratas yang dihitung, dan hanya dari empat joiner dengan level skill tertinggi. Hero yang salah bisa menggusur yang bagus dan menyeret seluruh reli turun — <strong>kirim pasukan tanpa hero daripada hero yang salah.</strong>",
+						"<strong>Level pasukan juga penting.</strong> Skill hero bukan segalanya; pasukan tier lebih tinggi dan rasio yang tepat menggerakkan angka sama besarnya."
+					]
+				}
+			]
+		}
+	},
+	"qa": [
+		{
+			"q": "Apa ini?",
+			"a": "Event reli PvE seluruh aliansi melawan Beruang. Semua orang mengirim pasukan ke reli yang diarahkan ke perangkap, dan damage yang kamu berikan menghasilkan poin."
+		},
+		{
+			"q": "Kapan berlangsung?",
+			"a": "Setiap dua hari — cooldown dua reset harian dalam game. Ikut hari ini dan kamu memenuhi syarat lagi dua hari kemudian."
+		},
+		{
+			"q": "Kenapa ada dua perangkap?",
+			"a": "Agar anggota di zona waktu berbeda masing-masing bisa menemukan slot yang cocok. <strong>Kamu hanya dapat satu:</strong> jika ikut Bear Trap 1, kamu tidak bisa ikut Bear Trap 2 juga — kamu menunggu dua hari untuk Trap 1 berikutnya."
+		},
+		{
+			"q": "Di mana lokasinya?",
+			"a": "Di perangkap Perburuan Beruang di wilayah aliansi. Pasukan berjalan ke sana, jadi semakin dekat kotamu, semakin banyak pukulan yang kamu dapat."
+		},
+		{
+			"q": "Siapa melakukan apa?",
+			"a": "Whale dan akun besar memimpin reli; semua lainnya mengisinya. Pimpinan aliansi menetapkan slot gelombang sebelum event agar peluncuran tetap bergiliran."
+		},
+		{
+			"q": "Kenapa harus repot?",
+			"a": "Ini salah satu event bernilai tertinggi di game, murni PvE sehingga pasukanmu tidak mati, dan poin meningkat langsung sesuai damage — itulah kenapa pilihan hero dan rasio pasukan sangat penting."
+		}
+	],
+	"images": {
+		"formations": {
+			"alt": "Bagan formasi beruang terbaik: trio hero dan rasio pasukan yang direkomendasikan untuk generasi 1 hingga 6, dibagi menjadi kolom hero terbaik dan F2P.",
+			"caption": "Formasi beruang terbaik berdasarkan generasi. Ketuk untuk membuka ukuran penuh."
+		},
+		"joiners": {
+			"alt": "Daftar tier hero joiner Perburuan Beruang dengan tier S, A, Hindari, dan Jangan Pernah Pakai Ini.",
+			"caption": "Daftar tier joiner — hanya skill ekspedisi teratas yang penting di sini."
+		}
+	},
+	"source": "Sumber: <a href=\"https://kingshotwiki.com/events/bear-hunt/\" rel=\"noreferrer\">kingshotwiki.com — Perburuan Beruang</a>"
+}

@@ -2,7 +2,8 @@
 	"layout": {
 		"brandTitle": "Kingshot 777",
 		"toggleNav": "Toggle navigation",
-		"closeNav": "Close navigation"
+		"closeNav": "Close navigation",
+		"language": "Language"
 	},
 	"sidebar": {
 		"ariaLabel": "Site sections"

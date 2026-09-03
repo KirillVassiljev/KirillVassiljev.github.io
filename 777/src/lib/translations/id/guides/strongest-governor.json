@@ -1,0 +1,77 @@
+{
+	"meta": {
+		"title": "Gubernur Terkuat — Kingshot 777",
+		"description": "Panduan singkat event Gubernur Terkuat Kingshot: 7 tahap harian, cara poin dihitung, dan peringkat mana yang memberi hadiah."
+	},
+	"h1": "Gubernur Terkuat",
+	"tldr": {
+		"heading": "Intinya",
+		"items": [
+			"<strong>Jika KvK sudah dekat, simpan percepatanmu untuk itu.</strong> Buff pembangunan, riset, dan pelatihan skala server di KvK membuat percepatan yang sama membeli jauh lebih banyak power daripada di minggu Gubernur Terkuat biasa.",
+			"<strong>Timbun semuanya sebelumnya.</strong> Apa pun yang kamu lakukan di luar jendela event tidak mendapat poin. Simpan percepatan dan sumber daya, lalu habiskan pada hari yang cocok.",
+			"<strong>250,000 poin</strong> adalah batas untuk memenuhi syarat hadiah seluruh kerajaan. Kejar itu meski kamu tidak bisa masuk peringkat.",
+			"<strong>Ambil 2 Challenge Medal setiap hari</strong> — hadiah gratis untuk tugas yang memang sudah kamu lakukan."
+		]
+	},
+	"sections": {
+		"stages": {
+			"heading": "7 hari",
+			"items": [
+				"<strong>Hari 1 — Konstruksi kota:</strong> peningkatan bangunan dan percepatan konstruksi.",
+				"<strong>Hari 2 — Pengembangan hero:</strong> EXP hero, shard, peningkatan bintang.",
+				"<strong>Hari 3 — Peningkatan skill:</strong> level skill hero.",
+				"<strong>Hari 4 — Pelatihan pasukan:</strong> melatih dan mempromosikan pasukan.",
+				"<strong>Hari 5 — Peningkatan skill lagi.</strong>",
+				"<strong>Hari 6 — Pelatihan pasukan lagi.</strong>",
+				"<strong>Hari 7 — Pengembangan hero + mengumpulkan sumber daya.</strong>"
+			]
+		},
+		"details": {
+			"heading": "Detail"
+		},
+		"rewards": {
+			"heading": "Hadiah",
+			"items": [
+				"<strong>Milestone poin:</strong> 5 tier per hari, masing-masing membutuhkan poin lebih banyak dari sebelumnya. Klaim saat kamu mencapainya.",
+				"<strong>Hadiah Challenge Medal:</strong> diklaim dengan medal yang kamu peroleh, hingga 2 per hari.",
+				"<strong>Peringkat tahap harian:</strong> dibayar di akhir setiap hari kepada 1,000 pencetak skor teratas di kerajaanmu — gems dan percepatan, diskalakan menurut peringkat.",
+				"<strong>Peringkat total kerajaan:</strong> 1,000 teratas di kerajaanmu berdasarkan total poin selama 7 hari.",
+				"<strong>Peringkat lintas-kerajaan:</strong> 2,000 teratas di semua kerajaan yang berpartisipasi. Hadiah jauh lebih baik — Truegold dan kosmetik eksklusif — dan jauh lebih sulit.",
+				"<strong>Hadiah kerajaan:</strong> diberikan kepada semua orang di kerajaan yang berpartisipasi berdasarkan posisi kerajaan, tetapi kamu pribadi harus menghasilkan 250,000 poin untuk memenuhi syarat."
+			]
+		},
+		"tips": {
+			"heading": "Tips",
+			"items": [
+				"<strong>Timbun sebelum event.</strong> Tahan percepatan, EXP hero, shard, dan Truegold, lalu gunakan hanya pada hari yang cocok.",
+				"<strong>Pilih satu hari untuk habis-habisan.</strong> Hadiah tahap harian bersifat per hari, jadi memusatkan timbunanmu pada satu tahap membuat peringkatmu lebih tinggi daripada menyebarkannya tipis-tipis.",
+				"<strong>Skill dan pasukan muncul dua kali</strong> (hari 3/5 dan 4/6). Bagi buku skill dan pelatihanmu di antara pasangan hari itu daripada menghabiskan semuanya di hari pertama.",
+				"<strong>Antrekan peningkatan panjang agar selesai di dalam jendela.</strong> Poin masuk saat aksi selesai, bukan saat kamu memulainya.",
+				"<strong>Klaim milestone dan medal setiap hari.</strong> Itu tidak dibawa ke hari berikutnya."
+			]
+		}
+	},
+	"qa": [
+		{
+			"q": "Apa ini?",
+			"a": "Kompetisi berulang tempat setiap gubernur mencetak poin dengan mengembangkan kotanya. Berlangsung tujuh hari dan terbagi menjadi tujuh tahap, satu per hari."
+		},
+		{
+			"q": "Bagaimana cara mendapat poin?",
+			"a": "Dengan menyelesaikan aksi yang sesuai dengan tema hari itu — meningkatkan bangunan, menaikkan level hero, meningkatkan skill, melatih atau mempromosikan pasukan, memakai percepatan, dan mengonsumsi sumber daya langka."
+		},
+		{
+			"q": "Apa itu Challenge Medal?",
+			"a": "Mata uang harian terpisah. Kamu bisa mendapat hingga 2 per hari dari tugas; gunakan di tab Hadiah Challenge Medal. Semakin banyak yang terkumpul, semakin baik tier yang bisa kamu klaim."
+		},
+		{
+			"q": "Peringkat mana yang harus kupedulikan?",
+			"a": "Jika kamu kompetitif, peringkat total lintas-kerajaan memberi hadiah terbaik — Truegold dan kosmetik eksklusif — tetapi kamu melawan semua kerajaan yang berpartisipasi. Jika tidak, fokus pada milestone poin dan mencapai total 250,000."
+		},
+		{
+			"q": "Apakah pengeluaran di luar event dihitung?",
+			"a": "Tidak. Hanya aksi yang selesai selama jendela event yang menghasilkan poin."
+		}
+	],
+	"source": "Sumber: <a href=\"https://kingshotwiki.com/events/strongest-governor/\" rel=\"noreferrer\">kingshotwiki.com — Gubernur Terkuat</a>"
+}

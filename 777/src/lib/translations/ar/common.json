@@ -1,0 +1,31 @@
+{
+	"layout": {
+		"brandTitle": "Kingshot 777",
+		"toggleNav": "تبديل التنقل",
+		"closeNav": "إغلاق التنقل",
+		"language": "اللغة"
+	},
+	"sidebar": {
+		"ariaLabel": "أقسام الموقع"
+	},
+	"nav": {
+		"section": {
+			"guides": "الأدلة",
+			"tools": "الأدوات"
+		},
+		"item": {
+			"bear": "صيد الدب",
+			"allaince-championship": "بطولة التحالف",
+			"strongest-governor": "أقوى حاكم",
+			"vikings": "انتقام الفايكنغ",
+			"castle-battle": "معركة القلعة",
+			"tri-alliance-clash": "صدام التحالفات الثلاثية",
+			"swordland-showdown": "مواجهة أرض السيوف",
+			"timeline": "الخط الزمني"
+		}
+	},
+	"home": {
+		"title": "Kingshot 777",
+		"description": "أدلة وقوائم تصنيف وترتيبات بناء. اختر موضوعًا من الشريط الجانبي."
+	}
+}

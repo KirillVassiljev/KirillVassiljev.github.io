@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": "王国 {{kingdom}} 时间线 — Kingshot 777",
+    "description": "Kingshot 王国 {{kingdom}} 的里程碑时间线：英雄世代、迷雾清除、首次 KvK、真金等级和宠物世代。"
+  },
+  "h1": "王国 {{kingdom}} 时间线",
+  "intro": "我们王国记录的里程碑，并按实际间隔排列。带备注的卡片打开后会展开。",
+  "empty": "尚未记录任何里程碑。",
+  "jumpToToday": "跳转到今天",
+  "predicted": "预测",
+  "today": "今天",
+  "source": "王国 {{kingdom}} 的日期由我们记录。其他王国和预测里程碑请见 <a href=\"https://kingshotoptimizer.com/kingdom-timeline/\" target=\"_blank\" rel=\"noreferrer\">Kingshot Optimizer</a>。",
+  "categories": {
+    "heroes": "英雄",
+    "pvp": "PvP",
+    "feature": "新功能",
+    "truegold": "真金",
+    "pets": "宠物",
+    "masters": "大师"
+  },
+  "milestones": {
+    "generation-1-heroes": {
+      "title": "第 1 代英雄"
+    },
+    "first-hall-of-governors-hog": {
+      "title": "首次执政官大厅（HoG）"
+    },
+    "first-sanctuary-competition": {
+      "title": "首次圣域竞赛"
+    },
+    "plains-fog-cleared": {
+      "title": "平原迷雾清除"
+    },
+    "mystic-trial-unlocked": {
+      "title": "神秘试炼解锁"
+    },
+    "first-fortress-competition": {
+      "title": "首次堡垒竞赛"
+    },
+    "hero-gear-reforge-unlocked": {
+      "title": "英雄装备重铸解锁"
+    },
+    "fertile-land-fog-cleared": {
+      "title": "沃土迷雾清除"
+    },
+    "alliance-resource-exchange-unlocks": {
+      "title": "联盟资源兑换解锁"
+    },
+    "generation-2-heroes": {
+      "title": "第 2 代英雄",
+      "notes": "Zoe（步兵，转盘英雄）、Hilde（骑兵）和 Marlin（弓兵）加入游戏。"
+    },
+    "first-castle-competition": {
+      "title": "首次城堡竞赛"
+    },
+    "generation-1-pets": {
+      "title": "第 1 代宠物",
+      "notes": "Grey Wolf、Lynx 和 Bison 加入宠物列表。"
+    },
+    "age-of-truegold": {
+      "title": "真金时代",
+      "notes": "解锁 TG 等级 1-3"
+    },
+    "generation-2-pets": {
+      "title": "第 2 代宠物",
+      "notes": "Cheetah 和 Moose 加入宠物列表。"
+    },
+    "first-kvk-prep-starts": {
+      "title": "首次 KvK 准备开始"
+    },
+    "first-kvk-castle-competition": {
+      "title": "首次 KvK 城堡竞赛"
+    },
+    "first-alliance-brawl": {
+      "title": "首次联盟乱斗"
+    },
+    "generation-3-heroes": {
+      "title": "第 3 代英雄",
+      "notes": "Eric（步兵）、Petra（骑兵，转盘英雄）和 Jaeger（弓兵）加入游戏。"
+    },
+    "generation-3-pets": {
+      "title": "第 3 代宠物",
+      "notes": "Lion 和 Grizzly Bear 加入宠物列表。"
+    },
+    "gov-gear-material-exchange-unlocks": {
+      "title": "执政官装备材料兑换解锁",
+      "notes": "允许在装备升级面板右上角兑换执政官装备材料（Satin、Gilded Threads 和 Artisan's Vision）。"
+    },
+    "masters-unlocked": {
+      "title": "大师解锁",
+      "notes": "要求玩家市政厅达到 lvl 25。Valora、Pan 和 Roman 作为首批 3 名大师推出。我们目前推测这里只是首批 3 名大师，其他世代可能稍后解锁或存在。需要随着玩家推进该内容继续验证。"
+    },
+    "truegold-5": {
+      "title": "真金 5",
+      "notes": "同时解锁真金坩埚（将基础资源转换为真金）。执政官饰物材料加入神秘试炼商店。Level 8 Terror（Titan Roc）加入游戏。从此之后，你的王国将有资格进入下一次王国转移窗口。想查看详细预测，请查看我们的王国转移模块。"
+    },
+    "gov-charm-material-exchange-unlocked": {
+      "title": "执政官饰物材料兑换解锁",
+      "notes": "允许在装备升级面板右上角兑换执政官饰物材料（Charm Guide 和 Charm Design）。"
+    },
+    "4th-master-unlocked": {
+      "title": "第 4 位大师解锁",
+      "notes": "第 4 位大师（Cassia）加入游戏。"
+    },
+    "governor-charm-cap-raised": {
+      "title": "执政官饰物上限提高",
+      "notes": "饰物 level 12+ 开放。虽然大多数玩家无法立刻达到，但这个小里程碑会划分转移组，必须单独标出。"
+    },
+    "generation-4-heroes": {
+      "title": "第 4 代英雄",
+      "notes": "Alcar（步兵）、Margot（骑兵）和 Rosa（弓兵，转盘英雄）加入游戏。沙漠试炼活动转变为冠军之路。第 2 代英雄进入金钥匙奖池。"
+    },
+    "generation-4-pets": {
+      "title": "第 4 代宠物",
+      "notes": "Giant Rhino 和 Mighty Bison 加入宠物列表。"
+    },
+    "5th-and-6th-masters-unlocked": {
+      "title": "第 5 和第 6 位大师解锁",
+      "notes": "第 5 和第 6 位大师（Guinevere 和 Wilson）加入游戏。"
+    },
+    "war-academy-unlocked": {
+      "title": "战争学院解锁",
+      "notes": "真金粉尘和 T11 部队加入游戏。"
+    },
+    "generation-5-heroes": {
+      "title": "第 5 代英雄",
+      "notes": "Long Fei（步兵，转盘英雄）、Thrud（骑兵）和 Vivian（弓兵）加入游戏。第 3 代英雄进入金钥匙奖池。"
+    },
+    "generation-5-pets": {
+      "title": "第 5 代宠物",
+      "notes": "Great Moose 和 Alpha Black Panther 加入宠物列表。"
+    },
+    "truegold-8": {
+      "title": "真金 8",
+      "notes": "淬炼真金加入游戏。强化真金坩埚，使其可进行淬炼真金转换。执政官装备箱加入神秘试炼商店。"
+    },
+    "generation-6-heroes": {
+      "title": "第 6 代英雄",
+      "notes": "Triton（步兵）、Sophia（骑兵，转盘英雄）和 Yang（弓兵）加入游戏。第 4 代英雄进入金钥匙奖池。"
+    },
+    "generation-6-pets": {
+      "title": "第 6 代宠物",
+      "notes": "Regal White Lion 和 Ironclad War Elephant 加入宠物列表。"
+    },
+    "first-flamedragon-tyrant-competition": {
+      "title": "首次炎龙暴君竞赛"
+    },
+    "generation-7-heroes": {
+      "title": "第 7 代英雄",
+      "notes": "Charles（步兵）、Ava（骑兵）和 Wee & Woo（弓兵，转盘英雄）加入游戏。第 5 代英雄进入金钥匙奖池。"
+    },
+    "generation-7-pets": {
+      "title": "第 7 代宠物",
+      "notes": "Ironclad War Bear 加入宠物列表。"
+    },
+    "advanced-truegold-research": {
+      "title": "高级真金研究",
+      "notes": "高级真金研究在战争学院开放。"
+    },
+    "generation-8-heroes": {
+      "title": "第 8 代英雄",
+      "notes": "第 6 代英雄进入金钥匙奖池。"
+    },
+    "generation-8-pets": {
+      "title": "第 8 代宠物"
+    },
+    "generation-9-heroes": {
+      "title": "第 9 代英雄",
+      "notes": "第 7 代英雄进入金钥匙奖池。"
+    },
+    "truegold-10": {
+      "title": "真金 10",
+      "notes": "真金等级 9 和 10 加入游戏。与这些等级相关的新功能尚未确认。"
+    }
+  }
+}

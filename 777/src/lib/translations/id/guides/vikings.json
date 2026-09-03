@@ -1,0 +1,65 @@
+{
+	"meta": {
+		"title": "Pembalasan Viking — Kingshot 777",
+		"description": "Panduan singkat Pembalasan Viking Kingshot: mengosongkan kastel, penempatan hero, pertahanan HQ, dan kapan tidak perlu heal."
+	},
+	"h1": "Pembalasan Viking",
+	"tldr": {
+		"heading": "Intinya",
+		"items": [
+			"<strong>Kosongkan kastelmu.</strong> Tukarkan pasukan dan hero cadanganmu ke anggota lain. Sisa pasukan milikmu sendiri mengurangi skor semua orang yang mendukungmu.",
+			"<strong>3 hero teratas di Guard Station</strong>, yang terkuat lebih dulu. Sisanya keluar lewat pertukaran.",
+			"<strong>Jangan heal di tengah event.</strong> Healing menarik pasukanmu pulang dan menjatuhkan skor pendukungmu. Heal hanya sebelum kegagalan kedua mengakhirinya, atau saat recall antara tahap 9 dan 10.",
+			"<strong>Tahap 10 dan 20 adalah HQ.</strong> Lindungi infanteri di atas tier 8 plus sedikit kavaleri — ikuti apa pun yang ditentukan pimpinanmu.",
+			"<strong>Perkuat dengan infanteri dan kavaleri.</strong> Viking menyerang infanteri dulu, kavaleri kedua, pemanah terakhir — tinggalkan pemanah di rumah jika pasukanmu penuh.",
+			"<strong>Online untuk tahap 7, 14, dan 17.</strong> Gelombang itu hanya menyerang pemain online dan memberi skor tertinggi.",
+			"<strong>Perkuat kota kosong dan tidak ramai.</strong> Poin dibagi berdasarkan porsi kill, jadi hindari menumpuk dengan whale.",
+			"<strong>Berpasangan dengan power yang mirip.</strong> Kelompok dua atau enam, ditempatkan berdekatan, agar bantuan tiba cepat dalam jeda 1 menit."
+		]
+	},
+	"sections": {
+		"details": {
+			"heading": "Detail"
+		},
+		"maximizing": {
+			"heading": "Memaksimalkan poinmu",
+			"items": [
+				"<strong>Kirim infanteri dan kavaleri.</strong> Viking bertarung melawan infanteri dulu, lalu kavaleri, lalu pemanah — jadi infanteri dan kavaleri masuk ke pertarungan lebih awal dan mengambil kill. Jika pasukanmu tidak bisa memuat semuanya, tinggalkan pemanah di rumah.",
+				"<strong>Perkuat pemain online.</strong> Gelombang 7, 14, dan 17 hanya menyerang anggota yang online. Slot pasukan yang dipakai pada sekutu offline terbuang, dan pemain offline biasanya belum membersihkan kotanya juga.",
+				"<strong>Pilih kota kosong yang tidak ramai.</strong> Pool poin dibagi berdasarkan porsi kill. Cari sekutu tanpa pasukan sendiri dan hanya satu atau dua pemberi bantuan lain. Berbagi kota dengan whale membuat pasukan tier lebih tingginya menyedot sebagian besar kill.",
+				"<strong>Rotasi ke HQ untuk gelombang 10 dan 20.</strong> Gelombang itu hanya menyerang HQ Aliansi — bukan kota. Setelah laporan pertempuran gelombang 9 (atau 19) selesai, recall satu pasukan kuat dan kirim ke HQ, lalu kirim kembali ke sekutumu begitu gelombang HQ berakhir. Recall terlalu awal dan kamu kehilangan poin gelombang sebelumnya.",
+				"<strong>Pimpin dengan hero ofensif.</strong> Gunakan hero joiner Perburuan Beruang di slot pemimpin — Chenko, Amadeus, Yeonwoo, atau Amane — untuk damage ekstra dan porsi kill lebih besar."
+			]
+		},
+		"tips": {
+			"heading": "Tips",
+			"items": [
+				"<strong>Rapikan pertukaranmu sebelum mulai.</strong> Pertukaran yang gagal membuat pasukan duduk di kastelmu sepanjang event.",
+				"<strong>Sepakati posisi sebelumnya</strong> agar tidak ada yang berada di luar jangkauan bantuan saat gelombang tiba."
+			]
+		}
+	},
+	"qa": [
+		{
+			"q": "Bagaimana cara kerja skor?",
+			"a": "Kamu mendapat skor dengan membunuh Viking yang menyerang kastel — kebanyakan milik orang lain. Itulah kenapa kastel kosong lebih bernilai bagi aliansimu daripada kastel yang dipertahankan: pendukung mendapatkan kill."
+		},
+		{
+			"q": "Kenapa meninggalkan pasukan di rumah merugikan?",
+			"a": "Pasukanmu sendiri mengambil kill yang seharusnya menjadi milik pendukungmu. Tukarkan mereka keluar agar kastelmu benar-benar kosong."
+		},
+		{
+			"q": "Berapa jeda waktu antar tahap?",
+			"a": "Sekitar satu menit biasanya, kira-kira tiga menit untuk tahap HQ (10 dan 20)."
+		},
+		{
+			"q": "Bagaimana jika aku punya alt di aliansi?",
+			"a": "Gunakan pasukannya untuk memperkuat akun utamamu. Jika kamu tier 10, alt itu juga bisa bertahan sendiri untuk poin tambahan."
+		},
+		{
+			"q": "Kapan event berakhir?",
+			"a": "Pada kegagalan kedua."
+		}
+	],
+	"source": "Sumber: <a href=\"https://kingshotwiki.com/events/viking-vengeance/\" rel=\"noreferrer\">kingshotwiki.com — Pembalasan Viking</a>"
+}

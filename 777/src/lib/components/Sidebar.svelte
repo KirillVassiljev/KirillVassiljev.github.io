@@ -54,7 +54,7 @@
 	a {
 		display: block;
 		padding: 0.5rem 1.25rem;
-		border-left: 2px solid transparent;
+		border-inline-start: 2px solid transparent;
 		color: var(--text);
 		text-decoration: none;
 		font-size: 0.95rem;
@@ -65,7 +65,7 @@
 	}
 
 	a[aria-current='page'] {
-		border-left-color: var(--accent);
+		border-inline-start-color: var(--accent);
 		background: var(--surface);
 		color: var(--accent);
 		font-weight: 600;
