@@ -1971,6 +1971,7 @@ Expected: no output (all display text now goes through `$t(...)` or `{@html}` of
 cd /home/roslyn/Git/KirillVassiljev.github.io
 git add 777/src/lib/translations/en/guides/castle-battle.json 777/src/lib/translations/i18n.ts 777/src/routes/guides/castle-battle/+page.svelte
 git commit -m "feat(i18n): migrate castle-battle guide to translations"
+```
 
 ---
 
