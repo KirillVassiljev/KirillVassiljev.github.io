@@ -136,7 +136,7 @@ Replace:
 with:
 
 ```svelte
-		<span class="topbar-title">{$t('layout.brandTitle')}</span>
+		<span class="topbar-title">{$t('common.layout.brandTitle')}</span>
 ```
 
 Replace:
@@ -156,7 +156,7 @@ with:
 ```svelte
 		<button
 			class="hamburger"
-			aria-label={$t('layout.toggleNav')}
+			aria-label={$t('common.layout.toggleNav')}
 			aria-expanded={open}
 			aria-controls="sidebar"
 			onclick={() => (open = !open)}
@@ -172,7 +172,7 @@ Replace:
 with:
 
 ```svelte
-		<a class="brand" href="{base}/">{$t('layout.brandTitle')}</a>
+		<a class="brand" href="{base}/">{$t('common.layout.brandTitle')}</a>
 ```
 
 Replace:
@@ -191,7 +191,7 @@ with:
 ```svelte
 	<button
 		class="backdrop"
-		aria-label={$t('layout.closeNav')}
+		aria-label={$t('common.layout.closeNav')}
 		tabindex={open ? 0 : -1}
 		onclick={() => (open = false)}
 	></button>
@@ -214,21 +214,21 @@ export type NavSection = {
 
 export const sections: NavSection[] = [
 	{
-		titleKey: 'nav.section.guides',
+		titleKey: 'common.nav.section.guides',
 		items:
 		[
-			{ titleKey: 'nav.item.bear', slug: 'bear' },
-			{ titleKey: 'nav.item.allaince-championship', slug: 'allaince-championship' },
-			{ titleKey: 'nav.item.strongest-governor', slug: 'strongest-governor' },
-			{ titleKey: 'nav.item.vikings', slug: 'vikings' },
-			{ titleKey: 'nav.item.castle-battle', slug: 'castle-battle' },
-			{ titleKey: 'nav.item.tri-alliance-clash', slug: 'tri-alliance-clash' },
-			{ titleKey: 'nav.item.swordland-showdown', slug: 'swordland-showdown' },
+			{ titleKey: 'common.nav.item.bear', slug: 'bear' },
+			{ titleKey: 'common.nav.item.allaince-championship', slug: 'allaince-championship' },
+			{ titleKey: 'common.nav.item.strongest-governor', slug: 'strongest-governor' },
+			{ titleKey: 'common.nav.item.vikings', slug: 'vikings' },
+			{ titleKey: 'common.nav.item.castle-battle', slug: 'castle-battle' },
+			{ titleKey: 'common.nav.item.tri-alliance-clash', slug: 'tri-alliance-clash' },
+			{ titleKey: 'common.nav.item.swordland-showdown', slug: 'swordland-showdown' },
 		]
 	},
 	{
-		titleKey: 'nav.section.tools',
-		items: [{ titleKey: 'nav.item.timeline', slug: 'timeline' }]
+		titleKey: 'common.nav.section.tools',
+		items: [{ titleKey: 'common.nav.item.timeline', slug: 'timeline' }]
 	}
 ];
 ```
@@ -245,7 +245,7 @@ Replace the full contents of `777/src/lib/components/Sidebar.svelte` with:
 	import { t } from '$lib/translations/i18n';
 </script>
 
-<nav aria-label={$t('sidebar.ariaLabel')}>
+<nav aria-label={$t('common.sidebar.ariaLabel')}>
 	{#each sections as section (section.titleKey)}
 		<div class="group">
 			<h2>{$t(section.titleKey)}</h2>
@@ -327,8 +327,8 @@ Replace the full contents of `777/src/routes/+page.svelte` with:
 	import { t } from '$lib/translations/i18n';
 </script>
 
-<h1>{$t('home.title')}</h1>
-<p>{$t('home.description')}</p>
+<h1>{$t('common.home.title')}</h1>
+<p>{$t('common.home.description')}</p>
 ```
 
 - [ ] **Step 9: Type-check**
@@ -339,7 +339,7 @@ Expected: no errors (warnings about unrelated pre-existing issues, if any, are o
 - [ ] **Step 10: Build and confirm the home page renders translated text**
 
 Run: `cd 777 && npm run build`
-Expected: build succeeds; open `777/build/index.html` and confirm it contains "Kingshot 777" (topbar/brand) and "Guides, tier lists, and build orders. Pick a topic from the sidebar." (home page), not literal translation keys like `home.title`.
+Expected: build succeeds; open `777/build/index.html` and confirm it contains "Kingshot 777" (topbar/brand) and "Guides, tier lists, and build orders. Pick a topic from the sidebar." (home page), not literal translation keys like `common.home.title`.
 
 - [ ] **Step 11: Commit**
 
