@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { categoryLabels, kingdom, milestones, type Milestone } from '$lib/timeline';
+	import { categoryLabelKeys, kingdom, milestones, type Milestone } from '$lib/timeline';
+	import { t } from '$lib/translations/i18n';
 
 	const iconUrls = import.meta.glob('$lib/assets/timeline/*.{webp,png}', {
 		eager: true,
@@ -59,7 +60,7 @@
 				placedToday = true;
 			}
 
-			out.push({ key: m.date + m.title, gap, milestone: m });
+			out.push({ key: m.date + m.titleKey, gap, milestone: m });
 			previous = m;
 		}
 
@@ -78,25 +79,24 @@
 </script>
 
 <svelte:head>
-	<title>Kingdom {kingdom} timeline — Kingshot 777</title>
+	<title>{$t('guides.timeline.meta.title', { kingdom: String(kingdom) })}</title>
 	<meta
 		name="description"
-		content="Milestone timeline for Kingshot kingdom {kingdom}: hero generations, fog clears, KvK firsts, Truegold tiers, and pet generations."
+		content={$t('guides.timeline.meta.description', { kingdom: String(kingdom) })}
 	/>
 </svelte:head>
 
-<h1>Kingdom {kingdom} timeline</h1>
+<h1>{$t('guides.timeline.h1', { kingdom: String(kingdom) })}</h1>
 
 <p>
-	Milestones recorded for our kingdom, spaced by how far apart they actually fell. Cards with notes
-	expand when you open them.
+	{$t('guides.timeline.intro')}
 </p>
 
 {#if dated.length === 0}
-	<p class="empty">No milestones recorded yet.</p>
+	<p class="empty">{$t('guides.timeline.empty')}</p>
 {:else}
 	<div class="controls">
-		<button type="button" onclick={jumpToToday} disabled={today === null}>Jump to today</button>
+		<button type="button" onclick={jumpToToday} disabled={today === null}>{$t('guides.timeline.jumpToToday')}</button>
 	</div>
 
 	<div class="timeline">
@@ -112,10 +112,10 @@
 						{#snippet head()}
 							<span class="date">
 								{dateFormat.format(m.time)}
-								{#if m.predicted}<em>predicted</em>{/if}
+								{#if m.predicted}<em>{$t('guides.timeline.predicted')}</em>{/if}
 							</span>
-							<span class="title">{m.title}</span>
-							<span class="tag">{categoryLabels[m.category]}</span>
+							<span class="title">{$t(m.titleKey)}</span>
+							<span class="tag">{$t(categoryLabelKeys[m.category])}</span>
 							{#if m.icons?.length}
 								<span class="icons">
 									{#each m.icons as icon (icon)}
@@ -128,10 +128,10 @@
 							{/if}
 						{/snippet}
 
-						{#if m.notes}
+						{#if m.notesKey}
 							<details class="card">
 								<summary>{@render head()}</summary>
-								<p>{m.notes}</p>
+								<p>{$t(m.notesKey)}</p>
 							</details>
 						{:else}
 							<div class="card">{@render head()}</div>
@@ -140,7 +140,7 @@
 				{:else}
 					<li class="today-row" style="margin-top: {row.gap}px">
 						<div bind:this={todayMarker} class="today" aria-hidden="true">
-							<span>Today</span>
+							<span>{$t('guides.timeline.today')}</span>
 						</div>
 					</li>
 				{/if}
@@ -149,12 +149,7 @@
 	</div>
 {/if}
 
-<p class="source">
-	Dates recorded by us for kingdom {kingdom}. For other kingdoms and predicted milestones, see
-	<a href="https://kingshotoptimizer.com/kingdom-timeline/" target="_blank" rel="noreferrer">
-		Kingshot Optimizer
-	</a>.
-</p>
+<p class="source">{@html $t('guides.timeline.source', { kingdom: String(kingdom) })}</p>
 
 <style>
 	.controls {

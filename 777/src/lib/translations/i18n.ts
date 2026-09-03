@@ -3,7 +3,7 @@ import i18n, { type Config } from 'sveltekit-i18n';
 // 'preserveArrays' keeps JSON arrays (e.g. list items) as real arrays after
 // loading, instead of flattening them into 'key.0', 'key.1', ... entries.
 // Every task that adds a `loaders` entry below relies on this setting.
-const config: Config = {
+const config: Config<{ kingdom: string }> = {
 	preprocess: 'preserveArrays',
 	loaders: [
 		{
@@ -52,6 +52,12 @@ const config: Config = {
 			key: 'guides.tri-alliance-clash',
 			routes: ['/guides/tri-alliance-clash'],
 			loader: async () => (await import('./en/guides/tri-alliance-clash.json')).default
+		},
+		{
+			locale: 'en',
+			key: 'guides.timeline',
+			routes: ['/guides/timeline'],
+			loader: async () => (await import('./en/guides/timeline.json')).default
 		},
 	]
 };

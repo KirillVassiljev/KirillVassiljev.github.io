@@ -9,12 +9,13 @@ export type MilestoneCategory =
 export type Milestone = {
 	/** ISO date, e.g. '2025-03-14'. Use the day the milestone unlocked or is expected. */
 	date: string;
-	title: string;
+	/** Translation key into guides.timeline.milestones.<id>.title */
+	titleKey: string;
 	category: MilestoneCategory;
 	/** Set true for dates you expect but that haven't happened yet. */
 	predicted?: boolean;
-	/** Optional longer text shown when the card is expanded. */
-	notes?: string;
+	/** Translation key into guides.timeline.milestones.<id>.notes, shown when the card is expanded. */
+	notesKey?: string;
 	/** Asset base names in `$lib/assets/timeline`, e.g. ['zoe', 'hilde']. */
 	icons?: string[];
 };
@@ -24,13 +25,14 @@ export const kingdom = 1997;
 /** The day K1997 opened. */
 export const kingdomCreated = '2026-04-27';
 
-export const categoryLabels: Record<MilestoneCategory, string> = {
-	heroes: 'Heroes',
-	pvp: 'PvP',
-	feature: 'New feature',
-	truegold: 'Truegold',
-	pets: 'Pets',
-	masters: 'Masters'
+/** Translation keys for each category's display label — looked up via $t(categoryLabelKeys[category]). */
+export const categoryLabelKeys: Record<MilestoneCategory, string> = {
+	heroes: 'guides.timeline.categories.heroes',
+	pvp: 'guides.timeline.categories.pvp',
+	feature: 'guides.timeline.categories.feature',
+	truegold: 'guides.timeline.categories.truegold',
+	pets: 'guides.timeline.categories.pets',
+	masters: 'guides.timeline.categories.masters'
 };
 
 /**
@@ -40,321 +42,294 @@ export const categoryLabels: Record<MilestoneCategory, string> = {
 export const milestones: Milestone[] = [
 	{
 		date: '2026-04-27',
-		title: 'Generation 1 Heroes',
+		titleKey: 'guides.timeline.milestones.generation-1-heroes.title',
 		category: 'heroes',
 		icons: ['heroes']
 	},
 	{
 		date: '2026-05-02',
-		title: 'First Hall of Governors (HoG)',
+		titleKey: 'guides.timeline.milestones.first-hall-of-governors-hog.title',
 		category: 'feature'
 	},
 	{
 		date: '2026-05-03',
-		title: 'First Sanctuary Competition',
+		titleKey: 'guides.timeline.milestones.first-sanctuary-competition.title',
 		category: 'pvp',
 		icons: ['sanctuary-battle']
 	},
 	{
 		date: '2026-05-10',
-		title: 'Plains Fog Cleared',
+		titleKey: 'guides.timeline.milestones.plains-fog-cleared.title',
 		category: 'feature'
 	},
 	{
 		date: '2026-05-18',
-		title: 'Mystic Trial Unlocked',
+		titleKey: 'guides.timeline.milestones.mystic-trial-unlocked.title',
 		category: 'feature',
 		icons: ['mystic-trial']
 	},
 	{
 		date: '2026-05-21',
-		title: 'First Fortress Competition',
+		titleKey: 'guides.timeline.milestones.first-fortress-competition.title',
 		category: 'pvp',
 		icons: ['fortress']
 	},
 	{
 		date: '2026-05-24',
-		title: 'Hero Gear Reforge Unlocked',
+		titleKey: 'guides.timeline.milestones.hero-gear-reforge-unlocked.title',
 		category: 'feature',
 		icons: ['hero-gear']
 	},
 	{
 		date: '2026-06-04',
-		title: 'Fertile Land Fog Cleared',
+		titleKey: 'guides.timeline.milestones.fertile-land-fog-cleared.title',
 		category: 'feature'
 	},
 	{
 		date: '2026-06-10',
-		title: 'Alliance Resource Exchange Unlocks',
+		titleKey: 'guides.timeline.milestones.alliance-resource-exchange-unlocks.title',
 		category: 'feature',
 		icons: ['exchange']
 	},
 	{
 		date: '2026-06-15',
-		title: 'Generation 2 Heroes',
+		titleKey: 'guides.timeline.milestones.generation-2-heroes.title',
 		category: 'heroes',
-		icons: ['zoe', 'hilde', 'marlin'],
-		notes:
-			'Zoe (Infantry, Roulette Wheel hero), Hilde (Cavalry), and Marlin (Archer) added to game.'
+		notesKey: 'guides.timeline.milestones.generation-2-heroes.notes',
+		icons: ['zoe', 'hilde', 'marlin']
 	},
 	{
 		date: '2026-06-19',
-		title: 'First Castle Competition',
+		titleKey: 'guides.timeline.milestones.first-castle-competition.title',
 		category: 'pvp',
 		icons: ['castle']
 	},
 	{
 		date: '2026-06-20',
-		title: 'Generation 1 Pets',
+		titleKey: 'guides.timeline.milestones.generation-1-pets.title',
 		category: 'pets',
-		icons: ['gray-wolf', 'lynx', 'bison'],
-		notes:
-			'Grey Wolf, Lynx, and Bison added to pet roster.'
+		notesKey: 'guides.timeline.milestones.generation-1-pets.notes',
+		icons: ['gray-wolf', 'lynx', 'bison']
 	},
 	{
 		date: '2026-07-05',
-		title: 'Age of Truegold',
+		titleKey: 'guides.timeline.milestones.age-of-truegold.title',
 		category: 'truegold',
-		icons: ['tg3'],
-		notes:
-			'Unlocks TG levels 1-3'
+		notesKey: 'guides.timeline.milestones.age-of-truegold.notes',
+		icons: ['tg3']
 	},
 	{
 		date: '2026-07-07',
-		title: 'Generation 2 Pets',
+		titleKey: 'guides.timeline.milestones.generation-2-pets.title',
 		category: 'pets',
-		icons: ['cheetah', 'moose'],
-		notes:
-			'Cheetah and Moose added to pet roster.'
+		notesKey: 'guides.timeline.milestones.generation-2-pets.notes',
+		icons: ['cheetah', 'moose']
 	},
 	{
 		date: '2026-07-13',
-		title: 'First KvK Prep Starts',
+		titleKey: 'guides.timeline.milestones.first-kvk-prep-starts.title',
 		category: 'pvp',
 		icons: ['kvk-event']
 	},
 	{
 		date: '2026-07-18',
-		title: 'First KvK Castle Competition',
+		titleKey: 'guides.timeline.milestones.first-kvk-castle-competition.title',
 		category: 'pvp',
 		icons: ['kvk-event', 'castle']
 	},
 	{
 		date: '2026-07-20',
-		title: 'First Alliance Brawl',
+		titleKey: 'guides.timeline.milestones.first-alliance-brawl.title',
 		category: 'pvp',
 		icons: ['alliance-brawl']
 	},
 	{
 		date: '2026-08-17',
-		title: 'Generation 3 Heroes',
+		titleKey: 'guides.timeline.milestones.generation-3-heroes.title',
 		category: 'heroes',
-		icons: ['eric', 'petra', 'jaeger'],
-		notes:
-			'Eric (Infantry), Petra (Cavalry, Roulette Wheel hero), and Jaeger (Archer) added to game.'
+		notesKey: 'guides.timeline.milestones.generation-3-heroes.notes',
+		icons: ['eric', 'petra', 'jaeger']
 	},
 	{
 		date: '2026-08-17',
-		title: 'Generation 3 Pets',
+		titleKey: 'guides.timeline.milestones.generation-3-pets.title',
 		category: 'pets',
-		icons: ['lion', 'grizzly-bear'],
-		notes:
-			'Lion and Grizzly Bear added to pet roster.'
+		notesKey: 'guides.timeline.milestones.generation-3-pets.notes',
+		icons: ['lion', 'grizzly-bear']
 	},
 	{
 		date: '2026-08-17',
-		title: 'Gov Gear Material Exchange Unlocks',
+		titleKey: 'guides.timeline.milestones.gov-gear-material-exchange-unlocks.title',
 		category: 'feature',
-		icons: ['satin', 'exchange'],
-		notes:
-			'Allows for the exchange of Governor Gear materials (Satin, Gilded Threads, and Artisan\'s Vision) in the top right of the gear upgrade panel.'
+		notesKey: 'guides.timeline.milestones.gov-gear-material-exchange-unlocks.notes',
+		icons: ['satin', 'exchange']
 	},
 	{
 		date: '2026-08-17',
-		title: 'Masters Unlocked',
+		titleKey: 'guides.timeline.milestones.masters-unlocked.title',
 		category: 'masters',
-		icons: ['valora', 'pan', 'roman'],
-		notes:
-			'Requires player to have Town Center lvl 25. Valora, Pan, and Roman released as the first 3 masters. We currently suspect this is the first 3 masters only and other generations unlock later/may exist. Need to verify as players progress through this content.'
+		notesKey: 'guides.timeline.milestones.masters-unlocked.notes',
+		icons: ['valora', 'pan', 'roman']
 	},
 	{
 		date: '2026-09-28',
-		title: 'Truegold 5',
+		titleKey: 'guides.timeline.milestones.truegold-5.title',
 		category: 'truegold',
-		icons: ['tg5'],
 		predicted: true,
-		notes:
-			'Also unlocks Truegold Crucible (converts basic resources into Truegold). Governor charm materials added to Mystic Trial store. Level 8 Terror (Titan Roc) added to the game. From this point forward, your Kingdom will be eligible for the next Kingdom Transfer Window. To see detailed predictions, check out our Kingdom Transfer module.'
+		notesKey: 'guides.timeline.milestones.truegold-5.notes',
+		icons: ['tg5']
 	},
 	{
 		date: '2026-09-28',
-		title: 'Gov Charm Material Exchange Unlocked',
+		titleKey: 'guides.timeline.milestones.gov-charm-material-exchange-unlocked.title',
 		category: 'feature',
-		icons: ['charm-guide', 'exchange'],
 		predicted: true,
-		notes:
-			'Allows for the exchange of Governor Charm materials (Charm Guide and Charm Design) in the top right of the gear upgrade panel.'
+		notesKey: 'guides.timeline.milestones.gov-charm-material-exchange-unlocked.notes',
+		icons: ['charm-guide', 'exchange']
 	},
 	{
 		date: '2026-09-28',
-		title: '4th Master Unlocked',
+		titleKey: 'guides.timeline.milestones.4th-master-unlocked.title',
 		category: 'masters',
-		icons: ['cassia'],
 		predicted: true,
-		notes:
-			'4th master (Cassia) added to the game.'
+		notesKey: 'guides.timeline.milestones.4th-master-unlocked.notes',
+		icons: ['cassia']
 	},
 	{
 		date: '2026-10-19',
-		title: 'Governor Charm Cap Raised',
+		titleKey: 'guides.timeline.milestones.governor-charm-cap-raised.title',
 		category: 'feature',
-		icons: ['charm-l12-infantry', 'charm-l12-cavalry', 'charm-l12-archer'],
 		predicted: true,
-		notes:
-			'Charms level 12+ available. While not immediately achievable for most players, this small milestone splits Transfer Groups and must be called out.'
+		notesKey: 'guides.timeline.milestones.governor-charm-cap-raised.notes',
+		icons: ['charm-l12-infantry', 'charm-l12-cavalry', 'charm-l12-archer']
 	},
 	{
 		date: '2026-11-09',
-		title: 'Generation 4 Heroes',
+		titleKey: 'guides.timeline.milestones.generation-4-heroes.title',
 		category: 'heroes',
-		icons: ['alcar', 'margot', 'rosa'],
 		predicted: true,
-		notes:
-			'Alcar (Infantry), Margot (Cavalry), and Rosa (Archer, Roulette Wheel hero) added to game. The Desert Trial Event transforms into Champions Way. Gen 2 heroes enter the gold key loot pool.'
+		notesKey: 'guides.timeline.milestones.generation-4-heroes.notes',
+		icons: ['alcar', 'margot', 'rosa']
 	},
 	{
 		date: '2026-11-09',
-		title: 'Generation 4 Pets',
+		titleKey: 'guides.timeline.milestones.generation-4-pets.title',
 		category: 'pets',
-		icons: ['giant-rhino', 'mighty-bison'],
 		predicted: true,
-		notes:
-			'Giant Rhino and Mighty Bison added to pet roster.'
+		notesKey: 'guides.timeline.milestones.generation-4-pets.notes',
+		icons: ['giant-rhino', 'mighty-bison']
 	},
 	{
 		date: '2026-11-09',
-		title: '5th and 6th Masters Unlocked',
+		titleKey: 'guides.timeline.milestones.5th-and-6th-masters-unlocked.title',
 		category: 'masters',
 		predicted: true,
-		notes:
-			'5th and 6th masters (Guinevere and Wilson) added to the game.'
+		notesKey: 'guides.timeline.milestones.5th-and-6th-masters-unlocked.notes'
 	},
 	{
 		date: '2026-12-07',
-		title: 'War Academy Unlocked',
+		titleKey: 'guides.timeline.milestones.war-academy-unlocked.title',
 		category: 'feature',
-		icons: ['tier-11', 'truegold-dust'],
 		predicted: true,
-		notes:
-			'Truegold Dust and T11 troops added to game.'
+		notesKey: 'guides.timeline.milestones.war-academy-unlocked.notes',
+		icons: ['tier-11', 'truegold-dust']
 	},
 	{
 		date: '2027-02-01',
-		title: 'Generation 5 Heroes',
+		titleKey: 'guides.timeline.milestones.generation-5-heroes.title',
 		category: 'heroes',
-		icons: ['long-fei', 'thrud', 'vivian'],
 		predicted: true,
-		notes:
-			'Long Fei (Infantry, Roulette Wheel hero), Thrud (Cavalry), and Vivian (Archer) added to game. Gen 3 heroes enter the gold key loot pool.'
+		notesKey: 'guides.timeline.milestones.generation-5-heroes.notes',
+		icons: ['long-fei', 'thrud', 'vivian']
 	},
 	{
 		date: '2027-02-01',
-		title: 'Generation 5 Pets',
+		titleKey: 'guides.timeline.milestones.generation-5-pets.title',
 		category: 'pets',
-		icons: ['great-moose', 'alpha-black-panther'],
 		predicted: true,
-		notes:
-			'Great Moose and Alpha Black Panther added to pet roster.'
+		notesKey: 'guides.timeline.milestones.generation-5-pets.notes',
+		icons: ['great-moose', 'alpha-black-panther']
 	},
 	{
 		date: '2027-03-15',
-		title: 'Truegold 8',
+		titleKey: 'guides.timeline.milestones.truegold-8.title',
 		category: 'truegold',
-		icons: ['tg8', 'tempered-truegold'],
 		predicted: true,
-		notes:
-			'Tempered Truegold added to the game. Enhances Truegold Crucible to allow Tempered Truegold conversion. Governor gear chests added to Mystic Trial store.'
+		notesKey: 'guides.timeline.milestones.truegold-8.notes',
+		icons: ['tg8', 'tempered-truegold']
 	},
 	{
 		date: '2027-04-26',
-		title: 'Generation 6 Heroes',
+		titleKey: 'guides.timeline.milestones.generation-6-heroes.title',
 		category: 'heroes',
-		icons: ['triton', 'sophia', 'yang'],
 		predicted: true,
-		notes:
-			'Triton (Infantry), Sophia (Cavalry, Roulette Wheel hero), and Yang (Archer) added to game. Gen 4 heroes enter the gold key loot pool.'
+		notesKey: 'guides.timeline.milestones.generation-6-heroes.notes',
+		icons: ['triton', 'sophia', 'yang']
 	},
 	{
 		date: '2027-04-26',
-		title: 'Generation 6 Pets',
+		titleKey: 'guides.timeline.milestones.generation-6-pets.title',
 		category: 'pets',
-		icons: ['regal-white-lion', 'ironclad-war-elephant'],
 		predicted: true,
-		notes:
-			'Regal White Lion and Ironclad War Elephant added to pet roster.'
+		notesKey: 'guides.timeline.milestones.generation-6-pets.notes',
+		icons: ['regal-white-lion', 'ironclad-war-elephant']
 	},
 	{
 		date: '2027-06-06',
-		title: 'First Flamedragon Tyrant Competition',
+		titleKey: 'guides.timeline.milestones.first-flamedragon-tyrant-competition.title',
 		category: 'pvp',
-		icons: ['flamedragon'],
-		predicted: true
+		predicted: true,
+		icons: ['flamedragon']
 	},
 	{
 		date: '2027-07-19',
-		title: 'Generation 7 Heroes',
+		titleKey: 'guides.timeline.milestones.generation-7-heroes.title',
 		category: 'heroes',
-		icons: ['charles', 'ava', 'wee-woo'],
 		predicted: true,
-		notes:
-			'Charles (Infantry), Ava (Cavalry), and Wee & Woo (Archer, Roulette Wheel hero) added to game. Gen 5 heroes enter the gold key loot pool.'
+		notesKey: 'guides.timeline.milestones.generation-7-heroes.notes',
+		icons: ['charles', 'ava', 'wee-woo']
 	},
 	{
 		date: '2027-07-19',
-		title: 'Generation 7 Pets',
+		titleKey: 'guides.timeline.milestones.generation-7-pets.title',
 		category: 'pets',
-		icons: ['ironclad-war-bear'],
 		predicted: true,
-		notes:
-			'Ironclad War Bear added to pet roster.'
+		notesKey: 'guides.timeline.milestones.generation-7-pets.notes',
+		icons: ['ironclad-war-bear']
 	},
 	{
 		date: '2027-08-30',
-		title: 'Advanced Truegold Research',
+		titleKey: 'guides.timeline.milestones.advanced-truegold-research.title',
 		category: 'truegold',
-		icons: ['truegold'],
 		predicted: true,
-		notes:
-			'Advanced Truegold Research becomes available in the War Academy.'
+		notesKey: 'guides.timeline.milestones.advanced-truegold-research.notes',
+		icons: ['truegold']
 	},
 	{
 		date: '2027-10-11',
-		title: 'Generation 8 Heroes',
+		titleKey: 'guides.timeline.milestones.generation-8-heroes.title',
 		category: 'heroes',
 		predicted: true,
-		notes:
-			'Gen 6 heroes enter the gold key loot pool.'
+		notesKey: 'guides.timeline.milestones.generation-8-heroes.notes'
 	},
 	{
 		date: '2027-10-11',
-		title: 'Generation 8 Pets',
+		titleKey: 'guides.timeline.milestones.generation-8-pets.title',
 		category: 'pets',
 		predicted: true
 	},
 	{
 		date: '2028-01-03',
-		title: 'Generation 9 Heroes',
+		titleKey: 'guides.timeline.milestones.generation-9-heroes.title',
 		category: 'heroes',
 		predicted: true,
-		notes:
-			'Gen 7 heroes enter the gold key loot pool.'
+		notesKey: 'guides.timeline.milestones.generation-9-heroes.notes'
 	},
 	{
 		date: '2028-02-14',
-		title: 'Truegold 10',
+		titleKey: 'guides.timeline.milestones.truegold-10.title',
 		category: 'truegold',
 		predicted: true,
-		notes:
-			'Truegold levels 9 and 10 added to the game. New features in conjunction with these levels have yet to be confirmed.'
+		notesKey: 'guides.timeline.milestones.truegold-10.notes'
 	}
 ];
