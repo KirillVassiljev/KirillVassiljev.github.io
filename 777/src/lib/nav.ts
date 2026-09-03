@@ -1,29 +1,29 @@
 export type NavItem = {
-	title: string;
+	titleKey: string;
 	slug: string;
 };
 
 export type NavSection = {
-	title: string;
+	titleKey: string;
 	items: NavItem[];
 };
 
 export const sections: NavSection[] = [
 	{
-		title: 'Guides',
-		items: 
+		titleKey: 'nav.section.guides',
+		items:
 		[
-			{ title: 'Bear hunt', slug: 'bear' },
-			{ title: 'Allaince championship', slug: 'allaince-championship' },
-			{ title: 'Strongest governor', slug: 'strongest-governor' },
-			{ title: 'Viking vengeance', slug: 'vikings' },
-			{ title: 'Castle battle', slug: 'castle-battle' },
-			{ title: 'Tri-alliance clash', slug: 'tri-alliance-clash' },
-			{ title: 'Swordland showdown', slug: 'swordland-showdown' },
+			{ titleKey: 'nav.item.bear', slug: 'bear' },
+			{ titleKey: 'nav.item.allaince-championship', slug: 'allaince-championship' },
+			{ titleKey: 'nav.item.strongest-governor', slug: 'strongest-governor' },
+			{ titleKey: 'nav.item.vikings', slug: 'vikings' },
+			{ titleKey: 'nav.item.castle-battle', slug: 'castle-battle' },
+			{ titleKey: 'nav.item.tri-alliance-clash', slug: 'tri-alliance-clash' },
+			{ titleKey: 'nav.item.swordland-showdown', slug: 'swordland-showdown' },
 		]
 	},
 	{
-		title: 'Tools',
-		items: [{ title: 'Timeline', slug: 'timeline' }]
+		titleKey: 'nav.section.tools',
+		items: [{ titleKey: 'nav.item.timeline', slug: 'timeline' }]
 	}
 ];

@@ -2,12 +2,13 @@
 	import { base } from '$app/paths';
 	import { page } from '$app/state';
 	import { sections } from '$lib/nav';
+	import { t } from '$lib/translations/i18n';
 </script>
 
-<nav aria-label="Site sections">
-	{#each sections as section (section.title)}
+<nav aria-label={$t('sidebar.ariaLabel')}>
+	{#each sections as section (section.titleKey)}
 		<div class="group">
-			<h2>{section.title}</h2>
+			<h2>{$t(section.titleKey)}</h2>
 			<ul>
 				{#each section.items as item (item.slug)}
 					{@const path = `/guides/${item.slug}`}
@@ -16,7 +17,7 @@
 							href="{base}{path}"
 							aria-current={page.url.pathname.endsWith(path) ? 'page' : undefined}
 						>
-							{item.title}
+							{$t(item.titleKey)}
 						</a>
 					</li>
 				{/each}

@@ -1,0 +1,30 @@
+{
+	"layout": {
+		"brandTitle": "Kingshot 777",
+		"toggleNav": "Toggle navigation",
+		"closeNav": "Close navigation"
+	},
+	"sidebar": {
+		"ariaLabel": "Site sections"
+	},
+	"nav": {
+		"section": {
+			"guides": "Guides",
+			"tools": "Tools"
+		},
+		"item": {
+			"bear": "Bear hunt",
+			"allaince-championship": "Allaince championship",
+			"strongest-governor": "Strongest governor",
+			"vikings": "Viking vengeance",
+			"castle-battle": "Castle battle",
+			"tri-alliance-clash": "Tri-alliance clash",
+			"swordland-showdown": "Swordland showdown",
+			"timeline": "Timeline"
+		}
+	},
+	"home": {
+		"title": "Kingshot 777",
+		"description": "Guides, tier lists, and build orders. Pick a topic from the sidebar."
+	}
+}

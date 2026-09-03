@@ -4,6 +4,7 @@
 	import { base } from '$app/paths';
 	import favicon from '$lib/assets/favicon.svg';
 	import Sidebar from '$lib/components/Sidebar.svelte';
+	import { t } from '$lib/translations/i18n';
 
 	let { children }: { children: Snippet } = $props();
 
@@ -29,24 +30,24 @@
 	<header class="topbar">
 		<button
 			class="hamburger"
-			aria-label="Toggle navigation"
+			aria-label={$t('layout.toggleNav')}
 			aria-expanded={open}
 			aria-controls="sidebar"
 			onclick={() => (open = !open)}
 		>
 			<span aria-hidden="true">&#9776;</span>
 		</button>
-		<span class="topbar-title">Kingshot 777</span>
+		<span class="topbar-title">{$t('layout.brandTitle')}</span>
 	</header>
 
 	<aside id="sidebar" class="sidebar">
-		<a class="brand" href="{base}/">Kingshot 777</a>
+		<a class="brand" href="{base}/">{$t('layout.brandTitle')}</a>
 		<Sidebar />
 	</aside>
 
 	<button
 		class="backdrop"
-		aria-label="Close navigation"
+		aria-label={$t('layout.closeNav')}
 		tabindex={open ? 0 : -1}
 		onclick={() => (open = false)}
 	></button>
