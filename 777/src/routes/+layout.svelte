@@ -213,7 +213,8 @@
 			display: none;
 		}
 
-		.sidebar {
+		.sidebar,
+		:global([dir='rtl']) .sidebar {
 			position: sticky;
 			z-index: auto;
 			width: auto;
