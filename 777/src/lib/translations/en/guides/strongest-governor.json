@@ -1,0 +1,77 @@
+{
+	"meta": {
+		"title": "Strongest governor — Kingshot 777",
+		"description": "TL;DR guide to the Kingshot Strongest Governor event: the 7 daily stages, how points are scored, and which rankings pay out."
+	},
+	"h1": "Strongest governor",
+	"tldr": {
+		"heading": "TL;DR",
+		"items": [
+			"<strong>If KvK is close, save your speed-ups for it.</strong> KvK's server-wide build, research and training buffs mean the same speed-ups buy far more power there than in a normal Strongest Governor week.",
+			"<strong>Bank everything beforehand.</strong> Nothing you do outside the event window scores. Sit on your speed-ups and resources and dump them on the matching day.",
+			"<strong>250,000 points</strong> is the bar to qualify for the kingdom-wide rewards. Aim for it even if you can't rank.",
+			"<strong>Grab your 2 Challenge Medals every day</strong> — free rewards for tasks you're already doing."
+		]
+	},
+	"sections": {
+		"stages": {
+			"heading": "The 7 days",
+			"items": [
+				"<strong>Day 1 — City construction:</strong> building upgrades and construction speed-ups.",
+				"<strong>Day 2 — Hero development:</strong> hero EXP, shards, star-ups.",
+				"<strong>Day 3 — Skill upgrades:</strong> hero skill levels.",
+				"<strong>Day 4 — Troop training:</strong> training and promoting troops.",
+				"<strong>Day 5 — Skill upgrades again.</strong>",
+				"<strong>Day 6 — Troop training again.</strong>",
+				"<strong>Day 7 — Hero development + gathering.</strong>"
+			]
+		},
+		"details": {
+			"heading": "Details"
+		},
+		"rewards": {
+			"heading": "Rewards",
+			"items": [
+				"<strong>Point milestones:</strong> 5 tiers per day, each needing more points than the last. Claim them as you go.",
+				"<strong>Challenge Medal rewards:</strong> claimed with the medals you earn, up to 2 per day.",
+				"<strong>Daily stage ranking:</strong> paid at the end of each day to the top 1,000 scorers in your kingdom — gems and speed-ups, scaled by rank.",
+				"<strong>Kingdom total ranking:</strong> top 1,000 in your kingdom by total points across the 7 days.",
+				"<strong>Cross-kingdom ranking:</strong> top 2,000 across all participating kingdoms. Much better rewards — Truegold and exclusive cosmetics — and much harder.",
+				"<strong>Kingdom rewards:</strong> given to everyone in a participating kingdom based on where the kingdom places, but you must personally earn 250,000 points to qualify."
+			]
+		},
+		"tips": {
+			"heading": "Tips",
+			"items": [
+				"<strong>Stockpile before the event.</strong> Hold speed-ups, hero EXP, shards and Truegold and spend them only on the matching day.",
+				"<strong>Pick one day to go big.</strong> Daily stage rewards are per-day, so concentrating your hoard on a single stage ranks you higher than spreading it thin.",
+				"<strong>Skills and troops come round twice</strong> (days 3/5 and 4/6). Split your skill books and training between the pair rather than blowing everything on the first.",
+				"<strong>Queue long upgrades to finish inside the window.</strong> Points land when the action completes, not when you start it.",
+				"<strong>Claim milestones and medals daily.</strong> They don't carry over."
+			]
+		}
+	},
+	"qa": [
+		{
+			"q": "What is it?",
+			"a": "A recurring competition where every governor scores points for developing their city. It runs for seven days and is split into seven stages, one per day."
+		},
+		{
+			"q": "How do I score?",
+			"a": "By finishing the actions that match the day's theme — upgrading buildings, levelling heroes, upgrading skills, training or promoting troops, burning speed-ups, and consuming rare resources."
+		},
+		{
+			"q": "What are Challenge Medals?",
+			"a": "A separate daily currency. You can earn up to 2 a day from tasks; spend them in the Challenge Medal Rewards tab. The more you've collected, the better the tier you can claim."
+		},
+		{
+			"q": "Which ranking should I care about?",
+			"a": "If you're competitive, the cross-kingdom total ranking pays best — Truegold and exclusive cosmetics — but you're up against every participating kingdom. Otherwise focus on point milestones and hitting 250,000 total."
+		},
+		{
+			"q": "Does spending outside the event count?",
+			"a": "No. Only actions completed during the event window score points."
+		}
+	],
+	"source": "Source: <a href=\"https://kingshotwiki.com/events/strongest-governor/\" rel=\"noreferrer\">kingshotwiki.com — Strongest Governor</a>"
+}

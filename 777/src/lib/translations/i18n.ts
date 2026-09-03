@@ -16,14 +16,20 @@ const config: Config = {
 			key: 'guides.bear',
 			routes: ['/guides/bear'],
 			loader: async () => (await import('./en/guides/bear.json')).default
-	},
-	{
-		locale: 'en',
-		key: 'guides.allaince-championship',
-		routes: ['/guides/allaince-championship'],
-		loader: async () => (await import('./en/guides/allaince-championship.json')).default
-	}
-]
+		},
+		{
+			locale: 'en',
+			key: 'guides.allaince-championship',
+			routes: ['/guides/allaince-championship'],
+			loader: async () => (await import('./en/guides/allaince-championship.json')).default
+		},
+		{
+			locale: 'en',
+			key: 'guides.strongest-governor',
+			routes: ['/guides/strongest-governor'],
+			loader: async () => (await import('./en/guides/strongest-governor.json')).default
+		}
+	]
 };
 
 export const { t, locale, loading, loadTranslations } = new i18n(config);
