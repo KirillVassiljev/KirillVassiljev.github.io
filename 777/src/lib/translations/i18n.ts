@@ -34,6 +34,12 @@ const config: Config = {
 			key: 'guides.vikings',
 			routes: ['/guides/vikings'],
 			loader: async () => (await import('./en/guides/vikings.json')).default
+		},
+		{
+			locale: 'en',
+			key: 'guides.castle-battle',
+			routes: ['/guides/castle-battle'],
+			loader: async () => (await import('./en/guides/castle-battle.json')).default
 		}
 	]
 };
