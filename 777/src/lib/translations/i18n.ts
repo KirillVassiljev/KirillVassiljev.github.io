@@ -10,6 +10,12 @@ const config: Config = {
 			locale: 'en',
 			key: 'common',
 			loader: async () => (await import('./en/common.json')).default
+		},
+		{
+			locale: 'en',
+			key: 'guides.bear',
+			routes: ['/guides/bear'],
+			loader: async () => (await import('./en/guides/bear.json')).default
 		}
 	]
 };
