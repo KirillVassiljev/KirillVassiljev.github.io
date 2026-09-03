@@ -5,7 +5,7 @@
 	import { t } from '$lib/translations/i18n';
 </script>
 
-<nav aria-label={$t('sidebar.ariaLabel')}>
+<nav aria-label={$t('common.sidebar.ariaLabel')}>
 	{#each sections as section (section.titleKey)}
 		<div class="group">
 			<h2>{$t(section.titleKey)}</h2>

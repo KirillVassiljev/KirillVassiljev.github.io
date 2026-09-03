@@ -30,24 +30,24 @@
 	<header class="topbar">
 		<button
 			class="hamburger"
-			aria-label={$t('layout.toggleNav')}
+			aria-label={$t('common.layout.toggleNav')}
 			aria-expanded={open}
 			aria-controls="sidebar"
 			onclick={() => (open = !open)}
 		>
 			<span aria-hidden="true">&#9776;</span>
 		</button>
-		<span class="topbar-title">{$t('layout.brandTitle')}</span>
+		<span class="topbar-title">{$t('common.layout.brandTitle')}</span>
 	</header>
 
 	<aside id="sidebar" class="sidebar">
-		<a class="brand" href="{base}/">{$t('layout.brandTitle')}</a>
+		<a class="brand" href="{base}/">{$t('common.layout.brandTitle')}</a>
 		<Sidebar />
 	</aside>
 
 	<button
 		class="backdrop"
-		aria-label={$t('layout.closeNav')}
+		aria-label={$t('common.layout.closeNav')}
 		tabindex={open ? 0 : -1}
 		onclick={() => (open = false)}
 	></button>
