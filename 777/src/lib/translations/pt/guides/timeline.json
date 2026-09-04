@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": "Linha do tempo do reino {{kingdom}} — Kingshot 777",
+    "description": "Linha do tempo de marcos do reino {{kingdom}} do Kingshot: gerações de heróis, limpezas de névoa, primeiras do KvK, tiers de Truegold e gerações de mascotes."
+  },
+  "h1": "Linha do tempo do reino {{kingdom}}",
+  "intro": "Marcos registrados para o nosso reino, espaçados por quão distantes eles de fato ocorreram. Cartões com notas se expandem quando você os abre.",
+  "empty": "Nenhum marco registrado ainda.",
+  "jumpToToday": "Ir para hoje",
+  "predicted": "previsto",
+  "today": "Hoje",
+  "source": "Datas registradas por nós para o reino {{kingdom}}. Para outros reinos e marcos previstos, veja <a href=\"https://kingshotoptimizer.com/kingdom-timeline/\" target=\"_blank\" rel=\"noreferrer\">Kingshot Optimizer</a>.",
+  "categories": {
+    "heroes": "Heróis",
+    "pvp": "PvP",
+    "feature": "Novo recurso",
+    "truegold": "Truegold",
+    "pets": "Mascotes",
+    "masters": "Mestres"
+  },
+  "milestones": {
+    "generation-1-heroes": {
+      "title": "Heróis da Geração 1"
+    },
+    "first-hall-of-governors-hog": {
+      "title": "Primeiro Salão dos Governadores (HoG)"
+    },
+    "first-sanctuary-competition": {
+      "title": "Primeira Competição de Santuário"
+    },
+    "plains-fog-cleared": {
+      "title": "Névoa das Planícies Limpa"
+    },
+    "mystic-trial-unlocked": {
+      "title": "Provação Mística Desbloqueada"
+    },
+    "first-fortress-competition": {
+      "title": "Primeira Competição de Fortaleza"
+    },
+    "hero-gear-reforge-unlocked": {
+      "title": "Reforja de Equipamento de Herói Desbloqueada"
+    },
+    "fertile-land-fog-cleared": {
+      "title": "Névoa da Terra Fértil Limpa"
+    },
+    "alliance-resource-exchange-unlocks": {
+      "title": "Troca de Recursos de Aliança Desbloqueia"
+    },
+    "generation-2-heroes": {
+      "title": "Heróis da Geração 2",
+      "notes": "Zoe (Infantaria, herói da Roleta), Hilde (Cavalaria) e Marlin (Arqueiro) adicionados ao jogo."
+    },
+    "first-castle-competition": {
+      "title": "Primeira Competição de Castelo"
+    },
+    "generation-1-pets": {
+      "title": "Mascotes da Geração 1",
+      "notes": "Lobo Cinzento, Lince e Bisão adicionados ao elenco de mascotes."
+    },
+    "age-of-truegold": {
+      "title": "Era do Truegold",
+      "notes": "Desbloqueia os níveis TG 1-3"
+    },
+    "generation-2-pets": {
+      "title": "Mascotes da Geração 2",
+      "notes": "Guepardo e Alce adicionados ao elenco de mascotes."
+    },
+    "first-kvk-prep-starts": {
+      "title": "Primeira Preparação de KvK Começa"
+    },
+    "first-kvk-castle-competition": {
+      "title": "Primeira Competição de Castelo KvK"
+    },
+    "first-alliance-brawl": {
+      "title": "Primeira Briga de Aliança"
+    },
+    "generation-3-heroes": {
+      "title": "Heróis da Geração 3",
+      "notes": "Eric (Infantaria), Petra (Cavalaria, herói da Roleta) e Jaeger (Arqueiro) adicionados ao jogo."
+    },
+    "generation-3-pets": {
+      "title": "Mascotes da Geração 3",
+      "notes": "Leão e Urso-Pardo adicionados ao elenco de mascotes."
+    },
+    "gov-gear-material-exchange-unlocks": {
+      "title": "Troca de Materiais de Equipamento de Governador Desbloqueia",
+      "notes": "Permite a troca de materiais de Equipamento de Governador (Cetim, Fios Dourados e Visão do Artesão) no canto superior direito do painel de melhoria de equipamento."
+    },
+    "masters-unlocked": {
+      "title": "Mestres Desbloqueados",
+      "notes": "Exige que o jogador tenha o Centro da Cidade nível 25. Valora, Pan e Roman lançados como os 3 primeiros mestres. Atualmente suspeitamos que estes sejam apenas os 3 primeiros mestres e que outras gerações desbloqueiem depois/possam existir. Precisa ser verificado conforme os jogadores progridem por este conteúdo."
+    },
+    "truegold-5": {
+      "title": "Truegold 5",
+      "notes": "Também desbloqueia o Crisol de Truegold (converte recursos básicos em Truegold). Materiais de amuleto de governador adicionados à loja da Provação Mística. Terror nível 8 (Roc Titã) adicionado ao jogo. Deste ponto em diante, seu Reino ficará elegível para a próxima Janela de Transferência de Reino. Para ver previsões detalhadas, confira nosso módulo de Transferência de Reino."
+    },
+    "gov-charm-material-exchange-unlocked": {
+      "title": "Troca de Materiais de Amuleto de Governador Desbloqueada",
+      "notes": "Permite a troca de materiais de Amuleto de Governador (Guia de Amuleto e Design de Amuleto) no canto superior direito do painel de melhoria de equipamento."
+    },
+    "4th-master-unlocked": {
+      "title": "4º Mestre Desbloqueado",
+      "notes": "4º mestre (Cassia) adicionado ao jogo."
+    },
+    "governor-charm-cap-raised": {
+      "title": "Limite de Amuleto de Governador Elevado",
+      "notes": "Amuletos nível 12+ disponíveis. Embora não imediatamente alcançável para a maioria dos jogadores, este pequeno marco divide os Grupos de Transferência e precisa ser destacado."
+    },
+    "generation-4-heroes": {
+      "title": "Heróis da Geração 4",
+      "notes": "Alcar (Infantaria), Margot (Cavalaria) e Rosa (Arqueiro, herói da Roleta) adicionados ao jogo. O Evento da Provação do Deserto se transforma em Caminho dos Campeões. Heróis da Ger. 2 entram no pool de saque da chave dourada."
+    },
+    "generation-4-pets": {
+      "title": "Mascotes da Geração 4",
+      "notes": "Rinoceronte Gigante e Bisão Poderoso adicionados ao elenco de mascotes."
+    },
+    "5th-and-6th-masters-unlocked": {
+      "title": "5º e 6º Mestres Desbloqueados",
+      "notes": "5º e 6º mestres (Guinevere e Wilson) adicionados ao jogo."
+    },
+    "war-academy-unlocked": {
+      "title": "Academia de Guerra Desbloqueada",
+      "notes": "Pó de Truegold e tropas T11 adicionados ao jogo."
+    },
+    "generation-5-heroes": {
+      "title": "Heróis da Geração 5",
+      "notes": "Long Fei (Infantaria, herói da Roleta), Thrud (Cavalaria) e Vivian (Arqueiro) adicionados ao jogo. Heróis da Ger. 3 entram no pool de saque da chave dourada."
+    },
+    "generation-5-pets": {
+      "title": "Mascotes da Geração 5",
+      "notes": "Grande Alce e Pantera Negra Alfa adicionados ao elenco de mascotes."
+    },
+    "truegold-8": {
+      "title": "Truegold 8",
+      "notes": "Truegold Temperado adicionado ao jogo. Aprimora o Crisol de Truegold para permitir a conversão de Truegold Temperado. Baús de equipamento de governador adicionados à loja da Provação Mística."
+    },
+    "generation-6-heroes": {
+      "title": "Heróis da Geração 6",
+      "notes": "Triton (Infantaria), Sophia (Cavalaria, herói da Roleta) e Yang (Arqueiro) adicionados ao jogo. Heróis da Ger. 4 entram no pool de saque da chave dourada."
+    },
+    "generation-6-pets": {
+      "title": "Mascotes da Geração 6",
+      "notes": "Leão Branco Régio e Elefante de Guerra Blindado adicionados ao elenco de mascotes."
+    },
+    "first-flamedragon-tyrant-competition": {
+      "title": "Primeira Competição do Tirano Dragão de Fogo"
+    },
+    "generation-7-heroes": {
+      "title": "Heróis da Geração 7",
+      "notes": "Charles (Infantaria), Ava (Cavalaria) e Wee & Woo (Arqueiro, herói da Roleta) adicionados ao jogo. Heróis da Ger. 5 entram no pool de saque da chave dourada."
+    },
+    "generation-7-pets": {
+      "title": "Mascotes da Geração 7",
+      "notes": "Urso de Guerra Blindado adicionado ao elenco de mascotes."
+    },
+    "advanced-truegold-research": {
+      "title": "Pesquisa Avançada de Truegold",
+      "notes": "A Pesquisa Avançada de Truegold fica disponível na Academia de Guerra."
+    },
+    "generation-8-heroes": {
+      "title": "Heróis da Geração 8",
+      "notes": "Heróis da Ger. 6 entram no pool de saque da chave dourada."
+    },
+    "generation-8-pets": {
+      "title": "Mascotes da Geração 8"
+    },
+    "generation-9-heroes": {
+      "title": "Heróis da Geração 9",
+      "notes": "Heróis da Ger. 7 entram no pool de saque da chave dourada."
+    },
+    "truegold-10": {
+      "title": "Truegold 10",
+      "notes": "Truegold níveis 9 e 10 adicionados ao jogo. Novos recursos junto com esses níveis ainda não foram confirmados."
+    }
+  }
+}

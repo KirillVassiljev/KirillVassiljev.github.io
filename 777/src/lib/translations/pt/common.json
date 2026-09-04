@@ -1,0 +1,31 @@
+{
+	"layout": {
+		"brandTitle": "Kingshot 777",
+		"toggleNav": "Alternar navegação",
+		"closeNav": "Fechar navegação",
+		"language": "Idioma"
+	},
+	"sidebar": {
+		"ariaLabel": "Seções do site"
+	},
+	"nav": {
+		"section": {
+			"guides": "Guias",
+			"tools": "Ferramentas"
+		},
+		"item": {
+			"bear": "Caça ao urso",
+			"allaince-championship": "Campeonato de aliança",
+			"strongest-governor": "Governador mais forte",
+			"vikings": "Vingança viking",
+			"castle-battle": "Batalha do castelo",
+			"tri-alliance-clash": "Confronto de três alianças",
+			"swordland-showdown": "Confronto de Swordland",
+			"timeline": "Linha do tempo"
+		}
+	},
+	"home": {
+		"title": "Kingshot 777",
+		"description": "Guias, listas de tier e ordens de construção. Escolha um tópico na barra lateral."
+	}
+}

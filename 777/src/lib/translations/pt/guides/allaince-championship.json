@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Campeonato de aliança — Kingshot 777",
+		"description": "Guia resumido do Campeonato de Aliança do Kingshot para membros comuns: quando se inscrever, como funciona o instantâneo da marcha e o que você ganha."
+	},
+	"h1": "Campeonato de aliança",
+	"tldr": {
+		"heading": "Resumo",
+		"items": [
+			"<strong>Inscreva-se de segunda 00:00 → quarta 23:00 UTC.</strong> Centro da Cidade 10+. Perca a janela e você fica de fora a semana toda.",
+			"<strong>A inscrição é um instantâneo.</strong> Sua marcha e todo buff ativo naquele momento ficam congelados — buffs de mascote permanecem mesmo depois de expirarem.",
+			"<strong>Não mexa no seu time depois de se inscrever.</strong> Atualizá-lo refaz o instantâneo e você perde os buffs que travou.",
+			"<strong>Então você terminou.</strong> As batalhas rodam automaticamente de quinta a sábado — você não precisa estar online.",
+			"<strong>Formação:</strong> 50/20/30 infantaria/cavalaria/arqueiros é a escolha segura; 60/40/0 sem cavalaria reduz seu poder visível para confrontos mais fáceis e vence a build padrão.",
+			"<strong>Heróis: só dano puro.</strong> As lutas são curtas — pegue buffs de ataque fixo e explosão (Amadeus), pule tanques como Helga e evite qualquer coisa com gatilho de habilidade abaixo de 50%."
+		]
+	},
+	"sections": {
+		"details": {
+			"heading": "Detalhes"
+		},
+		"rewards": {
+			"heading": "Recompensas",
+			"items": [
+				"<strong>1 marcha inimiga derrotada:</strong> 10× acelerações de pesquisa de 5 min, 20× 10 mil pão, 20× 10 mil madeira, 40× 1 mil pedra, 10× 1 mil ferro.",
+				"<strong>2 marchas inimigas derrotadas:</strong> 15× acelerações de pesquisa de 5 min, 30× 10 mil pão, 30× 10 mil madeira, 55× 1 mil pedra, 15× 1 mil ferro.",
+				"<strong>Fim do evento:</strong> recompensas para toda a aliança com base na sua colocação final no grupo e no seu tier — Pedra, Ferro, Bronze, Prata, Ouro ou Diamante."
+			]
+		},
+		"tips": {
+			"heading": "Dicas",
+			"items": [
+				"<strong>Inscreva-se com seus buffs ativos.</strong> Ative seu buff de mascote e qualquer outra coisa temporária <em>antes</em> de se inscrever — o instantâneo os mantém pela semana toda.",
+				"<strong>Inscreva-se cedo.</strong> A aliança precisa de pelo menos 10 participantes ou o matchmaking falha e ninguém recebe nada.",
+				"<strong>Só se reinscreva se sua configuração realmente melhorou.</strong> Tropas melhores ou buffs ativos mais fortes valem a pena; caso contrário, você troca um bom instantâneo por um pior.",
+				"<strong>Nada fica bloqueado para você durante as lutas</strong> — suas tropas estão ocupadas na pista, mas o evento não precisa de cliques. Jogue normalmente."
+			]
+		}
+	},
+	"qa": [
+		{
+			"q": "O que é?",
+			"a": "Um torneio semanal aliança-contra-aliança. Sua aliança é pareada com outras cinco e as enfrenta em cinco rodadas automáticas por três pistas."
+		},
+		{
+			"q": "Quando acontece?",
+			"a": "Toda semana, de segunda 00:00 UTC até a segunda seguinte 00:00 UTC. As inscrições fecham quarta 23:00 UTC, as cinco rodadas de batalha de uma hora vão até sábado 12:00 UTC, e as recompensas chegam depois disso."
+		},
+		{
+			"q": "O que eu realmente tenho que fazer?",
+			"a": "Registrar uma marcha para uma pista durante a janela de inscrição. É isso — nada durante as lutas. O posicionamento das pistas é feito pela liderança."
+		},
+		{
+			"q": "Qual é a pontuação ao lado do meu nome?",
+			"a": "Sua pontuação de combate. Ela define sua ordem de luta dentro da pista — a maior pontuação luta por último."
+		},
+		{
+			"q": "Por que minha marcha não lutou?",
+			"a": "Só os 20 jogadores mais fortes atribuídos a uma pista entram. E assim que sua marcha vence dois inimigos — ou é derrotada — ela está encerrada para aquela hora."
+		}
+	],
+	"source": "Fonte: <a href=\"https://kingshotwiki.com/events/alliance-championship/\" rel=\"noreferrer\">kingshotwiki.com — Campeonato de Aliança</a>"
+}

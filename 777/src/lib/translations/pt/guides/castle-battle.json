@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Batalha do castelo — Kingshot 777",
+    "description": "Guia resumido da Batalha do Castelo do Kingshot: como os três tipos de pontos são marcados, preparação e buffs, heróis líderes e participantes de rally por geração, formações de tropas, controle de torres e táticas de rally duplo."
+  },
+  "h1": "Batalha do castelo",
+  "common": {
+    "or": "ou"
+  },
+  "tldr": {
+    "heading": "Resumo",
+    "items": [
+      "<strong>Três coisas pontuam:</strong> tropas inimigas que você mata, o poder que você tem estacionado no castelo ou numa torre, e suas próprias tropas perdidas. Perdas também pagam — este não é um evento que dá para jogar seguro.",
+      "<strong>Formações:</strong> 50/20/30 atacando por padrão, 50/0/50 contra uma guarnição pesada em infantaria, 60/20/20 para o rally que captura, 60/40/0 quando você está segurando.",
+      "<strong>Líderes de rally rodam os buffs; todos os outros põem escudo.</strong> Buffs de cidade, mascote e habilidades de executivo são trabalho do líder. Quem fica fora da luta quer um escudo de paz de 8 horas.",
+      "<strong>Tome as torres.</strong> Torres em mãos inimigas atiram na sua guarnição o tempo todo que você segura o castelo, e piora quanto mais você as deixa.",
+      "<strong>Prepare a Enfermaria antes do evento.</strong> Melhore-a, acumule acelerações de cura e cure em pequenos lotes para que a ajuda da aliança cubra mais.",
+      "<strong>Sempre se sobrepõe ao All-Out ou KvK.</strong> Mortes e perdas pontuam em ambos, então uma corrida solo vale a pena mesmo numa luta que você não pode vencer."
+    ]
+  },
+  "sections": {
+    "scoring": {
+      "heading": "Como funciona a pontuação",
+      "qa": [
+        {
+          "q": "Pontos de carnificina (pontos KO)",
+          "a": "Ganhos por matar tropas inimigas ao disputar o Castelo do Rei e suas torres."
+        },
+        {
+          "q": "Pontos de ocupação",
+          "a": "Baseados no poder das tropas que você tem estacionadas no castelo ou numa torre, acumulando enquanto você o segura. Segurar com uma guarnição forte e reabastecida é o que faz isso subir."
+        },
+        {
+          "q": "Pontos de baixas",
+          "a": "Ganhos pelas suas próprias tropas gravemente feridas ou perdidas. Perdas são inevitáveis, mas rotacionar e reabastecer a tempo evita que sejam puro desperdício."
+        }
+      ]
+    },
+    "preparation": {
+      "heading": "Preparação",
+      "items": [
+        "<strong>Buffs são trabalho do líder de rally.</strong> Antes de lançar ou defender, rode seus buffs de cidade de 20% de ataque e 20% de defesa, habilidades de mascote como Alce ou Urso-Pardo, e suas habilidades de executivo. Participantes não devem queimar as deles — só os buffs do líder se aplicam ao rally.",
+        "<strong>Teletransporte para perto do castelo.</strong> Capitães de rally querem o menor tempo de marcha possível, o que importa enormemente quando os rallies precisam ser cronometrados uns contra os outros.",
+        "<strong>Ponha escudo em quem não estiver lutando.</strong> Membros que ficarão offline, ou que estão de nível baixo demais para segurar uma marcha, devem ficar atrás de um escudo de paz de 8 horas. Um Centro da Cidade sem escudo é morte grátis para o inimigo.",
+        "<strong>Resolva a Enfermaria primeiro.</strong> Veja <a href=\"#infirmary\">Enfermaria e cura</a> — esta é a coisa que a maioria das alianças menos prepara."
+      ]
+    },
+    "rallyLeaderHeroes": {
+      "heading": "Heróis líderes de rally",
+      "intro": "Rallies de ataque existem para quebrar a guarnição, então empilham dano. Quando o castelo é seu, o trabalho vira sobreviver a golpes repetidos, então rallies de guarnição empilham defesa e sustentação. Cada linha tem três slots; onde dois retratos estão unidos por \"ou\", qualquer um serve — escolha com base nas suas proporções.",
+      "attack": {
+        "heading": "Rallies de ataque",
+        "table": {
+          "headers": {
+            "gen": "Ger.",
+            "heroes": "Heróis"
+          },
+          "rows": {
+            "gen3": "3",
+            "gen4": "4",
+            "gen5": "5",
+            "gen6": "6",
+            "gen7": "7"
+          }
+        }
+      },
+      "garrison": {
+        "heading": "Rallies de guarnição",
+        "table": {
+          "headers": {
+            "gen": "Ger.",
+            "heroes": "Heróis"
+          },
+          "rows": {
+            "gen3": "3",
+            "gen4": "4",
+            "gen5": "5",
+            "gen6": "6",
+            "gen7": "7"
+          }
+        }
+      },
+      "notes": [
+        "<strong>Ger. 5:</strong> Thrudd perde a maior parte do valor da habilidade se você jogar 5:0:5 sem cavalaria — pegue Petra nesse caso.",
+        "<strong>Ger. 6:</strong> Triton dá muita porcentagem de ataque e defesa à infantaria e é bem mais fácil de conseguir que Amadeus, então é um bom substituto."
+      ]
+    },
+    "formations": {
+      "heading": "Formações de tropas",
+      "items": [
+        "<strong>Ataque padrão — 50% infantaria, 20% cavalaria, 30% arqueiros.</strong> O padrão seguro quando você não sabe o que está no castelo.",
+        "<strong>Contra um castelo pesado em infantaria — 50% infantaria, 0% cavalaria, 50% arqueiros.</strong> Cavalaria contra-ataca arqueiros mas cede à infantaria, então remova-a quando a guarnição tem poucos ou nenhum arqueiro e ponha esse peso em arqueiros.",
+        "<strong>Rally de captura — 60% infantaria, 20% cavalaria, 20% arqueiros.</strong> Para o rally que toma um castelo já enfraquecido e precisa sobreviver ao contra-ataque. Mais resistente que uma marcha de ataque puro, mas ainda carrega dano suficiente para terminar o serviço.",
+        "<strong>Guarnição estabelecida — 60% infantaria, 40% cavalaria, 0% arqueiros.</strong> No que você reabastece quando o castelo é seu e segurar é tudo que importa. Arqueiros morrem rápido demais para valer os slots."
+      ],
+      "outro": "Ajuste para os níveis de tropas da sua aliança e o que o inimigo está colocando em campo, mas essas regras se sustentam como gerais."
+    },
+    "rallyJoiners": {
+      "heading": "Participantes de rally",
+      "intro": "Participantes só contribuem com o herói do primeiro slot, exatamente como nos rallies da Armadilha para Urso. Participantes de ataque trazem dano; participantes de guarnição trazem buffs defensivos.",
+      "attack": {
+        "heading": "Participantes de ataque",
+        "table": {
+          "headers": {
+            "priority": "Prioridade",
+            "heroes": "Heróis"
+          },
+          "rows": {
+            "best": "Melhor",
+            "upToGen7": "Até a ger. 7",
+            "balancedSpread": "Distribuição equilibrada"
+          },
+          "notes": {
+            "upToGen7": "Hilde está aí para preencher lacunas de atributos.",
+            "balancedSpread": "Um de cada em quatro participantes espalha os buffs de habilidade pelos três tipos de tropa em vez de empilhar tudo num só."
+          }
+        }
+      },
+      "garrison": {
+        "heading": "Participantes de guarnição",
+        "table": {
+          "headers": {
+            "priority": "Prioridade",
+            "heroes": "Heróis"
+          },
+          "rows": {
+            "best": "Melhor",
+            "upToGen7": "Até a ger. 7",
+            "simplest": "Mais simples"
+          },
+          "notes": {
+            "simplest": "Quatro Sauls, ou três Sauls e um Fahd, para redução de dano fixa. Nada a coordenar e difícil de errar — a escolha certa quando sua aliança não consegue organizar uma distribuição de forma confiável."
+          }
+        }
+      },
+      "tips": [
+        "<strong>Líderes de rally: lembrem as pessoas toda vez.</strong> Um herói errado no primeiro slot custa uma grande parte do dano do rally e ninguém percebe até o relatório chegar.",
+        "<strong>Varie os participantes defensivos.</strong> Cada habilidade de expedição defensiva tem pontos fortes diferentes, então rotacione heróis e leia o inimigo em vez de enviar os mesmos quatro toda vez.",
+        "<strong>Consistência supera perfeição.</strong> Se coordenar uma distribuição de heróis for difícil demais, uma guarnição corretamente preenchida com um tipo certo de herói ainda supera uma mista e meio errada."
+      ]
+    },
+    "holding": {
+      "heading": "Segurando o castelo",
+      "items": [
+        "<strong>Reabasteça infantaria constantemente.</strong> A infantaria absorve o grosso do dano recebido, então é sempre a primeira a acabar. Mantenha o chat de voz ativo e avise no momento em que os números da infantaria caem para que os membros possam enviar marchas frescas pesadas em infantaria imediatamente.",
+        "<strong>Não ignore as torres.</strong> Torres que o inimigo segura atiram no castelo continuamente, e o dano escala quanto mais tempo eles as mantêm. Você pode vencer a luta do castelo e ainda sangrar sua guarnição por torres que nunca disputou.",
+        "<strong>Divida a aliança em dois trabalhos.</strong> Ponha suas baleias e melhores líderes de rally para tomar e segurar o castelo, e envie rallies de tier médio contra as torres ao redor para cortar o dano recebido."
+      ]
+    },
+    "infirmary": {
+      "heading": "Enfermaria e cura",
+      "items": [
+        "<strong>Melhore a Enfermaria com antecedência</strong> se sua aliança pretende competir. Lutas longas e reabastecimentos repetidos a colocam sob carga constante.",
+        "<strong>Comece a guardar acelerações de cura dias antes do evento.</strong>",
+        "<strong>Cure em pequenos lotes</strong> e peça ajuda da aliança a cada vez — desperdiça bem menos acelerações que uma cura grande única."
+      ]
+    },
+    "advancedTactics": {
+      "heading": "Táticas avançadas",
+      "items": [
+        "<strong>Abra com um ataque solo.</strong> No momento em que o castelo abre, se você for forte o bastante, entre solo com uma aceleração de marcha e acumule algum tempo de ocupação grátis.",
+        "<strong>Sincronize rallies duplos.</strong> Quando um rally não consegue mover os defensores, tenha dois ou mais líderes fazendo rally no mesmo alvo, compare os tempos de marcha e faça contagem regressiva no voz para que cada marcha caia no mesmo segundo. Chegadas escalonadas só deixam o defensor reabastecer entre os golpes.",
+        "<strong>Variante: amaciador e depois capturador.</strong> Contra um castelo empilhado alto o bastante para que um golpe combinado ainda custasse o campo, divida os dois rallies por papéis em vez de cair juntos. O Rally 1 entra com heróis de ataque a 50/20/30 puramente para quebrar a infantaria da linha de frente e empurrar as tropas deles para a Enfermaria. O Rally 2 cai de 2 a 5 segundos depois com heróis de guarnição a 60/20/20, toma o castelo enfraquecido e simplesmente permanece como guarnição. O intervalo tem que ser pequeno — deixe longo demais e o defensor reabastece, que é exatamente a falha que a abordagem sincronizada evita.",
+        "<strong>Contra-rally para cortar o tempo de ocupação inimigo.</strong> Você não pode fazer rally no seu próprio castelo, então segure-o com a aliança A e mantenha a aliança B pronta. Quando o inimigo faz rally na A, a B faz rally no castelo <em>depois</em> deles — atrasado o bastante para que a B nunca caia primeiro, ou você lutará contra seu próprio reino e entregará uma vitória grátis ao inimigo. Se o inimigo falhar, cancele a B. Se tomarem o castelo, a B o retoma na hora, segura brevemente, depois despeja suas tropas conforme as marchas solo da A chegam para que a A volte a acumular tempo de ocupação. Precisa de comunicação constante, e jogadores inimigos podem pegar o castelo na lacuna da troca."
+      ]
+    }
+  },
+  "images": {
+    "points": {
+      "alt": "Painel Meus Pontos do jogo mostrando pontos totais divididos em pontos KO, pontos de Ocupação e pontos de Baixas.",
+      "caption": "Sua pontuação é a soma das três categorias."
+    }
+  },
+  "source": "Mecânica do evento de <a href=\"https://kingshotwiki.com/events/castle-battle/\" rel=\"noreferrer\">kingshotwiki.com — Batalha do Castelo</a>, com adições da experiência da aliança."
+}

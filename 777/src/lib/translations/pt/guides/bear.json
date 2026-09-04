@@ -1,0 +1,90 @@
+{
+	"meta": {
+		"title": "Caça ao urso — Kingshot 777",
+		"description": "Guia resumido do evento Caça ao Urso do Kingshot: formações de rally, proporções de tropas, buffs e cadência das ondas."
+	},
+	"h1": "Armadilha para urso",
+	"tldr": {
+		"heading": "Resumo",
+		"items": [
+			"<strong>Arqueiros vencem.</strong> O dano ao urso escala com arqueiros — as proporções mudam de equilibradas na Ger. 1 para 10/10/80 na Ger. 4, e até ~98% de arqueiros no fim do jogo.",
+			"<strong>Líder do rally:</strong> as habilidades dos três heróis ficam ativas, então escolha o melhor trio ofensivo para a sua geração.",
+			"<strong>Ao entrar num rally:</strong> só conta a melhor habilidade de expedição dos 4 primeiros participantes com habilidade máxima. Herói errado prejudica o rally — envie tropas sem herói em vez disso.",
+			"<strong>Sempre ativo:</strong> buff de mascote + buff de ministro Comandante de Campo. Gemas para ATQ da cidade / Letalidade / Implantação se puder pagar.",
+			"<strong>Seja rápido:</strong> salve formações predefinidas com antecedência e marque com estrela os rallies das baleias para que apareçam no topo da lista.",
+			"<strong>Fim de jogo:</strong> escalone as ondas com 1 min de diferença e relance assim que as marchas voltarem — nunca deixe as tropas paradas."
+		]
+	},
+	"sections": {
+		"formations": {
+			"heading": "Formações do líder do rally"
+		},
+		"joiners": {
+			"heading": "Entrando num rally (Ger. 1–6)"
+		},
+		"details": {
+			"heading": "Detalhes"
+		},
+		"tips": {
+			"heading": "Dicas",
+			"groups": [
+				{
+					"heading": "Antes do evento",
+					"items": [
+						"<strong>Melhore a Armadilha para o Nível 5</strong> com Pontas de Flecha Explosivas. Isso é um <strong>aumento de +25% de ataque para toda a aliança</strong> — a maior alavanca disponível, e precisa ser feita durante a fase de preparação.",
+						"<strong>Mova sua cidade para perto da armadilha.</strong> Os membros da aliança devem entrelaçar as fronteiras bem juntas, sem lacunas, para que as tropas se implantem mais rápido e acertem mais golpes. É mais uma preocupação de fim de jogo — no início, membros pulando entre alianças tornam isso bagunçado.",
+						"<strong>Salve formações predefinidas.</strong> Os rallies enchem e lançam em segundos; se você está montando uma marcha do zero, já perdeu.",
+						"<strong>Alinhe seus buffs:</strong> buff de mascote ativo, slot de ministro Comandante de Campo registrado. Gemas também podem comprar bônus de ATQ da cidade / Letalidade / Capacidade de Implantação, embora isso seja realmente um gasto de baleia."
+					]
+				},
+				{
+					"heading": "Durante o evento",
+					"items": [
+						"<strong>Arqueiros são o dano.</strong> As proporções mudam de equilibradas no início para 10/10/80 na Ger. 4; no fim do jogo, mire em ~98% de capacidade de arqueiros em cada marcha de combate. Ao entrar em vez de liderar, 20/30/50 serve.",
+						"<strong>Marque com estrela os rallies das baleias.</strong> O recurso de estrela fixa o rally de um jogador no topo da lista em vez de o mais novo no fundo — grande ajuda se você reage devagar.",
+						"<strong>Liderando:</strong> as habilidades dos três heróis disparam, não importa qual seja o capitão, então a posição não importa. Escolha o melhor trio ofensivo para sua geração.",
+						"<strong>Entrando:</strong> só conta a melhor habilidade de expedição, e apenas dos quatro participantes com os níveis de habilidade mais altos. Um herói errado pode deslocar um bom e arrastar todo o rally para baixo — <strong>envie tropas sem herói em vez do herói errado.</strong>",
+						"<strong>Os níveis das tropas também importam.</strong> As habilidades dos heróis não são o quadro completo; tropas de tier mais alto e a proporção certa movem o número tanto quanto."
+					]
+				}
+			]
+		}
+	},
+	"qa": [
+		{
+			"q": "O que é?",
+			"a": "Um evento PvE de rally para toda a aliança contra o Urso. Todos empilham marchas em rallies mirados na armadilha, e o dano que você causa é o que rende pontos."
+		},
+		{
+			"q": "Quando acontece?",
+			"a": "A cada dois dias — um tempo de espera de dois resets diários do jogo. Participe hoje e você fica elegível de novo dois dias depois."
+		},
+		{
+			"q": "Por que há duas armadilhas?",
+			"a": "Para que membros em fusos horários diferentes possam encontrar um horário que lhes convém. <strong>Você só pega uma:</strong> se entrou na Armadilha 1, não pode entrar também na Armadilha 2 — você espera dois dias pela próxima Armadilha 1."
+		},
+		{
+			"q": "Onde é?",
+			"a": "Na armadilha de Caça ao Urso no território da aliança. As marchas viajam até lá, então quanto mais perto sua cidade estiver, mais golpes você acerta."
+		},
+		{
+			"q": "Quem faz o quê?",
+			"a": "Baleias e contas grandes lideram os rallies; todos os outros os enchem. A liderança da aliança atribui os slots de onda antes do evento para que os lançamentos fiquem escalonados."
+		},
+		{
+			"q": "Por que se dar ao trabalho?",
+			"a": "É um dos eventos de maior valor do jogo, é PvE puro então suas tropas não morrem, e os pontos escalam diretamente com o dano — por isso a escolha de herói e a proporção de tropas importam tanto."
+		}
+	],
+	"images": {
+		"formations": {
+			"alt": "Tabela das melhores formações de urso: trio de heróis recomendado e proporção de tropas para as gerações 1 a 6, dividida em colunas de melhores heróis e F2P.",
+			"caption": "Melhores formações de urso por geração. Toque para abrir em tamanho completo."
+		},
+		"joiners": {
+			"alt": "Lista de tier de heróis participantes da caça ao urso com tiers S, A, Evite e Nunca Use Estes.",
+			"caption": "Lista de tier de participantes — só a melhor habilidade de expedição importa aqui."
+		}
+	},
+	"source": "Fonte: <a href=\"https://kingshotwiki.com/events/bear-hunt/\" rel=\"noreferrer\">kingshotwiki.com — Caça ao Urso</a>"
+}

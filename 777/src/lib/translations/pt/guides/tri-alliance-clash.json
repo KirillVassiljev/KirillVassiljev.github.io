@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "title": "Confronto de três alianças — Kingshot 777",
+    "description": "Guia para iniciantes do Confronto de Três Alianças do Kingshot: o ciclo mensal, requisitos de entrada, energia, montagem do esquadrão, pontuação, fases, a divisão de papéis de 30 jogadores e o fim de jogo no templo."
+  },
+  "h1": "Confronto de três alianças",
+  "tldr": {
+    "heading": "Resumo",
+    "items": [
+      "<strong>Três alianças, 60 minutos, a cada quatro semanas.</strong> Os pontos vêm de segurar edifícios, e o vencedor geralmente é quem segura o templo no fim.",
+      "<strong>O Templo das Marés abre no minuto 40.</strong> A primeira captura paga 50.000 pontos únicos, depois 1.800 pontos por minuto enquanto você o segura. Tudo antes da fase 4 é preparação para essa luta.",
+      "<strong>Energia é seu verdadeiro limite.</strong> Mover, capturar, avançar, recuar, reviver e conscrever tudo custa energia. Chegue ao minuto 20 e ao minuto 40 com uma reserva.",
+      "<strong>Fique na sua pista.</strong> Seis pistas, um jogador principal cada. Uma pista que desmorona é um buraco no seu mapa pelo resto do evento.",
+      "<strong>Dois apoiadores mantêm cada jogador principal vivo.</strong> Eles rotacionam para frente enquanto o jogador principal se cura, para que ninguém enfrente a caminhada de renascimento de 2 minutos do QG.",
+      "<strong>Cinco esquadrões para pular um edifício.</strong> É por isso que a força especial de seis jogadores (18 esquadrões) pode atravessar direto o território inimigo.",
+      "<strong>A força especial nunca se divide.</strong> Ela existe para romper e causar caos, não para vencer duelos.",
+      "<strong>Não avance demais.</strong> Empurre só tão rápido quanto seus apoiadores possam seguir, e fique perto do seu edifício âncora."
+    ]
+  },
+  "sections": {
+    "firstClash": {
+      "heading": "Se este é seu primeiro confronto",
+      "items": [
+        "<strong>Registre-se.</strong> Diga ao seu R4/R5 que você quer entrar durante a janela de inscrição. Você não pode se registrar sozinho.",
+        "<strong>Configure suas três predefinições de esquadrão antes de entrar.</strong> Você não pode reconstruir marchas com calma quando o relógio está correndo.",
+        "<strong>Aprenda sua pista e papel na fase de preparação de 3 minutos.</strong> Pergunte qual edifício é seu e quem são seus apoiadores.",
+        "<strong>Tome seu edifício atribuído</strong> assim que a fase abrir. Não improvise.",
+        "<strong>Fique na sua pista.</strong> Uma pista que esvazia é um buraco pelo resto da hora.",
+        "<strong>Não persiga mortes.</strong> Mortes não pontuam diretamente. Edifícios e tempo sim.",
+        "<strong>Guarde energia para o minuto 20 e o minuto 40.</strong> Esses são os dois momentos em que a partida é de fato decidida."
+      ]
+    },
+    "scoring": {
+      "heading": "O que realmente pontua",
+      "table": {
+        "headers": [
+          "Fonte",
+          "Abre",
+          "Pontos"
+        ],
+        "rows": [
+          {
+            "source": "Guarnições",
+            "opens": "Minuto 20",
+            "points": "1.800 por minuto segurado"
+          },
+          {
+            "source": "Templo das Marés",
+            "opens": "Minuto 40",
+            "points": "50.000 únicos pela primeira captura, depois 1.800 por minuto segurado"
+          },
+          {
+            "source": "Edifícios e ruínas",
+            "opens": "A partir da fase 2",
+            "points": "Renda por minuto menor"
+          },
+          {
+            "source": "Mortes",
+            "opens": "—",
+            "points": "Nenhum ponto direto"
+          }
+        ]
+      },
+      "items": [
+        "<strong>Os 50.000 são por capturar o Templo primeiro, não por segurá-lo no apito.</strong> Se outra aliança o captura antes de você, a partida não acabou — retomar e segurar ainda paga 1.800 por minuto, e vinte minutos disso superam o bônus.",
+        "<strong>Mortes só importam como meio.</strong> Você mata para abrir um edifício ou para manter um. Matar por matar gasta energia e não compra nada."
+      ]
+    },
+    "energy": {
+      "heading": "Energia",
+      "body": "Esta é a mecânica que os iniciantes mais perdem. A energia é gasta em mover, capturar, avançar, recuar, reviver e conscrever. Fique sem ela e você não pode responder à chamada da Guarnição ou do Templo, não importa quão forte seja sua conta.",
+      "items": [
+        "<strong>Não queime energia perseguindo mortes nos primeiros 20 minutos.</strong> Mire em ainda ter uma reserva saudável no minuto 20, e de novo no minuto 40.",
+        "<strong>Atribua um Capitão depois de capturar um ponto.</strong> Melhora a recuperação de energia, o que é uma razão pela qual ter jogadores R4+ no campo ajuda.",
+        "<strong>Recue um edifício para curar e conscrever</strong> fora de combate. Isso é mais barato que reviver instantâneo, e muito mais barato que morrer e enfrentar a caminhada de ~2 minutos do QG.",
+        "<strong>Sair do campo de batalha tem um tempo de espera de reentrada</strong> — comumente citado como cerca de 12 minutos. A maioria dos buffs de conta ainda se aplica no campo, exceto alguns efeitos de velocidade e capacidade de marcha."
+      ]
+    },
+    "squadSetup": {
+      "heading": "Montagem do esquadrão",
+      "intro": "Você coloca três marchas, então nove heróis estão em rotação. Monte as três como predefinições <strong>antes</strong> de entrar:",
+      "presets": [
+        "<strong>Esquadrão 1 — esquadrão de combate mais forte.</strong> Para edifícios de alta pressão e capturas disputadas.",
+        "<strong>Esquadrão 2 — esquadrão estável.</strong> Apoio e reforço de pista; ele tem que sobreviver, não picar.",
+        "<strong>Esquadrão 3 — esquadrão flexível.</strong> Rotas, cobertura de recuperação, retomadas."
+      ],
+      "items": [
+        "<strong>Não equilibre os três só para os números de poder parecerem balanceados.</strong> Cada esquadrão precisa de um trabalho; três marchas medíocres idênticas não fazem nenhum bem.",
+        "<strong>Não há proporção de formação universal.</strong> Depende das suas tropas, seus heróis, o oponente, e se você está atacando ou segurando.",
+        "<strong>Considere segurar uma marcha forte de reserva</strong> para os horários da Guarnição do minuto 20 e do Templo do minuto 40."
+      ]
+    },
+    "eventFormat": {
+      "heading": "Formato do evento",
+      "items": [
+        "<strong>O poder de soldado não é usado no matchmaking.</strong> Você pode ser pareado contra alianças bem mais fortes, então estrutura e disciplina são o que você controla.",
+        "<strong>Você não pode sair da aliança</strong> depois de entrar no campo de batalha."
+      ]
+    },
+    "phases": {
+      "heading": "Fases",
+      "table": {
+        "headers": [
+          "Fase",
+          "Relógio",
+          "O que importa"
+        ],
+        "rows": [
+          {
+            "phase": "1 — Preparação",
+            "clock": "0–3 min",
+            "matters": "R4/R5 colocam marcas no mapa. <br> Todos confirmam sua pista e papel."
+          },
+          {
+            "phase": "2 — Tomar & Conquistar",
+            "clock": "3–20 min",
+            "matters": "As guarnições estão protegidas e não podem ser tocadas. <br> Jogadores principais tomam rápido o ponto-chave da pista, <br> apoiadores se acomodam no edifício atrás dele, <br> equipes de reação varrem os edifícios neutros do centro. <br> Garanta os Centros de Trânsito e edifícios de rota que você precisará depois."
+          },
+          {
+            "phase": "3 — Ocupação de Guarnição",
+            "clock": "20-40 min",
+            "matters": "A24, B24 e C24 desbloqueiam e pagam 1.800 por minuto.<br> Prioridade 1 é segurar sua <em>própria</em> guarnição; prioridade 2 é tomar uma inimiga.<br> Comece o reagrupamento em direção ao Templo antes do minuto 40, não nele.<br> A força especial está no seu ponto mais ativo aqui."
+          },
+          {
+            "phase": "4 — Assalto ao Templo",
+            "clock": "40-60 min",
+            "matters": "Ataque o Templo das Marés numa única investida coordenada, não uma marcha por vez.<br> Defenda as rotas de acesso ao redor de A29, B29 e C29.<br> Esta fase decide a partida."
+          }
+        ]
+      }
+    },
+    "roles": {
+      "heading": "Papéis",
+      "table": {
+        "headers": [
+          "Papel",
+          "Jogadores",
+          "Trabalho"
+        ],
+        "rows": [
+          {
+            "role": "Jogadores principais",
+            "players": "6",
+            "job": "Um por pista. Capture o ponto-chave da pista imediatamente, depois segure a linha de frente e mantenha o inimigo fora do seu interior."
+          },
+          {
+            "role": "Apoiadores",
+            "players": "12",
+            "job": "Dois por jogador principal. Fique no edifício atrás do ponto-chave, avance só quando seu jogador principal precisar curar, e nunca deixe o ponto-chave desguarnecido."
+          },
+          {
+            "role": "Força de comando especial",
+            "players": "6",
+            "job": "Um único grupo de ruptura. Pula edifícios de baixo valor, toma estruturas indefesas nas profundezas do território inimigo, e força rotações inimigas."
+          },
+          {
+            "role": "Equipes de reação",
+            "players": "6 (2 × 3)",
+            "job": "Pegue os edifícios neutros centrais no início, depois flutue: retome edifícios perdidos e reforce qualquer pista sob pressão."
+          },
+          {
+            "role": "Comandantes",
+            "players": "2",
+            "job": "Só gerenciamento de buffs. Sem luta de pista."
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "Por que a força especial funciona?",
+          "a": "Passar por um edifício sem capturá-lo requer cinco esquadrões. Seis jogadores colocando três esquadrões cada dá 18 esquadrões, o suficiente para pular repetidamente e cobrir terreno rápido. Divida o grupo e para de funcionar — ninguém tem cinco esquadrões sozinho."
+        },
+        {
+          "q": "Quem deve ser comandante?",
+          "a": "Jogadores menores e muito ativos que consigam manter o foco pelos 60 minutos inteiros. O timing dos buffs vira lutas de pista e a batalha do templo, então isto é um trabalho de verdade, não um lugar para estacionar alguém fraco e desatento."
+        }
+      ]
+    },
+    "map": {
+      "heading": "O mapa",
+      "body": "Seis pistas alimentam um centro. As pistas 1, 4 e 5 ficam na metade superior, as pistas 2, 3 e 6 na metade inferior; as guarnições e as aproximações do templo são os únicos objetivos que decidem a pontuação."
+    },
+    "healingRotation": {
+      "heading": "Rotação de cura",
+      "body": "Esta é a mecânica que separa uma aliança organizada de uma multidão. Quando um jogador principal fica com pouca vida:",
+      "steps": [
+        "Um apoiador avança e assume a linha de frente.",
+        "O jogador principal recua brevemente para curar.",
+        "O jogador principal retorna assim que estiver curado.",
+        "O apoiador recua para o edifício âncora atrás do ponto-chave."
+      ],
+      "outro": "A pista nunca fica quieta, o ponto-chave nunca fica vazio, e ninguém tem que caminhar dois minutos de volta do QG depois de morrer."
+    },
+    "commonMistakes": {
+      "heading": "Erros comuns",
+      "items": [
+        "<strong>Avançar demais.</strong> Investidas solo profundas te deixam cortado dos seus apoiadores e entregam mortes grátis ao inimigo.",
+        "<strong>Dividir a força especial.</strong> Abaixo de cinco esquadrões ela não consegue pular edifícios, e todo o seu valor desaparece.",
+        "<strong>Apoiadores empurrando à frente.</strong> A força deles é a estabilidade. Um apoiador agressivo é um ponto-chave prestes a ser perdido.",
+        "<strong>Equipes de reação rotacionando sem motivo.</strong> Elas devem se mover quando uma pista está genuinamente em apuros, não perseguir toda escaramuça.",
+        "<strong>Rotacionar para o templo tarde demais.</strong> As pistas precisam convergir juntas; chegar aos poucos significa ser derrotado aos poucos."
+      ]
+    },
+    "faq": {
+      "heading": "FAQ para iniciantes",
+      "qa": [
+        {
+          "q": "Sou novo — qual é a única coisa que devo acertar?",
+          "a": "Fique na sua pista e guarde energia. Todo o resto seus R4s podem contornar; essas duas eles não podem."
+        },
+        {
+          "q": "Mortes importam?",
+          "a": "Só como meio para segurar um edifício ou abrir um. Não há pontos pelas mortes em si, e duelos que você não precisava custam energia que você vai querer no minuto 40."
+        },
+        {
+          "q": "E se o inimigo capturar o Templo primeiro?",
+          "a": "Retome-o. Eles ganham os 50.000 únicos, mas os 1.800 por minuto continuam ativos para quem o segura — e há até vinte minutos disso sobre a mesa."
+        },
+        {
+          "q": "Devo usar reviver instantâneo?",
+          "a": "Geralmente não. Recue um edifício, cure e conscreva fora de combate. Reviver instantâneo queima energia que você vai precisar para a próxima chamada."
+        },
+        {
+          "q": "Preciso de chat de voz?",
+          "a": "Fortemente recomendado. A chamada de guarnição do minuto 20 e o empurrão de templo do minuto 40 acontecem rápido demais para coordenar por texto."
+        }
+      ]
+    }
+  },
+  "images": {
+    "map": {
+      "alt": "Esquema do campo de batalha: seis pistas, cada uma com um ponto-chave e um edifício âncora atrás dele, convergindo no Templo das Marés central. As pistas 1, 4 e 5 são a metade superior, as pistas 2, 3 e 6 a metade inferior. As guarnições A24, B24 e C24 ficam ao lado, as rotas de aproximação A29, B29 e C29 cercam o templo, e dois edifícios neutros ficam perto do centro.",
+      "title": "Esquema de pistas e objetivos",
+      "caption": "Apenas esquema, não o mapa do jogo. Cada pista é um ponto-chave com um edifício âncora atrás; cada pista alimenta o templo."
+    },
+    "healingRotation": {
+      "alt": "Ciclo de cura de quatro passos: um apoiador avança para a linha de frente, o jogador principal recua para curar, o jogador principal retorna, o apoiador recua para o edifício âncora. O ponto-chave nunca é deixado vazio.",
+      "title": "A rotação de cura de quatro passos",
+      "caption": "A rotação corre no sentido horário e se repete; a linha de frente está sempre ocupada."
+    }
+  },
+  "mapDiagram": {
+    "upperHalf": "Metade superior — pistas 1, 4, 5",
+    "lowerHalf": "Metade inferior — pistas 2, 3, 6",
+    "anchors": {
+      "one": "Âncora 1",
+      "two": "Âncora 2",
+      "three": "Âncora 3",
+      "four": "Âncora 4",
+      "five": "Âncora 5",
+      "six": "Âncora 6"
+    },
+    "keypoints": {
+      "one": "P1",
+      "two": "P2",
+      "three": "P3",
+      "four": "P4",
+      "five": "P5",
+      "six": "P6"
+    },
+    "neutral": "Neutro",
+    "reactionTeams": "equipes de reação",
+    "routes": {
+      "a29": "A29",
+      "b29": "B29",
+      "c29": "C29"
+    },
+    "temple": {
+      "line1": "Templo",
+      "line2": "das Marés"
+    },
+    "garrisons": "Guarnições",
+    "garrisonIds": {
+      "a24": "A24",
+      "b24": "B24",
+      "c24": "C24"
+    },
+    "unlock": "abre min 20"
+  },
+  "healingDiagram": {
+    "steps": {
+      "one": {
+        "number": "1",
+        "title": "Apoiador avança",
+        "subtitle": "assume a linha de frente"
+      },
+      "two": {
+        "number": "2",
+        "title": "Jogador principal recua",
+        "subtitle": "cura fora de combate"
+      },
+      "three": {
+        "number": "3",
+        "title": "Jogador principal retorna",
+        "subtitle": "retoma a linha de frente"
+      },
+      "four": {
+        "number": "4",
+        "title": "Apoiador recua",
+        "subtitle": "volta para a âncora"
+      }
+    },
+    "keypoint": {
+      "line1": "Ponto-chave",
+      "line2": "nunca vazio"
+    },
+    "loop": "repita quantas vezes precisar — ninguém caminha de volta do QG"
+  }
+}

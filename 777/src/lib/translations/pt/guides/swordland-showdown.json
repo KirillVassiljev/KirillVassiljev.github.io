@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "Confronto de Swordland — Kingshot 777",
+    "description": "Guia de membro do Confronto de Swordland do Kingshot: o que realmente pontua, o mapa, a abertura de 15 minutos, seu papel no campo, montagem do esquadrão, cura e como ficar vivo."
+  },
+  "h1": "Confronto de Swordland",
+  "tldr": {
+    "heading": "Resumo",
+    "items": [
+      "<strong>Quinzenal, a batalha é sempre no domingo e dura exatamente uma hora.</strong> Duas alianças colocam uma Legião de até 30 combatentes mais 10 substitutos.",
+      "<strong>Tropas só são feridas, nunca perdidas.</strong> Tudo se cura de graça quando você sai do campo de batalha. Jogue de forma agressiva.",
+      "<strong>Duas trilhas de recompensa separadas.</strong> As recompensas de aliança seguem a vitória ou derrota da Legião 1; suas recompensas pessoais seguem seu próprio ranking de Pontos de Relíquia Pessoais. Um pontuador de topo no lado perdedor ganha mais que um passageiro no lado vencedor.",
+      "<strong>Limpe sua enfermaria antes de começar.</strong> Você não pode entrar com tropas feridas esperando.",
+      "<strong>Ninguém pontua na zona de nascimento.</strong> Os pontos vêm de se mover."
+    ]
+  },
+  "sections": {
+    "before": {
+      "heading": "Antes de entrar",
+      "items": [
+        "<strong>Limpe a enfermaria.</strong> Isto é um requisito absoluto — tropas feridas esperando cura bloqueiam a entrada inteiramente.",
+        "<strong>Se você se registrou, apareça.</strong> Uma ausência ainda contou para a classificação de poder do seu lado, mas não contribui com nada.",
+        "<strong>Substitutos só preenchem automaticamente nos primeiros 3 minutos (180 segundos)</strong>, por ordem de chegada. Se você é substituto, esteja no portão desde o apito.",
+        "<strong>Cure-se e convoque suas marchas de volta antes.</strong> Entre em força total."
+      ]
+    },
+    "whatActuallyScores": {
+      "heading": "O que realmente pontua",
+      "firstControlBonus": {
+        "heading": "Bônus de primeiro controle",
+        "body": "A primeira aliança a ocupar totalmente um edifício depois que seu cronômetro de captura completa recebe um grande bônus único de Aliança <em>e</em> Pessoal. A primeira captura do Santuário da Espada sozinha vale 9.000 Pontos de Relíquia de Aliança / 4.500 Pessoais, e tomar o primeiro controle de cada edifício da Fase 1 totaliza 26.400 Pontos de Relíquia. É por isso que se espalhar no início supera empilhar num só alvo."
+      },
+      "occupation": {
+        "heading": "Ocupação contínua",
+        "table": {
+          "headers": {
+            "building": "Edifício",
+            "alliancePointsPerMinute": "Pontos de aliança / min",
+            "personalPointsPerMinute": "Pontos pessoais / min"
+          },
+          "rows": [
+            {
+              "building": "Santuário da Espada",
+              "alliancePointsPerMinute": "1.800",
+              "personalPointsPerMinute": "900"
+            },
+            {
+              "building": "Santuário Menor",
+              "alliancePointsPerMinute": "1.200",
+              "personalPointsPerMinute": "600"
+            },
+            {
+              "building": "Abadia",
+              "alliancePointsPerMinute": "600",
+              "personalPointsPerMinute": "300"
+            },
+            {
+              "building": "Edifício de buff",
+              "alliancePointsPerMinute": "240",
+              "personalPointsPerMinute": "120"
+            }
+          ]
+        },
+        "holdBonus": "<strong>Bônus de posse de 30 minutos:</strong> assim que sua aliança segura um edifício por 30 minutos seguidos, ele começa a pagar Pontos de Relíquia Pessoais a uma taxa maior — as notas de atualização não dizem quanto. Um edifício perto desse limiar vale mais que sua taxa base sugere, tanto para segurar quanto para roubar."
+      },
+      "bankedPoints": {
+        "heading": "Pontos guardados e Comboios de Bagagem",
+        "body": "50% dos pontos de aliança acumulados de um edifício ficam visíveis acima dele. Perca o edifício e esses pontos caem no chão como <strong>Comboios de Bagagem</strong> que qualquer lado pode pegar com uma marcha, e contam tanto para pontos de Aliança quanto Pessoais. Saquear não é passivo — envie uma marcha no momento em que um edifício vira, seu ou deles."
+      },
+      "defeatingTroops": {
+        "heading": "Derrotando tropas",
+        "table": {
+          "headers": {
+            "situation": "Situação",
+            "personalPointsPerPower": "Pontos pessoais por 10.000 de poder de soldado inimigo derrotado"
+          },
+          "rows": [
+            {
+              "situation": "Atacando",
+              "personalPointsPerPower": "80"
+            },
+            {
+              "situation": "Defendendo",
+              "personalPointsPerPower": "40"
+            }
+          ]
+        },
+        "body": "Mortes pagam <strong>apenas pontos Pessoais</strong> — nenhum ponto de Aliança. Ofensiva paga cerca do dobro da defesa, e num reino de alto poder você pode atingir o limite pessoal em minutos puramente por combate."
+      },
+      "undercellars": {
+        "heading": "Adegas",
+        "body": "Nós de coleta não marcados que surgem ao redor do Santuário da Espada. Encontre-os com a lupa no minimapa e envie uma marcha como faria a um nó de recurso. Mais lentos que edifícios mas geralmente não disputados, então são renda confiável e segura para jogadores de menor poder. No fim da batalha podem valer 20–40 mil pontos no total — não os subestime."
+      }
+    },
+    "map": {
+      "heading": "O mapa",
+      "table": {
+        "headers": {
+          "building": "Edifício",
+          "whatItDoes": "O que faz",
+          "whyYouCare": "Por que importa"
+        },
+        "rows": [
+          {
+            "building": "Santuário da Espada",
+            "whatItDoes": "Centro do mapa, abre aos 15 min.",
+            "whyYouCare": "Maior fluxo de pontos do campo. O prêmio principal — mas não obrigatório para vencer."
+          },
+          {
+            "building": "Santuários Menores ×2",
+            "whatItDoes": "Flanqueiam o santuário, abertos desde o início.",
+            "whyYouCare": "O verdadeiro motor de pontos. Segure pelo menos um a partida toda."
+          },
+          {
+            "building": "Abadias ×4",
+            "whatItDoes": "Abertas desde o início.",
+            "whyYouCare": "Renda estável e bônus de primeiro controle baratos."
+          },
+          {
+            "building": "Estábulos Reais",
+            "whatItDoes": "Buff: reduz pela metade o tempo de recarga do Teletransportador Avançado grátis para toda a aliança.",
+            "whyYouCare": "Primeira escolha na Fase 1. Mobilidade vence o mapa."
+          },
+          {
+            "building": "Campanário",
+            "whatItDoes": "Buff: reduz pela metade o tempo de captura de edifícios.",
+            "whyYouCare": "Buff de maior prioridade na Fase 1, já que cada bônus de primeiro controle é grande."
+          },
+          {
+            "building": "Salão da Reforma",
+            "whatItDoes": "Buff: +15% de ataque e 15% de redução de dano para sua aliança. Abre aos 15 min.",
+            "whyYouCare": "Pegue no momento em que abre — se aplica a cada luta depois."
+          },
+          {
+            "building": "Acampamento Mercenário",
+            "whatItDoes": "Abre aos 15 min. Envia mercenários a um edifício em mãos inimigas.",
+            "whyYouCare": "Nenhum ponto de combate pessoal das mortes dele. Use-o para amaciar um alvo pouco antes do seu rally, nunca sozinho."
+          },
+          {
+            "building": "Adegas",
+            "whatItDoes": "Nós não marcados que surgem em ondas perto do santuário.",
+            "whyYouCare": "Pontos não disputados para quem não consegue vencer lutas."
+          }
+        ]
+      }
+    },
+    "timeline": {
+      "heading": "Linha do tempo",
+      "table": {
+        "headers": {
+          "phase": "Fase",
+          "clock": "Relógio",
+          "whatMatters": "O que importa"
+        },
+        "rows": [
+          {
+            "phase": "1 — Abertura",
+            "clock": "0–15 min",
+            "whatMatters": "2 Santuários Menores, 4 Abadias, Campanário e Estábulos Reais estão ativos.<br /> Prioridade: Estábulos Reais → Campanário → um Santuário Menor → Abadias.<br /> Espalhe-se para reivindicar o máximo de bônus de primeiro controle possível.<br /> Os jogadores mais fortes podem pressionar cidades inimigas ao mesmo tempo para puxar defensores dos edifícios."
+          },
+          {
+            "phase": "2 — Meio de jogo",
+            "clock": "a partir de exatamente 15:00 (a marca de 900 segundos)",
+            "whatMatters": "Santuário da Espada, Salão da Reforma e Acampamento Mercenário desbloqueiam.<br /> Pegue a Reforma imediatamente; o buff se aplica a cada luta depois.<br /> Afunilar tudo no Santuário da Espada enquanto abandona Santuários Menores e Abadias é uma jogada perdedora.<br /> Se o santuário estiver disputado demais, mude para segurar ambos os Santuários Menores mais Campanário, Reforma e as Abadias."
+          },
+          {
+            "phase": "3 — Fim de jogo",
+            "clock": "15 min e 20 min em diante",
+            "whatMatters": "Ondas de Adega surgem aos 15 min e 20 min.<br /> Os últimos 5–10 minutos são a janela de virada.<br /> Edifícios inimigos com grandes reservas guardadas são os alvos de maior valor, porque virá-los despeja um enorme aglomerado de Comboio de Bagagem."
+          }
+        ]
+      }
+    },
+    "roles": {
+      "heading": "Seu papel",
+      "items": [
+        {
+          "heading": "Atacante",
+          "body": "Teletransporte para edifícios disputados ou fracamente mantidos, abra rallies, queime cidades inimigas para forçar jogadores a se teletransportarem para fora de suas guarnições, depois siga em frente. Regra de ouro: <strong>atacantes capturam e seguem em frente, não ficam sentados em guarnições.</strong>"
+        },
+        {
+          "heading": "Defensor / participante",
+          "body": "Guarneça os edifícios que lhe atribuírem, mantenha seus 3 melhores heróis em casa o suficiente para sobreviver, preencha os slots de guarnição para que o inimigo não possa tomar o edifício sozinho, e reforce vizinhos. Se um jogador mais forte te reforça e você depois se teletransporta, as tropas guarnecidas dele ficam com você."
+        },
+        {
+          "heading": "Coletor / suporte",
+          "body": "Persiga Comboios de Bagagem no instante em que um edifício vira, colete Adegas e entre em rallies como marcha secundária. Você pode lançar marchas de dentro da zona segura sem expor sua cidade — esta é a trilha de pontuação para quem joga de graça, e funciona."
+        }
+      ]
+    },
+    "squadSetup": {
+      "heading": "Montagem do esquadrão",
+      "items": [
+        "<strong>Proporção de tropas:</strong> 50/20/30 infantaria/cavalaria/arqueiros na maior parte do tempo. Use 60/40/0 com Alcar, Margot ou Saul, cujas habilidades pendem para cavalaria e infantaria.",
+        "<strong>Ofensiva e defesa são iguais.</strong> As mortes são calculadas simultaneamente ao fim de cada mini-rodada, então nenhum lado precisa \"tankar mais\". A única diferença real é qual cenário dispara o widget de um herói, e é por isso que os melhores heróis ofensivos e defensivos são simplesmente a geração mais recente com um tipo de widget correspondente. A defesa não precisa de mais infantaria e não precisa de participantes \"defensivos\" dedicados.",
+        "<strong>Para ataques solo</strong>, use os heróis de geração mais alta que você tiver com investimento decente."
+      ],
+      "pvpJoinerHeroes": {
+        "heading": "Heróis participantes de PvP",
+        "intro": "As mesmas escolhas tanto na ofensiva quanto na defesa:",
+        "or": "ou"
+      }
+    },
+    "healingAndMobility": {
+      "heading": "Cura e mobilidade",
+      "items": [
+        "<strong>Sem cura em lote durante o evento</strong> — só acelerações de cura, e o evento libera lentamente acelerações de cura grátis de 1h.",
+        "<strong>Saia para curar.</strong> Toque no placar no topo e escolha <em>Sair do campo de batalha</em> para curar tudo instantânea e gratuitamente. Você então espera 12 minutos antes de poder reentrar. Com centenas de milhares feridos, essa ida e volta supera lutar com metade da força.",
+        "<strong>Não desperdice acelerações de cura perto do fim.</strong> Tropas não podem morrer, a enfermaria não pode encher durante o evento, e tudo se cura quando o evento termina.",
+        "<strong>Acelerações de marcha grátis:</strong> uma carga permanente de +25% de velocidade de marcha, exclusiva do evento, acumula uma por minuto, limitada a 10 (algumas fontes dizem que você começa com 5 e pode guardar até 30). De qualquer forma, acumulá-las é um erro — gaste-as.",
+        "<strong>Teletransportador Avançado grátis</strong> aproximadamente a cada 10–12 minutos, reduzido pela metade se sua aliança segura os Estábulos Reais. Teletransportar de novo antes de o grátis recarregar custa Teletransportadores Avançados a um preço crescente (+1 a cada vez), então um salto pago entre os grátis está ok; encadear vários não."
+      ]
+    },
+    "stayingAlive": {
+      "heading": "Ficando vivo",
+      "items": [
+        "<strong>Se um jogador muito mais forte te ataca, evite os ferimentos.</strong> Implante tropas em terreno vazio ao lado da sua cidade, teletransporte para longe, ou convoque seus 3 melhores heróis se isso for suficiente para segurar.",
+        "<strong>A estação de guarda leva dano bastante aumentado aqui.</strong> Se você não gastar gemas para apagar o fogo, 10–20 segundos bastam para teletransportar sua cidade de volta à força.",
+        "<strong>Peça reforços a um jogador mais forte.</strong> As tropas guarnecidas dele ficam com você mesmo se você se teletransportar.",
+        "<strong>Compre a contra-reconhecimento de 2h</strong> (cerca de 400 gemas) para que você não possa ser escaneado, e use cada buff de ataque e defesa que tiver — um buff de gema de 10% ou 20% multiplica em vez de somar.",
+        "<strong>Faça muito reconhecimento antes de atacar</strong>, e use rallies de 1 minuto liberalmente.",
+        "<strong>Você não precisa ficar ao lado de um edifício.</strong> Estacionar aberto ao lado de um objetivo te torna um alvo fácil. Fique na zona segura ou no espaço morto entre edifícios e apoie-se nas acelerações de marcha grátis.",
+        "<strong>Um ataque perdido ainda é uma vitória se você feriu mais de ~80.000 tropas.</strong> Cada ataque seguinte fica mais fácil. O mesmo ao defender: abaixo de 80 mil feridos é uma boa troca.",
+        "<strong>Não jogue toda marcha num alvo</strong> a menos que já estejam abaixo de ~100.000 tropas. Só sua marcha principal causa dano real; o resto só se suicida.",
+        "<strong>Não envie sua marcha principal para longe</strong> a menos que uma forte segunda marcha ou um amigo esteja cobrindo sua cidade."
+      ]
+    },
+    "commonMistakes": {
+      "heading": "Erros comuns",
+      "items": [
+        "<strong>Ficar sentado na zona de nascimento sem fazer nada.</strong> Você pontua zero.",
+        "<strong>Acumular teletransportadores e acelerações de marcha</strong> até o evento acabar.",
+        "<strong>Perseguir só o Santuário da Espada</strong> e perder os Santuários Menores e Abadias que de fato pagam.",
+        "<strong>Ignorar Adegas e Comboios de Bagagem.</strong> Pontos grátis que ninguém disputa.",
+        "<strong>Atacantes estacionando numa guarnição</strong> em vez de seguir para o próximo alvo.",
+        "<strong>Entrar com uma enfermaria cheia</strong>, ou esquecer de aparecer depois de se registrar.",
+        "<strong>Queimar acelerações de cura nos últimos minutos</strong>, quando tudo se cura de graça no fim de qualquer forma."
+      ]
+    }
+  },
+  "source": "Fontes: <a href=\"https://kingshotwiki.com/events/swordland-showdown/\" rel=\"noreferrer\">kingshotwiki.com — Confronto de Swordland</a>, <a href=\"https://kingshotmastery.com/guides/swordland-showdown\" rel=\"noreferrer\">kingshotmastery.com — guia do Confronto de Swordland</a>, <a href=\"https://kingshotpro.com/swordland-showdown-guide.html\" rel=\"noreferrer\">kingshotpro.com — guia do Confronto de Swordland</a>. Valores exatos de pontos e layouts de edifícios podem mudar com atualizações — verifique na sua própria tela de campo de batalha."
+}

@@ -1,0 +1,65 @@
+{
+	"meta": {
+		"title": "Vingança viking — Kingshot 777",
+		"description": "Guia resumido da Vingança Viking do Kingshot: esvaziar seu castelo, posicionamento de heróis, defesa do QG e quando não curar."
+	},
+	"h1": "Vingança viking",
+	"tldr": {
+		"heading": "Resumo",
+		"items": [
+			"<strong>Esvazie seu castelo.</strong> Troque suas tropas e heróis extras para outros membros. Tropas suas que sobram reduzem a pontuação de todos que te apoiam.",
+			"<strong>Os 3 melhores heróis na Estação de Guarda</strong>, o mais forte primeiro. Todo o resto vai para troca.",
+			"<strong>Não cure no meio do evento.</strong> Curar puxa suas tropas para casa e derruba a pontuação dos seus apoiadores. Só cure antes de a segunda falha encerrar tudo, ou na convocação entre os estágios 9 e 10.",
+			"<strong>Os estágios 10 e 20 são o QG.</strong> Infantaria com escudo acima do tier 8 mais um pouco de cavalaria — siga o que sua liderança especificar.",
+			"<strong>Reforce com infantaria e cavalaria.</strong> Vikings atacam infantaria primeiro, cavalaria em segundo, arqueiros por último — deixe os arqueiros em casa se sua marcha estiver cheia.",
+			"<strong>Esteja online nos estágios 7, 14 e 17.</strong> Eles só atingem jogadores online e pontuam mais alto.",
+			"<strong>Reforce cidades vazias e pouco lotadas.</strong> Os pontos se dividem pela participação nas mortes, então evite se sobrepor a uma baleia.",
+			"<strong>Emparelhe com poder similar.</strong> Grupos de dois ou seis, posicionados perto uns dos outros, para que o apoio chegue rápido dentro do intervalo de 1 minuto."
+		]
+	},
+	"sections": {
+		"details": {
+			"heading": "Detalhes"
+		},
+		"maximizing": {
+			"heading": "Maximizando seus pontos",
+			"items": [
+				"<strong>Envie infantaria e cavalaria.</strong> Vikings engajam infantaria primeiro, depois cavalaria, depois arqueiros — então infantaria e cavalaria entram na luta cedo e ficam com as mortes. Se sua marcha não puder segurar tudo, deixe os arqueiros em casa.",
+				"<strong>Reforce jogadores online.</strong> As ondas 7, 14 e 17 só atacam membros que estão online. Slots de marcha gastos em aliados offline são desperdiçados, e jogadores offline geralmente nem limparam a cidade.",
+				"<strong>Escolha cidades vazias e pouco lotadas.</strong> O pool de pontos se divide pela participação nas mortes. Procure um aliado sem tropas próprias e com apenas um ou dois outros reforços. Compartilhe uma cidade com uma baleia e as tropas de tier mais alto dela vão sugar a maioria das mortes.",
+				"<strong>Rotacione para o QG nas ondas 10 e 20.</strong> Essas ondas atingem apenas o QG da Aliança — nenhuma cidade. Assim que o relatório de batalha da onda 9 (ou 19) terminar, convoque uma marcha forte e envie-a ao QG, depois mande-a de volta ao seu aliado assim que a onda do QG acabar. Convoque cedo demais e você perde os pontos da onda anterior.",
+				"<strong>Lidere com um herói ofensivo.</strong> Use seus heróis participantes da Caça ao Urso no slot de líder — Chenko, Amadeus, Yeonwoo ou Amane — para dano extra e uma fatia maior das mortes."
+			]
+		},
+		"tips": {
+			"heading": "Dicas",
+			"items": [
+				"<strong>Organize sua troca antes de começar.</strong> Uma troca malfeita deixa tropas paradas no seu castelo o evento inteiro.",
+				"<strong>Combine posições com antecedência</strong> para que ninguém fique fora do alcance de apoio quando uma onda cair."
+			]
+		}
+	},
+	"qa": [
+		{
+			"q": "Como funciona a pontuação?",
+			"a": "Você pontua matando Vikings que atacam castelos — na maioria dos outros. Por isso um castelo vazio vale mais para sua aliança do que um defendido: os apoiadores ficam com as mortes."
+		},
+		{
+			"q": "Por que deixar tropas em casa prejudica?",
+			"a": "Suas próprias tropas absorvem as mortes que iriam para seus apoiadores. Troque-as para fora para que seu castelo fique genuinamente vazio."
+		},
+		{
+			"q": "Quanto tempo entre os estágios?",
+			"a": "Cerca de um minuto normalmente, mais ou menos três minutos para os estágios do QG (10 e 20)."
+		},
+		{
+			"q": "E se eu tiver um alt na aliança?",
+			"a": "Use as tropas dele para reforçar seu principal. Se você é tier 10, o alt também pode defender por conta própria por pontos extras."
+		},
+		{
+			"q": "Quando o evento termina?",
+			"a": "Na segunda falha."
+		}
+	],
+	"source": "Fonte: <a href=\"https://kingshotwiki.com/events/viking-vengeance/\" rel=\"noreferrer\">kingshotwiki.com — Vingança Viking</a>"
+}

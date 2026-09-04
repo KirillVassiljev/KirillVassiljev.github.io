@@ -1,0 +1,77 @@
+{
+	"meta": {
+		"title": "Governador mais forte — Kingshot 777",
+		"description": "Guia resumido do evento Governador Mais Forte do Kingshot: os 7 estágios diários, como os pontos são marcados e quais rankings pagam."
+	},
+	"h1": "Governador mais forte",
+	"tldr": {
+		"heading": "Resumo",
+		"items": [
+			"<strong>Se o KvK estiver próximo, guarde suas acelerações para ele.</strong> Os buffs de construção, pesquisa e treinamento em todo o servidor do KvK fazem as mesmas acelerações comprarem muito mais poder lá do que numa semana normal de Governador Mais Forte.",
+			"<strong>Acumule tudo antes.</strong> Nada que você faça fora da janela do evento pontua. Fique em cima de suas acelerações e recursos e despeje-os no dia correspondente.",
+			"<strong>250.000 pontos</strong> é a marca para se qualificar às recompensas de todo o reino. Mire nela mesmo que não consiga ranquear.",
+			"<strong>Pegue suas 2 Medalhas de Desafio todo dia</strong> — recompensas grátis por tarefas que você já está fazendo."
+		]
+	},
+	"sections": {
+		"stages": {
+			"heading": "Os 7 dias",
+			"items": [
+				"<strong>Dia 1 — Construção da cidade:</strong> melhorias de edifícios e acelerações de construção.",
+				"<strong>Dia 2 — Desenvolvimento de heróis:</strong> EXP de herói, fragmentos, aumentos de estrela.",
+				"<strong>Dia 3 — Melhorias de habilidade:</strong> níveis de habilidade de heróis.",
+				"<strong>Dia 4 — Treinamento de tropas:</strong> treinar e promover tropas.",
+				"<strong>Dia 5 — Melhorias de habilidade novamente.</strong>",
+				"<strong>Dia 6 — Treinamento de tropas novamente.</strong>",
+				"<strong>Dia 7 — Desenvolvimento de heróis + coleta.</strong>"
+			]
+		},
+		"details": {
+			"heading": "Detalhes"
+		},
+		"rewards": {
+			"heading": "Recompensas",
+			"items": [
+				"<strong>Marcos de pontos:</strong> 5 tiers por dia, cada um exigindo mais pontos que o anterior. Reivindique conforme avança.",
+				"<strong>Recompensas de Medalha de Desafio:</strong> reivindicadas com as medalhas que você ganha, até 2 por dia.",
+				"<strong>Ranking do estágio diário:</strong> pago ao fim de cada dia aos 1.000 maiores pontuadores do seu reino — gemas e acelerações, escaladas por posição.",
+				"<strong>Ranking total do reino:</strong> top 1.000 no seu reino por pontos totais nos 7 dias.",
+				"<strong>Ranking entre reinos:</strong> top 2.000 entre todos os reinos participantes. Recompensas muito melhores — Truegold e cosméticos exclusivos — e muito mais difícil.",
+				"<strong>Recompensas do reino:</strong> dadas a todos num reino participante com base na colocação do reino, mas você precisa ganhar pessoalmente 250.000 pontos para se qualificar."
+			]
+		},
+		"tips": {
+			"heading": "Dicas",
+			"items": [
+				"<strong>Estoque antes do evento.</strong> Guarde acelerações, EXP de herói, fragmentos e Truegold e gaste-os só no dia correspondente.",
+				"<strong>Escolha um dia para ir com tudo.</strong> As recompensas do estágio diário são por dia, então concentrar seu estoque num único estágio te ranqueia mais alto do que espalhá-lo fino.",
+				"<strong>Habilidades e tropas voltam duas vezes</strong> (dias 3/5 e 4/6). Divida seus livros de habilidade e treinamento entre o par em vez de gastar tudo no primeiro.",
+				"<strong>Enfileire melhorias longas para terminar dentro da janela.</strong> Os pontos chegam quando a ação completa, não quando você a inicia.",
+				"<strong>Reivindique marcos e medalhas diariamente.</strong> Eles não acumulam."
+			]
+		}
+	},
+	"qa": [
+		{
+			"q": "O que é?",
+			"a": "Uma competição recorrente em que cada governador marca pontos desenvolvendo sua cidade. Dura sete dias e é dividida em sete estágios, um por dia."
+		},
+		{
+			"q": "Como marco pontos?",
+			"a": "Concluindo as ações que correspondem ao tema do dia — melhorar edifícios, subir de nível heróis, melhorar habilidades, treinar ou promover tropas, queimar acelerações e consumir recursos raros."
+		},
+		{
+			"q": "O que são Medalhas de Desafio?",
+			"a": "Uma moeda diária separada. Você pode ganhar até 2 por dia em tarefas; gaste-as na aba de Recompensas de Medalha de Desafio. Quanto mais você coletou, melhor o tier que pode reivindicar."
+		},
+		{
+			"q": "Com qual ranking devo me importar?",
+			"a": "Se você é competitivo, o ranking total entre reinos paga melhor — Truegold e cosméticos exclusivos — mas você enfrenta todos os reinos participantes. Caso contrário, foque nos marcos de pontos e em atingir 250.000 no total."
+		},
+		{
+			"q": "Gastar fora do evento conta?",
+			"a": "Não. Só ações concluídas durante a janela do evento marcam pontos."
+		}
+	],
+	"source": "Fonte: <a href=\"https://kingshotwiki.com/events/strongest-governor/\" rel=\"noreferrer\">kingshotwiki.com — Governador Mais Forte</a>"
+}
