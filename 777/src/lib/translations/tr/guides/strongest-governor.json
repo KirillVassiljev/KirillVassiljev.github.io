@@ -1,0 +1,77 @@
+{
+	"meta": {
+		"title": "En güçlü vali — Kingshot 777",
+		"description": "Kingshot En Güçlü Vali etkinliği için özet rehber: 7 günlük aşamalar, puanların nasıl hesaplandığı ve hangi sıralamaların ödeme yaptığı."
+	},
+	"h1": "En güçlü vali",
+	"tldr": {
+		"heading": "Özet",
+		"items": [
+			"<strong>KvK yakınsa hızlandırıcılarını onun için sakla.</strong> KvK'nın sunucu çapındaki inşa, araştırma ve eğitim buff'ları, aynı hızlandırıcıların orada normal bir En Güçlü Vali haftasına kıyasla çok daha fazla güç satın almasını sağlar.",
+			"<strong>Öncesinde her şeyi biriktir.</strong> Etkinlik penceresi dışında yaptığın hiçbir şey puan getirmez. Hızlandırıcılarının ve kaynaklarının üstüne otur ve uygun günde boşalt.",
+			"<strong>250.000 puan</strong> krallık çapındaki ödüllere hak kazanma barajıdır. Sıralamaya giremesen bile onu hedefle.",
+			"<strong>Her gün 2 Meydan Okuma Madalyanı al</strong> — zaten yaptığın görevler için bedava ödüller."
+		]
+	},
+	"sections": {
+		"stages": {
+			"heading": "7 gün",
+			"items": [
+				"<strong>1. Gün — Şehir inşası:</strong> bina yükseltmeleri ve inşa hızlandırıcıları.",
+				"<strong>2. Gün — Kahraman gelişimi:</strong> kahraman EXP, parçalar, yıldız yükseltmeleri.",
+				"<strong>3. Gün — Yetenek yükseltmeleri:</strong> kahraman yetenek seviyeleri.",
+				"<strong>4. Gün — Birlik eğitimi:</strong> birlik eğitimi ve terfisi.",
+				"<strong>5. Gün — Yeniden yetenek yükseltmeleri.</strong>",
+				"<strong>6. Gün — Yeniden birlik eğitimi.</strong>",
+				"<strong>7. Gün — Kahraman gelişimi + toplama.</strong>"
+			]
+		},
+		"details": {
+			"heading": "Ayrıntılar"
+		},
+		"rewards": {
+			"heading": "Ödüller",
+			"items": [
+				"<strong>Puan kilometre taşları:</strong> günde 5 kademe, her biri bir öncekinden daha fazla puan gerektirir. İlerledikçe topla.",
+				"<strong>Meydan Okuma Madalyası ödülleri:</strong> kazandığın madalyalarla, günde 2'ye kadar toplanır.",
+				"<strong>Günlük aşama sıralaması:</strong> her günün sonunda krallığındaki en yüksek puanlı ilk 1.000 kişiye ödenir — sıraya göre ölçeklenen mücevherler ve hızlandırıcılar.",
+				"<strong>Krallık toplam sıralaması:</strong> 7 gün boyunca toplam puana göre krallığındaki ilk 1.000.",
+				"<strong>Krallıklar arası sıralama:</strong> katılan tüm krallıklar arasında ilk 2.000. Çok daha iyi ödüller — Truegold ve özel kozmetikler — ve çok daha zor.",
+				"<strong>Krallık ödülleri:</strong> katılan bir krallıktaki herkese krallığın sıralamasına göre verilir, ancak hak kazanmak için kişisel olarak 250.000 puan kazanmalısın."
+			]
+		},
+		"tips": {
+			"heading": "İpuçları",
+			"items": [
+				"<strong>Etkinlikten önce stok yap.</strong> Hızlandırıcıları, kahraman EXP'sini, parçaları ve Truegold'u tut ve yalnızca uygun günde harca.",
+				"<strong>Büyük gitmek için bir gün seç.</strong> Günlük aşama ödülleri gün başınadır, bu yüzden birikimini tek bir aşamaya yoğunlaştırmak seni ince yaymaktan daha yükseğe taşır.",
+				"<strong>Yetenekler ve birlikler iki kez döner</strong> (3/5 ve 4/6 günleri). Yetenek kitaplarını ve eğitimini ilk güne her şeyi harcamak yerine ikili arasında böl.",
+				"<strong>Uzun yükseltmeleri pencerenin içinde bitecek şekilde kuyruğa al.</strong> Puanlar sen başlattığında değil, işlem tamamlandığında düşer.",
+				"<strong>Kilometre taşlarını ve madalyaları her gün topla.</strong> Devretmezler."
+			]
+		}
+	},
+	"qa": [
+		{
+			"q": "Nedir bu?",
+			"a": "Her valinin şehrini geliştirerek puan kazandığı, tekrarlayan bir yarışma. Yedi gün sürer ve her gün bir tane olmak üzere yedi aşamaya ayrılır."
+		},
+		{
+			"q": "Nasıl puan alırım?",
+			"a": "Günün temasına uyan işlemleri tamamlayarak — bina yükseltme, kahraman seviye atlatma, yetenek yükseltme, birlik eğitme veya terfi ettirme, hızlandırıcı yakma ve nadir kaynak tüketme."
+		},
+		{
+			"q": "Meydan Okuma Madalyaları nedir?",
+			"a": "Ayrı bir günlük para birimi. Görevlerden günde 2'ye kadar kazanabilirsin; onları Meydan Okuma Madalyası Ödülleri sekmesinde harca. Ne kadar çok topladıysan alabileceğin kademe o kadar iyi olur."
+		},
+		{
+			"q": "Hangi sıralamayı önemsemeliyim?",
+			"a": "Rekabetçiysen, krallıklar arası toplam sıralama en iyi ödemeyi yapar — Truegold ve özel kozmetikler — ama katılan her krallığa karşısın. Aksi halde puan kilometre taşlarına ve toplam 250.000'e ulaşmaya odaklan."
+		},
+		{
+			"q": "Etkinlik dışında harcamak sayılır mı?",
+			"a": "Hayır. Yalnızca etkinlik penceresi sırasında tamamlanan işlemler puan kazandırır."
+		}
+	],
+	"source": "Kaynak: <a href=\"https://kingshotwiki.com/events/strongest-governor/\" rel=\"noreferrer\">kingshotwiki.com — En Güçlü Vali</a>"
+}

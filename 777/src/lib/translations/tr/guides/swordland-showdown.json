@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "Kılıç diyarı hesaplaşması — Kingshot 777",
+    "description": "Kingshot Kılıç Diyarı Hesaplaşması için üye rehberi: gerçekte ne puan getirir, harita, 15 dakikalık açılış, sahadaki rolün, tim kurulumu, iyileştirme ve hayatta kalma."
+  },
+  "h1": "Kılıç diyarı hesaplaşması",
+  "tldr": {
+    "heading": "Özet",
+    "items": [
+      "<strong>İki haftada bir, savaş her zaman Pazar ve tam olarak bir saat sürer.</strong> İki ittifak, 30 savaşçıya kadar bir Lejyon artı 10 yedek çıkarır.",
+      "<strong>Birlikler yalnızca yaralanır, asla kaybolmaz.</strong> Savaş alanından ayrıldığında her şey bedava iyileşir. Agresif oyna.",
+      "<strong>İki ayrı ödül yolu.</strong> İttifak ödülleri Lejyon 1'in galibiyetini veya mağlubiyetini izler; kişisel ödüllerin kendi Kişisel Kalıntı Puanı sıralamanı izler. Kaybeden taraftaki en yüksek puanlı biri, kazanan taraftaki bir yolcudan daha fazla kazanır.",
+      "<strong>Başlamadan önce revirini temizle.</strong> Yaralı birlikler beklerken giremezsin.",
+      "<strong>Doğuş bölgesinde kimse puan alamaz.</strong> Puanlar hareket etmekten gelir."
+    ]
+  },
+  "sections": {
+    "before": {
+      "heading": "Girmeden önce",
+      "items": [
+        "<strong>Revirini temizle.</strong> Bu katı bir gereklilik — iyileşmeyi bekleyen yaralı birlikler girişi tamamen engeller.",
+        "<strong>Kaydolduysan ortaya çık.</strong> Katılmayan biri yine de tarafının güç değerlendirmesine sayılır ama hiçbir katkı sağlamaz.",
+        "<strong>Yedekler yalnızca ilk 3 dakikada (180 saniye) otomatik doldurulur</strong>, ilk gelen ilk alır. Yedeksen düdükten itibaren kapıda ol.",
+        "<strong>Önceden iyileş ve yürüyüşlerini geri çağır.</strong> Tam güçle gir."
+      ]
+    },
+    "whatActuallyScores": {
+      "heading": "Gerçekte ne puan getirir",
+      "firstControlBonus": {
+        "heading": "İlk kontrol bonusu",
+        "body": "Bir binayı ele geçirme sayacı tamamlandıktan sonra tamamen işgal eden ilk ittifak büyük bir tek seferlik İttifak <em>ve</em> Kişisel bonus alır. Yalnızca Kılıç Tapınağı'nın ilk ele geçirilmesi 9.000 İttifak / 4.500 Kişisel Kalıntı Puanıdır ve tüm 1. Aşama binalarının ilk kontrolünü almak toplam 26.400 Kalıntı Puanı eder. Bu yüzden başta yayılmak tek bir hedefte yığılmaktan iyidir."
+      },
+      "occupation": {
+        "heading": "Sürekli işgal",
+        "table": {
+          "headers": {
+            "building": "Bina",
+            "alliancePointsPerMinute": "İttifak puanı / dk",
+            "personalPointsPerMinute": "Kişisel puan / dk"
+          },
+          "rows": [
+            {
+              "building": "Kılıç Tapınağı",
+              "alliancePointsPerMinute": "1.800",
+              "personalPointsPerMinute": "900"
+            },
+            {
+              "building": "Mabet",
+              "alliancePointsPerMinute": "1.200",
+              "personalPointsPerMinute": "600"
+            },
+            {
+              "building": "Manastır",
+              "alliancePointsPerMinute": "600",
+              "personalPointsPerMinute": "300"
+            },
+            {
+              "building": "Buff binası",
+              "alliancePointsPerMinute": "240",
+              "personalPointsPerMinute": "120"
+            }
+          ]
+        },
+        "holdBonus": "<strong>30 dakikalık tutma bonusu:</strong> ittifakın bir binayı 30 dakika kesintisiz tuttuğunda, daha yüksek bir oranda Kişisel Kalıntı Puanı ödemeye başlar — yama notları ne kadar olduğunu söylemiyor. Bu eşiğe yaklaşan bir bina temel oranının önerdiğinden daha değerlidir, hem tutmak hem de çalmak için."
+      },
+      "bankedPoints": {
+        "heading": "Biriktirilen puanlar ve Erzak Katarları",
+        "body": "Bir binanın biriken ittifak puanlarının %50'si görünür şekilde üstünde durur. Binayı kaybet ve o puanlar yere <strong>Erzak Katarı</strong> olarak düşer; her iki taraf da bir yürüyüşle alabilir ve hem İttifak hem Kişisel puanları için sayılır. Yağma pasif değildir — bir bina el değiştirdiği an bir yürüyüş gönder, seninki ya da onlarınki."
+      },
+      "defeatingTroops": {
+        "heading": "Birlikleri yenme",
+        "table": {
+          "headers": {
+            "situation": "Durum",
+            "personalPointsPerPower": "Yenilen her 10.000 düşman asker gücü başına Kişisel puan"
+          },
+          "rows": [
+            {
+              "situation": "Saldırırken",
+              "personalPointsPerPower": "80"
+            },
+            {
+              "situation": "Savunurken",
+              "personalPointsPerPower": "40"
+            }
+          ]
+        },
+        "body": "Öldürmeler yalnızca <strong>Kişisel puan</strong> öder — hiç İttifak puanı yok. Saldırı kabaca savunmanın iki katını öder ve yüksek güçlü bir krallıkta yalnızca dövüşten dakikalar içinde kişisel sınıra ulaşabilirsin."
+      },
+      "undercellars": {
+        "heading": "Yeraltı kilerleri",
+        "body": "Kılıç Tapınağı çevresinde beliren işaretsiz toplama noktaları. Onları mini haritadaki büyüteçle bul ve bir kaynak noktasına yapacağın gibi bir yürüyüş gönder. Binalardan yavaş ama genellikle çekişmesiz, bu yüzden düşük güçlü oyuncular için güvenilir, güvenli gelir. Savaşın sonlarında toplam 20–40 bin puan değerinde olabilirler — onları göz ardı etme."
+      }
+    },
+    "map": {
+      "heading": "Harita",
+      "table": {
+        "headers": {
+          "building": "Bina",
+          "whatItDoes": "Ne yapar",
+          "whyYouCare": "Neden önemli"
+        },
+        "rows": [
+          {
+            "building": "Kılıç Tapınağı",
+            "whatItDoes": "Haritanın merkezi, 15. dakikada açılır.",
+            "whyYouCare": "Sahadaki en yüksek puan akışı. Ana ödül — ama kazanmak için zorunlu değil."
+          },
+          {
+            "building": "Mabetler ×2",
+            "whatItDoes": "Tapınağın yanlarında, baştan açık.",
+            "whyYouCare": "Asıl puan motoru. Maç boyu en az birini tut."
+          },
+          {
+            "building": "Manastırlar ×4",
+            "whatItDoes": "Baştan açık.",
+            "whyYouCare": "İstikrarlı gelir ve ucuz ilk kontrol bonusları."
+          },
+          {
+            "building": "Kraliyet Ahırları",
+            "whatItDoes": "Buff: tüm ittifak için bedava Gelişmiş Işınlayıcı bekleme süresini yarıya indirir.",
+            "whyYouCare": "1. Aşamada ilk seçim. Hareketlilik haritayı kazandırır."
+          },
+          {
+            "building": "Çan Kulesi",
+            "whatItDoes": "Buff: bina ele geçirme süresini yarıya indirir.",
+            "whyYouCare": "1. Aşamada en yüksek öncelikli buff, çünkü her ilk kontrol bonusu büyüktür."
+          },
+          {
+            "building": "Reform Salonu",
+            "whatItDoes": "Buff: ittifakın için +%15 saldırı ve %15 hasar azaltımı. 15. dakikada açılır.",
+            "whyYouCare": "Açıldığı an al — sonrasındaki her dövüşe uygulanır."
+          },
+          {
+            "building": "Paralı Asker Kampı",
+            "whatItDoes": "15. dakikada açılır. Düşman elindeki bir binaya paralı asker gönderir.",
+            "whyYouCare": "Öldürmelerinden kişisel savaş puanı yok. Bir hedefi rally'nden hemen önce yumuşatmak için kullan, asla tek başına değil."
+          },
+          {
+            "building": "Yeraltı kilerleri",
+            "whatItDoes": "Tapınağın yakınında dalgalar halinde beliren işaretsiz noktalar.",
+            "whyYouCare": "Dövüş kazanamayan herkes için çekişmesiz puanlar."
+          }
+        ]
+      }
+    },
+    "timeline": {
+      "heading": "Zaman çizelgesi",
+      "table": {
+        "headers": {
+          "phase": "Aşama",
+          "clock": "Saat",
+          "whatMatters": "Ne önemli"
+        },
+        "rows": [
+          {
+            "phase": "1 — Açılış",
+            "clock": "0–15 dk",
+            "whatMatters": "2 Mabet, 4 Manastır, Çan Kulesi ve Kraliyet Ahırları aktif.<br /> Öncelik: Kraliyet Ahırları → Çan Kulesi → bir Mabet → Manastırlar.<br /> Mümkün olduğunca çok ilk kontrol bonusu almak için yayıl.<br /> En güçlü oyuncular aynı anda düşman şehirlerini baskılayarak savunucuları binalardan çekebilir."
+          },
+          {
+            "phase": "2 — Orta oyun",
+            "clock": "tam olarak 15:00'ten itibaren (900. saniye)",
+            "whatMatters": "Kılıç Tapınağı, Reform Salonu ve Paralı Asker Kampı açılır.<br /> Reform'u hemen al; buff sonrasındaki her dövüşe uygulanır.<br /> Mabetleri ve Manastırları bırakıp her şeyi Kılıç Tapınağı'na akıtmak kaybettiren bir oyundur.<br /> Tapınak çok çekişmeliyse, iki Mabeti artı Çan Kulesi, Reform ve Manastırları tutmaya geç."
+          },
+          {
+            "phase": "3 — Oyun sonu",
+            "clock": "15. dk ve 20. dk sonrası",
+            "whatMatters": "Yeraltı kileri dalgaları 15. ve 20. dakikada belirir.<br /> Son 5–10 dakika geri dönüş penceresidir.<br /> Büyük biriktirilmiş rezervleri olan düşman binaları en değerli hedeflerdir, çünkü onları el değiştirtmek dev bir Erzak Katarı kümesi döker."
+          }
+        ]
+      }
+    },
+    "roles": {
+      "heading": "Rolün",
+      "items": [
+        {
+          "heading": "Saldırgan",
+          "body": "Çekişmeli veya zayıf tutulan binalara ışınlan, rally'ler aç, düşman şehirlerini yak ki oyuncular garnizonlarından ışınlanmak zorunda kalsın, sonra ilerle. Altın kural: <strong>saldırganlar ele geçirir ve ilerler, garnizonlarda oturmaz.</strong>"
+        },
+        {
+          "heading": "Savunucu / katılımcı",
+          "body": "Atandığın binaları garnizonla, ilk 3 kahramanını sağ kalacak kadar evde tut, garnizon yuvalarını doldur ki düşman binayı tek başına alamasın ve komşuları takviye et. Daha güçlü bir oyuncu seni takviye ederse ve sonra sen ışınlanırsan, onun garnizonlanmış birlikleri seninle kalır."
+        },
+        {
+          "heading": "Toplayıcı / destek",
+          "body": "Bir bina el değiştirdiği an Erzak Katarlarını kovala, Yeraltı kilerlerini topla ve ikincil yürüyüş olarak rally'lere katıl. Güvenli bölgeden şehrini açığa çıkarmadan yürüyüş başlatabilirsin — bu ücretsiz oynayanların puan şeridi ve işe yarar."
+        }
+      ]
+    },
+    "squadSetup": {
+      "heading": "Tim kurulumu",
+      "items": [
+        "<strong>Birlik oranı:</strong> çoğu zaman 50/20/30 piyade/süvari/okçu. Yetenekleri süvari ve piyadeye yatkın olan Alcar, Margot veya Saul ile 60/40/0 kullan.",
+        "<strong>Saldırı ve savunma aynıdır.</strong> Öldürmeler her mini turun sonunda eşzamanlı hesaplanır, bu yüzden hiçbir tarafın \"daha fazla tanklaması\" gerekmez. Tek gerçek fark bir kahramanın widget'ını hangi senaryonun tetiklediğidir; bu yüzden en iyi saldırı ve savunma kahramanları basitçe eşleşen widget türüne sahip en son nesildir. Savunmanın daha fazla piyadeye ve özel \"savunma\" katılımcılarına ihtiyacı yoktur.",
+        "<strong>Tek başına saldırılar için</strong>, sahip olduğun, düzgün yatırım yapılmış en yüksek nesil kahramanları kullan."
+      ],
+      "pvpJoinerHeroes": {
+        "heading": "PvP katılımcı kahramanları",
+        "intro": "Hem saldırıda hem savunmada aynı seçimler:",
+        "or": "veya"
+      }
+    },
+    "healingAndMobility": {
+      "heading": "İyileştirme ve hareketlilik",
+      "items": [
+        "<strong>Etkinlik sırasında toplu iyileştirme yok</strong> — yalnızca iyileştirme hızlandırıcıları ve etkinlik bedava 1 saatlik iyileştirme hızlandırıcıları yavaşça damlatır.",
+        "<strong>İyileştirmek için çık.</strong> Üstteki skor tablosuna dokun ve <em>Savaş alanından ayrıl</em>'ı seç ki her şeyi anında ve bedava iyileştir. Sonra yeniden girebilmek için 12 dakika beklersin. Yüz binlerce yaralıyla, o gidiş dönüş yarı güçle dövüşmekten iyidir.",
+        "<strong>Sona yakın iyileştirme hızlandırıcılarını harcama.</strong> Birlikler ölemez, revir etkinlik sırasında dolamaz ve etkinlik bitince her şey iyileşir.",
+        "<strong>Bedava yürüyüş hızlandırıcıları:</strong> kalıcı, yalnızca etkinliğe özel +%25 yürüyüş hızı şarjı dakikada bir birikir, 10'da sınırlı (bazı kaynaklar 5 ile başlayıp 30'a kadar biriktirebileceğini söylüyor). Her iki durumda da onları biriktirmek hatadır — harca.",
+        "<strong>Bedava Gelişmiş Işınlayıcı</strong> kabaca her 10–12 dakikada bir, ittifakın Kraliyet Ahırları'nı tutuyorsa yarıya iner. Bedava olanı yeniden şarj olmadan tekrar ışınlanmak artan bir fiyata (her seferinde +1) Gelişmiş Işınlayıcı harcar, bu yüzden bedavalar arasında bir ücretli sıçrama uygundur; birkaçını zincirlemek değil."
+      ]
+    },
+    "stayingAlive": {
+      "heading": "Hayatta kalma",
+      "items": [
+        "<strong>Çok daha güçlü bir oyuncu sana saldırırsa, yaralanmalardan kaçın.</strong> Birlikleri şehrinin yanındaki boş zemine konuşlandır, ışınlanarak uzaklaş ya da tutmaya yetiyorsa ilk 3 kahramanını geri çağır.",
+        "<strong>Muhafız istasyonu burada ağır artırılmış hasar alır.</strong> Yangını söndürmek için mücevher harcamazsan, 10–20 saniye şehrini zorla eve ışınlamaya yeter.",
+        "<strong>Daha güçlü bir oyuncudan takviye iste.</strong> Onların garnizonlanmış birlikleri sen ışınlansan bile seninle kalır.",
+        "<strong>2 saatlik karşı-keşfi satın al</strong> (yaklaşık 400 mücevher) ki keşfedilemeyesin ve sahip olduğun her saldırı ve savunma buff'ını kullan — %10 veya %20 mücevher buff'ı eklemek yerine çarpar.",
+        "<strong>Saldırmadan önce çok keşif yap</strong> ve 1 dakikalık rally'leri bolca kullan.",
+        "<strong>Bir binanın yanında oturmak zorunda değilsin.</strong> Bir hedefin yanında açıkta park etmek seni kolay hedef yapar. Güvenli bölgede ya da binalar arasındaki ölü boşlukta otur ve bedava yürüyüş hızlandırıcılarına yaslan.",
+        "<strong>Kaybedilmiş bir saldırı, ~80.000'den fazla birlik yaraladıysan yine de bir zaferdir.</strong> Her takip saldırısı daha kolay olur. Savunurken de aynı: 80 binin altında yaralı iyi bir takastır.",
+        "<strong>Tek bir hedefe her yürüyüşü yollama</strong> zaten ~100.000 birliğin altında değillerse. Yalnızca ana yürüyüşün gerçek hasar verir; gerisi sadece intihar eder.",
+        "<strong>Ana yürüyüşünü uzağa gönderme</strong> güçlü bir ikinci yürüyüş ya da bir arkadaş şehrini kollamıyorsa."
+      ]
+    },
+    "commonMistakes": {
+      "heading": "Yaygın hatalar",
+      "items": [
+        "<strong>Doğuş bölgesinde hiçbir şey yapmadan oturmak.</strong> Sıfır puan alırsın.",
+        "<strong>Işınlayıcıları ve yürüyüş hızlandırıcılarını biriktirmek</strong> etkinlik bitene kadar.",
+        "<strong>Yalnızca Kılıç Tapınağı'nı kovalamak</strong> ve asıl ödeme yapan Mabetleri ve Manastırları kaybetmek.",
+        "<strong>Yeraltı kilerlerini ve Erzak Katarlarını görmezden gelmek.</strong> Kimsenin çekişmediği bedava puanlar.",
+        "<strong>Saldırganların bir garnizonda park etmesi</strong> sonraki hedefe geçmek yerine.",
+        "<strong>Dolu bir revirle girmek</strong> ya da kaydolduktan sonra ortaya çıkmayı unutmak.",
+        "<strong>Son dakikalarda iyileştirme hızlandırıcıları yakmak</strong>, zaten sonda her şey bedava iyileşirken."
+      ]
+    }
+  },
+  "source": "Kaynaklar: <a href=\"https://kingshotwiki.com/events/swordland-showdown/\" rel=\"noreferrer\">kingshotwiki.com — Kılıç Diyarı Hesaplaşması</a>, <a href=\"https://kingshotmastery.com/guides/swordland-showdown\" rel=\"noreferrer\">kingshotmastery.com — Kılıç Diyarı Hesaplaşması rehberi</a>, <a href=\"https://kingshotpro.com/swordland-showdown-guide.html\" rel=\"noreferrer\">kingshotpro.com — Kılıç Diyarı Hesaplaşması rehberi</a>. Tam puan değerleri ve bina düzenleri yamalarla değişebilir — kendi savaş alanı ekranınla doğrula."
+}

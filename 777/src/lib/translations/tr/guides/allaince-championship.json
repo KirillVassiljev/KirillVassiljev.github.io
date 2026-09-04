@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "İttifak şampiyonası — Kingshot 777",
+		"description": "Sıradan üyeler için Kingshot İttifak Şampiyonası özet rehberi: ne zaman kaydolunur, yürüyüş anlık görüntüsü nasıl çalışır ve ne kazanırsın."
+	},
+	"h1": "İttifak şampiyonası",
+	"tldr": {
+		"heading": "Özet",
+		"items": [
+			"<strong>Pazartesi 00:00 → Çarşamba 23:00 UTC arasında kaydol.</strong> Şehir Merkezi 10+. Pencereyi kaçırırsan haftayı boşa geçirirsin.",
+			"<strong>Kayıt bir anlık görüntüdür.</strong> Yürüyüşün ve o anda aktif olan her buff dondurulur — evcil hayvan buff'ları süresi dolduktan sonra bile kalır.",
+			"<strong>Kaydolduktan sonra takımına dokunma.</strong> Güncellemek yeni bir anlık görüntü alır ve kilitlediğin buff'ları kaybedersin.",
+			"<strong>Sonra işin biter.</strong> Savaşlar Perşembe'den Cumartesi'ye kadar otomatik çalışır — çevrimiçi olmana gerek yok.",
+			"<strong>Düzen:</strong> 50/20/30 piyade/süvari/okçu güvenli seçimdir; süvarisiz 60/40/0 görünür gücünü düşürerek daha yumuşak eşleşmeler sağlar ve standart yapıyı yener.",
+			"<strong>Kahramanlar: yalnızca saf hasar.</strong> Dövüşler kısadır — düz saldırı buff'ları ve patlama al (Amadeus), Helga gibi tankları atla ve %50 altı yetenek tetiğine sahip her şeyden kaçın."
+		]
+	},
+	"sections": {
+		"details": {
+			"heading": "Ayrıntılar"
+		},
+		"rewards": {
+			"heading": "Ödüller",
+			"items": [
+				"<strong>1 düşman yürüyüşü yenildi:</strong> 10× 5 dk araştırma hızlandırıcı, 20× 10 bin ekmek, 20× 10 bin odun, 40× 1 bin taş, 10× 1 bin demir.",
+				"<strong>2 düşman yürüyüşü yenildi:</strong> 15× 5 dk araştırma hızlandırıcı, 30× 10 bin ekmek, 30× 10 bin odun, 55× 1 bin taş, 15× 1 bin demir.",
+				"<strong>Etkinlik sonu:</strong> son grup sıralamana ve kademene bağlı ittifak çapında ödüller — Taş, Demir, Bronz, Gümüş, Altın veya Elmas."
+			]
+		},
+		"tips": {
+			"heading": "İpuçları",
+			"items": [
+				"<strong>Buff'ların açıkken kaydol.</strong> Evcil hayvan buff'ını ve diğer geçici her şeyi kaydolmadan <em>önce</em> aç — anlık görüntü onları tüm hafta boyunca korur.",
+				"<strong>Erken kaydol.</strong> İttifakın en az 10 katılımcıya ihtiyacı var, yoksa eşleştirme başarısız olur ve kimse bir şey alamaz.",
+				"<strong>Yalnızca kurulumun gerçekten iyileştiyse yeniden kaydol.</strong> Daha iyi birlikler ya da daha güçlü aktif buff'lar buna değer; aksi halde iyi bir anlık görüntüyü daha kötüsüyle değiştiriyorsun demektir.",
+				"<strong>Dövüşler sırasında hiçbir şey senden alınmaz</strong> — birliklerin şeritte meşgul olsa da etkinlik hiçbir tıklama gerektirmez. Normal oyna."
+			]
+		}
+	},
+	"qa": [
+		{
+			"q": "Nedir bu?",
+			"a": "Haftalık bir ittifak-karşı-ittifak turnuvası. İttifakın beş başka ittifakla eşleştirilir ve üç şerit boyunca beş otomatik turda onlarla dövüşür."
+		},
+		{
+			"q": "Ne zaman çalışır?",
+			"a": "Her hafta, Pazartesi 00:00 UTC'den ertesi Pazartesi 00:00 UTC'ye. Kayıtlar Çarşamba 23:00 UTC'de kapanır, beş birer saatlik savaş turu Cumartesi 12:00 UTC'ye kadar sürer ve ödüller ondan sonra gelir."
+		},
+		{
+			"q": "Aslında ne yapmam gerekiyor?",
+			"a": "Kayıt penceresinde bir şerit için bir yürüyüş kaydet. Hepsi bu — dövüşler sırasında hiçbir şey. Şerit yerleşimi liderlik tarafından yönetilir."
+		},
+		{
+			"q": "Adımın yanındaki puan ne?",
+			"a": "Savaş puanın. Şerit içindeki dövüş sıranı belirler — en yüksek puan en son dövüşür."
+		},
+		{
+			"q": "Yürüyüşüm neden dövüşmedi?",
+			"a": "Bir şeride atanan yalnızca en güçlü 20 oyuncu sahne alır. Ayrıca yürüyüşün iki düşmanı yendikten — ya da yenildikten — sonra o saatlik iş biter."
+		}
+	],
+	"source": "Kaynak: <a href=\"https://kingshotwiki.com/events/alliance-championship/\" rel=\"noreferrer\">kingshotwiki.com — İttifak Şampiyonası</a>"
+}

@@ -17,6 +17,7 @@ export const locales: LocaleMeta[] = [
 	{ code: 'en', label: 'English', dir: 'ltr' },
 	{ code: 'zh', label: '简体中文', dir: 'ltr' },
 	{ code: 'id', label: 'Bahasa Indonesia', dir: 'ltr' },
+	{ code: 'tr', label: 'Türkçe', dir: 'ltr' },
 	{ code: 'ar', label: 'العربية', dir: 'rtl' }
 ];
 

@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "title": "Üçlü ittifak çatışması — Kingshot 777",
+    "description": "Kingshot Üçlü İttifak Çatışması için yeni başlayanlara uygun rehber: aylık döngü, giriş gereksinimleri, enerji, tim kurulumu, puanlama, aşamalar, 30 oyunculu rol dağılımı ve tapınak oyun sonu."
+  },
+  "h1": "Üçlü ittifak çatışması",
+  "tldr": {
+    "heading": "Özet",
+    "items": [
+      "<strong>Üç ittifak, 60 dakika, her dört haftada bir.</strong> Puanlar binaları tutmaktan gelir ve kazanan genellikle sonunda tapınağı tutandır.",
+      "<strong>Gelgit Tapınağı 40. dakikada açılır.</strong> İlk ele geçirme tek seferlik 50.000 puan öder, sonra tuttuğun sürece dakikada 1.800 puan. 4. aşamadan önceki her şey o dövüş için hazırlıktır.",
+      "<strong>Enerji asıl sınırındır.</strong> Hareket etmek, ele geçirmek, saldırmak, geri çekilmek, diriltmek ve asker toplamak hepsi enerji harcar. 20. ve 40. dakikaya bir rezervle var.",
+      "<strong>Şeridinde kal.</strong> Altı şerit, her birinde bir ana oyuncu. Çöken bir şerit etkinliğin geri kalanında haritanda bir deliktir.",
+      "<strong>İki destekçi her ana oyuncuyu hayatta tutar.</strong> Ana oyuncu iyileşirken sırayla öne çıkarlar ki kimse HQ'dan 2 dakikalık yeniden doğuş yürüyüşünü yemez.",
+      "<strong>Bir binayı atlamak için beş tim.</strong> Bu yüzden altı oyunculuk özel kuvvet (18 tim) düşman toprağında doğruca ilerleyebilir.",
+      "<strong>Özel kuvvet asla bölünmez.</strong> Düellolar kazanmak için değil, yarıp geçmek ve kaos yaratmak için vardır.",
+      "<strong>Fazla ileri gitme.</strong> Yalnızca destekçilerinin takip edebileceği hızda ilerle ve çapa binana yakın kal."
+    ]
+  },
+  "sections": {
+    "firstClash": {
+      "heading": "İlk çatışmansa",
+      "items": [
+        "<strong>Kaydol.</strong> Kayıt penceresinde R4/R5'ine girmek istediğini söyle. Kendini kaydedemezsin.",
+        "<strong>Girmeden önce üç tim ön ayarını kur.</strong> Saat çalışırken yürüyüşleri sakin sakin yeniden kuramazsın.",
+        "<strong>3 dakikalık hazırlık aşamasında şeridini ve rolünü öğren.</strong> Hangi binanın senin olduğunu ve destekçilerinin kim olduğunu sor.",
+        "<strong>Atanan binanı</strong> aşama açılır açılmaz al. Doğaçlama yapma.",
+        "<strong>Şeridinde kal.</strong> Boşalan bir şerit saatin geri kalanı için bir deliktir.",
+        "<strong>Öldürme kovalama.</strong> Öldürmeler doğrudan puan getirmez. Binalar ve zaman getirir.",
+        "<strong>20. ve 40. dakika için enerji sakla.</strong> Bunlar maçın gerçekten karara bağlandığı iki andır."
+      ]
+    },
+    "scoring": {
+      "heading": "Gerçekte ne puan getirir",
+      "table": {
+        "headers": [
+          "Kaynak",
+          "Açılış",
+          "Puanlar"
+        ],
+        "rows": [
+          {
+            "source": "Garnizonlar",
+            "opens": "20. dakika",
+            "points": "tutulan dakika başına 1.800"
+          },
+          {
+            "source": "Gelgit Tapınağı",
+            "opens": "40. dakika",
+            "points": "ilk ele geçirme için tek seferlik 50.000, sonra tutulan dakika başına 1.800"
+          },
+          {
+            "source": "Binalar ve harabeler",
+            "opens": "2. aşamadan itibaren",
+            "points": "Dakika başına daha küçük gelir"
+          },
+          {
+            "source": "Öldürmeler",
+            "opens": "—",
+            "points": "Doğrudan puan yok"
+          }
+        ]
+      },
+      "items": [
+        "<strong>50.000, Tapınağı ilk ele geçirmek içindir, düdükte tutmak için değil.</strong> Başka bir ittifak senden önce ele geçirirse maç bitmez — geri alıp tutmak yine dakikada 1.800 öder ve bunun yirmi dakikası bonusu geçer.",
+        "<strong>Öldürmeler yalnızca bir araç olarak önemlidir.</strong> Bir binayı açmak ya da bir binayı korumak için öldürürsün. Öldürme uğruna öldürmek enerji harcar ve hiçbir şey satın almaz."
+      ]
+    },
+    "energy": {
+      "heading": "Enerji",
+      "body": "Yeni başlayanların en sık kaybettiği mekanik budur. Enerji hareket etmeye, ele geçirmeye, saldırmaya, geri çekilmeye, diriltmeye ve asker toplamaya harcanır. Biterse, hesabın ne kadar güçlü olursa olsun Garnizon veya Tapınak çağrısına cevap veremezsin.",
+      "items": [
+        "<strong>İlk 20 dakikada öldürme kovalayarak enerji yakma.</strong> 20. dakikada ve yine 40. dakikada sağlıklı bir rezervin olsun.",
+        "<strong>Bir noktayı ele geçirdikten sonra bir Kaptan ata.</strong> Enerji toparlanmasını iyileştirir, ki bu R4+ oyuncuların sahada olmasının bir nedenidir.",
+        "<strong>İyileşmek ve asker toplamak için bir bina geri çekil</strong> dövüş dışında. Bu anında diriltmekten ucuz ve ölüp HQ'dan ~2 dakikalık yürüyüşü yemekten çok daha ucuzdur.",
+        "<strong>Savaş alanından ayrılmanın yeniden giriş bekleme süresi var</strong> — yaygın olarak yaklaşık 12 dakika denir. Bazı yürüyüş hızı ve kapasite etkileri hariç çoğu hesap buff'ı sahada hâlâ geçerlidir."
+      ]
+    },
+    "squadSetup": {
+      "heading": "Tim kurulumu",
+      "intro": "Üç yürüyüş çıkarırsın, yani dokuz kahraman rotasyondadır. Üçünü girmeden <strong>önce</strong> ön ayar olarak kur:",
+      "presets": [
+        "<strong>Tim 1 — en güçlü dövüş timi.</strong> Yüksek baskılı binalar ve çekişmeli ele geçirmeler için.",
+        "<strong>Tim 2 — istikrarlı tim.</strong> Şerit desteği ve takviye; sivrilmesi değil, hayatta kalması gerekir.",
+        "<strong>Tim 3 — esnek tim.</strong> Rotalar, toparlanma örtüsü, geri almalar."
+      ],
+      "items": [
+        "<strong>Güç sayıları dengeli görünsün diye üçünü eşitleme.</strong> Her timin bir işi var; üç özdeş vasat yürüyüş hiçbirini iyi yapmaz.",
+        "<strong>Evrensel bir düzen oranı yoktur.</strong> Birliklerine, kahramanlarına, rakibine ve saldırıyor mu yoksa tutuyor mu olduğuna bağlıdır.",
+        "<strong>Güçlü bir yürüyüşü geride tutmayı düşün</strong> 20. dakika Garnizon ve 40. dakika Tapınak zamanlamaları için."
+      ]
+    },
+    "eventFormat": {
+      "heading": "Etkinlik formatı",
+      "items": [
+        "<strong>Asker gücü eşleştirmede kullanılmaz.</strong> Çok daha güçlü ittifaklarla eşleşebilirsin, bu yüzden kontrol ettiğin şey yapı ve disiplindir.",
+        "<strong>Savaş alanına girdikten sonra ittifaktan ayrılamazsın.</strong>"
+      ]
+    },
+    "phases": {
+      "heading": "Aşamalar",
+      "table": {
+        "headers": [
+          "Aşama",
+          "Saat",
+          "Ne önemli"
+        ],
+        "rows": [
+          {
+            "phase": "1 — Hazırlık",
+            "clock": "0–3 dk",
+            "matters": "R4/R5 haritaya işaretler koyar. <br> Herkes şeridini ve rolünü doğrular."
+          },
+          {
+            "phase": "2 — Ele Geçir & Fethet",
+            "clock": "3–20 dk",
+            "matters": "Garnizonlar kalkanlıdır ve dokunulamaz. <br> Ana oyuncular şerit ana noktasını hızla alır, <br> destekçiler arkasındaki binaya yerleşir, <br> reaksiyon timleri merkezdeki nötr binaları süpürür. <br> Sonra ihtiyacın olacak Geçiş Merkezlerini ve rota binalarını güvence altına al."
+          },
+          {
+            "phase": "3 — Garnizon İşgali",
+            "clock": "20-40 dk",
+            "matters": "A24, B24 ve C24 açılır ve dakikada 1.800 öder.<br> 1. öncelik <em>kendi</em> garnizonunu tutmak; 2. öncelik bir düşmanınkini almak.<br> Tapınağa yeniden toplanmayı 40. dakikada değil, öncesinde başlat.<br> Özel kuvvet burada en aktif halindedir."
+          },
+          {
+            "phase": "4 — Tapınak Saldırısı",
+            "clock": "40-60 dk",
+            "matters": "Gelgit Tapınağı'na tek yürüyüş yerine tek koordineli bir hamlede saldır.<br> A29, B29 ve C29 çevresindeki erişim rotalarını savun.<br> Bu aşama maçı belirler."
+          }
+        ]
+      }
+    },
+    "roles": {
+      "heading": "Roller",
+      "table": {
+        "headers": [
+          "Rol",
+          "Oyuncular",
+          "İş"
+        ],
+        "rows": [
+          {
+            "role": "Ana oyuncular",
+            "players": "6",
+            "job": "Şerit başına bir. Şerit ana noktasını hemen ele geçir, sonra cepheyi tut ve düşmanı iç bölgenden uzak tut."
+          },
+          {
+            "role": "Destekçiler",
+            "players": "12",
+            "job": "Ana oyuncu başına iki. Ana noktanın arkasındaki binada otur, yalnızca ana oyuncunun iyileşmesi gerektiğinde öne çık ve ana noktayı asla boş bırakma."
+          },
+          {
+            "role": "Özel komuta kuvveti",
+            "players": "6",
+            "job": "Tek bir yarma grubu. Düşük değerli binaları atlar, düşman toprağının derinliklerindeki savunmasız yapıları alır ve düşman rotasyonlarını zorlar."
+          },
+          {
+            "role": "Reaksiyon timleri",
+            "players": "6 (2 × 3)",
+            "job": "Başta merkezdeki nötr binaları kap, sonra dolaş: kaybedilen binaları geri al ve baskı altındaki şeridi destekle."
+          },
+          {
+            "role": "Komutanlar",
+            "players": "2",
+            "job": "Yalnızca buff yönetimi. Şerit dövüşü yok."
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "Özel kuvvet neden işe yarar?",
+          "a": "Bir binayı ele geçirmeden atlamak beş tim gerektirir. Her biri üç tim çıkaran altı oyuncu 18 timdir, tekrar tekrar atlamaya ve hızla mesafe kat etmeye yeter. Grubu böl, çalışmayı bırakır — kimsenin tek başına beş timi yoktur."
+        },
+        {
+          "q": "Kim komutan olmalı?",
+          "a": "Tam 60 dakika odaklı kalabilen daha küçük, çok aktif oyuncular. Buff zamanlaması şerit dövüşlerini ve tapınak savaşını çevirir, bu yüzden bu gerçek bir iştir, zayıf ve dikkatsiz birini park edecek yer değil."
+        }
+      ]
+    },
+    "map": {
+      "heading": "Harita",
+      "body": "Altı şerit tek bir merkezi besler. Şeritler 1, 4 ve 5 üst yarıdadır, şeritler 2, 3 ve 6 alt yarıdadır; garnizonlar ve tapınak yaklaşımları skoru belirleyen tek hedeflerdir."
+    },
+    "healingRotation": {
+      "heading": "İyileştirme rotasyonu",
+      "body": "Örgütlü bir ittifakı bir kalabalıktan ayıran mekanik budur. Bir ana oyuncunun canı düştüğünde:",
+      "steps": [
+        "Bir destekçi ilerler ve cepheyi devralır.",
+        "Ana oyuncu iyileşmek için kısa süre geri çekilir.",
+        "Ana oyuncu iyileşir iyileşmez döner.",
+        "Destekçi ana noktanın arkasındaki çapa binaya geri çekilir."
+      ],
+      "outro": "Şerit asla sessizleşmez, ana nokta asla boş kalmaz ve kimse ölümden sonra HQ'dan iki dakika yürümek zorunda kalmaz."
+    },
+    "commonMistakes": {
+      "heading": "Yaygın hatalar",
+      "items": [
+        "<strong>Fazla ileri gitmek.</strong> Derin tek başına hamleler seni destekçilerinden koparır ve düşmana bedava öldürme verir.",
+        "<strong>Özel kuvveti bölmek.</strong> Beş timin altında bina atlayamaz ve tüm değeri kaybolur.",
+        "<strong>Destekçilerin öne atılması.</strong> Güçleri istikrardır. Agresif bir destekçi kaybedilmek üzere olan bir ana noktadır.",
+        "<strong>Reaksiyon timlerinin sebepsiz dolaşması.</strong> Bir şerit gerçekten zorda olduğunda hareket etmeliler, her çatışmayı kovalamamalı.",
+        "<strong>Tapınağa çok geç dönmek.</strong> Şeritlerin birlikte yakınsaması gerekir; parça parça varmak parça parça yenilmek demektir."
+      ]
+    },
+    "faq": {
+      "heading": "Yeni başlayan SSS",
+      "qa": [
+        {
+          "q": "Yeniyim — doğru yapmam gereken tek şey ne?",
+          "a": "Şeridinde kal ve enerji sakla. Diğer her şeyi R4'lerin idare edebilir; bu ikisini edemezler."
+        },
+        {
+          "q": "Öldürmeler önemli mi?",
+          "a": "Yalnızca bir binayı tutmak ya da açmak için bir araç olarak. Öldürmelerin kendisi için puan yoktur ve gereksiz düellolar 40. dakikada isteyeceğin enerjiye mal olur."
+        },
+        {
+          "q": "Düşman Tapınağı önce ele geçirirse?",
+          "a": "Geri al. Tek seferlik 50.000'i onlar alır, ama dakikada 1.800 onu tutan için hâlâ aktiftir — ve masada bunun yirmi dakikaya kadarı vardır."
+        },
+        {
+          "q": "Anında dirilti kullanmalı mıyım?",
+          "a": "Genellikle hayır. Bir bina geri çekil, dövüş dışında iyileş ve asker topla. Anında dirilti sonraki çağrı için isteyeceğin enerjiyi yakar."
+        },
+        {
+          "q": "Sesli sohbete ihtiyacım var mı?",
+          "a": "Şiddetle önerilir. 20. dakika garnizon çağrısı ve 40. dakika tapınak hamlesi metin üzerinden koordine edilemeyecek kadar hızlı gerçekleşir."
+        }
+      ]
+    }
+  },
+  "images": {
+    "map": {
+      "alt": "Savaş alanının şeması: altı şerit, her birinde bir ana nokta ve arkasında bir çapa bina, merkezdeki Gelgit Tapınağı'nda yakınsıyor. Şeritler 1, 4 ve 5 üst yarı, şeritler 2, 3 ve 6 alt yarı. Garnizonlar A24, B24 ve C24 yanda durur, yaklaşım rotaları A29, B29 ve C29 tapınağı çevreler ve iki nötr bina merkeze yakın durur.",
+      "title": "Şerit ve hedef şeması",
+      "caption": "Yalnızca şema, oyun içi harita değil. Her şerit arkasında bir çapa bina olan bir ana noktadır; her şerit tapınağı besler."
+    },
+    "healingRotation": {
+      "alt": "Dört adımlı iyileştirme döngüsü: bir destekçi cepheye ilerler, ana oyuncu iyileşmek için geri çekilir, ana oyuncu döner, destekçi çapa binaya geri çekilir. Ana nokta asla boş bırakılmaz.",
+      "title": "Dört adımlı iyileştirme rotasyonu",
+      "caption": "Rotasyon saat yönünde döner ve tekrarlanır; cephe her zaman doludur."
+    }
+  },
+  "mapDiagram": {
+    "upperHalf": "Üst yarı — şeritler 1, 4, 5",
+    "lowerHalf": "Alt yarı — şeritler 2, 3, 6",
+    "anchors": {
+      "one": "Çapa 1",
+      "two": "Çapa 2",
+      "three": "Çapa 3",
+      "four": "Çapa 4",
+      "five": "Çapa 5",
+      "six": "Çapa 6"
+    },
+    "keypoints": {
+      "one": "A1",
+      "two": "A2",
+      "three": "A3",
+      "four": "A4",
+      "five": "A5",
+      "six": "A6"
+    },
+    "neutral": "Nötr",
+    "reactionTeams": "reaksiyon timleri",
+    "routes": {
+      "a29": "A29",
+      "b29": "B29",
+      "c29": "C29"
+    },
+    "temple": {
+      "line1": "Gelgit",
+      "line2": "Tapınağı"
+    },
+    "garrisons": "Garnizonlar",
+    "garrisonIds": {
+      "a24": "A24",
+      "b24": "B24",
+      "c24": "C24"
+    },
+    "unlock": "20. dk açılır"
+  },
+  "healingDiagram": {
+    "steps": {
+      "one": {
+        "number": "1",
+        "title": "Destekçi öne çıkar",
+        "subtitle": "cepheyi alır"
+      },
+      "two": {
+        "number": "2",
+        "title": "Ana oyuncu geri çekilir",
+        "subtitle": "dövüş dışında iyileşir"
+      },
+      "three": {
+        "number": "3",
+        "title": "Ana oyuncu döner",
+        "subtitle": "cepheyi geri alır"
+      },
+      "four": {
+        "number": "4",
+        "title": "Destekçi geri çekilir",
+        "subtitle": "çapaya döner"
+      }
+    },
+    "keypoint": {
+      "line1": "Ana nokta",
+      "line2": "asla boş değil"
+    },
+    "loop": "gerektiği kadar tekrarla — kimse HQ'dan yürümez"
+  }
+}

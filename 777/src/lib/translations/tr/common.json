@@ -1,0 +1,31 @@
+{
+	"layout": {
+		"brandTitle": "Kingshot 777",
+		"toggleNav": "Gezinmeyi aç/kapat",
+		"closeNav": "Gezinmeyi kapat",
+		"language": "Dil"
+	},
+	"sidebar": {
+		"ariaLabel": "Site bölümleri"
+	},
+	"nav": {
+		"section": {
+			"guides": "Rehberler",
+			"tools": "Araçlar"
+		},
+		"item": {
+			"bear": "Ayı avı",
+			"allaince-championship": "İttifak şampiyonası",
+			"strongest-governor": "En güçlü vali",
+			"vikings": "Viking intikamı",
+			"castle-battle": "Kale savaşı",
+			"tri-alliance-clash": "Üçlü ittifak çatışması",
+			"swordland-showdown": "Kılıç diyarı hesaplaşması",
+			"timeline": "Zaman çizelgesi"
+		}
+	},
+	"home": {
+		"title": "Kingshot 777",
+		"description": "Rehberler, seviye listeleri ve inşa sıralamaları. Kenar çubuğundan bir konu seçin."
+	}
+}

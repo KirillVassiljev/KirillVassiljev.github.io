@@ -1,0 +1,90 @@
+{
+	"meta": {
+		"title": "Ayı avı — Kingshot 777",
+		"description": "Kingshot Ayı Avı etkinliği için özet rehber: rally düzenleri, birlik oranları, buff'lar ve dalga zamanlaması."
+	},
+	"h1": "Ayı tuzağı",
+	"tldr": {
+		"heading": "Özet",
+		"items": [
+			"<strong>Okçular kazandırır.</strong> Ayıya verilen hasar okçularla ölçeklenir — oranlar Nesil 1'de dengeliyken Nesil 4'e kadar 10/10/80'e kayar ve oyun sonuna doğru ~%98 okçuya çıkar.",
+			"<strong>Rally lideri:</strong> her üç kahramanın da yetenekleri aktiftir, bu yüzden neslin için en iyi saldırı üçlüsünü seç.",
+			"<strong>Bir rally'ye katılırken:</strong> yalnızca en yüksek yetenekli ilk 4 katılımcının en iyi sefer yeteneği sayılır. Yanlış kahraman rally'ye zarar verir — bunun yerine kahramansız birlik gönder.",
+			"<strong>Her zaman açık:</strong> evcil hayvan buff'ı + Saha Komutanı bakan buff'ı. Gücün yetiyorsa şehir SALDIRI / Ölümcüllük / Konuşlanma için mücevherler.",
+			"<strong>Hızlı ol:</strong> hazır düzenleri önceden kaydet ve balina rally'lerini yıldızla ki listenin en üstünde görünsünler.",
+			"<strong>Oyun sonu:</strong> dalgaları 1 dakika arayla kademelendir ve yürüyüşler döner dönmez yeniden başlat — birlikleri asla boş bekletme."
+		]
+	},
+	"sections": {
+		"formations": {
+			"heading": "Rally lideri düzenleri"
+		},
+		"joiners": {
+			"heading": "Bir rally'ye katılma (Nesil 1–6)"
+		},
+		"details": {
+			"heading": "Ayrıntılar"
+		},
+		"tips": {
+			"heading": "İpuçları",
+			"groups": [
+				{
+					"heading": "Etkinlikten önce",
+					"items": [
+						"<strong>Tuzağı Patlayıcı Ok Uçlarıyla 5. Seviyeye yükselt.</strong> Bu <strong>tüm ittifak için +%25 saldırı artışıdır</strong> — mevcut en büyük kaldıraç ve hazırlık aşamasında yapılması gerekir.",
+						"<strong>Şehrini tuzağın yanına taşı.</strong> İttifak üyeleri sınırlarını boşluk bırakmadan sıkıca kenetlemeli ki birlikler daha hızlı konuşlanıp daha çok vuruş yapsın. Çoğunlukla oyun sonu meselesi — erken dönemde üyelerin ittifaklar arasında gidip gelmesi bunu dağıtır.",
+						"<strong>Hazır düzenleri kaydet.</strong> Rally'ler saniyeler içinde dolar ve başlar; sıfırdan yürüyüş kuruyorsan çoktan kaçırdın.",
+						"<strong>Buff'larını sırala:</strong> evcil hayvan buff'ı aktif, Saha Komutanı bakan yuvası kayıtlı. Mücevherler ayrıca şehir SALDIRI / Ölümcüllük / Konuşlanma Kapasitesi bonusları da alabilir, ama bu gerçekten bir balina masrafıdır."
+					]
+				},
+				{
+					"heading": "Etkinlik sırasında",
+					"items": [
+						"<strong>Hasarı okçular verir.</strong> Oranlar erken dönemde dengeliyken Nesil 4'e kadar 10/10/80'e kayar; oyun sonunda her savaş yürüyüşünde ~%98 okçu kapasitesini hedefle. Liderlik yerine katılırken 20/30/50 uygundur.",
+						"<strong>Balina rally'lerini yıldızla.</strong> Yıldız özelliği bir oyuncunun rally'sini en-yenisi-en-altta yerine listenin en üstüne sabitler — tepki vermekte yavaşsan büyük yardım.",
+						"<strong>Liderlik ederken:</strong> hangisi kaptan olursa olsun her üç kahramanının yetenekleri tetiklenir, yani konum önemli değil. Neslin için en iyi saldırı üçlüsünü seç.",
+						"<strong>Katılırken:</strong> yalnızca en iyi sefer yeteneği sayılır ve yalnızca en yüksek yetenek seviyesine sahip dört katılımcıdan. Yanlış bir kahraman iyi olanı yerinden edip tüm rally'yi aşağı çekebilir — <strong>yanlış kahraman yerine kahramansız birlik gönder.</strong>",
+						"<strong>Birlik seviyeleri de önemli.</strong> Kahraman yetenekleri resmin tamamı değildir; daha üst seviye birlikler ve doğru oran sayıyı en az onlar kadar değiştirir."
+					]
+				}
+			]
+		}
+	},
+	"qa": [
+		{
+			"q": "Nedir bu?",
+			"a": "Ayıya karşı ittifak çapında bir PvE rally etkinliği. Herkes tuzağa nişan alan rally'lere yürüyüş yığar ve verdiğin hasar sana puan kazandırır."
+		},
+		{
+			"q": "Ne zaman çalışır?",
+			"a": "Her iki günde bir — iki günlük oyun içi sıfırlama bekleme süresi. Bugün katılırsan iki gün sonra yeniden uygun olursun."
+		},
+		{
+			"q": "Neden iki tuzak var?",
+			"a": "Farklı zaman dilimlerindeki üyeler kendilerine uyan bir zaman bulabilsin diye. <strong>Yalnızca birini alırsın:</strong> Ayı Tuzağı 1'e katıldıysan Ayı Tuzağı 2'ye de katılamazsın — bir sonraki Tuzak 1 için iki gün beklersin."
+		},
+		{
+			"q": "Nerede?",
+			"a": "İttifakın toprağındaki Ayı Avı tuzağında. Yürüyüşler oraya gider, yani şehrin ne kadar yakınsa o kadar çok vuruş yaparsın."
+		},
+		{
+			"q": "Kim ne yapar?",
+			"a": "Balinalar ve büyük hesaplar rally'lere liderlik eder; herkes onları doldurur. İttifak liderliği başlatmaların kademeli kalması için etkinlikten önce dalga yuvalarını atar."
+		},
+		{
+			"q": "Neden uğraşmalı?",
+			"a": "Oyundaki en yüksek değerli etkinliklerden biri, tamamen PvE olduğu için birliklerin ölmez ve puanlar doğrudan hasarla ölçeklenir — bu yüzden kahraman seçimi ve birlik oranı bu kadar önemlidir."
+		}
+	],
+	"images": {
+		"formations": {
+			"alt": "En iyi ayı düzenleri tablosu: 1'den 6'ya kadar nesiller için önerilen kahraman üçlüsü ve birlik oranı, en iyi kahramanlar ve F2P sütunlarına ayrılmış.",
+			"caption": "Nesle göre en iyi ayı düzenleri. Tam boyutu açmak için dokun."
+		},
+		"joiners": {
+			"alt": "Ayı avı katılımcı kahraman seviye listesi: S, A, Kaçın ve Bunları Asla Kullanma seviyeleri.",
+			"caption": "Katılımcı seviye listesi — burada yalnızca en iyi sefer yeteneği önemlidir."
+		}
+	},
+	"source": "Kaynak: <a href=\"https://kingshotwiki.com/events/bear-hunt/\" rel=\"noreferrer\">kingshotwiki.com — Ayı Avı</a>"
+}

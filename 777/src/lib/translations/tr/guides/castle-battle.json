@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Kale savaşı — Kingshot 777",
+    "description": "Kingshot Kale Savaşı için özet rehber: üç puan türünün nasıl hesaplandığı, hazırlık ve buff'lar, nesle göre rally lideri ve katılımcı kahramanları, birlik düzenleri, taret kontrolü ve çift rally taktikleri."
+  },
+  "h1": "Kale savaşı",
+  "common": {
+    "or": "veya"
+  },
+  "tldr": {
+    "heading": "Özet",
+    "items": [
+      "<strong>Üç şey puan getirir:</strong> öldürdüğün düşman birlikleri, kalede veya bir tarette park ettiğin güç ve kaybettiğin kendi birliklerin. Kayıplar da ödeme yapar — bu güvenli oynayabileceğin bir etkinlik değil.",
+      "<strong>Düzenler:</strong> varsayılan saldırıda 50/20/30, piyade ağırlıklı garnizona karşı 50/0/50, ele geçiren rally için 60/20/20, tutmaya başladığında 60/40/0.",
+      "<strong>Rally liderleri buff'ları çalıştırır; herkes kalkanlanır.</strong> Şehir buff'ları, evcil hayvan ve yönetici yetenekleri liderin işidir. Dövüşe girmeyen herkes 8 saatlik barış kalkanı ister.",
+      "<strong>Taretleri al.</strong> Düşman elindeki taretler kaleyi tuttuğun tüm süre boyunca garnizonuna ateş eder ve ne kadar bekletirsen o kadar kötüleşir.",
+      "<strong>Etkinlikten önce Revir'i hazırla.</strong> Yükselt, iyileştirme hızlandırıcıları biriktir ve küçük partiler halinde iyileştir ki ittifak yardımı daha fazlasını karşılasın.",
+      "<strong>Her zaman All-Out veya KvK ile çakışır.</strong> Öldürmeler ve kayıplar her ikisinde de puan getirir, bu yüzden kazanamayacağın bir dövüşte bile tek başına bir koşu buna değer."
+    ]
+  },
+  "sections": {
+    "scoring": {
+      "heading": "Puanlama nasıl çalışır",
+      "qa": [
+        {
+          "q": "Katliam puanları (KO puanları)",
+          "a": "Kral'ın Kalesi ve taretleri için çekişirken düşman birliklerini öldürmekten kazanılır."
+        },
+        {
+          "q": "İşgal puanları",
+          "a": "Kalede veya bir tarette konuşlandırdığın birliklerin gücüne dayanır, onu tuttuğun sürece birikir. Güçlü, yeniden doldurulmuş bir garnizonla tutmak bunun artmasını sağlar."
+        },
+        {
+          "q": "Zayiat puanları",
+          "a": "Ağır yaralanan veya kaybedilen kendi birliklerinden kazanılır. Kayıplar kaçınılmazdır, ama zamanında döndürmek ve yeniden doldurmak onların saf israf olmasını engeller."
+        }
+      ]
+    },
+    "preparation": {
+      "heading": "Hazırlık",
+      "items": [
+        "<strong>Buff'lar bir rally lideri işidir.</strong> Başlatmadan veya savunmadan önce %20 saldırı ve %20 savunma şehir buff'larını, Moose ya da Grizzly Bear gibi evcil hayvan yeteneklerini ve yönetici yeteneklerini çalıştır. Katılımcılar kendilerinkini harcamamalı — rally'ye yalnızca liderin buff'ları uygulanır.",
+        "<strong>Kalenin yanına ışınlan.</strong> Rally kaptanları mümkün olan en kısa yürüyüş süresini ister, ki rally'lerin birbirine karşı zamanlanması gerektiğinde bu çok önemlidir.",
+        "<strong>Dövüşmeyen herkesi kalkanla.</strong> Çevrimdışı olacak ya da bir yürüyüşü tutamayacak kadar düşük seviyeli üyeler 8 saatlik barış kalkanı arkasında oturmalı. Kalkansız bir Şehir Merkezi düşman için bedava öldürmedir.",
+        "<strong>Önce Revir'i hallet.</strong> Bkz. <a href=\"#infirmary\">Revir ve iyileştirme</a> — çoğu ittifakın en az hazırlandığı şey budur."
+      ]
+    },
+    "rallyLeaderHeroes": {
+      "heading": "Rally lideri kahramanları",
+      "intro": "Saldırı rally'leri garnizonu kırmak için vardır, bu yüzden hasar yığarlar. Kale senin olduğunda iş tekrarlanan darbelerden sağ kalmaya döner, bu yüzden garnizon rally'leri savunma ve dayanıklılık yığar. Her satır üç yuvadır; iki portrenin \"veya\" ile birleştiği yerde ikisi de işe yarar — oranlarına göre seç.",
+      "attack": {
+        "heading": "Saldırı rally'leri",
+        "table": {
+          "headers": {
+            "gen": "Nesil",
+            "heroes": "Kahramanlar"
+          },
+          "rows": {
+            "gen3": "3",
+            "gen4": "4",
+            "gen5": "5",
+            "gen6": "6",
+            "gen7": "7"
+          }
+        }
+      },
+      "garrison": {
+        "heading": "Garnizon rally'leri",
+        "table": {
+          "headers": {
+            "gen": "Nesil",
+            "heroes": "Kahramanlar"
+          },
+          "rows": {
+            "gen3": "3",
+            "gen4": "4",
+            "gen5": "5",
+            "gen6": "6",
+            "gen7": "7"
+          }
+        }
+      },
+      "notes": [
+        "<strong>Nesil 5:</strong> Thrudd, süvarisiz 5:0:5 oynarsan yetenek değerinin çoğunu kaybeder — bu durumda onun yerine Petra'yı al.",
+        "<strong>Nesil 6:</strong> Triton piyadeye çok fazla saldırı ve savunma yüzdesi verir ve Amadeus'tan çok daha kolay elde edilir, bu yüzden iyi bir alternatiftir."
+      ]
+    },
+    "formations": {
+      "heading": "Birlik düzenleri",
+      "items": [
+        "<strong>Standart saldırı — %50 piyade, %20 süvari, %30 okçu.</strong> Kalede ne oturduğunu bilmediğinde güvenli varsayılan.",
+        "<strong>Piyade ağırlıklı bir kaleye karşı — %50 piyade, %0 süvari, %50 okçu.</strong> Süvari okçulara karşı üstündür ama piyadeye yenilir, bu yüzden garnizonda az ya da hiç okçu yoksa onları düşür ve o ağırlığı okçulara ver.",
+        "<strong>Ele geçirme rally'si — %60 piyade, %20 süvari, %20 okçu.</strong> Zaten zayıflamış bir kaleyi alan ve karşı saldırıdan sağ kalması gereken rally için. Saf saldırı yürüyüşünden daha tanksı ama işi bitirmeye yetecek kadar hasar taşır.",
+        "<strong>Yerleşik garnizon — %60 piyade, %40 süvari, %0 okçu.</strong> Kale senin olup tutmak tek önemli şey olduğunda yeniden doldurduğun. Okçular yuvalara değecek kadar hızlı ölür."
+      ],
+      "outro": "İttifakının birlik seviyelerine ve düşmanın sahaya sürdüğüne göre ayarla, ama bunlar genel kural olarak geçerlidir."
+    },
+    "rallyJoiners": {
+      "heading": "Rally katılımcıları",
+      "intro": "Katılımcılar tıpkı Ayı Tuzağı rally'lerinde olduğu gibi yalnızca ilk yuva kahramanlarını katkı sağlar. Saldırı katılımcıları hasar getirir; garnizon katılımcıları savunma buff'ları getirir.",
+      "attack": {
+        "heading": "Saldırı katılımcıları",
+        "table": {
+          "headers": {
+            "priority": "Öncelik",
+            "heroes": "Kahramanlar"
+          },
+          "rows": {
+            "best": "En iyi",
+            "upToGen7": "7. nesle kadar",
+            "balancedSpread": "Dengeli dağılım"
+          },
+          "notes": {
+            "upToGen7": "Hilde stat boşluklarını doldurmak için orada.",
+            "balancedSpread": "Dört katılımcıda her türden birer tane, yetenek buff'larını her şeyi tek birine yığmak yerine her üç birlik türüne yayar."
+          }
+        }
+      },
+      "garrison": {
+        "heading": "Garnizon katılımcıları",
+        "table": {
+          "headers": {
+            "priority": "Öncelik",
+            "heroes": "Kahramanlar"
+          },
+          "rows": {
+            "best": "En iyi",
+            "upToGen7": "7. nesle kadar",
+            "simplest": "En basit"
+          },
+          "notes": {
+            "simplest": "Dört Saul ya da üç Saul ve bir Fahd, düz hasar azaltımı için. Koordine edecek bir şey yok ve yanlış yapmak zor — ittifakın güvenilir bir dağılım düzenleyemediğinde doğru seçim."
+          }
+        }
+      },
+      "tips": [
+        "<strong>Rally liderleri: her seferinde hatırlat.</strong> Yanlış bir ilk yuva kahramanı rally'nin hasarının büyük bir kısmına mal olur ve rapor gelene kadar kimse fark etmez.",
+        "<strong>Savunma katılımcılarını çeşitlendir.</strong> Her savunma sefer yeteneğinin farklı güçlü yanları var, bu yüzden her seferinde aynı dördü göndermek yerine kahramanları döndür ve düşmanı oku.",
+        "<strong>Tutarlılık mükemmelliği yener.</strong> Kahraman dağılımını koordine etmek çok zorsa, tek doğru kahraman türüyle doğru doldurulmuş bir garnizon yine de karışık, yarı yanlış olandan iyidir."
+      ]
+    },
+    "holding": {
+      "heading": "Kaleyi tutma",
+      "items": [
+        "<strong>Piyadeyi sürekli yeniden doldur.</strong> Piyade gelen hasarın büyük kısmını emer, bu yüzden her zaman ilk tükenen odur. Sesli sohbeti açık tut ve piyade sayıları düştüğü an seslen ki üyeler hemen taze piyade ağırlıklı yürüyüşler gönderebilsin.",
+        "<strong>Taretleri görmezden gelme.</strong> Düşmanın tuttuğu taretler kaleye sürekli ateş eder ve onları ne kadar uzun tutarlarsa hasar o kadar artar. Kale dövüşünü kazanıp yine de hiç çekişmediğin taretlerden garnizonunu tüketebilirsin.",
+        "<strong>İttifakı iki işe böl.</strong> Balinalarını ve en iyi rally liderlerini kaleyi alıp tutmaya koy ve orta kademe rally'leri çevredeki taretlere gönder ki gelen hasarı kes."
+      ]
+    },
+    "infirmary": {
+      "heading": "Revir ve iyileştirme",
+      "items": [
+        "<strong>Revir'i önceden yükselt</strong> ittifakın rekabet etmeyi planlıyorsa. Uzun dövüşler ve tekrarlanan doldurmalar onu sürekli yük altına sokar.",
+        "<strong>Etkinlikten günler önce iyileştirme hızlandırıcıları biriktirmeye başla.</strong>",
+        "<strong>Küçük partiler halinde iyileştir</strong> ve her seferinde ittifak yardımı iste — bu, tek büyük iyileştirmeden çok daha az hızlandırıcı israf eder."
+      ]
+    },
+    "advancedTactics": {
+      "heading": "İleri taktikler",
+      "items": [
+        "<strong>Tek başına bir saldırıyla aç.</strong> Kale açıldığı an, yeterince güçlüysen bir yürüyüş hızlandırıcıyla tek başına gir ve biraz bedava işgal süresi biriktir.",
+        "<strong>Çift rally'leri senkronize et.</strong> Bir rally savunucuları söküp atamadığında, iki ya da daha fazla lider aynı hedefe rally açsın, yürüyüş sürelerini karşılaştırsın ve sesli sohbette geri sayım yapsın ki her yürüyüş aynı saniyede insin. Kademeli varışlar savunucunun darbeler arasında yeniden doldurmasına izin verir.",
+        "<strong>Varyant: yumuşatıcı sonra ele geçirici.</strong> Birleşik bir darbenin bile sahayı kaybettireceği kadar yüksek yığılmış bir kaleye karşı, iki rally'yi birlikte indirmek yerine rollere göre böl. Rally 1, saldırı kahramanlarıyla 50/20/30'da yalnızca ön saf piyadesini kırmak ve birliklerini Revir'e itmek için girer. Rally 2, 2 ila 5 saniye sonra garnizon kahramanlarıyla 60/20/20'de iner, zayıflamış kaleyi alır ve garnizon olarak kalır. Boşluk küçük olmalı — çok uzun bırakırsan savunucu yeniden doldurur ki bu tam da senkronize yaklaşımın önlediği başarısızlıktır.",
+        "<strong>Düşman işgal süresini kesmek için karşı rally aç.</strong> Kendi kaleni rally edemezsin, bu yüzden onu ittifak A ile tut ve ittifak B'yi hazır bekle. Düşman A'ya rally açtığında B kaleye <em>onlardan sonra</em> rally açar — B'nin asla önce inmeyeceği kadar geciktirilmiş, yoksa kendi krallığınla dövüşür ve düşmana bedava zafer verirsin. Düşman başarısız olursa B'yi iptal et. Kaleyi alırlarsa B onu hemen geri alır, kısa süre tutar, sonra A'nın tek başına yürüyüşleri gelirken birliklerini boşaltır ki A işgal süresi biriktirmeye devam etsin. Sürekli iletişim gerektirir ve düşman oyuncular devir boşluğunda kaleyi kapabilir."
+      ]
+    }
+  },
+  "images": {
+    "points": {
+      "alt": "Oyun içi Puanlarım paneli, toplam puanı KO puanları, İşgal puanları ve Zayiat puanları olarak bölünmüş gösteriyor.",
+      "caption": "Puanın üç kategorinin toplamıdır."
+    }
+  },
+  "source": "Etkinlik mekaniği <a href=\"https://kingshotwiki.com/events/castle-battle/\" rel=\"noreferrer\">kingshotwiki.com — Kale Savaşı</a> kaynağından, ittifak deneyiminden eklemelerle."
+}

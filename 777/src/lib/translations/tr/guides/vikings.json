@@ -1,0 +1,65 @@
+{
+	"meta": {
+		"title": "Viking intikamı — Kingshot 777",
+		"description": "Kingshot Viking İntikamı için özet rehber: kaleni boşaltma, kahraman yerleşimi, HQ savunması ve ne zaman iyileştirmemek gerektiği."
+	},
+	"h1": "Viking intikamı",
+	"tldr": {
+		"heading": "Özet",
+		"items": [
+			"<strong>Kaleni boşalt.</strong> Birliklerini ve yedek kahramanlarını diğer üyelere takas et. Kalan kendi birliklerin seni destekleyen herkesin puanını düşürür.",
+			"<strong>İlk 3 kahramanı Muhafız İstasyonu'na koy</strong>, en güçlü önce. Diğer her şey takasa çıkar.",
+			"<strong>Etkinlik ortasında iyileştirme yapma.</strong> İyileştirme birliklerini eve çeker ve destekçilerinin puanını dibe vurdurur. Yalnızca ikinci başarısızlık etkinliği bitirmeden önce ya da 9. ve 10. aşama arasındaki geri çağırmada iyileştir.",
+			"<strong>10 ve 20. aşamalar HQ'dur.</strong> 8. kademe üstü kalkanlı piyade artı biraz süvari — liderliğinin belirttiği neyse onu izle.",
+			"<strong>Piyade ve süvariyle takviye et.</strong> Vikingler önce piyadeye, sonra süvariye, en son okçuya vurur — yürüyüşün doluysa okçuları evde bırak.",
+			"<strong>7, 14 ve 17. aşamalarda çevrimiçi ol.</strong> Bunlar yalnızca çevrimiçi oyunculara vurur ve en yüksek puanı verir.",
+			"<strong>Boş, kalabalık olmayan şehirleri takviye et.</strong> Puanlar öldürme payına göre bölünür, bu yüzden bir balinayla üst üste binmekten kaçın.",
+			"<strong>Benzer güçle eşleş.</strong> İkişerli ya da altışarlı gruplar, birbirine yakın konumlanmış, ki destek 1 dakikalık boşluk içinde hızla gelsin."
+		]
+	},
+	"sections": {
+		"details": {
+			"heading": "Ayrıntılar"
+		},
+		"maximizing": {
+			"heading": "Puanlarını en üst düzeye çıkarma",
+			"items": [
+				"<strong>Piyade ve süvari gönder.</strong> Vikingler önce piyadeyle, sonra süvariyle, sonra okçuyla savaşır — bu yüzden piyade ve süvari dövüşe erken girer ve öldürmeleri alır. Yürüyüşün her şeyi taşıyamıyorsa okçuları evde bırak.",
+				"<strong>Çevrimiçi oyuncuları takviye et.</strong> 7, 14 ve 17. dalgalar yalnızca çevrimiçi üyelere saldırır. Çevrimdışı müttefiklere harcanan yürüyüş yuvaları boşa gider ve çevrimdışı oyuncular zaten genellikle şehirlerini temizlememiştir.",
+				"<strong>Boş, kalabalık olmayan şehirler seç.</strong> Puan havuzu öldürme payına göre bölünür. Kendi birliği olmayan ve yalnızca bir ya da iki başka takviyecisi olan bir müttefik ara. Bir balinayla şehir paylaş, onun üst kademe birlikleri öldürmelerin çoğunu emer.",
+				"<strong>10 ve 20. dalgalar için HQ'ya dön.</strong> Bu dalgalar yalnızca İttifak HQ'ya vurur — şehirlere değil. 9. (ya da 19.) dalga savaş raporu bittikten sonra güçlü bir yürüyüşü geri çağır ve HQ'ya gönder, sonra HQ dalgası biter bitmez müttefikine geri gönder. Çok erken geri çağırırsan önceki dalganın puanlarını kaybedersin.",
+				"<strong>Saldırgan bir kahramanla önder ol.</strong> Ayı Avı katılımcı kahramanlarını lider yuvasında kullan — Chenko, Amadeus, Yeonwoo veya Amane — ekstra hasar ve öldürmelerden daha büyük pay için."
+			]
+		},
+		"tips": {
+			"heading": "İpuçları",
+			"items": [
+				"<strong>Takasını başlamadan önce hallet.</strong> Berbat bir takas, birlikleri tüm etkinlik boyunca kalende oturuyor bırakır.",
+				"<strong>Konumları önceden kararlaştır</strong> ki bir dalga geldiğinde kimse destek menzilinin dışında kalmasın."
+			]
+		}
+	},
+	"qa": [
+		{
+			"q": "Puanlama nasıl çalışır?",
+			"a": "Kalelere saldıran Vikingleri — çoğunlukla başkalarınınkileri — öldürerek puan alırsın. Bu yüzden boş bir kale, ittifakına savunulan birinden daha değerlidir: destekçiler öldürmeleri alır."
+		},
+		{
+			"q": "Evde birlik bırakmak neden zarar verir?",
+			"a": "Kendi birliklerin, aksi halde destekçilerine gidecek öldürmeleri emer. Kalen gerçekten boş olsun diye onları takas et."
+		},
+		{
+			"q": "Aşamalar arasında ne kadar süre var?",
+			"a": "Normalde yaklaşık bir dakika, HQ aşamaları (10 ve 20) için kabaca üç dakika."
+		},
+		{
+			"q": "İttifakta bir alt hesabım varsa?",
+			"a": "Birliklerini ana hesabını takviye etmek için kullan. 10. kademedeysen alt hesap ekstra puan için tek başına da savunabilir."
+		},
+		{
+			"q": "Etkinlik ne zaman biter?",
+			"a": "İkinci başarısızlıkta."
+		}
+	],
+	"source": "Kaynak: <a href=\"https://kingshotwiki.com/events/viking-vengeance/\" rel=\"noreferrer\">kingshotwiki.com — Viking İntikamı</a>"
+}

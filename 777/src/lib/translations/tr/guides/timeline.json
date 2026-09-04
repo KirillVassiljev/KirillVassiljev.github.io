@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": "Krallık {{kingdom}} zaman çizelgesi — Kingshot 777",
+    "description": "Kingshot krallık {{kingdom}} için kilometre taşı zaman çizelgesi: kahraman nesilleri, sis temizlemeleri, KvK ilkleri, Truegold kademeleri ve evcil hayvan nesilleri."
+  },
+  "h1": "Krallık {{kingdom}} zaman çizelgesi",
+  "intro": "Krallığımız için kaydedilen kilometre taşları, gerçekte ne kadar aralıklı düştüklerine göre yerleştirildi. Notlu kartlar açtığında genişler.",
+  "empty": "Henüz kaydedilmiş kilometre taşı yok.",
+  "jumpToToday": "Bugüne atla",
+  "predicted": "tahmini",
+  "today": "Bugün",
+  "source": "Tarihler krallık {{kingdom}} için bizim tarafımızdan kaydedildi. Diğer krallıklar ve tahmini kilometre taşları için bkz. <a href=\"https://kingshotoptimizer.com/kingdom-timeline/\" target=\"_blank\" rel=\"noreferrer\">Kingshot Optimizer</a>.",
+  "categories": {
+    "heroes": "Kahramanlar",
+    "pvp": "PvP",
+    "feature": "Yeni özellik",
+    "truegold": "Truegold",
+    "pets": "Evcil hayvanlar",
+    "masters": "Ustalar"
+  },
+  "milestones": {
+    "generation-1-heroes": {
+      "title": "1. Nesil Kahramanlar"
+    },
+    "first-hall-of-governors-hog": {
+      "title": "İlk Valiler Salonu (HoG)"
+    },
+    "first-sanctuary-competition": {
+      "title": "İlk Mabet Yarışması"
+    },
+    "plains-fog-cleared": {
+      "title": "Ova Sisi Temizlendi"
+    },
+    "mystic-trial-unlocked": {
+      "title": "Mistik Deneme Açıldı"
+    },
+    "first-fortress-competition": {
+      "title": "İlk Kale Yarışması"
+    },
+    "hero-gear-reforge-unlocked": {
+      "title": "Kahraman Teçhizatı Yeniden Dövme Açıldı"
+    },
+    "fertile-land-fog-cleared": {
+      "title": "Verimli Toprak Sisi Temizlendi"
+    },
+    "alliance-resource-exchange-unlocks": {
+      "title": "İttifak Kaynak Takası Açılır"
+    },
+    "generation-2-heroes": {
+      "title": "2. Nesil Kahramanlar",
+      "notes": "Zoe (Piyade, Rulet Çarkı kahramanı), Hilde (Süvari) ve Marlin (Okçu) oyuna eklendi."
+    },
+    "first-castle-competition": {
+      "title": "İlk Kale Yarışması"
+    },
+    "generation-1-pets": {
+      "title": "1. Nesil Evcil Hayvanlar",
+      "notes": "Gri Kurt, Vaşak ve Bizon evcil hayvan kadrosuna eklendi."
+    },
+    "age-of-truegold": {
+      "title": "Truegold Çağı",
+      "notes": "TG seviye 1-3'ü açar"
+    },
+    "generation-2-pets": {
+      "title": "2. Nesil Evcil Hayvanlar",
+      "notes": "Çita ve Moose evcil hayvan kadrosuna eklendi."
+    },
+    "first-kvk-prep-starts": {
+      "title": "İlk KvK Hazırlığı Başlar"
+    },
+    "first-kvk-castle-competition": {
+      "title": "İlk KvK Kale Yarışması"
+    },
+    "first-alliance-brawl": {
+      "title": "İlk İttifak Kavgası"
+    },
+    "generation-3-heroes": {
+      "title": "3. Nesil Kahramanlar",
+      "notes": "Eric (Piyade), Petra (Süvari, Rulet Çarkı kahramanı) ve Jaeger (Okçu) oyuna eklendi."
+    },
+    "generation-3-pets": {
+      "title": "3. Nesil Evcil Hayvanlar",
+      "notes": "Aslan ve Grizzly Bear evcil hayvan kadrosuna eklendi."
+    },
+    "gov-gear-material-exchange-unlocks": {
+      "title": "Vali Teçhizatı Malzeme Takası Açılır",
+      "notes": "Teçhizat yükseltme panelinin sağ üstünde Vali Teçhizatı malzemelerinin (Saten, Yaldızlı İplikler ve Zanaatkârın Vizyonu) takasına izin verir."
+    },
+    "masters-unlocked": {
+      "title": "Ustalar Açıldı",
+      "notes": "Oyuncunun Şehir Merkezi seviye 25 olmasını gerektirir. Valora, Pan ve Roman ilk 3 usta olarak çıktı. Şu an bunun yalnızca ilk 3 usta olduğunu ve diğer nesillerin daha sonra açıldığını/var olabileceğini düşünüyoruz. Oyuncular bu içerikte ilerledikçe doğrulanması gerekiyor."
+    },
+    "truegold-5": {
+      "title": "Truegold 5",
+      "notes": "Ayrıca Truegold Potası'nı açar (temel kaynakları Truegold'a dönüştürür). Vali tılsım malzemeleri Mistik Deneme mağazasına eklendi. Seviye 8 Dehşet (Titan Roc) oyuna eklendi. Bu noktadan itibaren Krallığın bir sonraki Krallık Transfer Penceresine uygun olacak. Ayrıntılı tahminler için Krallık Transfer modülümüze bak."
+    },
+    "gov-charm-material-exchange-unlocked": {
+      "title": "Vali Tılsımı Malzeme Takası Açıldı",
+      "notes": "Teçhizat yükseltme panelinin sağ üstünde Vali Tılsımı malzemelerinin (Tılsım Kılavuzu ve Tılsım Tasarımı) takasına izin verir."
+    },
+    "4th-master-unlocked": {
+      "title": "4. Usta Açıldı",
+      "notes": "4. usta (Cassia) oyuna eklendi."
+    },
+    "governor-charm-cap-raised": {
+      "title": "Vali Tılsımı Sınırı Yükseltildi",
+      "notes": "Tılsım seviye 12+ mevcut. Çoğu oyuncu için hemen ulaşılabilir olmasa da bu küçük kilometre taşı Transfer Gruplarını böler ve belirtilmesi gerekir."
+    },
+    "generation-4-heroes": {
+      "title": "4. Nesil Kahramanlar",
+      "notes": "Alcar (Piyade), Margot (Süvari) ve Rosa (Okçu, Rulet Çarkı kahramanı) oyuna eklendi. Çöl Denemesi Etkinliği Şampiyonlar Yolu'na dönüşür. 2. Nesil kahramanlar altın anahtar ganimet havuzuna girer."
+    },
+    "generation-4-pets": {
+      "title": "4. Nesil Evcil Hayvanlar",
+      "notes": "Dev Gergedan ve Kudretli Bizon evcil hayvan kadrosuna eklendi."
+    },
+    "5th-and-6th-masters-unlocked": {
+      "title": "5. ve 6. Ustalar Açıldı",
+      "notes": "5. ve 6. ustalar (Guinevere ve Wilson) oyuna eklendi."
+    },
+    "war-academy-unlocked": {
+      "title": "Savaş Akademisi Açıldı",
+      "notes": "Truegold Tozu ve T11 birlikler oyuna eklendi."
+    },
+    "generation-5-heroes": {
+      "title": "5. Nesil Kahramanlar",
+      "notes": "Long Fei (Piyade, Rulet Çarkı kahramanı), Thrud (Süvari) ve Vivian (Okçu) oyuna eklendi. 3. Nesil kahramanlar altın anahtar ganimet havuzuna girer."
+    },
+    "generation-5-pets": {
+      "title": "5. Nesil Evcil Hayvanlar",
+      "notes": "Büyük Moose ve Alfa Kara Panter evcil hayvan kadrosuna eklendi."
+    },
+    "truegold-8": {
+      "title": "Truegold 8",
+      "notes": "Tavlanmış Truegold oyuna eklendi. Truegold Potası'nı Tavlanmış Truegold dönüşümüne izin verecek şekilde geliştirir. Vali teçhizatı sandıkları Mistik Deneme mağazasına eklendi."
+    },
+    "generation-6-heroes": {
+      "title": "6. Nesil Kahramanlar",
+      "notes": "Triton (Piyade), Sophia (Süvari, Rulet Çarkı kahramanı) ve Yang (Okçu) oyuna eklendi. 4. Nesil kahramanlar altın anahtar ganimet havuzuna girer."
+    },
+    "generation-6-pets": {
+      "title": "6. Nesil Evcil Hayvanlar",
+      "notes": "Görkemli Beyaz Aslan ve Zırhlı Savaş Fili evcil hayvan kadrosuna eklendi."
+    },
+    "first-flamedragon-tyrant-competition": {
+      "title": "İlk Alevejder Tiran Yarışması"
+    },
+    "generation-7-heroes": {
+      "title": "7. Nesil Kahramanlar",
+      "notes": "Charles (Piyade), Ava (Süvari) ve Wee & Woo (Okçu, Rulet Çarkı kahramanı) oyuna eklendi. 5. Nesil kahramanlar altın anahtar ganimet havuzuna girer."
+    },
+    "generation-7-pets": {
+      "title": "7. Nesil Evcil Hayvanlar",
+      "notes": "Zırhlı Savaş Ayısı evcil hayvan kadrosuna eklendi."
+    },
+    "advanced-truegold-research": {
+      "title": "Gelişmiş Truegold Araştırması",
+      "notes": "Gelişmiş Truegold Araştırması Savaş Akademisi'nde kullanılabilir hale gelir."
+    },
+    "generation-8-heroes": {
+      "title": "8. Nesil Kahramanlar",
+      "notes": "6. Nesil kahramanlar altın anahtar ganimet havuzuna girer."
+    },
+    "generation-8-pets": {
+      "title": "8. Nesil Evcil Hayvanlar"
+    },
+    "generation-9-heroes": {
+      "title": "9. Nesil Kahramanlar",
+      "notes": "7. Nesil kahramanlar altın anahtar ganimet havuzuna girer."
+    },
+    "truegold-10": {
+      "title": "Truegold 10",
+      "notes": "Truegold seviye 9 ve 10 oyuna eklendi. Bu seviyelerle birlikte gelen yeni özellikler henüz doğrulanmadı."
+    }
+  }
+}
