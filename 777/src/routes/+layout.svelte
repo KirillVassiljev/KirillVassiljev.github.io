@@ -61,11 +61,16 @@
 			<span aria-hidden="true">&#9776;</span>
 		</button>
 		<span class="topbar-title">{$t('common.layout.brandTitle')}</span>
+		<div class="topbar-switcher">
+			<LanguageSwitcher />
+		</div>
 	</header>
 
 	<aside id="sidebar" class="sidebar">
-		<a class="brand" href="{base}/">{$t('common.layout.brandTitle')}</a>
-		<LanguageSwitcher />
+		<div class="brand-row">
+			<a class="brand" href="{base}/">{$t('common.layout.brandTitle')}</a>
+			<LanguageSwitcher />
+		</div>
 		<Sidebar />
 	</aside>
 
@@ -140,6 +145,11 @@
 		font-weight: 700;
 	}
 
+	.topbar-switcher {
+		margin-inline-start: auto;
+		display: inline-flex;
+	}
+
 	.sidebar {
 		position: fixed;
 		top: 0;
@@ -167,9 +177,15 @@
 		transform: none;
 	}
 
-	.brand {
-		display: block;
+	.brand-row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.75rem;
 		padding: 1.25rem 1.25rem 1rem;
+	}
+
+	.brand {
 		color: var(--text);
 		font-size: 1.05rem;
 		font-weight: 700;
