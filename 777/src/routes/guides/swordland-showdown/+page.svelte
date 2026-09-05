@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Hero from '$lib/components/Hero.svelte';
 	import { t } from '$lib/translations/i18n';
+	import ReadingTime from '$lib/components/ReadingTime.svelte';
 </script>
 
 <svelte:head>
@@ -12,6 +13,7 @@
 
 <section class="tldr">
 	<h2>{$t('guides.swordland-showdown.tldr.heading')}</h2>
+	<ReadingTime guide="swordland-showdown" />
 	<ul>
 		{#each $t('guides.swordland-showdown.tldr.items') as item}
 			<li>{@html item}</li>

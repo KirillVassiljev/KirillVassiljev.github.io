@@ -2,6 +2,7 @@
 	import points from '$lib/assets/castle-battle/points.webp';
 	import Hero from '$lib/components/Hero.svelte';
 	import { t } from '$lib/translations/i18n';
+	import ReadingTime from '$lib/components/ReadingTime.svelte';
 </script>
 
 <svelte:head>
@@ -16,6 +17,7 @@
 
 <section class="tldr">
 	<h2>{$t('guides.castle-battle.tldr.heading')}</h2>
+	<ReadingTime guide="castle-battle" />
 	<ul>
 		{#each $t('guides.castle-battle.tldr.items') as item}
 			<li>{@html item}</li>

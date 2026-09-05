@@ -5,6 +5,7 @@
 	import joiners640 from '$lib/assets/bear/joiners-640.webp';
 	import joiners1024 from '$lib/assets/bear/joiners-1024.webp';
 	import { t } from '$lib/translations/i18n';
+	import ReadingTime from '$lib/components/ReadingTime.svelte';
 </script>
 
 <svelte:head>
@@ -16,6 +17,7 @@
 
 <section class="tldr">
 	<h2>{$t('guides.bear.tldr.heading')}</h2>
+	<ReadingTime guide="bear" />
 	<ul>
 		{#each $t('guides.bear.tldr.items') as item}
 			<li>{@html item}</li>

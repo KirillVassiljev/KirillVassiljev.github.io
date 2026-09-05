@@ -32,9 +32,12 @@ prerendered HTML and re-renders automatically on locale change.
 ### `src/lib/components/ReadingTime.svelte`
 
 - Prop: `guide: string` (e.g. `"bear"`).
-- Reads the guide's translation subtree via `$t('guides.<guide>')`.
-- Recursively walks the subtree collecting all **string leaf values**, skipping
-  the `meta` block (SEO title/description — not visible on the page).
+- Reads the flattened `translations` store for the active locale. `$t` only
+  resolves leaf strings and preserved arrays (not intermediate objects), so the
+  component filters the store's dotted keys under `guides.<guide>.`, skipping the
+  `guides.<guide>.meta.` block (SEO title/description — not visible on the page).
+- Recursively collects all **string leaf values** from the matched entries
+  (strings, arrays, and nested objects such as the qa entries).
 - Word counting on the collected text:
   1. Strip HTML tags (translation strings contain inline `<strong>`, `<a>`).
   2. Count whitespace-separated tokens.

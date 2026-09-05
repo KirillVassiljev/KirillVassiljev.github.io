@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { t } from '$lib/translations/i18n';
+	import ReadingTime from '$lib/components/ReadingTime.svelte';
 </script>
 
 <svelte:head>
@@ -11,6 +12,7 @@
 
 <section class="tldr">
 	<h2>{$t('guides.vikings.tldr.heading')}</h2>
+	<ReadingTime guide="vikings" />
 	<ul>
 		{#each $t('guides.vikings.tldr.items') as item}
 			<li>{@html item}</li>

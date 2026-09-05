@@ -50,4 +50,4 @@ const config: Config<{ kingdom: string }> = {
 	loaders
 };
 
-export const { t, locale, loading, loadTranslations } = new i18n(config);
+export const { t, locale, loading, loadTranslations, translations } = new i18n(config);
