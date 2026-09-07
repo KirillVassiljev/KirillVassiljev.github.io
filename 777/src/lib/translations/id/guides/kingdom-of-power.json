@@ -1,0 +1,133 @@
+{
+	"meta": {
+		"title": "Kingdom of Power (KvK) — Kingshot 777",
+		"description": "Panduan aliansi singkat untuk event Kingshot Kingdom of Power (KvK): fase-fasenya, jadwal pekan Persiapan, dan apa yang dibelanjakan tiap tahap."
+	},
+	"h1": "Kingdom of Power (KvK)",
+	"tldr": {
+		"heading": "Ringkasan",
+		"items": [
+			"<strong>Menangkan Persiapan</strong> dan kita bisa menyerbu musuh serta menobatkan High King kita sendiri — dua minggu bonus kastil untuk seluruh kerajaan.",
+			"<strong>Simpan semuanya dan kerahkan pada hari Persiapan yang cocok.</strong> Belanja di luar jendela event tidak memberi poin.",
+			"<strong>Hari tempur: pasang buff pukul 10:00 UTC</strong> (semua bonus 12 jam + Counter-Recon), bertahan sampai 12:00, lalu curahkan ke Castle Battle."
+		]
+	},
+	"sections": {
+		"phases": {
+			"heading": "Fase-fasenya",
+			"items": [
+				"<strong>Matchmaking (2 hari):</strong> dipasangkan berdasarkan kekuatan 100 pemain aktif teratas kita — tak bisa diturunkan dengan mereset hero atau pasukan, jadi intai musuh dengan akun mata-mata.",
+				"<strong>Persiapan (5 hari):</strong> lomba governor berhadiah ganda. Menangkan untuk menghindari serbuan dan meraih hak menyerbu.",
+				"<strong>Fase Pertempuran (Sab 10:00–22:00 UTC):</strong> poin untuk melukai/membunuh musuh dalam 3 level Town Center darimu; Castle Battle berlangsung 12:00–17:00.",
+				"<strong>Field Triage (~2 hari):</strong> hidupkan pasukan yang gugur hingga ~90% dengan gem dan bantuan aliansi."
+			]
+		},
+		"spend": {
+			"heading": "Apa yang dibelanjakan tiap tahap",
+			"intro": "Timbun tiap item, lalu belanjakan pada tahap tempat ia memberi poin. Baca ke bawah kolom tiap hari untuk melihat apa yang harus dipakai.",
+			"legend": {
+				"spend": "Belanjakan — memberi poin tahap ini",
+				"alt": "Alternatif — juga bisa, tapi simpan untuk tahap terbaiknya",
+				"none": "Tak ada poin tahap ini"
+			},
+			"cols": [
+				"Belanjakan",
+				"Hari 1 · Konstruksi",
+				"Hari 2 · Riset",
+				"Hari 3 · Pet",
+				"Hari 4 · Pasukan",
+				"Hari 5–6 · Semua"
+			],
+			"rows": [
+				{
+					"label": "Speed-up konstruksi",
+					"cells": [
+						"spend",
+						"none",
+						"none",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "Speed-up riset",
+					"cells": [
+						"none",
+						"spend",
+						"none",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "Speed-up latihan",
+					"cells": [
+						"none",
+						"none",
+						"none",
+						"spend",
+						"spend"
+					]
+				},
+				{
+					"label": "Speed-up universal",
+					"cells": [
+						"alt",
+						"alt",
+						"alt",
+						"alt",
+						"spend"
+					]
+				},
+				{
+					"label": "Makanan & EXP pet",
+					"cells": [
+						"none",
+						"none",
+						"spend",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "Latihan & promosi pasukan",
+					"cells": [
+						"none",
+						"none",
+						"none",
+						"spend",
+						"spend"
+					]
+				},
+				{
+					"label": "Truegold / Mithril (sumber langka)",
+					"cells": [
+						"alt",
+						"alt",
+						"alt",
+						"alt",
+						"spend"
+					]
+				}
+			]
+		},
+		"rewards": {
+			"heading": "Hadiah",
+			"items": [
+				"<strong>Persiapan:</strong> dua kali lipat hadiah Strongest Governor biasa, plus milestone pribadi dan aliansi.",
+				"<strong>Memenangkan Persiapan:</strong> kekebalan serbuan dan hak menobatkan High King kita (dua minggu bonus kerajaan).",
+				"<strong>Fase Pertempuran:</strong> hadiah pribadi yang diskalakan dari pasukan musuh yang kamu lukai dan bunuh."
+			]
+		},
+		"tips": {
+			"heading": "Tips",
+			"items": [
+				"<strong>Intai lebih awal.</strong> Dorong akun kecil di kerajaan musuh sampai Town Center 8 dan baca pemain teratas mereka lewat Mystic Trials.",
+				"<strong>Koordinasikan peran.</strong> Isi Chief Minister / Noble Advisor tiap pagi dan jadwalkan skill Raja hingga 48 jam sebelumnya.",
+				"<strong>Strategi kastil A/B lawan musuh kuat.</strong> Bagi pemain terbaik kita ke dua aliansi dan balas-rally begitu mereka menyerang pemegang kastil.",
+				"<strong>Sembuhkan terus-menerus</strong> agar Infirmary tak pernah meluap ke Enlistment Office."
+			]
+		}
+	},
+	"source": "Sumber: <a href=\"https://kingshotwiki.com/events/kingdom-of-power/\" rel=\"noreferrer\">kingshotwiki.com — Kingdom of Power</a> dan <a href=\"https://kingshotwiki.com/events/castle-battle/\" rel=\"noreferrer\">kingshotwiki.com — Castle Battle</a>"
+}

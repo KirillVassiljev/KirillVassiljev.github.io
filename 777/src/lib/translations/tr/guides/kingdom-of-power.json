@@ -1,0 +1,133 @@
+{
+	"meta": {
+		"title": "Krallık Gücü (KvK) — Kingshot 777",
+		"description": "Kingshot Krallık Gücü (KvK) etkinliği için kısa ittifak rehberi: aşamalar, Hazırlık haftası programı ve her aşamada ne harcanacağı."
+	},
+	"h1": "Krallık Gücü (KvK)",
+	"tldr": {
+		"heading": "Özet",
+		"items": [
+			"<strong>Hazırlık'ı kazan</strong>, düşmanı işgal edip kendi Yüce Kral'ımızı taçlandıralım — tüm krallığa iki haftalık kale buff'ları.",
+			"<strong>Her şeyi sakla ve uygun Hazırlık gününde boşalt.</strong> Etkinlik penceresi dışında harcamak puan getirmez.",
+			"<strong>Savaş günü: UTC 10:00'da buff'lan</strong> (tüm 12 saatlik bonuslar + Karşı-Keşif), 12:00'a kadar savun, sonra Kale Savaşı'na yüklen."
+		]
+	},
+	"sections": {
+		"phases": {
+			"heading": "Aşamalar",
+			"items": [
+				"<strong>Eşleşme (2 gün):</strong> en aktif 100 oyuncumuzun gücüne göre eşleşiriz — kahramanları veya askerleri sıfırlayarak düşüremezsin, o yüzden düşmanı casus hesapla keşfet.",
+				"<strong>Hazırlık (5 gün):</strong> iki kat ödüllü vali yarışı. İşgalden kaçınmak ve işgal hakkını kazanmak için kazan.",
+				"<strong>Savaş Aşaması (Cmt 10:00–22:00 UTC):</strong> Şehir Merkezi seninkine 3 seviye yakın düşmanları yaralayıp öldürerek puan; Kale Savaşı 12:00–17:00 arası.",
+				"<strong>Saha Tıbbı (~2 gün):</strong> düşen askerleri mücevher ve ittifak yardımıyla ~%90'a kadar dirilt."
+			]
+		},
+		"spend": {
+			"heading": "Her aşamada ne harcamalı",
+			"intro": "Her eşyayı biriktir, sonra puan getirdiği aşamada harca. O günün sütununu aşağı doğru okuyarak neyi yakacağını gör.",
+			"legend": {
+				"spend": "Harca — bu aşamada puan verir",
+				"alt": "Alternatif — işe yarar ama en iyi aşamasına sakla",
+				"none": "Bu aşamada puan yok"
+			},
+			"cols": [
+				"Harcanan",
+				"1. Gün · İnşaat",
+				"2. Gün · Araştırma",
+				"3. Gün · Evcil hayvan",
+				"4. Gün · Askerler",
+				"5–6. Gün · Hepsi"
+			],
+			"rows": [
+				{
+					"label": "İnşaat hızlandırıcıları",
+					"cells": [
+						"spend",
+						"none",
+						"none",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "Araştırma hızlandırıcıları",
+					"cells": [
+						"none",
+						"spend",
+						"none",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "Eğitim hızlandırıcıları",
+					"cells": [
+						"none",
+						"none",
+						"none",
+						"spend",
+						"spend"
+					]
+				},
+				{
+					"label": "Evrensel hızlandırıcılar",
+					"cells": [
+						"alt",
+						"alt",
+						"alt",
+						"alt",
+						"spend"
+					]
+				},
+				{
+					"label": "Evcil hayvan yemi ve TP",
+					"cells": [
+						"none",
+						"none",
+						"spend",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "Asker eğitimi ve terfisi",
+					"cells": [
+						"none",
+						"none",
+						"none",
+						"spend",
+						"spend"
+					]
+				},
+				{
+					"label": "Truegold / Mithril (nadir kaynaklar)",
+					"cells": [
+						"alt",
+						"alt",
+						"alt",
+						"alt",
+						"spend"
+					]
+				}
+			]
+		},
+		"rewards": {
+			"heading": "Ödüller",
+			"items": [
+				"<strong>Hazırlık:</strong> normal En Güçlü Vali ödemelerinin iki katı, ayrıca bireysel ve ittifak kilometre taşları.",
+				"<strong>Hazırlık'ı kazanmak:</strong> işgal dokunulmazlığı ve Yüce Kral'ımızı taçlandırma hakkı (iki haftalık krallık buff'ları).",
+				"<strong>Savaş Aşaması:</strong> yaralayıp öldürdüğün düşman askerlerine göre ölçeklenen bireysel ödüller."
+			]
+		},
+		"tips": {
+			"heading": "İpuçları",
+			"items": [
+				"<strong>Erken keşfet.</strong> Düşman krallıkta küçük bir hesabı Şehir Merkezi 8'e çıkar ve en iyi oyuncularını Mystic Trials'tan incele.",
+				"<strong>Rolleri koordine et.</strong> Her sabah Başbakan / Soylu Danışman kadrolarını doldur ve Kral yeteneklerini 48 saate kadar önceden zamanla.",
+				"<strong>Güçlü rakiplere karşı A/B kale stratejisi.</strong> En iyi oyuncularımızı iki ittifaka böl ve düşman kaleyi tutana vurur vurmaz karşı-rally yap.",
+				"<strong>Sürekli iyileştir</strong> ki Revir asla Askere Alma Ofisi'ne taşmasın."
+			]
+		}
+	},
+	"source": "Kaynaklar: <a href=\"https://kingshotwiki.com/events/kingdom-of-power/\" rel=\"noreferrer\">kingshotwiki.com — Kingdom of Power</a> ve <a href=\"https://kingshotwiki.com/events/castle-battle/\" rel=\"noreferrer\">kingshotwiki.com — Castle Battle</a>"
+}

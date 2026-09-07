@@ -11,6 +11,7 @@ const guides = [
 	'castle-battle',
 	'swordland-showdown',
 	'tri-alliance-clash',
+	'kingdom-of-power',
 	'timeline'
 ];
 

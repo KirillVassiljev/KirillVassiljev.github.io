@@ -1,0 +1,133 @@
+{
+	"meta": {
+		"title": "王国之力 (KvK) — Kingshot 777",
+		"description": "Kingshot 王国之力（KvK）活动的简短联盟指南：各阶段、准备周日程，以及每个阶段该花什么。"
+	},
+	"h1": "王国之力 (KvK)",
+	"tldr": {
+		"heading": "速览",
+		"items": [
+			"<strong>赢下准备阶段</strong>，我们就能入侵敌方并加冕自己的至高王——为整个王国带来两周城堡加成。",
+			"<strong>把一切都存起来，只在对应的准备日倾泻。</strong>在活动窗口之外使用不会得分。",
+			"<strong>战斗日：UTC 10:00 开 buff</strong>（所有 12 小时加成 + 反侦察），先防守到 12:00，再全力投入城堡争夺战。"
+		]
+	},
+	"sections": {
+		"phases": {
+			"heading": "各个阶段",
+			"items": [
+				"<strong>匹配（2 天）：</strong>按我们前 100 名活跃战力配对——重置英雄或部队都无法降低它，所以派侦察小号打探敌人。",
+				"<strong>准备（5 天）：</strong>奖励翻倍的执政官竞赛。赢下它可免遭入侵，并获得入侵的权利。",
+				"<strong>战斗阶段（周六 UTC 10:00–22:00）：</strong>攻击市政厅等级与你相差 3 级以内的敌人，伤害/击杀即可得分；城堡争夺战在 12:00–17:00。",
+				"<strong>战地急救（约 2 天）：</strong>借助钻石与联盟帮助将阵亡部队复活至约 90%。"
+			]
+		},
+		"spend": {
+			"heading": "每个阶段该花什么",
+			"intro": "把每样道具都存起来，然后在它能得分的阶段使用。按每天所在的列往下看，就知道该消耗什么。",
+			"legend": {
+				"spend": "使用——本阶段得分",
+				"alt": "备选——也有效，但最好留到它的最佳阶段",
+				"none": "本阶段不得分"
+			},
+			"cols": [
+				"消耗项",
+				"第 1 天 · 建造",
+				"第 2 天 · 研究",
+				"第 3 天 · 宠物",
+				"第 4 天 · 部队",
+				"第 5–6 天 · 全部"
+			],
+			"rows": [
+				{
+					"label": "建造加速",
+					"cells": [
+						"spend",
+						"none",
+						"none",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "研究加速",
+					"cells": [
+						"none",
+						"spend",
+						"none",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "训练加速",
+					"cells": [
+						"none",
+						"none",
+						"none",
+						"spend",
+						"spend"
+					]
+				},
+				{
+					"label": "通用加速",
+					"cells": [
+						"alt",
+						"alt",
+						"alt",
+						"alt",
+						"spend"
+					]
+				},
+				{
+					"label": "宠物粮与经验",
+					"cells": [
+						"none",
+						"none",
+						"spend",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "练兵与晋升",
+					"cells": [
+						"none",
+						"none",
+						"none",
+						"spend",
+						"spend"
+					]
+				},
+				{
+					"label": "真金 / 秘银（稀有资源）",
+					"cells": [
+						"alt",
+						"alt",
+						"alt",
+						"alt",
+						"spend"
+					]
+				}
+			]
+		},
+		"rewards": {
+			"heading": "奖励",
+			"items": [
+				"<strong>准备阶段：</strong>常规最强执政官奖励的两倍，外加个人与联盟里程碑。",
+				"<strong>赢下准备阶段：</strong>免遭入侵，并获得加冕我们至高王的权利（两周王国加成）。",
+				"<strong>战斗阶段：</strong>依据你伤害与击杀的敌方部队按比例发放的个人奖励。"
+			]
+		},
+		"tips": {
+			"heading": "小贴士",
+			"items": [
+				"<strong>尽早侦察。</strong>在敌方王国把小号推到市政厅 8 级，通过秘境试炼查看对方顶尖玩家。",
+				"<strong>协调职位。</strong>每天早晨填满首相/贵族顾问席位，并提前最多 48 小时预约国王技能。",
+				"<strong>对强敌用 A/B 城堡战术。</strong>把最强玩家均分到两个联盟，敌人一打守城方就立刻反集结。",
+				"<strong>持续治疗</strong>，别让医疗院溢出到征兵办公室。"
+			]
+		}
+	},
+	"source": "来源：<a href=\"https://kingshotwiki.com/events/kingdom-of-power/\" rel=\"noreferrer\">kingshotwiki.com — Kingdom of Power</a> 与 <a href=\"https://kingshotwiki.com/events/castle-battle/\" rel=\"noreferrer\">kingshotwiki.com — Castle Battle</a>"
+}

@@ -1,0 +1,133 @@
+{
+	"meta": {
+		"title": "Reino do Poder (KvK) — Kingshot 777",
+		"description": "Guia de aliança curto para o evento Reino do Poder (KvK) de Kingshot: as fases, o cronograma da semana de Preparação e o que gastar em cada etapa."
+	},
+	"h1": "Reino do Poder (KvK)",
+	"tldr": {
+		"heading": "Resumo",
+		"items": [
+			"<strong>Vença a Preparação</strong> e poderemos invadir o inimigo e coroar nosso próprio Alto Rei — duas semanas de bônus de castelo para todo o reino.",
+			"<strong>Guarde tudo e gaste no dia de Preparação correspondente.</strong> Gastar fora da janela do evento não pontua.",
+			"<strong>Dia da batalha: ative buffs às 10:00 UTC</strong> (todos os bônus de 12 horas + Contra-Reconhecimento), defenda até as 12:00 e depois foque na Batalha do Castelo."
+		]
+	},
+	"sections": {
+		"phases": {
+			"heading": "As fases",
+			"items": [
+				"<strong>Emparelhamento (2 dias):</strong> pareado pelo poder dos nossos 100 jogadores ativos mais fortes — não dá para reduzir resetando heróis ou tropas, então espione o inimigo com uma conta secundária.",
+				"<strong>Preparação (5 dias):</strong> uma corrida de governador com recompensa dobrada. Vença para evitar a invasão e ganhar o direito de invadir.",
+				"<strong>Fase de Batalha (Sáb 10:00–22:00 UTC):</strong> pontos por ferir/matar inimigos a até 3 níveis de Centro da Cidade do seu; a Batalha do Castelo ocorre das 12:00 às 17:00.",
+				"<strong>Triagem de Campo (~2 dias):</strong> ressuscite tropas caídas até ~90% com gemas e ajuda da aliança."
+			]
+		},
+		"spend": {
+			"heading": "O que gastar em cada etapa",
+			"intro": "Acumule cada item e gaste-o na etapa em que ele pontua. Leia para baixo a coluna de cada dia para ver o que queimar.",
+			"legend": {
+				"spend": "Gaste — pontua nesta etapa",
+				"alt": "Alternativa — também funciona, mas guarde para a melhor etapa dele",
+				"none": "Não pontua nesta etapa"
+			},
+			"cols": [
+				"Gastar em",
+				"Dia 1 · Construção",
+				"Dia 2 · Pesquisa",
+				"Dia 3 · Pets",
+				"Dia 4 · Tropas",
+				"Dias 5–6 · Tudo"
+			],
+			"rows": [
+				{
+					"label": "Acelerações de construção",
+					"cells": [
+						"spend",
+						"none",
+						"none",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "Acelerações de pesquisa",
+					"cells": [
+						"none",
+						"spend",
+						"none",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "Acelerações de treino",
+					"cells": [
+						"none",
+						"none",
+						"none",
+						"spend",
+						"spend"
+					]
+				},
+				{
+					"label": "Acelerações universais",
+					"cells": [
+						"alt",
+						"alt",
+						"alt",
+						"alt",
+						"spend"
+					]
+				},
+				{
+					"label": "Ração e EXP de pets",
+					"cells": [
+						"none",
+						"none",
+						"spend",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "Treino e promoção de tropas",
+					"cells": [
+						"none",
+						"none",
+						"none",
+						"spend",
+						"spend"
+					]
+				},
+				{
+					"label": "Truegold / Mithril (recursos raros)",
+					"cells": [
+						"alt",
+						"alt",
+						"alt",
+						"alt",
+						"spend"
+					]
+				}
+			]
+		},
+		"rewards": {
+			"heading": "Recompensas",
+			"items": [
+				"<strong>Preparação:</strong> o dobro das recompensas normais do Governador Mais Forte, mais marcos pessoais e de aliança.",
+				"<strong>Vencer a Preparação:</strong> imunidade à invasão e o direito de coroar nosso Alto Rei (duas semanas de bônus do reino).",
+				"<strong>Fase de Batalha:</strong> recompensas pessoais proporcionais às tropas inimigas que você fere e mata."
+			]
+		},
+		"tips": {
+			"heading": "Dicas",
+			"items": [
+				"<strong>Espione cedo.</strong> Leve uma conta pequena no reino inimigo até o Centro da Cidade 8 e analise os melhores jogadores deles pelas Provas Místicas.",
+				"<strong>Coordene os cargos.</strong> Preencha Primeiro-Ministro / Nobre Conselheiro toda manhã e agende as habilidades do Rei com até 48 horas de antecedência.",
+				"<strong>Estratégia de castelo A/B contra inimigos fortes.</strong> Divida nossos melhores jogadores entre duas alianças e contra-ataque com rally assim que atingirem quem segura o castelo.",
+				"<strong>Cure constantemente</strong> para que a Enfermaria nunca transborde para o Escritório de Alistamento."
+			]
+		}
+	},
+	"source": "Fontes: <a href=\"https://kingshotwiki.com/events/kingdom-of-power/\" rel=\"noreferrer\">kingshotwiki.com — Kingdom of Power</a> e <a href=\"https://kingshotwiki.com/events/castle-battle/\" rel=\"noreferrer\">kingshotwiki.com — Castle Battle</a>"
+}

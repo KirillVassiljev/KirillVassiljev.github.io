@@ -1,0 +1,133 @@
+{
+	"meta": {
+		"title": "Kingdom of Power (KvK) — Kingshot 777",
+		"description": "Short alliance guide to the Kingshot Kingdom of Power (KvK) event: the phases, the Preparation-week schedule, and what to spend on each stage."
+	},
+	"h1": "Kingdom of Power (KvK)",
+	"tldr": {
+		"heading": "TL;DR",
+		"items": [
+			"<strong>Win Preparation</strong> and we can invade the enemy and crown our own High King — two weeks of castle buffs for the whole kingdom.",
+			"<strong>Save everything and dump it on the matching Preparation day.</strong> Spending outside the event window scores nothing.",
+			"<strong>Battle day: buff up at 10:00 UTC</strong> (all 12-hour bonuses + Counter-Recon), defend until 12:00, then commit to the Castle Battle."
+		]
+	},
+	"sections": {
+		"phases": {
+			"heading": "The phases",
+			"items": [
+				"<strong>Matchmaking (2 days):</strong> paired by our top-100 active power — you can't lower it by resetting heroes or troops, so scout the enemy with a spy account.",
+				"<strong>Preparation (5 days):</strong> a double-reward governor race. Win it to avoid invasion and earn the right to invade.",
+				"<strong>Battle Phase (Sat 10:00–22:00 UTC):</strong> points for injuring/killing enemies within 3 Town Center levels of you; Castle Battle runs 12:00–17:00.",
+				"<strong>Field Triage (~2 days):</strong> revive lost troops up to ~90% with gems and alliance help."
+			]
+		},
+		"spend": {
+			"heading": "What to spend each stage",
+			"intro": "Bank every item, then spend it on the stage where it scores. Read down each day's column to see what to burn.",
+			"legend": {
+				"spend": "Spend — scores this stage",
+				"alt": "Alternative — also works, but save it for its best stage",
+				"none": "No points this stage"
+			},
+			"cols": [
+				"Spend on",
+				"Day 1 · Construction",
+				"Day 2 · Research",
+				"Day 3 · Pet",
+				"Day 4 · Troops",
+				"Day 5–6 · All"
+			],
+			"rows": [
+				{
+					"label": "Construction speed-ups",
+					"cells": [
+						"spend",
+						"none",
+						"none",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "Research speed-ups",
+					"cells": [
+						"none",
+						"spend",
+						"none",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "Training speed-ups",
+					"cells": [
+						"none",
+						"none",
+						"none",
+						"spend",
+						"spend"
+					]
+				},
+				{
+					"label": "Universal speed-ups",
+					"cells": [
+						"alt",
+						"alt",
+						"alt",
+						"alt",
+						"spend"
+					]
+				},
+				{
+					"label": "Pet food & EXP",
+					"cells": [
+						"none",
+						"none",
+						"spend",
+						"none",
+						"spend"
+					]
+				},
+				{
+					"label": "Troop training & promotion",
+					"cells": [
+						"none",
+						"none",
+						"none",
+						"spend",
+						"spend"
+					]
+				},
+				{
+					"label": "Truegold / Mithril (rare resources)",
+					"cells": [
+						"alt",
+						"alt",
+						"alt",
+						"alt",
+						"spend"
+					]
+				}
+			]
+		},
+		"rewards": {
+			"heading": "Rewards",
+			"items": [
+				"<strong>Preparation:</strong> double the usual Strongest Governor payouts, plus personal and alliance milestones.",
+				"<strong>Winning Preparation:</strong> invasion immunity and the right to crown our High King (two weeks of kingdom buffs).",
+				"<strong>Battle Phase:</strong> personal rewards scaled by the enemy troops you injure and kill."
+			]
+		},
+		"tips": {
+			"heading": "Tips",
+			"items": [
+				"<strong>Scout early.</strong> Push a small account in the enemy kingdom to Town Center 8 and read their top players via Mystic Trials.",
+				"<strong>Coordinate roles.</strong> Fill Chief Minister / Noble Advisor each morning and schedule King skills up to 48 hours ahead.",
+				"<strong>A/B castle strategy vs strong foes.</strong> Split our best players across two alliances and counter-rally the moment they hit the castle holder.",
+				"<strong>Heal constantly</strong> so the Infirmary never overflows into the Enlistment Office."
+			]
+		}
+	},
+	"source": "Sources: <a href=\"https://kingshotwiki.com/events/kingdom-of-power/\" rel=\"noreferrer\">kingshotwiki.com — Kingdom of Power</a> and <a href=\"https://kingshotwiki.com/events/castle-battle/\" rel=\"noreferrer\">kingshotwiki.com — Castle Battle</a>"
+}
