@@ -238,5 +238,11 @@
       ]
     }
   },
+  "images": {
+    "map": {
+      "alt": "Mapa do campo de batalha de Confronto de Swordland com os valores de pontos de primeiro controle e ocupação de cada edifício",
+      "caption": "Layout do campo de batalha e pontos por edifício. O Swordshrine no centro vale mais; os Undercellars são os pontos de coleta de duas ondas."
+    }
+  },
   "source": "Fontes: <a href=\"https://kingshotwiki.com/events/swordland-showdown/\" rel=\"noreferrer\">kingshotwiki.com — Confronto de Swordland</a>, <a href=\"https://kingshotmastery.com/guides/swordland-showdown\" rel=\"noreferrer\">kingshotmastery.com — guia do Confronto de Swordland</a>, <a href=\"https://kingshotpro.com/swordland-showdown-guide.html\" rel=\"noreferrer\">kingshotpro.com — guia do Confronto de Swordland</a>. Valores exatos de pontos e layouts de edifícios podem mudar com atualizações — verifique na sua própria tela de campo de batalha."
 }

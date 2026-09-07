@@ -238,5 +238,11 @@
       ]
     }
   },
+  "images": {
+    "map": {
+      "alt": "Her binanın ilk kontrol ve işgal puan değerleriyle Kılıç Diyarı Hesaplaşması savaş alanı haritası",
+      "caption": "Savaş alanı düzeni ve bina başına puanlar. Ortadaki Swordshrine en değerlisidir; Undercellars iki dalgalı toplama noktalarıdır."
+    }
+  },
   "source": "Kaynaklar: <a href=\"https://kingshotwiki.com/events/swordland-showdown/\" rel=\"noreferrer\">kingshotwiki.com — Kılıç Diyarı Hesaplaşması</a>, <a href=\"https://kingshotmastery.com/guides/swordland-showdown\" rel=\"noreferrer\">kingshotmastery.com — Kılıç Diyarı Hesaplaşması rehberi</a>, <a href=\"https://kingshotpro.com/swordland-showdown-guide.html\" rel=\"noreferrer\">kingshotpro.com — Kılıç Diyarı Hesaplaşması rehberi</a>. Tam puan değerleri ve bina düzenleri yamalarla değişebilir — kendi savaş alanı ekranınla doğrula."
 }

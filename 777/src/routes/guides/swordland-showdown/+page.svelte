@@ -2,6 +2,9 @@
 	import Hero from '$lib/components/Hero.svelte';
 	import { t } from '$lib/translations/i18n';
 	import ReadingTime from '$lib/components/ReadingTime.svelte';
+	import map640 from '$lib/assets/swordland-showdown/sl-map-640.webp';
+	import map1024 from '$lib/assets/swordland-showdown/sl-map-1024.webp';
+	import map1280 from '$lib/assets/swordland-showdown/sl-map-1280.webp';
 </script>
 
 <svelte:head>
@@ -102,6 +105,22 @@
 <p>{@html $t('guides.swordland-showdown.sections.whatActuallyScores.undercellars.body')}</p>
 
 <h2>{$t('guides.swordland-showdown.sections.map.heading')}</h2>
+
+<figure>
+	<a href={map1280} target="_blank" rel="noreferrer">
+		<img
+			src={map1024}
+			srcset="{map640} 640w, {map1024} 1024w, {map1280} 1280w"
+			sizes="(min-width: 768px) 70ch, 100vw"
+			width="1280"
+			height="720"
+			alt={$t('guides.swordland-showdown.images.map.alt')}
+			loading="lazy"
+			decoding="async"
+		/>
+	</a>
+	<figcaption>{$t('guides.swordland-showdown.images.map.caption')}</figcaption>
+</figure>
 
 <div class="table-wrap">
 	<table>
@@ -271,6 +290,25 @@
 	}
 
 	.source {
+		color: var(--muted);
+		font-size: 0.9rem;
+	}
+
+	figure {
+		margin: 1.5rem 0;
+	}
+
+	figure img {
+		display: block;
+		width: 100%;
+		height: auto;
+		background: #fff;
+		border: 1px solid var(--border);
+		border-radius: 8px;
+	}
+
+	figcaption {
+		margin-top: 0.5rem;
 		color: var(--muted);
 		font-size: 0.9rem;
 	}
