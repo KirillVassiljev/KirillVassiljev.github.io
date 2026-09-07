@@ -12,6 +12,7 @@ const guides = [
 	'swordland-showdown',
 	'tri-alliance-clash',
 	'kingdom-of-power',
+	'eternitys-reach',
 	'timeline'
 ];
 

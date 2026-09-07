@@ -1,0 +1,145 @@
+{
+	"meta": {
+		"title": "Eternity's Reach — Kingshot 777",
+		"description": "Kingshot Eternity's Reach guide: the RRLLR skill order, march distribution by phase, the Skill 3 recall loop, Vein Outburst timing, and Governor Charm planning."
+	},
+	"h1": "Eternity's Reach",
+	"tldr": {
+		"heading": "TL;DR",
+		"items": [
+			"<strong>Rush Skill 3.</strong> The whole run is built around unlocking the vein-capture passive as fast as possible — it pays 5,000 copper every time a march reaches a new vein.",
+			"<strong>Recommended skill order is RRLLR:</strong> Cesare copper → march speed → <em>Skill 3 vein bonus</em> → copper efficiency → gathering burst. Skip the combat branches unless you're a top player.",
+			"<strong>Marches are never idle.</strong> Weak marches farm Cesares (no troop loss, no healing); strong marches run the Send → wait 60s → recall → re-send loop to trigger Skill 3.",
+			"<strong>Save Skill 5 for Vein Outbursts,</strong> and stop attacking Cesares once everything is maxed — full-node gathering out-scores combat late."
+		]
+	},
+	"sections": {
+		"overview": {
+			"heading": "What Eternity's Reach is",
+			"items": [
+				"A timed copper-ore event built around movement efficiency: rotate marches, use the event skill tree well, and react to high-value spawns (Cesares and fractured veins).",
+				"Cesares are safe PvE guards — they cause no troop loss, so you never need to heal after hitting them.",
+				"Copper ore feeds <strong>Governor Charm</strong> materials, which unlock at Town Center 25. Even below TC25 the rewards are worth banking for later.",
+				"Passive sitters lose. The top boards belong to players who keep every march slot busy for the whole window."
+			]
+		},
+		"skillOrder": {
+			"heading": "Skill order — RRLLR",
+			"intro": "Skill order is the single most important decision in the event. <strong>Rushing Skill 3 defines your entire run.</strong>",
+			"table": {
+				"headers": {
+					"step": "Skill",
+					"path": "Path",
+					"effect": "Effect"
+				},
+				"rows": [
+					{
+						"step": "Skill 1",
+						"path": "Right",
+						"effect": "Defeating a Cesare gives 1,500 copper."
+					},
+					{
+						"step": "Skill 2",
+						"path": "Right",
+						"effect": "March speed +15%."
+					},
+					{
+						"step": "Skill 3",
+						"path": "Left",
+						"effect": "<strong>IMPORTANT</strong> — 5,000 copper when you occupy a common vein (1-minute cooldown). This passive is the engine of the whole event."
+					},
+					{
+						"step": "Skill 4",
+						"path": "Left",
+						"effect": "Copper gathering efficiency +15%."
+					},
+					{
+						"step": "Skill 5",
+						"path": "Right",
+						"effect": "Troop gathering speed +50% for 60s after activation (only for troops deployed while it's active). Save it for Vein Outbursts."
+					}
+				]
+			},
+			"note": "The other branches focus on combat and are strongly discouraged unless you're among the top players."
+		},
+		"phases": {
+			"heading": "The four phases",
+			"table": {
+				"headers": {
+					"phase": "Phase",
+					"marches": "March split",
+					"whatToDo": "What to do"
+				},
+				"rows": [
+					{
+						"phase": "<strong>Phase 1</strong> — before Skill 3",
+						"marches": "All marches → Cesares",
+						"whatToDo": "Chain-attack untargeted Cesares to level fast. Ignore gathering entirely until Skill 3 unlocks."
+					},
+					{
+						"phase": "<strong>Phase 2</strong> — Skill 3 unlocked",
+						"marches": "2 weak → Cesares, 3–4 strong → veins",
+						"whatToDo": "Run the recall loop below. This is where most points — and most mistakes — happen."
+					},
+					{
+						"phase": "<strong>Phase 3</strong> — Vein Outbursts",
+						"marches": "All marches → gather during a burst",
+						"whatToDo": "Treat Skill 5 as a 1-minute multiplier; between bursts return to the 2 / 3–4 split."
+					},
+					{
+						"phase": "<strong>Phase 4</strong> — everything maxed",
+						"marches": "All marches → gather",
+						"whatToDo": "Stop attacking Cesares. Hold ~6 active nodes and rotate. Gathering now out-scores combat."
+					}
+				]
+			}
+		},
+		"skill3Loop": {
+			"heading": "The Skill 3 recall loop (core mechanic)",
+			"intro": "Skill 3 pays a points bonus every time a march reaches a vein — you're <strong>not gathering for the resources, you're gathering to trigger the bonus.</strong>",
+			"items": [
+				"Send a gathering march to a nearby vein and note when the 5,000-ore bonus lands.",
+				"Wait ~60 seconds (account for the march time to your closest vein).",
+				"Recall the march manually, then re-send it immediately.",
+				"<strong>Send → wait 60s → recall → re-send,</strong> repeated non-stop. Each recall costs nothing and re-triggers the passive."
+			]
+		},
+		"skill5": {
+			"heading": "Vein Outbursts & Skill 5",
+			"items": [
+				"Never auto-fire Skill 5 — use it only during a Vein Outburst.",
+				"<strong>While Skill 5 is active:</strong> send ALL marches to gather and let the full minute run — do not recall early.",
+				"<strong>While inactive:</strong> 1–2 marches on Cesares, 3–4 on veins, recalling every ~1 minute to keep Skill 3 flowing.",
+				"Skill 5 has a cooldown, so firing it early wastes a full burst."
+			]
+		},
+		"positioning": {
+			"heading": "Positioning & teleports",
+			"items": [
+				"When you get a free or advanced teleport, jump to a spot where two or three veins sit close together for short march times.",
+				"Put your town center beside a cluster of veins so the recall loop cycles faster.",
+				"If a whale is camping you or the area is crowded, use the \"scorched earth\" move: teleport to a quiet corner and keep farming instead of fighting."
+			]
+		},
+		"charms": {
+			"heading": "Governor Charm planning",
+			"items": [
+				"Copper ore and event rewards feed <strong>Governor Charm</strong> materials — Charm Designs and Charm Guides become bottlenecks later.",
+				"Governor Charms unlock at Town Center 25; below that, still bank the materials for future planning.",
+				"Check a charm database or calculator before spending materials unevenly across charms."
+			]
+		},
+		"commonMistakes": {
+			"heading": "Common mistakes that kill scores",
+			"items": [
+				"<strong>Fighting for the center</strong> — it looks prestigious but is mathematically inefficient.",
+				"<strong>Engaging in PvP</strong> — a loss puts your heroes on a cooldown timer.",
+				"<strong>Letting marches sit idle</strong> — idle marches are lost ore.",
+				"<strong>Using Skill 5 at random</strong> instead of saving it for Vein Outbursts.",
+				"<strong>Over-farming Cesares late game</strong> when full-node gathering scores more.",
+				"Note: veins auto-collect and still count at the timer's end, so you don't have to recall them before the event closes."
+			]
+		}
+	},
+	"source": "Sources: <a href=\"https://kingshotwiki.com/events/eternitys-reach/\" rel=\"noreferrer\">kingshotwiki.com — Eternity's Reach</a> and <a href=\"https://www.kingshotguide.com/events/eternitys-reach\" rel=\"noreferrer\">kingshotguide.com — Eternity's Reach</a>"
+}
