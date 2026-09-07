@@ -238,5 +238,11 @@
       ]
     }
   },
+  "images": {
+    "map": {
+      "alt": "剑境对决战场地图，标注每个建筑的首控与占领积分",
+      "caption": "战场布局与各建筑积分。中心的剑之圣坛价值最高；地窖是两波刷新的采集点。"
+    }
+  },
   "source": "来源：<a href=\"https://kingshotwiki.com/events/swordland-showdown/\" rel=\"noreferrer\">kingshotwiki.com — 剑境对决</a>、<a href=\"https://kingshotmastery.com/guides/swordland-showdown\" rel=\"noreferrer\">kingshotmastery.com — 剑境对决指南</a>、<a href=\"https://kingshotpro.com/swordland-showdown-guide.html\" rel=\"noreferrer\">kingshotpro.com — 剑境对决指南</a>。具体积分数值和建筑布局可能随补丁变化——请以你自己的战场界面为准。"
 }

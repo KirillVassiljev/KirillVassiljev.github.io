@@ -238,5 +238,11 @@
       ]
     }
   },
+  "images": {
+    "map": {
+      "alt": "خريطة ساحة معركة مواجهة أرض السيوف مع قيم نقاط السيطرة الأولى والاحتلال لكل مبنى",
+      "caption": "تخطيط ساحة المعركة ونقاط كل مبنى. مزار السيف في المركز هو الأعلى قيمة؛ والأقبية مواقع جمع تظهر على موجتين."
+    }
+  },
   "source": "المصادر: <a href=\"https://kingshotwiki.com/events/swordland-showdown/\" rel=\"noreferrer\">kingshotwiki.com — مواجهة أرض السيوف</a>، <a href=\"https://kingshotmastery.com/guides/swordland-showdown\" rel=\"noreferrer\">kingshotmastery.com — دليل مواجهة أرض السيوف</a>، <a href=\"https://kingshotpro.com/swordland-showdown-guide.html\" rel=\"noreferrer\">kingshotpro.com — دليل مواجهة أرض السيوف</a>. قد تتغير قيم النقاط الدقيقة وتخطيطات المباني مع التصحيحات — تحقق من شاشة ساحة معركتك."
 }

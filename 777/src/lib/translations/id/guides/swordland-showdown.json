@@ -238,5 +238,11 @@
       ]
     }
   },
+  "images": {
+    "map": {
+      "alt": "Peta medan perang Swordland Showdown dengan nilai poin kontrol pertama dan pendudukan tiap bangunan",
+      "caption": "Tata letak medan perang dan poin per bangunan. Swordshrine di tengah paling bernilai; Undercellars adalah situs gathering dua gelombang."
+    }
+  },
   "source": "Sumber: <a href=\"https://kingshotwiki.com/events/swordland-showdown/\" rel=\"noreferrer\">kingshotwiki.com — Pertarungan Swordland</a>, <a href=\"https://kingshotmastery.com/guides/swordland-showdown\" rel=\"noreferrer\">kingshotmastery.com — panduan Pertarungan Swordland</a>, <a href=\"https://kingshotpro.com/swordland-showdown-guide.html\" rel=\"noreferrer\">kingshotpro.com — panduan Pertarungan Swordland</a>. Nilai poin dan tata letak bangunan yang tepat dapat berubah karena patch — verifikasi dengan layar medan perangmu sendiri."
 }

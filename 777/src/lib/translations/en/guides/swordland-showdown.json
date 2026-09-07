@@ -238,5 +238,11 @@
       ]
     }
   },
+  "images": {
+    "map": {
+      "alt": "Swordland Showdown battlefield map with each building's first-control and occupation point values",
+      "caption": "Battlefield layout and per-building points. The Swordshrine in the center is worth the most; the Undercellars are the two-wave gathering sites."
+    }
+  },
   "source": "Sources: <a href=\"https://kingshotwiki.com/events/swordland-showdown/\" rel=\"noreferrer\">kingshotwiki.com — Swordland Showdown</a>, <a href=\"https://kingshotmastery.com/guides/swordland-showdown\" rel=\"noreferrer\">kingshotmastery.com — Swordland Showdown guide</a>, <a href=\"https://kingshotpro.com/swordland-showdown-guide.html\" rel=\"noreferrer\">kingshotpro.com — Swordland Showdown guide</a>. Exact point values and building layouts can change with patches — verify against your own battlefield screen."
 }
