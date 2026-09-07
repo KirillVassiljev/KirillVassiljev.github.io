@@ -1,6 +1,12 @@
 <script lang="ts">
 	import { t } from '$lib/translations/i18n';
 	import ReadingTime from '$lib/components/ReadingTime.svelte';
+	import skillTree640 from '$lib/assets/eternitys-reach/skill-tree-640.webp';
+	import skillTree1024 from '$lib/assets/eternitys-reach/skill-tree-1024.webp';
+	import mapElements640 from '$lib/assets/eternitys-reach/map-elements-640.webp';
+	import mapElements1024 from '$lib/assets/eternitys-reach/map-elements-1024.webp';
+	import mapElements1600 from '$lib/assets/eternitys-reach/map-elements-1600.webp';
+	import peak615 from '$lib/assets/eternitys-reach/peak-615.webp';
 </script>
 
 <svelte:head>
@@ -28,9 +34,37 @@
 	{/each}
 </ul>
 
+<figure>
+	<img
+		src={mapElements1024}
+		srcset="{mapElements640} 640w, {mapElements1024} 1024w, {mapElements1600} 1600w"
+		sizes="(min-width: 768px) 70ch, 100vw"
+		width="1600"
+		height="445"
+		alt={$t('guides.eternitys-reach.images.mapElements.alt')}
+		loading="lazy"
+		decoding="async"
+	/>
+	<figcaption>{$t('guides.eternitys-reach.images.mapElements.caption')}</figcaption>
+</figure>
+
 <h2>{$t('guides.eternitys-reach.sections.skillOrder.heading')}</h2>
 
 <p>{@html $t('guides.eternitys-reach.sections.skillOrder.intro')}</p>
+
+<figure>
+	<img
+		src={skillTree1024}
+		srcset="{skillTree640} 640w, {skillTree1024} 1024w"
+		sizes="(min-width: 768px) 60ch, 100vw"
+		width="1024"
+		height="957"
+		alt={$t('guides.eternitys-reach.images.skillTree.alt')}
+		loading="lazy"
+		decoding="async"
+	/>
+	<figcaption>{$t('guides.eternitys-reach.images.skillTree.caption')}</figcaption>
+</figure>
 
 <div class="table-wrap">
 	<table>
@@ -114,6 +148,18 @@
 
 <h2>{$t('guides.eternitys-reach.sections.commonMistakes.heading')}</h2>
 
+<figure class="narrow">
+	<img
+		src={peak615}
+		width="615"
+		height="690"
+		alt={$t('guides.eternitys-reach.images.peak.alt')}
+		loading="lazy"
+		decoding="async"
+	/>
+	<figcaption>{$t('guides.eternitys-reach.images.peak.caption')}</figcaption>
+</figure>
+
 <ul>
 	{#each $t('guides.eternitys-reach.sections.commonMistakes.items') as item}
 		<li>{@html item}</li>
@@ -175,6 +221,29 @@
 	}
 
 	.source {
+		color: var(--muted);
+		font-size: 0.9rem;
+	}
+
+	figure {
+		margin: 1.5rem 0;
+	}
+
+	figure img {
+		display: block;
+		width: 100%;
+		height: auto;
+		background: #fff;
+		border: 1px solid var(--border);
+		border-radius: 8px;
+	}
+
+	figure.narrow {
+		max-width: 420px;
+	}
+
+	figcaption {
+		margin-top: 0.5rem;
 		color: var(--muted);
 		font-size: 0.9rem;
 	}

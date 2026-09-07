@@ -41,7 +41,7 @@
 					{
 						"step": "Yetenek 2",
 						"path": "Sağ",
-						"effect": "Yürüyüş hızı +%15."
+						"effect": "Yürüyüş hızı +%25."
 					},
 					{
 						"step": "Yetenek 3",
@@ -139,6 +139,20 @@
 				"<strong>Geç oyunda Cesare'leri aşırı avlamak,</strong> oysa tam kapasite toplama daha çok puan verir.",
 				"Not: damarlar sayaç bitince otomatik toplanır ve yine de sayılır, bu yüzden etkinlik kapanmadan önce onları geri çağırmana gerek yok."
 			]
+		}
+	},
+	"images": {
+		"mapElements": {
+			"alt": "Etkinlik haritasında bir Cesare muhafızı, sıradan bir damar ve çatlamış bir damar",
+			"caption": "İki hedef türün: Cesare'ler (güvenli PvE bakırı, asker kaybı yok) ve damarlar (Yetenek 3'ün ödediği yer)."
+		},
+		"skillTree": {
+			"alt": "Beş seviyenin her birinde sol ve sağ seçeneği gösteren Eternity's Reach etkinlik yetenek ağacı",
+			"caption": "Etkinlik yetenek ağacı. RRLLR = sağ, sağ, sol, sol, sağ — Yetenek 3'ün (sol) 5.000 bakırlık damar pasifi olduğuna dikkat et."
+		},
+		"peak": {
+			"alt": "Savaş alanının merkezindeki Ebediyet Zirvesi yapısı",
+			"caption": "Ebediyet Zirvesi savaşın ~23. dakikasında açılır ve tutulan süreye göre bakır verir — prestijlidir ama genelde damarları döndürmekten daha az verimlidir."
 		}
 	},
 	"source": "Kaynaklar: <a href=\"https://kingshotwiki.com/events/eternitys-reach/\" rel=\"noreferrer\">kingshotwiki.com — Eternity's Reach</a> ve <a href=\"https://www.kingshotguide.com/events/eternitys-reach\" rel=\"noreferrer\">kingshotguide.com — Eternity's Reach</a>"

@@ -41,7 +41,7 @@
 					{
 						"step": "Skill 2",
 						"path": "Kanan",
-						"effect": "Kecepatan march +15%."
+						"effect": "Kecepatan march +25%."
 					},
 					{
 						"step": "Skill 3",
@@ -139,6 +139,20 @@
 				"<strong>Terlalu banyak memburu Cesare di akhir</strong> padahal gathering node penuh lebih tinggi skornya.",
 				"Catatan: vein terkumpul otomatis dan tetap dihitung saat timer berakhir, jadi kamu tidak perlu menariknya sebelum event tutup."
 			]
+		}
+	},
+	"images": {
+		"mapElements": {
+			"alt": "Seorang penjaga Cesare, vein biasa, dan vein retak di peta event",
+			"caption": "Dua jenis targetmu: Cesare (tembaga PvE aman, tanpa kehilangan pasukan) dan vein (tempat Skill 3 membayar)."
+		},
+		"skillTree": {
+			"alt": "Pohon skill event Eternity's Reach yang menampilkan opsi kiri dan kanan di tiap dari lima level",
+			"caption": "Pohon skill event. RRLLR = kanan, kanan, kiri, kiri, kanan — perhatikan Skill 3 (kiri) adalah pasif vein 5.000 tembaga."
+		},
+		"peak": {
+			"alt": "Struktur Peak of Eternity di tengah medan perang",
+			"caption": "Peak of Eternity terbuka ~23 menit setelah pertempuran dimulai dan memberi tembaga sesuai lama penguasaan — prestisius, tapi biasanya kurang efisien dibanding memutar vein."
 		}
 	},
 	"source": "Sumber: <a href=\"https://kingshotwiki.com/events/eternitys-reach/\" rel=\"noreferrer\">kingshotwiki.com — Eternity's Reach</a> dan <a href=\"https://www.kingshotguide.com/events/eternitys-reach\" rel=\"noreferrer\">kingshotguide.com — Eternity's Reach</a>"
