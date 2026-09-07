@@ -24,92 +24,184 @@
 		},
 		"spend": {
 			"heading": "每个阶段该花什么",
-			"intro": "把每样道具都存起来，然后在它能得分的阶段使用。按每天所在的列往下看，就知道该消耗什么。",
+			"intro": "先囤积所有道具，再在得分最高的当天使用。逐列查看每天该消耗什么——以及什么该留到之后。",
 			"legend": {
-				"spend": "使用——本阶段得分",
-				"alt": "备选——也有效，但最好留到它的最佳阶段",
-				"none": "本阶段不得分"
+				"best": "最佳——在此使用得分最高",
+				"choice": "可选——也能得分，但最好留到它的最佳日",
+				"avoid": "不要——留着，在此使用会浪费",
+				"none": "当天不得分"
 			},
 			"cols": [
 				"消耗项",
-				"第 1 天 · 建造",
-				"第 2 天 · 研究",
-				"第 3 天 · 宠物",
-				"第 4 天 · 部队",
-				"第 5–6 天 · 全部"
+				"第1天 · 建筑升级",
+				"第2天 · 基础升级",
+				"第3天 · 宠物训练",
+				"第4天 · 英雄养成",
+				"第5天 · 战力提升"
 			],
 			"rows": [
 				{
-					"label": "建造加速",
+					"label": "真金",
 					"cells": [
-						"spend",
+						"best",
 						"none",
 						"none",
 						"none",
-						"spend"
+						"choice"
+					]
+				},
+				{
+					"label": "建筑加速",
+					"cells": [
+						"best",
+						"none",
+						"none",
+						"none",
+						"choice"
 					]
 				},
 				{
 					"label": "研究加速",
 					"cells": [
+						"choice",
+						"best",
 						"none",
-						"spend",
 						"none",
-						"none",
-						"spend"
+						"best"
 					]
 				},
 				{
-					"label": "训练加速",
+					"label": "总督护符升级",
+					"cells": [
+						"best",
+						"none",
+						"choice",
+						"choice",
+						"choice"
+					]
+				},
+				{
+					"label": "总督装备升级",
+					"cells": [
+						"avoid",
+						"none",
+						"none",
+						"none",
+						"best"
+					]
+				},
+				{
+					"label": "完成情报任务",
+					"cells": [
+						"best",
+						"avoid",
+						"best",
+						"avoid",
+						"best"
+					]
+				},
+				{
+					"label": "英雄轮盘抽取",
+					"cells": [
+						"none",
+						"best",
+						"choice",
+						"none",
+						"none"
+					]
+				},
+				{
+					"label": "英雄碎片（稀有/史诗/神话）",
+					"cells": [
+						"none",
+						"best",
+						"choice",
+						"none",
+						"none"
+					]
+				},
+				{
+					"label": "秘银",
 					"cells": [
 						"none",
 						"none",
 						"none",
-						"spend",
-						"spend"
+						"choice",
+						"best"
 					]
 				},
 				{
-					"label": "通用加速",
-					"cells": [
-						"alt",
-						"alt",
-						"alt",
-						"alt",
-						"spend"
-					]
-				},
-				{
-					"label": "宠物粮与经验",
-					"cells": [
-						"none",
-						"none",
-						"spend",
-						"none",
-						"spend"
-					]
-				},
-				{
-					"label": "练兵与晋升",
+					"label": "锻造锤",
 					"cells": [
 						"none",
 						"none",
 						"none",
-						"spend",
-						"spend"
+						"avoid",
+						"best"
 					]
 				},
 				{
-					"label": "真金 / 秘银（稀有资源）",
+					"label": "英雄专属装备（Widget）",
 					"cells": [
-						"alt",
-						"alt",
-						"alt",
-						"alt",
-						"spend"
+						"none",
+						"none",
+						"none",
+						"avoid",
+						"best"
+					]
+				},
+				{
+					"label": "训练/晋升部队加速",
+					"cells": [
+						"none",
+						"avoid",
+						"none",
+						"avoid",
+						"best"
+					]
+				},
+				{
+					"label": "提升宠物进阶评分",
+					"cells": [
+						"none",
+						"none",
+						"best",
+						"none",
+						"none"
+					]
+				},
+				{
+					"label": "高级驯服印记（精炼宠物）",
+					"cells": [
+						"none",
+						"none",
+						"best",
+						"none",
+						"choice"
+					]
+				},
+				{
+					"label": "普通驯服印记（精炼宠物）",
+					"cells": [
+						"none",
+						"none",
+						"best",
+						"none",
+						"choice"
+					]
+				},
+				{
+					"label": "采集资源",
+					"cells": [
+						"none",
+						"best",
+						"none",
+						"none",
+						"best"
 					]
 				}
-			]
+			],
+			"intelNote": "<strong>情报任务：</strong>在第1、3、5天得分——请在这些天约 08:00 UTC 前完成。第2、4天则不要完成，让新的任务顺延到下一个得分日。"
 		},
 		"rewards": {
 			"heading": "奖励",

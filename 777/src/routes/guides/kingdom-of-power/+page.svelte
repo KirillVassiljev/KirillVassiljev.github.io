@@ -2,7 +2,7 @@
 	import { t } from '$lib/translations/i18n';
 	import ReadingTime from '$lib/components/ReadingTime.svelte';
 
-	const SYMBOL: Record<string, string> = { spend: '✅', alt: '🔸', none: '—' };
+	const SYMBOL: Record<string, string> = { best: '✅', choice: '🔸', avoid: '❌', none: '—' };
 </script>
 
 <svelte:head>
@@ -61,10 +61,13 @@
 </div>
 
 <ul class="legend">
-	<li><span aria-hidden="true">✅</span> {$t('guides.kingdom-of-power.sections.spend.legend.spend')}</li>
-	<li><span aria-hidden="true">🔸</span> {$t('guides.kingdom-of-power.sections.spend.legend.alt')}</li>
+	<li><span aria-hidden="true">✅</span> {$t('guides.kingdom-of-power.sections.spend.legend.best')}</li>
+	<li><span aria-hidden="true">🔸</span> {$t('guides.kingdom-of-power.sections.spend.legend.choice')}</li>
+	<li><span aria-hidden="true">❌</span> {$t('guides.kingdom-of-power.sections.spend.legend.avoid')}</li>
 	<li><span aria-hidden="true">—</span> {$t('guides.kingdom-of-power.sections.spend.legend.none')}</li>
 </ul>
+
+<p>{@html $t('guides.kingdom-of-power.sections.spend.intelNote')}</p>
 
 <h2>{$t('guides.kingdom-of-power.sections.rewards.heading')}</h2>
 
@@ -147,12 +150,16 @@
 		font-weight: 700;
 	}
 
-	.matrix .cell.spend {
+	.matrix .cell.best {
 		color: #3fb950;
 	}
 
-	.matrix .cell.alt {
+	.matrix .cell.choice {
 		color: #d29922;
+	}
+
+	.matrix .cell.avoid {
+		color: #f85149;
 	}
 
 	.matrix .cell.none {

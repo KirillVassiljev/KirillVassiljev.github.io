@@ -24,92 +24,184 @@
 		},
 		"spend": {
 			"heading": "Apa yang dibelanjakan tiap tahap",
-			"intro": "Timbun tiap item, lalu belanjakan pada tahap tempat ia memberi poin. Baca ke bawah kolom tiap hari untuk melihat apa yang harus dipakai.",
+			"intro": "Simpan semua item, lalu gunakan pada hari yang memberi poin terbanyak. Baca ke bawah tiap kolom hari untuk melihat apa yang harus dipakai — dan apa yang sebaiknya ditahan.",
 			"legend": {
-				"spend": "Belanjakan — memberi poin tahap ini",
-				"alt": "Alternatif — juga bisa, tapi simpan untuk tahap terbaiknya",
-				"none": "Tak ada poin tahap ini"
+				"best": "Terbaik — pakai di sini untuk poin terbanyak",
+				"choice": "Pilihan — juga bisa, tapi simpan untuk hari terbaiknya",
+				"avoid": "Jangan — tahan dulu, memakainya di sini sia-sia",
+				"none": "Tidak ada poin hari ini"
 			},
 			"cols": [
-				"Belanjakan",
-				"Hari 1 · Konstruksi",
-				"Hari 2 · Riset",
-				"Hari 3 · Pet",
-				"Hari 4 · Pasukan",
-				"Hari 5–6 · Semua"
+				"Gunakan untuk",
+				"Hari 1 · Bangun Kota",
+				"Hari 2 · Peningkatan Dasar",
+				"Hari 3 · Latih Peliharaan",
+				"Hari 4 · Kembangkan Hero",
+				"Hari 5 · Tingkatkan Power"
 			],
 			"rows": [
 				{
-					"label": "Speed-up konstruksi",
+					"label": "Truegold",
 					"cells": [
-						"spend",
+						"best",
 						"none",
 						"none",
 						"none",
-						"spend"
+						"choice"
 					]
 				},
 				{
-					"label": "Speed-up riset",
+					"label": "Percepatan konstruksi",
 					"cells": [
+						"best",
 						"none",
-						"spend",
 						"none",
 						"none",
-						"spend"
+						"choice"
 					]
 				},
 				{
-					"label": "Speed-up latihan",
+					"label": "Percepatan riset",
 					"cells": [
+						"choice",
+						"best",
 						"none",
 						"none",
-						"none",
-						"spend",
-						"spend"
+						"best"
 					]
 				},
 				{
-					"label": "Speed-up universal",
+					"label": "Tingkatkan Governor Charm",
 					"cells": [
-						"alt",
-						"alt",
-						"alt",
-						"alt",
-						"spend"
+						"best",
+						"none",
+						"choice",
+						"choice",
+						"choice"
 					]
 				},
 				{
-					"label": "Makanan & EXP pet",
+					"label": "Tingkatkan Governor Gear",
 					"cells": [
+						"avoid",
 						"none",
 						"none",
-						"spend",
 						"none",
-						"spend"
+						"best"
 					]
 				},
 				{
-					"label": "Latihan & promosi pasukan",
+					"label": "Selesaikan Misi Intel",
 					"cells": [
-						"none",
-						"none",
-						"none",
-						"spend",
-						"spend"
+						"best",
+						"avoid",
+						"best",
+						"avoid",
+						"best"
 					]
 				},
 				{
-					"label": "Truegold / Mithril (sumber langka)",
+					"label": "Putaran Hero Roulette",
 					"cells": [
-						"alt",
-						"alt",
-						"alt",
-						"alt",
-						"spend"
+						"none",
+						"best",
+						"choice",
+						"none",
+						"none"
+					]
+				},
+				{
+					"label": "Serpihan Hero (Rare / Epic / Mythic)",
+					"cells": [
+						"none",
+						"best",
+						"choice",
+						"none",
+						"none"
+					]
+				},
+				{
+					"label": "Mithril",
+					"cells": [
+						"none",
+						"none",
+						"none",
+						"choice",
+						"best"
+					]
+				},
+				{
+					"label": "Forgehammer",
+					"cells": [
+						"none",
+						"none",
+						"none",
+						"avoid",
+						"best"
+					]
+				},
+				{
+					"label": "Perlengkapan eksklusif hero (Widget)",
+					"cells": [
+						"none",
+						"none",
+						"none",
+						"avoid",
+						"best"
+					]
+				},
+				{
+					"label": "Percepatan latih/promosi pasukan",
+					"cells": [
+						"none",
+						"avoid",
+						"none",
+						"avoid",
+						"best"
+					]
+				},
+				{
+					"label": "Naikkan skor Pet Advancement",
+					"cells": [
+						"none",
+						"none",
+						"best",
+						"none",
+						"none"
+					]
+				},
+				{
+					"label": "Advanced Taming Mark (refine peliharaan)",
+					"cells": [
+						"none",
+						"none",
+						"best",
+						"none",
+						"choice"
+					]
+				},
+				{
+					"label": "Common Taming Mark (refine peliharaan)",
+					"cells": [
+						"none",
+						"none",
+						"best",
+						"none",
+						"choice"
+					]
+				},
+				{
+					"label": "Kumpulkan sumber daya",
+					"cells": [
+						"none",
+						"best",
+						"none",
+						"none",
+						"best"
 					]
 				}
-			]
+			],
+			"intelNote": "<strong>Misi Intel:</strong> memberi poin di Hari 1, 3, dan 5 — selesaikan sebelum ~08:00 UTC pada hari-hari itu. Di Hari 2 dan 4, biarkan belum selesai agar misi baru berpindah ke hari penilaian berikutnya."
 		},
 		"rewards": {
 			"heading": "Hadiah",
