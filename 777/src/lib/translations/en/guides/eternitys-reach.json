@@ -41,7 +41,7 @@
 					{
 						"step": "Skill 2",
 						"path": "Right",
-						"effect": "March speed +15%."
+						"effect": "March speed +25%."
 					},
 					{
 						"step": "Skill 3",
@@ -139,6 +139,20 @@
 				"<strong>Over-farming Cesares late game</strong> when full-node gathering scores more.",
 				"Note: veins auto-collect and still count at the timer's end, so you don't have to recall them before the event closes."
 			]
+		}
+	},
+	"images": {
+		"mapElements": {
+			"alt": "A Cesare guard, a common vein, and a fractured vein on the event map",
+			"caption": "Your two target types: Cesares (safe PvE copper, no troop loss) and veins (where Skill 3 pays out)."
+		},
+		"skillTree": {
+			"alt": "Eternity's Reach event skill tree showing the left and right option at each of the five levels",
+			"caption": "The event skill tree. RRLLR = right, right, left, left, right — note Skill 3 (left) is the 5,000-copper vein passive."
+		},
+		"peak": {
+			"alt": "The Peak of Eternity structure at the center of the battlefield",
+			"caption": "The Peak of Eternity unlocks ~23 minutes into the battle and rewards copper for time held — prestigious, but usually less efficient than cycling veins."
 		}
 	},
 	"source": "Sources: <a href=\"https://kingshotwiki.com/events/eternitys-reach/\" rel=\"noreferrer\">kingshotwiki.com — Eternity's Reach</a> and <a href=\"https://www.kingshotguide.com/events/eternitys-reach\" rel=\"noreferrer\">kingshotguide.com — Eternity's Reach</a>"

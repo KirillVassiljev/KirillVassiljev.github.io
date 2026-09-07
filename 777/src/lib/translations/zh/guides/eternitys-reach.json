@@ -41,7 +41,7 @@
 					{
 						"step": "技能2",
 						"path": "右",
-						"effect": "行军速度 +15%。"
+						"effect": "行军速度 +25%。"
 					},
 					{
 						"step": "技能3",
@@ -139,6 +139,20 @@
 				"<strong>后期过度刷凯撒</strong>，而满负荷采集其实得分更高。",
 				"注意：矿脉会在计时结束时自动收取并仍计入分数，所以活动结束前不必召回它们。"
 			]
+		}
+	},
+	"images": {
+		"mapElements": {
+			"alt": "活动地图上的凯撒守卫、普通矿脉和碎裂矿脉",
+			"caption": "你的两类目标：凯撒（安全的 PvE 铜矿，不损兵）和矿脉（技能3的结算之处）。"
+		},
+		"skillTree": {
+			"alt": "永恒之境活动技能树，展示五个等级中每级的左右两个选项",
+			"caption": "活动技能树。RRLLR = 右、右、左、左、右——注意技能3（左）就是 5,000 铜矿的矿脉被动。"
+		},
+		"peak": {
+			"alt": "位于战场中心的永恒之巅建筑",
+			"caption": "永恒之巅在战斗开始约23分钟后解锁，按占领时长奖励铜矿——看着体面，但通常不如循环刷矿脉高效。"
 		}
 	},
 	"source": "来源：<a href=\"https://kingshotwiki.com/events/eternitys-reach/\" rel=\"noreferrer\">kingshotwiki.com — Eternity's Reach</a> 与 <a href=\"https://www.kingshotguide.com/events/eternitys-reach\" rel=\"noreferrer\">kingshotguide.com — Eternity's Reach</a>"

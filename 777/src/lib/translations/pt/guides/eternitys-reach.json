@@ -41,7 +41,7 @@
 					{
 						"step": "Habilidade 2",
 						"path": "Direita",
-						"effect": "Velocidade de marcha +15%."
+						"effect": "Velocidade de marcha +25%."
 					},
 					{
 						"step": "Habilidade 3",
@@ -139,6 +139,20 @@
 				"<strong>Farmar Cesares demais no fim</strong> quando a coleta em nó cheio pontua mais.",
 				"Nota: os veios coletam sozinhos e ainda contam ao fim do cronômetro, então você não precisa recolhê-los antes do evento fechar."
 			]
+		}
+	},
+	"images": {
+		"mapElements": {
+			"alt": "Um guarda Cesare, um veio comum e um veio rachado no mapa do evento",
+			"caption": "Seus dois tipos de alvo: Cesares (cobre PvE seguro, sem perda de tropas) e veios (onde a Habilidade 3 paga)."
+		},
+		"skillTree": {
+			"alt": "Árvore de habilidades do evento Eternity's Reach mostrando a opção da esquerda e da direita em cada um dos cinco níveis",
+			"caption": "A árvore de habilidades do evento. RRLLR = direita, direita, esquerda, esquerda, direita — repare que a Habilidade 3 (esquerda) é o passivo de veio de 5.000 de cobre."
+		},
+		"peak": {
+			"alt": "A estrutura do Pico da Eternidade no centro do campo de batalha",
+			"caption": "O Pico da Eternidade abre ~23 minutos após o início da batalha e recompensa cobre pelo tempo de posse — prestigioso, mas normalmente menos eficiente do que rodar veios."
 		}
 	},
 	"source": "Fontes: <a href=\"https://kingshotwiki.com/events/eternitys-reach/\" rel=\"noreferrer\">kingshotwiki.com — Eternity's Reach</a> e <a href=\"https://www.kingshotguide.com/events/eternitys-reach\" rel=\"noreferrer\">kingshotguide.com — Eternity's Reach</a>"
