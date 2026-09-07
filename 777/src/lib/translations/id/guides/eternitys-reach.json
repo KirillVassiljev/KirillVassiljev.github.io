@@ -1,0 +1,145 @@
+{
+	"meta": {
+		"title": "Eternity's Reach — Kingshot 777",
+		"description": "Panduan Kingshot Eternity's Reach: urutan skill RRLLR, pembagian march per fase, loop tarik-ulang Skill 3, waktu Vein Outburst, dan perencanaan Governor Charm."
+	},
+	"h1": "Eternity's Reach",
+	"tldr": {
+		"heading": "Ringkasan",
+		"items": [
+			"<strong>Kejar Skill 3.</strong> Seluruh event berpusat pada membuka pasif perebutan vein secepat mungkin — memberi 5.000 tembaga setiap kali sebuah march mencapai vein baru.",
+			"<strong>Urutan skill yang disarankan adalah RRLLR:</strong> tembaga Cesare → kecepatan march → <em>bonus vein Skill 3</em> → efisiensi tembaga → ledakan gathering. Lewati cabang tempur kecuali kamu pemain papan atas.",
+			"<strong>March tidak pernah menganggur.</strong> March lemah memburu Cesare (tanpa kehilangan pasukan, tanpa penyembuhan); march kuat menjalankan loop Kirim → tunggu 60d → tarik → kirim ulang untuk memicu Skill 3.",
+			"<strong>Simpan Skill 5 untuk Vein Outburst,</strong> dan berhenti menyerang Cesare begitu semua maksimal — gathering node penuh mengalahkan tempur di akhir."
+		]
+	},
+	"sections": {
+		"overview": {
+			"heading": "Apa itu Eternity's Reach",
+			"items": [
+				"Event bijih tembaga berbatas waktu yang berpusat pada efisiensi pergerakan: putar march, gunakan pohon skill event dengan baik, dan reaksikan cepat terhadap spawn bernilai tinggi (Cesare dan vein retak).",
+				"Cesare adalah penjaga PvE yang aman — tidak menyebabkan kehilangan pasukan, jadi kamu tidak pernah perlu menyembuhkan setelah menyerangnya.",
+				"Bijih tembaga menyuplai materi <strong>Governor Charm</strong>, yang terbuka di Town Center 25. Bahkan di bawah TC25, hadiahnya layak ditabung untuk nanti.",
+				"Pemain yang pasif akan kalah. Papan teratas milik pemain yang menjaga setiap slot march tetap sibuk sepanjang jendela event."
+			]
+		},
+		"skillOrder": {
+			"heading": "Urutan skill — RRLLR",
+			"intro": "Urutan skill adalah keputusan terpenting dalam event ini. <strong>Mengejar Skill 3 menentukan seluruh permainanmu.</strong>",
+			"table": {
+				"headers": {
+					"step": "Skill",
+					"path": "Jalur",
+					"effect": "Efek"
+				},
+				"rows": [
+					{
+						"step": "Skill 1",
+						"path": "Kanan",
+						"effect": "Mengalahkan Cesare memberi 1.500 tembaga."
+					},
+					{
+						"step": "Skill 2",
+						"path": "Kanan",
+						"effect": "Kecepatan march +15%."
+					},
+					{
+						"step": "Skill 3",
+						"path": "Kiri",
+						"effect": "<strong>PENTING</strong> — 5.000 tembaga saat menduduki vein biasa (cooldown 1 menit). Pasif ini adalah mesin seluruh event."
+					},
+					{
+						"step": "Skill 4",
+						"path": "Kiri",
+						"effect": "Efisiensi gathering tembaga +15%."
+					},
+					{
+						"step": "Skill 5",
+						"path": "Kanan",
+						"effect": "Kecepatan gathering pasukan +50% selama 60d setelah diaktifkan (hanya untuk pasukan yang dikerahkan saat aktif). Simpan untuk Vein Outburst."
+					}
+				]
+			},
+			"note": "Cabang lain berfokus pada tempur dan sangat tidak disarankan kecuali kamu termasuk pemain papan atas."
+		},
+		"phases": {
+			"heading": "Empat fase",
+			"table": {
+				"headers": {
+					"phase": "Fase",
+					"marches": "Pembagian march",
+					"whatToDo": "Yang harus dilakukan"
+				},
+				"rows": [
+					{
+						"phase": "<strong>Fase 1</strong> — sebelum Skill 3",
+						"marches": "Semua march → Cesare",
+						"whatToDo": "Serang berantai Cesare yang belum diincar untuk naik level cepat. Abaikan gathering sepenuhnya sampai Skill 3 terbuka."
+					},
+					{
+						"phase": "<strong>Fase 2</strong> — Skill 3 terbuka",
+						"marches": "2 lemah → Cesare, 3–4 kuat → vein",
+						"whatToDo": "Jalankan loop tarik-ulang di bawah. Di sinilah kebanyakan poin — dan kebanyakan kesalahan — terjadi."
+					},
+					{
+						"phase": "<strong>Fase 3</strong> — Vein Outburst",
+						"marches": "Semua march → gather saat ledakan",
+						"whatToDo": "Perlakukan Skill 5 sebagai pengganda 1 menit; di antara ledakan kembali ke pembagian 2 / 3–4."
+					},
+					{
+						"phase": "<strong>Fase 4</strong> — semua maksimal",
+						"marches": "Semua march → gather",
+						"whatToDo": "Berhenti menyerang Cesare. Pertahankan ~6 node aktif dan putar. Gathering kini mengalahkan tempur."
+					}
+				]
+			}
+		},
+		"skill3Loop": {
+			"heading": "Loop tarik-ulang Skill 3 (mekanik inti)",
+			"intro": "Skill 3 memberi bonus poin setiap kali sebuah march mencapai vein — kamu <strong>bukan gathering demi sumber daya, tapi gathering untuk memicu bonusnya.</strong>",
+			"items": [
+				"Kirim satu march gathering ke vein terdekat dan catat kapan bonus 5.000 bijih muncul.",
+				"Tunggu ~60 detik (perhitungkan waktu march ke vein terdekatmu).",
+				"Tarik march secara manual, lalu kirim ulang segera.",
+				"<strong>Kirim → tunggu 60d → tarik → kirim ulang,</strong> diulang tanpa henti. Setiap tarikan tidak berbiaya dan memicu ulang pasif."
+			]
+		},
+		"skill5": {
+			"heading": "Vein Outburst & Skill 5",
+			"items": [
+				"Jangan pernah menembakkan Skill 5 secara otomatis — gunakan hanya saat Vein Outburst.",
+				"<strong>Saat Skill 5 aktif:</strong> kirim SEMUA march untuk gather dan biarkan satu menit penuh berjalan — jangan tarik lebih awal.",
+				"<strong>Saat tidak aktif:</strong> 1–2 march di Cesare, 3–4 di vein, tarik setiap ~1 menit agar Skill 3 terus mengalir.",
+				"Skill 5 punya cooldown, jadi menembakkannya lebih awal membuang satu ledakan penuh."
+			]
+		},
+		"positioning": {
+			"heading": "Posisi & teleport",
+			"items": [
+				"Saat mendapat teleport gratis atau advanced, lompat ke titik di mana dua atau tiga vein berdekatan agar waktu march singkat.",
+				"Tempatkan town center-mu di samping gugusan vein agar loop tarik-ulang berputar lebih cepat.",
+				"Jika ada whale yang mengintai atau area padat, gunakan langkah \"scorched earth\": teleport ke sudut sepi dan terus farming daripada bertempur."
+			]
+		},
+		"charms": {
+			"heading": "Perencanaan Governor Charm",
+			"items": [
+				"Bijih tembaga dan hadiah event menyuplai materi <strong>Governor Charm</strong> — Charm Design dan Charm Guide menjadi hambatan di kemudian hari.",
+				"Governor Charm terbuka di Town Center 25; di bawah itu, tetap tabung materinya untuk perencanaan ke depan.",
+				"Cek database atau kalkulator charm sebelum menghabiskan materi secara tidak merata antar charm."
+			]
+		},
+		"commonMistakes": {
+			"heading": "Kesalahan umum yang menjatuhkan skor",
+			"items": [
+				"<strong>Memperebutkan pusat</strong> — terlihat prestisius tapi secara matematis tidak efisien.",
+				"<strong>Terlibat PvP</strong> — kekalahan menaruh hero-mu pada timer cooldown.",
+				"<strong>Membiarkan march menganggur</strong> — march menganggur adalah bijih yang hilang.",
+				"<strong>Menggunakan Skill 5 sembarangan</strong> alih-alih menyimpannya untuk Vein Outburst.",
+				"<strong>Terlalu banyak memburu Cesare di akhir</strong> padahal gathering node penuh lebih tinggi skornya.",
+				"Catatan: vein terkumpul otomatis dan tetap dihitung saat timer berakhir, jadi kamu tidak perlu menariknya sebelum event tutup."
+			]
+		}
+	},
+	"source": "Sumber: <a href=\"https://kingshotwiki.com/events/eternitys-reach/\" rel=\"noreferrer\">kingshotwiki.com — Eternity's Reach</a> dan <a href=\"https://www.kingshotguide.com/events/eternitys-reach\" rel=\"noreferrer\">kingshotguide.com — Eternity's Reach</a>"
+}

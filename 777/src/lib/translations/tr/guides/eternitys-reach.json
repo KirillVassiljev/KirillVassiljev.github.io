@@ -1,0 +1,145 @@
+{
+	"meta": {
+		"title": "Eternity's Reach — Kingshot 777",
+		"description": "Kingshot Eternity's Reach rehberi: RRLLR yetenek sırası, faz bazlı yürüyüş dağılımı, Yetenek 3 geri çağırma döngüsü, Damar Patlaması zamanlaması ve Vali Tılsımı planlaması."
+	},
+	"h1": "Eternity's Reach",
+	"tldr": {
+		"heading": "Özet",
+		"items": [
+			"<strong>Yetenek 3'e koş.</strong> Tüm etkinlik, damar ele geçirme pasifini olabildiğince hızlı açmaya kuruludur — bir yürüyüş yeni bir damara ulaştığında 5.000 bakır verir.",
+			"<strong>Önerilen yetenek sırası RRLLR:</strong> Cesare bakırı → yürüyüş hızı → <em>Yetenek 3 damar bonusu</em> → bakır verimliliği → toplama patlaması. Üst düzey bir oyuncu değilsen savaş dallarını atla.",
+			"<strong>Yürüyüşler asla boşta durmaz.</strong> Zayıf yürüyüşler Cesare avlar (asker kaybı yok, iyileştirme yok); güçlü yürüyüşler Yetenek 3'ü tetiklemek için Gönder → 60sn bekle → geri çağır → yeniden gönder döngüsünü çalıştırır.",
+			"<strong>Yetenek 5'i Damar Patlamaları için sakla</strong> ve her şey maksimuma ulaşınca Cesare saldırmayı bırak — geç oyunda tam kapasite toplama savaşı geçer."
+		]
+	},
+	"sections": {
+		"overview": {
+			"heading": "Eternity's Reach nedir",
+			"items": [
+				"Hareket verimliliğine dayalı süreli bir bakır cevheri etkinliği: yürüyüşleri döndür, etkinlik yetenek ağacını iyi kullan ve yüksek değerli spawn'lara (Cesare'ler ve çatlamış damarlar) hızlı tepki ver.",
+				"Cesare'ler güvenli PvE muhafızlarıdır — asker kaybına yol açmaz, bu yüzden vurduktan sonra asla iyileştirme gerekmez.",
+				"Bakır cevheri, Şehir Merkezi 25'te açılan <strong>Vali Tılsımı</strong> malzemelerini besler. TC25'in altında olsan bile ödüller ileride kullanmak üzere biriktirmeye değer.",
+				"Pasif oturanlar kaybeder. Sıralamanın tepesi, tüm etkinlik boyunca her yürüyüş yuvasını meşgul tutan oyuncularındır."
+			]
+		},
+		"skillOrder": {
+			"heading": "Yetenek sırası — RRLLR",
+			"intro": "Yetenek sırası etkinlikteki tek en önemli karardır. <strong>Yetenek 3'e koşmak tüm oyununu belirler.</strong>",
+			"table": {
+				"headers": {
+					"step": "Yetenek",
+					"path": "Dal",
+					"effect": "Etki"
+				},
+				"rows": [
+					{
+						"step": "Yetenek 1",
+						"path": "Sağ",
+						"effect": "Bir Cesare'yi yenmek 1.500 bakır verir."
+					},
+					{
+						"step": "Yetenek 2",
+						"path": "Sağ",
+						"effect": "Yürüyüş hızı +%15."
+					},
+					{
+						"step": "Yetenek 3",
+						"path": "Sol",
+						"effect": "<strong>ÖNEMLİ</strong> — sıradan bir damarı işgal ettiğinde 5.000 bakır (1 dakika bekleme). Bu pasif tüm etkinliğin motorudur."
+					},
+					{
+						"step": "Yetenek 4",
+						"path": "Sol",
+						"effect": "Bakır toplama verimliliği +%15."
+					},
+					{
+						"step": "Yetenek 5",
+						"path": "Sağ",
+						"effect": "Aktifleştirmeden sonra 60sn boyunca birlik toplama hızı +%50 (yalnızca aktifken gönderilen birlikler için). Damar Patlamaları için sakla."
+					}
+				]
+			},
+			"note": "Diğer dallar savaşa odaklanır ve üst düzey oyuncular arasında değilsen kesinlikle önerilmez."
+		},
+		"phases": {
+			"heading": "Dört faz",
+			"table": {
+				"headers": {
+					"phase": "Faz",
+					"marches": "Yürüyüş dağılımı",
+					"whatToDo": "Ne yapmalı"
+				},
+				"rows": [
+					{
+						"phase": "<strong>Faz 1</strong> — Yetenek 3'ten önce",
+						"marches": "Tüm yürüyüşler → Cesare'ler",
+						"whatToDo": "Hızlı seviye atlamak için hedeflenmemiş Cesare'lere zincirleme saldır. Yetenek 3 açılana kadar toplamayı tamamen görmezden gel."
+					},
+					{
+						"phase": "<strong>Faz 2</strong> — Yetenek 3 açık",
+						"marches": "2 zayıf → Cesare, 3–4 güçlü → damarlar",
+						"whatToDo": "Aşağıdaki geri çağırma döngüsünü çalıştır. Puanların çoğu — ve hataların çoğu — burada olur."
+					},
+					{
+						"phase": "<strong>Faz 3</strong> — Damar Patlamaları",
+						"marches": "Patlama sırasında tüm yürüyüşler → topla",
+						"whatToDo": "Yetenek 5'i 1 dakikalık çarpan gibi gör; patlamalar arasında 2 / 3–4 dağılımına dön."
+					},
+					{
+						"phase": "<strong>Faz 4</strong> — her şey maksimum",
+						"marches": "Tüm yürüyüşler → topla",
+						"whatToDo": "Cesare saldırmayı bırak. ~6 aktif düğüm tut ve döndür. Toplama artık savaşı geçer."
+					}
+				]
+			}
+		},
+		"skill3Loop": {
+			"heading": "Yetenek 3 geri çağırma döngüsü (temel mekanik)",
+			"intro": "Yetenek 3, bir yürüyüş bir damara her ulaştığında puan bonusu verir — <strong>kaynak için değil, bonusu tetiklemek için topluyorsun.</strong>",
+			"items": [
+				"Yakın bir damara bir toplama yürüyüşü gönder ve 5.000 cevher bonusunun ne zaman geldiğini not et.",
+				"~60 saniye bekle (en yakın damara olan yürüyüş süresini hesaba kat).",
+				"Yürüyüşü elle geri çağır, sonra hemen yeniden gönder.",
+				"<strong>Gönder → 60sn bekle → geri çağır → yeniden gönder,</strong> durmadan tekrarla. Her geri çağırma bedava olup pasifi yeniden tetikler."
+			]
+		},
+		"skill5": {
+			"heading": "Damar Patlamaları & Yetenek 5",
+			"items": [
+				"Yetenek 5'i asla otomatik tetikleme — yalnızca bir Damar Patlaması sırasında kullan.",
+				"<strong>Yetenek 5 aktifken:</strong> TÜM yürüyüşleri toplamaya gönder ve tam bir dakikanın geçmesine izin ver — erken geri çağırma.",
+				"<strong>Aktif değilken:</strong> 1–2 yürüyüş Cesare'lerde, 3–4 damarlarda, Yetenek 3'ü akışta tutmak için ~1 dakikada bir geri çağır.",
+				"Yetenek 5'in beklemesi vardır, bu yüzden erken tetiklemek tam bir patlamayı boşa harcar."
+			]
+		},
+		"positioning": {
+			"heading": "Konumlanma & ışınlanma",
+			"items": [
+				"Ücretsiz veya gelişmiş bir ışınlanma aldığında, kısa yürüyüş süreleri için iki ya da üç damarın birbirine yakın olduğu bir noktaya atla.",
+				"Geri çağırma döngüsü daha hızlı dönsün diye şehir merkezini bir damar kümesinin yanına yerleştir.",
+				"Bir balina seni sıkıştırıyorsa ya da bölge kalabalıksa \"yakılmış toprak\" hamlesini kullan: sessiz bir köşeye ışınlan ve savaşmak yerine farm'a devam et."
+			]
+		},
+		"charms": {
+			"heading": "Vali Tılsımı planlaması",
+			"items": [
+				"Bakır cevheri ve etkinlik ödülleri <strong>Vali Tılsımı</strong> malzemelerini besler — Tılsım Tasarımları ve Tılsım Rehberleri ilerde darboğaz olur.",
+				"Vali Tılsımları Şehir Merkezi 25'te açılır; altındaysan bile gelecekteki planlama için malzemeleri biriktir.",
+				"Malzemeleri tılsımlar arasında dengesiz harcamadan önce bir tılsım veritabanına ya da hesaplayıcıya bak."
+			]
+		},
+		"commonMistakes": {
+			"heading": "Puanı öldüren yaygın hatalar",
+			"items": [
+				"<strong>Merkez için savaşmak</strong> — prestijli görünür ama matematiksel olarak verimsizdir.",
+				"<strong>PvP'ye girmek</strong> — bir yenilgi kahramanlarını bekleme sayacına sokar.",
+				"<strong>Yürüyüşleri boşta bırakmak</strong> — boştaki yürüyüşler kaybedilmiş cevherdir.",
+				"<strong>Yetenek 5'i rastgele kullanmak,</strong> Damar Patlamaları için saklamak yerine.",
+				"<strong>Geç oyunda Cesare'leri aşırı avlamak,</strong> oysa tam kapasite toplama daha çok puan verir.",
+				"Not: damarlar sayaç bitince otomatik toplanır ve yine de sayılır, bu yüzden etkinlik kapanmadan önce onları geri çağırmana gerek yok."
+			]
+		}
+	},
+	"source": "Kaynaklar: <a href=\"https://kingshotwiki.com/events/eternitys-reach/\" rel=\"noreferrer\">kingshotwiki.com — Eternity's Reach</a> ve <a href=\"https://www.kingshotguide.com/events/eternitys-reach\" rel=\"noreferrer\">kingshotguide.com — Eternity's Reach</a>"
+}

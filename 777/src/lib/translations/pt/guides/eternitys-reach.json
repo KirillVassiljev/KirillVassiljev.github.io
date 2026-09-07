@@ -1,0 +1,145 @@
+{
+	"meta": {
+		"title": "Eternity's Reach — Kingshot 777",
+		"description": "Guia de Kingshot Eternity's Reach: a ordem de habilidades RRLLR, distribuição de marchas por fase, o loop de recolher da Habilidade 3, o timing dos Surtos de Veio e o planejamento de Amuletos de Governador."
+	},
+	"h1": "Eternity's Reach",
+	"tldr": {
+		"heading": "Resumo",
+		"items": [
+			"<strong>Corra para a Habilidade 3.</strong> Toda a rodada gira em torno de destravar o passivo de captura de veio o mais rápido possível — ele dá 5.000 de cobre toda vez que uma marcha alcança um novo veio.",
+			"<strong>A ordem de habilidades recomendada é RRLLR:</strong> cobre de Cesare → velocidade de marcha → <em>bônus de veio da Habilidade 3</em> → eficiência de cobre → surto de coleta. Pule os ramos de combate a menos que você seja um jogador de topo.",
+			"<strong>As marchas nunca ficam ociosas.</strong> Marchas fracas farmam Cesares (sem perda de tropas, sem cura); marchas fortes rodam o loop Enviar → esperar 60s → recolher → reenviar para acionar a Habilidade 3.",
+			"<strong>Guarde a Habilidade 5 para os Surtos de Veio</strong> e pare de atacar Cesares quando tudo estiver no máximo — coleta em nó cheio supera o combate no fim."
+		]
+	},
+	"sections": {
+		"overview": {
+			"heading": "O que é Eternity's Reach",
+			"items": [
+				"Um evento cronometrado de minério de cobre centrado na eficiência de movimento: rode as marchas, use bem a árvore de habilidades do evento e reaja rápido a spawns de alto valor (Cesares e veios rachados).",
+				"Cesares são guardas PvE seguros — não causam perda de tropas, então você nunca precisa curar depois de atacá-los.",
+				"O minério de cobre alimenta os materiais do <strong>Amuleto de Governador</strong>, que desbloqueiam no Centro Urbano 25. Mesmo abaixo do CU25, vale a pena guardar as recompensas para depois.",
+				"Quem fica parado perde. O topo do ranking é de quem mantém cada espaço de marcha ocupado durante toda a janela."
+			]
+		},
+		"skillOrder": {
+			"heading": "Ordem de habilidades — RRLLR",
+			"intro": "A ordem de habilidades é a decisão mais importante do evento. <strong>Correr para a Habilidade 3 define toda a sua rodada.</strong>",
+			"table": {
+				"headers": {
+					"step": "Habilidade",
+					"path": "Ramo",
+					"effect": "Efeito"
+				},
+				"rows": [
+					{
+						"step": "Habilidade 1",
+						"path": "Direita",
+						"effect": "Derrotar um Cesare dá 1.500 de cobre."
+					},
+					{
+						"step": "Habilidade 2",
+						"path": "Direita",
+						"effect": "Velocidade de marcha +15%."
+					},
+					{
+						"step": "Habilidade 3",
+						"path": "Esquerda",
+						"effect": "<strong>IMPORTANTE</strong> — 5.000 de cobre ao ocupar um veio comum (recarga de 1 minuto). Este passivo é o motor de todo o evento."
+					},
+					{
+						"step": "Habilidade 4",
+						"path": "Esquerda",
+						"effect": "Eficiência de coleta de cobre +15%."
+					},
+					{
+						"step": "Habilidade 5",
+						"path": "Direita",
+						"effect": "Velocidade de coleta das tropas +50% por 60s após a ativação (só para tropas enviadas enquanto ativa). Guarde para os Surtos de Veio."
+					}
+				]
+			},
+			"note": "Os outros ramos focam em combate e são fortemente desaconselhados a menos que você esteja entre os melhores jogadores."
+		},
+		"phases": {
+			"heading": "As quatro fases",
+			"table": {
+				"headers": {
+					"phase": "Fase",
+					"marches": "Divisão de marchas",
+					"whatToDo": "O que fazer"
+				},
+				"rows": [
+					{
+						"phase": "<strong>Fase 1</strong> — antes da Habilidade 3",
+						"marches": "Todas as marchas → Cesares",
+						"whatToDo": "Ataque em cadeia Cesares não visados para subir de nível rápido. Ignore a coleta por completo até destravar a Habilidade 3."
+					},
+					{
+						"phase": "<strong>Fase 2</strong> — Habilidade 3 destravada",
+						"marches": "2 fracas → Cesares, 3–4 fortes → veios",
+						"whatToDo": "Rode o loop de recolher abaixo. É aqui que saem a maioria dos pontos — e a maioria dos erros."
+					},
+					{
+						"phase": "<strong>Fase 3</strong> — Surtos de Veio",
+						"marches": "Todas as marchas → coletar durante o surto",
+						"whatToDo": "Trate a Habilidade 5 como um multiplicador de 1 minuto; entre surtos, volte à divisão 2 / 3–4."
+					},
+					{
+						"phase": "<strong>Fase 4</strong> — tudo no máximo",
+						"marches": "Todas as marchas → coletar",
+						"whatToDo": "Pare de atacar Cesares. Mantenha ~6 nós ativos e faça rotação. Coletar agora supera o combate."
+					}
+				]
+			}
+		},
+		"skill3Loop": {
+			"heading": "O loop de recolher da Habilidade 3 (mecânica central)",
+			"intro": "A Habilidade 3 paga um bônus de pontos toda vez que uma marcha alcança um veio — você <strong>não está coletando pelos recursos, e sim para acionar o bônus.</strong>",
+			"items": [
+				"Envie uma marcha de coleta a um veio próximo e anote quando o bônus de 5.000 de minério cai.",
+				"Espere ~60 segundos (considere o tempo de marcha até o veio mais próximo).",
+				"Recolha a marcha manualmente e reenvie imediatamente.",
+				"<strong>Enviar → esperar 60s → recolher → reenviar,</strong> repetido sem parar. Cada recolhimento não custa nada e reaciona o passivo."
+			]
+		},
+		"skill5": {
+			"heading": "Surtos de Veio & Habilidade 5",
+			"items": [
+				"Nunca dispare a Habilidade 5 automaticamente — use-a só durante um Surto de Veio.",
+				"<strong>Com a Habilidade 5 ativa:</strong> envie TODAS as marchas para coletar e deixe o minuto inteiro correr — não recolha cedo.",
+				"<strong>Com ela inativa:</strong> 1–2 marchas nos Cesares, 3–4 nos veios, recolhendo a cada ~1 minuto para manter a Habilidade 3 fluindo.",
+				"A Habilidade 5 tem recarga, então dispará-la cedo desperdiça um surto inteiro."
+			]
+		},
+		"positioning": {
+			"heading": "Posicionamento & teleportes",
+			"items": [
+				"Ao ganhar um teleporte grátis ou avançado, pule para um ponto onde dois ou três veios fiquem próximos, para tempos de marcha curtos.",
+				"Coloque seu centro urbano ao lado de um agrupamento de veios para o loop de recolher girar mais rápido.",
+				"Se um baleia estiver acampando em você ou a área estiver cheia, use a jogada \"terra arrasada\": teleporte para um canto tranquilo e continue farmando em vez de brigar."
+			]
+		},
+		"charms": {
+			"heading": "Planejamento de Amuleto de Governador",
+			"items": [
+				"O minério de cobre e as recompensas do evento alimentam os materiais do <strong>Amuleto de Governador</strong> — Designs de Amuleto e Guias de Amuleto viram gargalos depois.",
+				"Os Amuletos de Governador desbloqueiam no Centro Urbano 25; abaixo disso, ainda guarde os materiais para o planejamento futuro.",
+				"Consulte um banco de dados ou calculadora de amuletos antes de gastar materiais de forma desigual entre os amuletos."
+			]
+		},
+		"commonMistakes": {
+			"heading": "Erros comuns que arruínam a pontuação",
+			"items": [
+				"<strong>Brigar pelo centro</strong> — parece prestigioso, mas é matematicamente ineficiente.",
+				"<strong>Entrar em PvP</strong> — uma derrota põe seus heróis em recarga.",
+				"<strong>Deixar marchas ociosas</strong> — marchas paradas são minério perdido.",
+				"<strong>Usar a Habilidade 5 aleatoriamente</strong> em vez de guardá-la para os Surtos de Veio.",
+				"<strong>Farmar Cesares demais no fim</strong> quando a coleta em nó cheio pontua mais.",
+				"Nota: os veios coletam sozinhos e ainda contam ao fim do cronômetro, então você não precisa recolhê-los antes do evento fechar."
+			]
+		}
+	},
+	"source": "Fontes: <a href=\"https://kingshotwiki.com/events/eternitys-reach/\" rel=\"noreferrer\">kingshotwiki.com — Eternity's Reach</a> e <a href=\"https://www.kingshotguide.com/events/eternitys-reach\" rel=\"noreferrer\">kingshotguide.com — Eternity's Reach</a>"
+}

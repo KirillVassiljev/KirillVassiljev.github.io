@@ -21,6 +21,7 @@ export const sections: NavSection[] = [
 			{ titleKey: 'common.nav.item.tri-alliance-clash', slug: 'tri-alliance-clash' },
 			{ titleKey: 'common.nav.item.swordland-showdown', slug: 'swordland-showdown' },
 			{ titleKey: 'common.nav.item.kingdom-of-power', slug: 'kingdom-of-power' },
+			{ titleKey: 'common.nav.item.eternitys-reach', slug: 'eternitys-reach' },
 		]
 	},
 	{
