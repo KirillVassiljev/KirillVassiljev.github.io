@@ -13,7 +13,8 @@ const guides = [
 	'tri-alliance-clash',
 	'kingdom-of-power',
 	'eternitys-reach',
-	'timeline'
+	'timeline',
+	'ids'
 ];
 
 // One `common` loader plus one route-scoped loader per guide, repeated for

@@ -26,6 +26,9 @@ export const sections: NavSection[] = [
 	},
 	{
 		titleKey: 'common.nav.section.tools',
-		items: [{ titleKey: 'common.nav.item.timeline', slug: 'timeline' }]
+		items: [
+			{ titleKey: 'common.nav.item.timeline', slug: 'timeline' },
+			{ titleKey: 'common.nav.item.ids', slug: 'ids' }
+		]
 	}
 ];
